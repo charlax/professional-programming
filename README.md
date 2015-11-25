@@ -46,3 +46,8 @@ Articles
 
 * [Git Cheat Sheet](https://github.com/arslanbilal/git-cheat-sheet)
 * [git-tips](https://github.com/git-tips/tips)
+
+### Know how to debug
+
+* [Rubber Duck Problem Solving](http://blog.codinghorror.com/rubber-duck-problem-solving/)
+* [5 Whys](https://en.wikipedia.org/wiki/5_Whys)
