@@ -1,3 +1,25 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+# Table of Contents
+
+- [Professional Programming](#professional-programming)
+  - [Must read books](#must-read-books)
+  - [Must-read articles](#must-read-articles)
+  - [Things to do](#things-to-do)
+    - [Coding](#coding)
+  - [Things to know](#things-to-know)
+    - [Know your editor](#know-your-editor)
+    - [Know your dev environment](#know-your-dev-environment)
+    - [Know your shell](#know-your-shell)
+    - [Know your dotfiles](#know-your-dotfiles)
+    - [Know your git](#know-your-git)
+    - [Know how to debug](#know-how-to-debug)
+    - [Know how to architect systems](#know-how-to-architect-systems)
+    - [Know your language](#know-your-language)
+    - [Know your design patterns and anti-patterns](#know-your-design-patterns-and-anti-patterns)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # Professional Programming
 
 > Give me six hours to chop down a tree and I will spend the first four sharpening the axe. (Abraham Lincoln)

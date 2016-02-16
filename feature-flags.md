@@ -1,3 +1,13 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+# Table of Contents
+
+- [Why use feature flags?](#why-use-feature-flags)
+  - [Should feature flags be used for everything?](#should-feature-flags-be-used-for-everything)
+  - [References](#references)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 Why use feature flags?
 ======================
 
