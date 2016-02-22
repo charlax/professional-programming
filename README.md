@@ -7,6 +7,7 @@
   - [Must-read articles](#must-read-articles)
   - [Things to do](#things-to-do)
     - [Coding](#coding)
+    - [Testing](#testing)
   - [Things to know](#things-to-know)
     - [Know your editor](#know-your-editor)
     - [Know your dev environment](#know-your-dev-environment)
@@ -50,6 +51,12 @@ I've found these books incredibly inspiring:
 ### Coding
 
 * [Write code that is easy to delete, not easy to extend](http://programmingisterrible.com/post/139222674273/write-code-that-is-easy-to-delete-not-easy-to)
+* [Lessons learned writing highly available code](https://medium.com/imgur-engineering/lessons-learned-writing-highly-available-code-7eaf3d7aae00#.u7c4j6hac)
+
+### Testing
+
+* [Testing Strategies in a Microservices
+Architecture](http://martinfowler.com/articles/microservice-testing/) (Martin Fowler) is an awesome resources explaining how to test a service properly.
 
 ## Things to know
 
