@@ -7,6 +7,7 @@
   - [Must-read articles](#must-read-articles)
   - [Things to do](#things-to-do)
     - [Coding](#coding)
+    - [Managing the database](#managing-the-database)
     - [Testing](#testing)
   - [Things to know](#things-to-know)
     - [Know your editor](#know-your-editor)
@@ -52,6 +53,11 @@ I've found these books incredibly inspiring:
 
 * [Write code that is easy to delete, not easy to extend](http://programmingisterrible.com/post/139222674273/write-code-that-is-easy-to-delete-not-easy-to)
 * [Lessons learned writing highly available code](https://medium.com/imgur-engineering/lessons-learned-writing-highly-available-code-7eaf3d7aae00#.u7c4j6hac)
+
+### Managing the database
+
+* [Safe Operations For High Volume PostgreSQL](https://www.braintreepayments.com/blog/safe-operations-for-high-volume-postgresql/) (this is for PostgreSQL but works great for other db as well).
+* [Zero downtime database migrations](https://blog.rainforestqa.com/2014-06-27-zero-downtime-database-migrations/) (code examples are using Rails but this works great for any programming language)
 
 ### Testing
 
