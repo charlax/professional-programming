@@ -120,6 +120,8 @@ Articles
 
 * [High Scalability](http://highscalability.com/): great blog about system architecture, its weekly review article are packed with numerous insights and interesting technology reviews.
 * [6 Rules of thumb to build blazing fast web server applications](http://loige.co/6-rules-of-thumb-to-build-blazing-fast-web-applications/)
+* [Deep Lessons From Google And EBay On Building Ecosystems Of Microservices](http://highscalability.com/blog/2015/12/1/deep-lessons-from-google-and-ebay-on-building-ecosystems-of.html)
+* [Service oriented architecture: scaling the Uber engineering codebase as we grow](https://eng.uber.com/soa/)
 
 ### Know your language
 
