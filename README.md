@@ -114,6 +114,7 @@ Articles
 
 * [Rubber Duck Problem Solving](http://blog.codinghorror.com/rubber-duck-problem-solving/)
 * [5 Whys](https://en.wikipedia.org/wiki/5_Whys)
+* [Linux Performance Analysis in 60,000 Milliseconds](http://techblog.netflix.com/2015/11/linux-performance-analysis-in-60s.html)
 
 ### Know how to architect systems
 
