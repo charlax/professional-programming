@@ -8,6 +8,7 @@
   - [Things to do](#things-to-do)
     - [Coding](#coding)
     - [Managing the database](#managing-the-database)
+    - [Releasing](#releasing)
     - [Testing](#testing)
   - [Things to know](#things-to-know)
     - [Know your editor](#know-your-editor)
@@ -58,6 +59,10 @@ I've found these books incredibly inspiring:
 
 * [Safe Operations For High Volume PostgreSQL](https://www.braintreepayments.com/blog/safe-operations-for-high-volume-postgresql/) (this is for PostgreSQL but works great for other db as well).
 * [Zero downtime database migrations](https://blog.rainforestqa.com/2014-06-27-zero-downtime-database-migrations/) (code examples are using Rails but this works great for any programming language)
+
+### Releasing
+
+* [How We Release So Frequently](http://engineering.skybettingandgaming.com/2016/02/02/how-we-release-so-frequently/)
 
 ### Testing
 
