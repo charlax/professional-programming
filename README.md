@@ -40,7 +40,7 @@ I've found these books incredibly inspiring:
 * [Release It!](http://www.amazon.com/Release-It-Production-Ready-Pragmatic-Programmers/dp/0978739213): this books goes beyond code and gives you best practices for building production-ready software. It will give you about 3 years worth of real-world experience.
 * [Scalability Rules: 50 Principles for Scaling Web
   Sites](http://www.amazon.com/Scalability-Rules-Principles-Scaling-Sites/dp/0321753887)
-* [The Linux Programming Interface: A Linux and UNIX System Programming Handbook](http://www.amazon.com/The-Linux-Programming-Interface-Handbook/dp/1593272200): outside of teaching you almost everything you need to know about Linux, this book will give you insights into how software evolves, and the value of having simple & elegant interfaces. 
+* [The Linux Programming Interface: A Linux and UNIX System Programming Handbook](http://www.amazon.com/The-Linux-Programming-Interface-Handbook/dp/1593272200): outside of teaching you almost everything you need to know about Linux, this book will give you insights into how software evolves, and the value of having simple & elegant interfaces.
 
 ## Must-read articles
 
@@ -113,7 +113,8 @@ Articles
 ### Know how to debug
 
 * [Rubber Duck Problem Solving](http://blog.codinghorror.com/rubber-duck-problem-solving/)
-* [5 Whys](https://en.wikipedia.org/wiki/5_Whys)
+* [Five Whys](https://en.wikipedia.org/wiki/5_Whys)
+* [The Infinite Hows](http://www.kitchensoap.com/2014/11/14/the-infinite-hows-or-the-dangers-of-the-five-whys/): this provides a strong criticism of the five whys method.
 * [Linux Performance Analysis in 60,000 Milliseconds](http://techblog.netflix.com/2015/11/linux-performance-analysis-in-60s.html)
 
 ### Know how to architect systems
@@ -135,5 +136,5 @@ Here's a list of good books:
 * [Patterns of Enterprise Application Architecture](http://www.amazon.com/dp/0321127420/?tag=stackoverfl08-20): learn about how database are used in real world applications. Mike Bayer's SQLAlchemy has been heavily influenced by this book.
 * SourceMaking's [Design Patterns](https://sourcemaking.com/design_patterns) seems to be a good web resource too.
 * O'Reilly's [How to make mistakes in Python](http://www.oreilly.com/programming/free/files/how-to-make-mistakes-in-python.pdf)
-  
+
 I maintain a [list of antipatterns](https://github.com/charlax/antipatterns) on another repo. This is a highly recommended read.
