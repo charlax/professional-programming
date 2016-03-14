@@ -64,6 +64,9 @@ I've found these books incredibly inspiring:
 
 * [How We Release So Frequently](http://engineering.skybettingandgaming.com/2016/02/02/how-we-release-so-frequently/)
 * [How to deploy software](https://zachholman.com/posts/deploying-software), Zach Holman
+* [BlueGreenDeployment](http://martinfowler.com/bliki/BlueGreenDeployment.html), Martin Fowler
+* [Move fast and break nothing](https://zachholman.com/talk/move-fast-break-nothing/), Zach Holman
+* [Flipping out](http://code.flickr.net/2009/12/02/flipping-out/), flickr. One of the first articles about feature flags.
 
 ### Testing
 
