@@ -7,6 +7,7 @@
   - [Must-read articles](#must-read-articles)
   - [Things to do](#things-to-do)
     - [Coding](#coding)
+    - [Incident response (outages, firefighting)](#incident-response-outages-firefighting)
     - [Managing the database](#managing-the-database)
     - [Releasing & deploying](#releasing-&-deploying)
     - [Testing](#testing)
@@ -54,6 +55,11 @@ I've found these books incredibly inspiring:
 
 * [Write code that is easy to delete, not easy to extend](http://programmingisterrible.com/post/139222674273/write-code-that-is-easy-to-delete-not-easy-to)
 * [Lessons learned writing highly available code](https://medium.com/imgur-engineering/lessons-learned-writing-highly-available-code-7eaf3d7aae00#.u7c4j6hac)
+
+### Incident response (outages, firefighting)
+
+* [Incident Response at Heroku](https://blog.heroku.com/archives/2014/5/9/incident-response-at-heroku)
+* [Blameless PostMortems and a Just Culture](https://codeascraft.com/2012/05/22/blameless-postmortems/)
 
 ### Managing the database
 
