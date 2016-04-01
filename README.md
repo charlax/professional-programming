@@ -13,6 +13,7 @@
     - [Releasing & deploying](#releasing-&-deploying)
     - [Testing](#testing)
   - [Things to know](#things-to-know)
+    - [Know your concepts](#know-your-concepts)
     - [Know your editor](#know-your-editor)
     - [Know your dev environment](#know-your-dev-environment)
     - [Know your shell](#know-your-shell)
@@ -87,6 +88,19 @@ I've found these books incredibly inspiring:
 Architecture](http://martinfowler.com/articles/microservice-testing/) (Martin Fowler) is an awesome resources explaining how to test a service properly.
 
 ## Things to know
+
+### Know your concepts
+
+* [DDD](https://en.wikipedia.org/wiki/Domain-driven_design)
+* [TDD](https://en.wikipedia.org/wiki/Test-driven_development)
+* [BDD](https://en.wikipedia.org/wiki/Behavior-driven_development)
+* [CAP theorem](https://en.wikipedia.org/wiki/CAP_theorem)
+* [OOP](https://en.wikipedia.org/wiki/Object-oriented_programming)
+* [YAGNI](https://en.wikipedia.org/wiki/You_aren%27t_gonna_need_it)
+* [DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself)
+* [KISS](https://en.wikipedia.org/wiki/KISS_principle)
+* [SOLID](https://en.wikipedia.org/wiki/SOLID_(object-oriented_design))
+* [GRASP](https://en.wikipedia.org/wiki/GRASP_(object-oriented_design))
 
 ### Know your editor
 
