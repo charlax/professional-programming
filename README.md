@@ -161,6 +161,7 @@ I highly recommend reading [The Non-Designer's Design Book](http://www.amazon.co
 * [6 Rules of thumb to build blazing fast web server applications](http://loige.co/6-rules-of-thumb-to-build-blazing-fast-web-applications/)
 * [Deep Lessons From Google And EBay On Building Ecosystems Of Microservices](http://highscalability.com/blog/2015/12/1/deep-lessons-from-google-and-ebay-on-building-ecosystems-of.html)
 * [Service oriented architecture: scaling the Uber engineering codebase as we grow](https://eng.uber.com/soa/)
+* [The twelve-factor app](http://12factor.net/)
 
 ### Know your language
 
