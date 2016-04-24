@@ -13,6 +13,7 @@
     - [Releasing & deploying](#releasing-&-deploying)
     - [Testing](#testing)
   - [Things to know](#things-to-know)
+    - [List of things to know](#list-of-things-to-know)
     - [Know your concepts](#know-your-concepts)
     - [Know your editor](#know-your-editor)
     - [Know your dev environment](#know-your-dev-environment)
@@ -88,6 +89,10 @@ I've found these books incredibly inspiring:
 Architecture](http://martinfowler.com/articles/microservice-testing/) (Martin Fowler) is an awesome resources explaining how to test a service properly.
 
 ## Things to know
+
+### List of things to know
+
+* [What every computer science major should know](http://matt.might.net/articles/what-cs-majors-should-know/)
 
 ### Know your concepts
 
