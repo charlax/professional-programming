@@ -66,6 +66,10 @@ I've found these books incredibly inspiring:
 * [Incident Response at Heroku](https://blog.heroku.com/archives/2014/5/9/incident-response-at-heroku)
 * [Blameless PostMortems and a Just Culture](https://codeascraft.com/2012/05/22/blameless-postmortems/)
 
+### Interviewing
+
+* [System design interview for IT company](https://github.com/checkcheckzz/system-design-interview)
+
 ### Managing the database
 
 * [Safe Operations For High Volume PostgreSQL](https://www.braintreepayments.com/blog/safe-operations-for-high-volume-postgresql/) (this is for PostgreSQL but works great for other db as well).
