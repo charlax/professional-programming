@@ -8,14 +8,17 @@
   - [Things to do](#things-to-do)
     - [Coding](#coding)
     - [Incident response (outages, firefighting)](#incident-response-outages-firefighting)
+    - [Interviewing](#interviewing)
     - [Managing the database](#managing-the-database)
     - [Reading](#reading)
     - [Releasing & deploying](#releasing-&-deploying)
     - [Testing](#testing)
+    - [Writing for performance](#writing-for-performance)
   - [Things to know](#things-to-know)
     - [List of things to know](#list-of-things-to-know)
     - [Know your concepts](#know-your-concepts)
     - [Know your editor](#know-your-editor)
+    - [Know your database](#know-your-database)
     - [Know your dev environment](#know-your-dev-environment)
     - [Know your shell](#know-your-shell)
     - [Know your dotfiles](#know-your-dotfiles)
@@ -92,6 +95,10 @@ I've found these books incredibly inspiring:
 * [Testing Strategies in a Microservices
 Architecture](http://martinfowler.com/articles/microservice-testing/) (Martin Fowler) is an awesome resources explaining how to test a service properly.
 
+### Writing for performance
+
+* [Numbers Everyone Should Know](https://everythingisdata.wordpress.com/2009/10/17/numbers-everyone-should-know/)
+
 ## Things to know
 
 ### List of things to know
@@ -115,6 +122,11 @@ Architecture](http://martinfowler.com/articles/microservice-testing/) (Martin Fo
 
 * [Sublime Text essential plugins and resources](https://github.com/dreikanter/sublime-bookmarks)
 * [vim-awesome](http://vimawesome.com/)
+
+### Know your database
+
+* [A plain english introduction to CAP Theorem](http://ksat.me/a-plain-english-introduction-to-cap-theorem/)
+* [NOSQL Patterns](http://horicky.blogspot.nl/2009/11/nosql-patterns.html)
 
 ### Know your dev environment
 
@@ -171,6 +183,10 @@ I highly recommend reading [The Non-Designer's Design Book](http://www.amazon.co
 * [Deep Lessons From Google And EBay On Building Ecosystems Of Microservices](http://highscalability.com/blog/2015/12/1/deep-lessons-from-google-and-ebay-on-building-ecosystems-of.html)
 * [Service oriented architecture: scaling the Uber engineering codebase as we grow](https://eng.uber.com/soa/)
 * [The twelve-factor app](http://12factor.net/)
+* [Scalable Web Architecture and Distributed Systems](http://www.aosabook.org/en/distsys.html)
+* [Introduction to Architecting Systems for Scale](http://lethain.com/introduction-to-architecting-systems-for-scale/)
+* [A Distributed Systems Reading List](http://dancres.github.io/Pages/)
+* [Services Engineering Reading List](https://github.com/mmcgrana/services-engineering)
 
 ### Know your language
 
@@ -184,5 +200,6 @@ Here's a list of good books:
 * [Patterns of Enterprise Application Architecture](http://www.amazon.com/dp/0321127420/?tag=stackoverfl08-20): learn about how database are used in real world applications. Mike Bayer's SQLAlchemy has been heavily influenced by this book.
 * SourceMaking's [Design Patterns](https://sourcemaking.com/design_patterns) seems to be a good web resource too.
 * O'Reilly's [How to make mistakes in Python](http://www.oreilly.com/programming/free/files/how-to-make-mistakes-in-python.pdf)
+* [101 Design Patterns & Tips for Developers](https://sourcemaking.com/design-patterns-and-tips)
 
 I maintain a [list of antipatterns](https://github.com/charlax/antipatterns) on another repo. This is a highly recommended read.
