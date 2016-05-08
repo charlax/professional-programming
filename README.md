@@ -187,6 +187,7 @@ I highly recommend reading [The Non-Designer's Design Book](http://www.amazon.co
 * [Introduction to Architecting Systems for Scale](http://lethain.com/introduction-to-architecting-systems-for-scale/)
 * [A Distributed Systems Reading List](http://dancres.github.io/Pages/)
 * [Services Engineering Reading List](https://github.com/mmcgrana/services-engineering)
+* [System Design Cheatsheet](https://gist.github.com/vasanthk/485d1c25737e8e72759f)
 
 ### Know your language
 
