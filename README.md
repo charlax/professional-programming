@@ -72,6 +72,7 @@ I've found these books incredibly inspiring:
 ### Interviewing
 
 * [System design interview for IT company](https://github.com/checkcheckzz/system-design-interview)
+* [Technical Interview Megarepo](https://github.com/jdsutton/Technical-Interview-Megarepo): study materials for SE/CS technical interviews
 
 ### Managing the database
 
@@ -148,6 +149,10 @@ Resources
 
 * [Bash Hackers Wiki](http://wiki.bash-hackers.org/)
 * [Master the command line, in one page](https://github.com/jlevy/the-art-of-command-line) **must read**
+
+### Know your webdesign
+
+* [Maintainable CSS](http://maintainablecss.com/)
 
 ### Know your dotfiles
 
