@@ -110,7 +110,14 @@ Architecture](http://martinfowler.com/articles/microservice-testing/) (Martin Fo
 
 ### Know your algorithm and data structures
 
+* Read the [CLRS](https://mitpress.mit.edu/books/introduction-algorithms). You can watch and download the course on [OCW](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-introduction-to-algorithms-sma-5503-fall-2005/) - there are newer courses as well.
+	*  Or [The Algorithm Design Manual](https://www.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1849967202?ie=UTF8&qid=1297127794&ref_=sr_1_1&sr=8-1)
 * Try out some algorithms on [Project Euler](https://projecteuler.net/)
+
+Let's be honest: algo can be a pretty dry topic. [This quota question](https://www.quora.com/Is-there-a-book-that-teaches-algorithms-data-structures-and-other-computer-science-basics-in-a-fun-way) lists some funnier learning alternative, including:
+
+* [Grokking Algorithms](https://www.amazon.com/dp/1617292230/ref=cm_sw_su_dp)
+* [Essential Algorithms](https://www.amazon.com/Essential-Algorithms-Practical-Approach-Computer/dp/1118612108?ie=UTF8&*Version*=1&*entries*=0)
 
 ### Know your concepts
 
@@ -209,6 +216,7 @@ I'd recommend learning:
 * At least one dynamic language (Python, Ruby, JavaScript, etc.). Pretty useful for quick one-off automation scripts, and fastest to write for interviews.
 * At least one compiled language (Java, C, C++, etc.)
 * At least one more recent language to see where the industry is going (as of writing, Go, Swift, Rust, etc.)
+* At least one language that has first-class support for functional programming (Haskell, Scala, etc.)
 
 ### Know your design patterns and anti-patterns
 
