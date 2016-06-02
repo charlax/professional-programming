@@ -16,17 +16,19 @@
     - [Writing for performance](#writing-for-performance)
   - [Things to know](#things-to-know)
     - [List of things to know](#list-of-things-to-know)
+    - [Know your algorithm and data structures](#know-your-algorithm-and-data-structures)
     - [Know your concepts](#know-your-concepts)
     - [Know your editor](#know-your-editor)
     - [Know your database](#know-your-database)
     - [Know your dev environment](#know-your-dev-environment)
     - [Know your shell](#know-your-shell)
+    - [Know your webdesign](#know-your-webdesign)
     - [Know your dotfiles](#know-your-dotfiles)
     - [Know your git](#know-your-git)
     - [Know how to debug](#know-how-to-debug)
     - [Know how to design](#know-how-to-design)
     - [Know how to architect systems](#know-how-to-architect-systems)
-    - [Know your language](#know-your-language)
+    - [Know your programming language](#know-your-programming-language)
     - [Know your design patterns and anti-patterns](#know-your-design-patterns-and-anti-patterns)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -105,6 +107,10 @@ Architecture](http://martinfowler.com/articles/microservice-testing/) (Martin Fo
 ### List of things to know
 
 * [What every computer science major should know](http://matt.might.net/articles/what-cs-majors-should-know/)
+
+### Know your algorithm and data structures
+
+* Try out some algorithms on [Project Euler](https://projecteuler.net/)
 
 ### Know your concepts
 
@@ -194,9 +200,15 @@ I highly recommend reading [The Non-Designer's Design Book](http://www.amazon.co
 * [Services Engineering Reading List](https://github.com/mmcgrana/services-engineering)
 * [System Design Cheatsheet](https://gist.github.com/vasanthk/485d1c25737e8e72759f)
 
-### Know your language
+### Know your programming language
 
 This is language-specific, for instance, checkout my [professional Python education doc](https://github.com/charlax/python-education).
+
+I'd recommend learning:
+
+* At least one dynamic language (Python, Ruby, JavaScript, etc.). Pretty useful for quick one-off automation scripts, and fastest to write for interviews.
+* At least one compiled language (Java, C, C++, etc.)
+* At least one more recent language to see where the industry is going (as of writing, Go, Swift, Rust, etc.)
 
 ### Know your design patterns and anti-patterns
 
