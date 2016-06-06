@@ -75,6 +75,7 @@ I've found these books incredibly inspiring:
 
 * [System design interview for IT company](https://github.com/checkcheckzz/system-design-interview)
 * [Technical Interview Megarepo](https://github.com/jdsutton/Technical-Interview-Megarepo): study materials for SE/CS technical interviews
+* [How to Win the Coding Interview](https://blog.devmastery.com/how-to-win-the-coding-interview-71ae7102d685#.16ph6bp5y)
 
 ### Managing the database
 
