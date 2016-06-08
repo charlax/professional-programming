@@ -60,6 +60,10 @@ I've found these books incredibly inspiring:
 
 ## Things to do
 
+### Attitude & habits
+
+* [Mastering Programming](https://www.prod.facebook.com/notes/kent-beck/mastering-programming/1184427814923414#), Kent Beck.
+
 ### Coding
 
 * [Write code that is easy to delete, not easy to extend](http://programmingisterrible.com/post/139222674273/write-code-that-is-easy-to-delete-not-easy-to)
