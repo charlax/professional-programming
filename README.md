@@ -6,6 +6,7 @@
   - [Must read books](#must-read-books)
   - [Must-read articles](#must-read-articles)
   - [Things to do](#things-to-do)
+    - [Attitude & habits](#attitude-&-habits)
     - [Coding](#coding)
     - [Incident response (outages, firefighting)](#incident-response-outages-firefighting)
     - [Interviewing](#interviewing)
