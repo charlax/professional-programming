@@ -40,6 +40,8 @@
 
 A collection of full-stack resources for programmers.
 
+The goal of this page is to make you a more proficient developer. You'll find only resources that I've found truly inspiring, or that have been become timeless classics.
+
 ## Must read books
 
 I've found these books incredibly inspiring:
@@ -58,6 +60,8 @@ I've found these books incredibly inspiring:
 * [Practical Advice for New Software Engineers](http://product.hubspot.com/blog/practical-advice-for-new-software-engineers)
 * [On Being A Senior Engineer](http://www.kitchensoap.com/2012/10/25/on-being-a-senior-engineer/)
 * [Lessons Learned in Software Development](http://henrikwarne.com/2015/04/16/lessons-learned-in-software-development/): one of those articles that give you years of hard-earned lessons, all in one short article. Must read.
+* [Signs that you're a good programmer](http://www.yacoset.com/Home/signs-that-you-re-a-good-programmer)
+* [Signs that you're a bad programmer](http://www.yacoset.com/Home/signs-that-you-re-a-bad-programmer)
 
 ## Things to do
 
@@ -137,6 +141,7 @@ Let's be honest: algo can be a pretty dry topic. [This quota question](https://w
 * [KISS](https://en.wikipedia.org/wiki/KISS_principle)
 * [SOLID](https://en.wikipedia.org/wiki/SOLID_(object-oriented_design))
 * [GRASP](https://en.wikipedia.org/wiki/GRASP_(object-oriented_design))
+* [Make it run, make it right, make it fast](http://c2.com/cgi/wiki?MakeItWorkMakeItRightMakeItFast)
 
 ### Know your editor
 
