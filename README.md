@@ -147,6 +147,7 @@ Let's be honest: algo can be a pretty dry topic. [This quota question](https://w
 
 * [Sublime Text essential plugins and resources](https://github.com/dreikanter/sublime-bookmarks)
 * [vim-awesome](http://vimawesome.com/)
+* Bram Moolenaar (Vim author), [Seven habits of effective text editing](http://www.moolenaar.net/habits.html) ([presentation](http://www.moolenaar.net/habits_2007.pdf)).
 
 ### Know your database
 
@@ -228,6 +229,10 @@ I'd recommend learning:
 * At least one compiled language (Java, C, C++, etc.)
 * At least one more recent language to see where the industry is going (as of writing, Go, Swift, Rust, etc.)
 * At least one language that has first-class support for functional programming (Haskell, Scala, etc.)
+
+A bit more reading:
+
+* [A brief, incomplete, mostly wrong history of programming languages](http://james-iry.blogspot.fr/2009/05/brief-incomplete-and-mostly-wrong.html)
 
 ### Know your design patterns and anti-patterns
 
