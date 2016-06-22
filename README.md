@@ -85,6 +85,7 @@ I've found these books incredibly inspiring:
 * [System design interview for IT company](https://github.com/checkcheckzz/system-design-interview)
 * [Technical Interview Megarepo](https://github.com/jdsutton/Technical-Interview-Megarepo): study materials for SE/CS technical interviews
 * [How to Win the Coding Interview](https://blog.devmastery.com/how-to-win-the-coding-interview-71ae7102d685#.16ph6bp5y)
+* [The elevator programming game](http://play.elevatorsaga.com/)
 
 ### Managing the database
 
@@ -105,8 +106,9 @@ I've found these books incredibly inspiring:
 
 ### Testing
 
-* [Testing Strategies in a Microservices
-Architecture](http://martinfowler.com/articles/microservice-testing/) (Martin Fowler) is an awesome resources explaining how to test a service properly.
+* [Testing Strategies in a Microservices Architecture](http://martinfowler.com/articles/microservice-testing/) (Martin Fowler) is an awesome resources explaining how to test a service properly.
+* [A Quick Puzzle to Test Your Problem Solving](http://www.nytimes.com/interactive/2015/07/03/upshot/a-quick-puzzle-to-test-your-problem-solving.html?_r=0)... and a great way to learn about confirmation bias and why you're mostly writing positive test cases.
+
 
 ### Writing for performance
 
