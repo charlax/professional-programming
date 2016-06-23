@@ -17,6 +17,7 @@
     - [Writing for performance](#writing-for-performance)
   - [Things to know](#things-to-know)
     - [List of things to know](#list-of-things-to-know)
+    - [Know characters sets](#know-characters-sets)
     - [Know your algorithm and data structures](#know-your-algorithm-and-data-structures)
     - [Know your concepts](#know-your-concepts)
     - [Know your editor](#know-your-editor)
@@ -26,6 +27,7 @@
     - [Know your webdesign](#know-your-webdesign)
     - [Know your dotfiles](#know-your-dotfiles)
     - [Know your git](#know-your-git)
+    - [Know how the Internet works](#know-how-the-internet-works)
     - [Know how to debug](#know-how-to-debug)
     - [Know how to design](#know-how-to-design)
     - [Know how to architect systems](#know-how-to-architect-systems)
@@ -120,6 +122,10 @@ I've found these books incredibly inspiring:
 
 * [What every computer science major should know](http://matt.might.net/articles/what-cs-majors-should-know/)
 
+### Know characters sets
+
+* [The Absolute Minimum Every Software Developer Absolutely, Positively Must Know About Unicode and Character Sets (No Excuses!)](http://www.joelonsoftware.com/articles/Unicode.html)
+
 ### Know your algorithm and data structures
 
 * Read the [CLRS](https://mitpress.mit.edu/books/introduction-algorithms). You can watch and download the course on [OCW](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-introduction-to-algorithms-sma-5503-fall-2005/) - there are newer courses as well.
@@ -193,6 +199,10 @@ Articles
 
 * [Git Cheat Sheet](https://github.com/arslanbilal/git-cheat-sheet)
 * [git-tips](https://github.com/git-tips/tips)
+
+### Know how the Internet works
+
+* [How Does the Internet Work?](https://web.stanford.edu/class/msande91si/www-spr04/readings/week1/InternetWhitepaper.htm)
 
 ### Know how to debug
 
