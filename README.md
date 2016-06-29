@@ -106,6 +106,10 @@ I've found these books incredibly inspiring:
 * [Move fast and break nothing](https://zachholman.com/talk/move-fast-break-nothing/), Zach Holman
 * [Flipping out](http://code.flickr.net/2009/12/02/flipping-out/), flickr. One of the first articles about feature flags.
 
+### Security
+
+* [Penetration Testing Tools Cheat Sheet](https://highon.coffee/blog/penetration-testing-tools-cheat-sheet/#http--https-webserver-enumeration)
+
 ### Testing
 
 * [Testing Strategies in a Microservices Architecture](http://martinfowler.com/articles/microservice-testing/) (Martin Fowler) is an awesome resources explaining how to test a service properly.
@@ -230,6 +234,7 @@ I highly recommend reading [The Non-Designer's Design Book](http://www.amazon.co
 * [A Distributed Systems Reading List](http://dancres.github.io/Pages/)
 * [Services Engineering Reading List](https://github.com/mmcgrana/services-engineering)
 * [System Design Cheatsheet](https://gist.github.com/vasanthk/485d1c25737e8e72759f)
+* [The Log: What every software engineer should know about real-time data's unifying abstraction](https://engineering.linkedin.com/distributed-systems/log-what-every-software-engineer-should-know-about-real-time-datas-unifying): one of those classical articles that everyone should read.
 
 ### Know your programming language
 
