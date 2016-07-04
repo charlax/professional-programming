@@ -84,6 +84,7 @@ I've found these books incredibly inspiring:
 
 ### Interviewing
 
+* [All the best advice we could find on how to get a job](https://80000hours.org/career-guide/how-to-get-a-job/)
 * [System design interview for IT company](https://github.com/checkcheckzz/system-design-interview)
 * [Technical Interview Megarepo](https://github.com/jdsutton/Technical-Interview-Megarepo): study materials for SE/CS technical interviews
 * [How to Win the Coding Interview](https://blog.devmastery.com/how-to-win-the-coding-interview-71ae7102d685#.16ph6bp5y)
@@ -109,12 +110,12 @@ I've found these books incredibly inspiring:
 ### Security
 
 * [Penetration Testing Tools Cheat Sheet](https://highon.coffee/blog/penetration-testing-tools-cheat-sheet/#http--https-webserver-enumeration)
+* [My First 10 Minutes On a Server - Primer for Securing Ubuntu](http://www.codelitt.com/blog/my-first-10-minutes-on-a-server-primer-for-securing-ubuntu/)
 
 ### Testing
 
 * [Testing Strategies in a Microservices Architecture](http://martinfowler.com/articles/microservice-testing/) (Martin Fowler) is an awesome resources explaining how to test a service properly.
 * [A Quick Puzzle to Test Your Problem Solving](http://www.nytimes.com/interactive/2015/07/03/upshot/a-quick-puzzle-to-test-your-problem-solving.html?_r=0)... and a great way to learn about confirmation bias and why you're mostly writing positive test cases.
-
 
 ### Writing for performance
 
