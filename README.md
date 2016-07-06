@@ -263,3 +263,7 @@ Here's a list of good books:
 * [101 Design Patterns & Tips for Developers](https://sourcemaking.com/design-patterns-and-tips)
 
 I maintain a [list of antipatterns](https://github.com/charlax/antipatterns) on another repo. This is a highly recommended read.
+
+# Other lists of resources
+
+* [List of free programming books](https://github.com/vhf/free-programming-books)
