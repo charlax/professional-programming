@@ -57,6 +57,10 @@ I've found these books incredibly inspiring:
   Sites](http://www.amazon.com/Scalability-Rules-Principles-Scaling-Sites/dp/0321753887)
 * [The Linux Programming Interface: A Linux and UNIX System Programming Handbook](http://www.amazon.com/The-Linux-Programming-Interface-Handbook/dp/1593272200): outside of teaching you almost everything you need to know about Linux, this book will give you insights into how software evolves, and the value of having simple & elegant interfaces.
 
+There are some free books available, including:
+
+* [Professional software development](http://mixmastamyk.bitbucket.org/pro_soft_dev/): pretty complete and a good companion to this page. The free chapters are mostly focused on software development processes: design, testing, code writing, etc. - and not so much about tech itself.
+
 ## Must-read articles
 
 * [Practical Advice for New Software Engineers](http://product.hubspot.com/blog/practical-advice-for-new-software-engineers)
