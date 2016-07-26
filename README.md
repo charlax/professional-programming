@@ -13,6 +13,7 @@
     - [Managing the database](#managing-the-database)
     - [Reading](#reading)
     - [Releasing & deploying](#releasing-&-deploying)
+    - [Security](#security)
     - [Testing](#testing)
     - [Writing for performance](#writing-for-performance)
   - [Things to know](#things-to-know)
@@ -32,7 +33,9 @@
     - [Know how to design](#know-how-to-design)
     - [Know how to architect systems](#know-how-to-architect-systems)
     - [Know your programming language](#know-your-programming-language)
+    - [FP vs. OOP](#fp-vs-oop)
     - [Know your design patterns and anti-patterns](#know-your-design-patterns-and-anti-patterns)
+- [Other lists of resources](#other-lists-of-resources)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -256,6 +259,11 @@ I'd recommend learning:
 A bit more reading:
 
 * [A brief, incomplete, mostly wrong history of programming languages](http://james-iry.blogspot.fr/2009/05/brief-incomplete-and-mostly-wrong.html)
+
+### FP vs. OOP
+
+* [Jargon from the functional programming world](https://github.com/hemanth/functional-programming-jargon)
+* [Goodbye, Object Oriented Programming](https://medium.com/@cscalfani/goodbye-object-oriented-programming-a59cda4c0e53#.39ax09e4k)
 
 ### Know your design patterns and anti-patterns
 
