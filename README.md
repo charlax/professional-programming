@@ -219,6 +219,7 @@ Articles
 ### Know how to debug
 
 * [Rubber Duck Problem Solving](http://blog.codinghorror.com/rubber-duck-problem-solving/)
+* [Rubber Ducking](http://c2.com/cgi/wiki?RubberDucking)
 * [Five Whys](https://en.wikipedia.org/wiki/5_Whys)
 * [The Infinite Hows](http://www.kitchensoap.com/2014/11/14/the-infinite-hows-or-the-dangers-of-the-five-whys/): this provides a strong criticism of the five whys method.
 * [Linux Performance Analysis in 60,000 Milliseconds](http://techblog.netflix.com/2015/11/linux-performance-analysis-in-60s.html)
