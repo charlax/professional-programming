@@ -6,7 +6,7 @@
   - [Must read books](#must-read-books)
   - [Must-read articles](#must-read-articles)
   - [Topics](#topics)
-    - [Know your algorithm and data structures](#know-your-algorithm-and-data-structures)
+    - [Algorithm and data structures](#algorithm-and-data-structures)
     - [Attitude & habits](#attitude-&-habits)
     - [Characters sets](#characters-sets)
     - [Coding](#coding)
@@ -29,6 +29,8 @@
     - [Security](#security)
     - [Shell](#shell)
     - [System architecture](#system-architecture)
+      - [Scalability](#scalability)
+      - [Stability](#stability)
     - [Testing](#testing)
     - [Version control (Git)](#version-control-git)
     - [Webdesign](#webdesign)
@@ -73,7 +75,7 @@ There are some free books available, including:
 
 ## Topics
 
-### Know your algorithm and data structures
+### Algorithm and data structures
 
 * Read the [CLRS](https://mitpress.mit.edu/books/introduction-algorithms). You can watch and download the course on [OCW](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-introduction-to-algorithms-sma-5503-fall-2005/) - there are newer courses as well.
 * Or [The Algorithm Design Manual](https://www.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1849967202?ie=UTF8&qid=1297127794&ref_=sr_1_1&sr=8-1)
@@ -170,6 +172,7 @@ Articles
 ### Internet
 
 * [How Does the Internet Work?](https://web.stanford.edu/class/msande91si/www-spr04/readings/week1/InternetWhitepaper.htm)
+* [How the web works](https://github.com/vasanthk/how-web-works)
 
 ### Interviewing
 
@@ -243,6 +246,14 @@ Resources
 * [Services Engineering Reading List](https://github.com/mmcgrana/services-engineering)
 * [System Design Cheatsheet](https://gist.github.com/vasanthk/485d1c25737e8e72759f)
 * [The Log: What every software engineer should know about real-time data's unifying abstraction](https://engineering.linkedin.com/distributed-systems/log-what-every-software-engineer-should-know-about-real-time-datas-unifying): one of those classical articles that everyone should read.
+
+#### Scalability
+
+* I already mentioned the book Scalability rules above, but there's also a [presentation](http://www.slideshare.net/cyrilwang/scalability-rules) about it.
+
+#### Stability
+
+* I already mentioned the book Release it! above. There's also a [presentation](http://www.slideshare.net/justindorfman/stability-patterns-presentation) from the author.
 
 ### Testing
 
