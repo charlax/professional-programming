@@ -63,6 +63,7 @@ I've found these books incredibly inspiring:
 There are some free books available, including:
 
 * [Professional software development](http://mixmastamyk.bitbucket.org/pro_soft_dev/): pretty complete and a good companion to this page. The free chapters are mostly focused on software development processes: design, testing, code writing, etc. - and not so much about tech itself.
+* [List of free programming books](https://github.com/vhf/free-programming-books)
 
 ## Must-read articles
 
@@ -72,11 +73,26 @@ There are some free books available, including:
 * [Signs that you're a good programmer](http://www.yacoset.com/Home/signs-that-you-re-a-good-programmer)
 * [Signs that you're a bad programmer](http://www.yacoset.com/Home/signs-that-you-re-a-bad-programmer)
 
-## Things to do
+## Topics
+
+### Know your algorithm and data structures
+
+* Read the [CLRS](https://mitpress.mit.edu/books/introduction-algorithms). You can watch and download the course on [OCW](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-introduction-to-algorithms-sma-5503-fall-2005/) - there are newer courses as well.
+* Or [The Algorithm Design Manual](https://www.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1849967202?ie=UTF8&qid=1297127794&ref_=sr_1_1&sr=8-1)
+* Try out some algorithms on [Project Euler](https://projecteuler.net/)
+
+Let's be honest: algo can be a pretty dry topic. [This quora question](https://www.quora.com/Is-there-a-book-that-teaches-algorithms-data-structures-and-other-computer-science-basics-in-a-fun-way) lists some funnier learning alternative, including:
+
+* [Grokking Algorithms](https://www.amazon.com/dp/1617292230/ref=cm_sw_su_dp)
+* [Essential Algorithms](https://www.amazon.com/Essential-Algorithms-Practical-Approach-Computer/dp/1118612108?ie=UTF8&*Version*=1&*entries*=0)
 
 ### Attitude & habits
 
 * [Mastering Programming](https://www.prod.facebook.com/notes/kent-beck/mastering-programming/1184427814923414#), Kent Beck.
+
+### Characters sets
+
+* [The Absolute Minimum Every Software Developer Absolutely, Positively Must Know About Unicode and Character Sets (No Excuses!)](http://www.joelonsoftware.com/articles/Unicode.html)
 
 ### Coding
 
@@ -84,10 +100,78 @@ There are some free books available, including:
 * [Lessons learned writing highly available code](https://medium.com/imgur-engineering/lessons-learned-writing-highly-available-code-7eaf3d7aae00#.u7c4j6hac)
 * [The Ten Commandments of Egoless Programming](http://blog.codinghorror.com/the-ten-commandments-of-egoless-programming/)
 
+### Computer science
+
+* [What every computer science major should know](http://matt.might.net/articles/what-cs-majors-should-know/)
+
+### Databases
+
+* [A plain english introduction to CAP Theorem](http://ksat.me/a-plain-english-introduction-to-cap-theorem/)
+* [NOSQL Patterns](http://horicky.blogspot.nl/2009/11/nosql-patterns.html)
+
+### Debugging
+
+* [Rubber Duck Problem Solving](http://blog.codinghorror.com/rubber-duck-problem-solving/)
+* [Rubber Ducking](http://c2.com/cgi/wiki?RubberDucking)
+* [Five Whys](https://en.wikipedia.org/wiki/5_Whys)
+* [The Infinite Hows](http://www.kitchensoap.com/2014/11/14/the-infinite-hows-or-the-dangers-of-the-five-whys/): this provides a strong criticism of the five whys method.
+* [Linux Performance Analysis in 60,000 Milliseconds](http://techblog.netflix.com/2015/11/linux-performance-analysis-in-60s.html)
+
+### Design (visual, UX, UI)
+
+I highly recommend reading [The Non-Designer's Design Book](http://www.amazon.com/gp/product/0133966151/ref=pd_lpo_sbs_dp_ss_1?pf_rd_p=1944687602&pf_rd_s=lpo-top-stripe-1&pf_rd_t=201&pf_rd_i=0321534042&pf_rd_m=ATVPDKIKX0DER&pf_rd_r=1R7MVQP0BCP7GP9VZGYX). This is a pretty short book that will give you some very actionable design advices.
+
+* If you're working on data, Edward Tufte's [The Visual Display of Quantitative Information](http://www.amazon.com/Visual-Display-Quantitative-Information/dp/0961392142/ref=sr_1_1?ie=UTF8&qid=1458046603&sr=8-1&keywords=tufte) is considered a classic.
+* The [Universal Principles of Design](http://www.amazon.com/Universal-Principles-Design-Revised-Updated/dp/1592535879/ref=sr_1_1?ie=UTF8&qid=1458046663&sr=8-1&keywords=universal+principles+of+design) will give you enough vocabulary and concepts to describe design challenges into words.
+* [Microsoft's Rest API guidelines](https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md)
+
+### Design patterns and anti-patterns
+
+Here's a list of good books:
+
+* [Design Patterns: Elements of Reusable Object-Oriented Software](http://www.amazon.com/dp/0201633612/): dubbed "the gang of four", this is almost a required reading for any developer. A lot of those are a bit overkill for Python (because everything is an object, and dynamic typing), but the main idea (composition is better than inheritance) definitely is a good philosophy.
+* [Patterns of Enterprise Application Architecture](http://www.amazon.com/dp/0321127420/?tag=stackoverfl08-20): learn about how database are used in real world applications. Mike Bayer's SQLAlchemy has been heavily influenced by this book.
+* SourceMaking's [Design Patterns](https://sourcemaking.com/design_patterns) seems to be a good web resource too.
+* O'Reilly's [How to make mistakes in Python](http://www.oreilly.com/programming/free/files/how-to-make-mistakes-in-python.pdf)
+* [101 Design Patterns & Tips for Developers](https://sourcemaking.com/design-patterns-and-tips)
+
+I maintain a [list of antipatterns](https://github.com/charlax/antipatterns) on another repo. This is a highly recommended read.
+
+### Dev environment & tools
+
+* [Awesome Dev Env](https://github.com/jondot/awesome-devenv)
+
+Tools
+
+* [Glances: An eye on your system](https://github.com/nicolargo/glances)
+* [HTTPie: a CLI, cURL-like tool for humans](https://github.com/jkbrzt/httpie)
+* [jq: command-line JSON processor](https://stedolan.github.io/jq/)
+* [tmux: terminal multiplexer](http://tmux.github.io/)
+* [htop: an interactive process viewer for Linux](http://hisham.hm/htop/)
+
+### Dotfiles
+
+* [Awesome dotfiles](https://github.com/webpro/awesome-dotfiles)
+* [My dotfiles](https://github.com/charlax/dotfiles)
+
+Articles
+
+* [Setting Up a Mac Dev Machine From Zero to Hero With Dotfiles](http://code.tutsplus.com/tutorials/setting-up-a-mac-dev-machine-from-zero-to-hero-with-dotfiles--net-35449)
+
+### Editors & IDE
+
+* [Sublime Text essential plugins and resources](https://github.com/dreikanter/sublime-bookmarks)
+* [vim-awesome](http://vimawesome.com/)
+* Bram Moolenaar (Vim author), [Seven habits of effective text editing](http://www.moolenaar.net/habits.html) ([presentation](http://www.moolenaar.net/habits_2007.pdf)).
+
 ### Incident response (outages, firefighting)
 
 * [Incident Response at Heroku](https://blog.heroku.com/archives/2014/5/9/incident-response-at-heroku)
 * [Blameless PostMortems and a Just Culture](https://codeascraft.com/2012/05/22/blameless-postmortems/)
+
+### Internet
+
+* [How Does the Internet Work?](https://web.stanford.edu/class/msande91si/www-spr04/readings/week1/InternetWhitepaper.htm)
 
 ### Interviewing
 
@@ -101,6 +185,26 @@ There are some free books available, including:
 
 * [Safe Operations For High Volume PostgreSQL](https://www.braintreepayments.com/blog/safe-operations-for-high-volume-postgresql/) (this is for PostgreSQL but works great for other db as well).
 * [Zero downtime database migrations](https://blog.rainforestqa.com/2014-06-27-zero-downtime-database-migrations/) (code examples are using Rails but this works great for any programming language)
+
+### Programming language
+
+This is language-specific, for instance, checkout my [professional Python education doc](https://github.com/charlax/python-education).
+
+I'd recommend learning:
+
+* At least one dynamic language (Python, Ruby, JavaScript, etc.). Pretty useful for quick one-off automation scripts, and fastest to write for interviews.
+* At least one compiled language (Java, C, C++, etc.)
+* At least one more recent language to see where the industry is going (as of writing, Go, Swift, Rust, etc.)
+* At least one language that has first-class support for functional programming (Haskell, Scala, etc.)
+
+A bit more reading:
+
+* [A brief, incomplete, mostly wrong history of programming languages](http://james-iry.blogspot.fr/2009/05/brief-incomplete-and-mostly-wrong.html)
+
+#### FP vs. OOP
+
+* [Jargon from the functional programming world](https://github.com/hemanth/functional-programming-jargon)
+* [Goodbye, Object Oriented Programming](https://medium.com/@cscalfani/goodbye-object-oriented-programming-a59cda4c0e53#.39ax09e4k)
 
 ### Reading
 
@@ -119,75 +223,7 @@ There are some free books available, including:
 * [Penetration Testing Tools Cheat Sheet](https://highon.coffee/blog/penetration-testing-tools-cheat-sheet/#http--https-webserver-enumeration)
 * [My First 10 Minutes On a Server - Primer for Securing Ubuntu](http://www.codelitt.com/blog/my-first-10-minutes-on-a-server-primer-for-securing-ubuntu/)
 
-### Testing
-
-* [Testing Strategies in a Microservices Architecture](http://martinfowler.com/articles/microservice-testing/) (Martin Fowler) is an awesome resources explaining how to test a service properly.
-* [A Quick Puzzle to Test Your Problem Solving](http://www.nytimes.com/interactive/2015/07/03/upshot/a-quick-puzzle-to-test-your-problem-solving.html?_r=0)... and a great way to learn about confirmation bias and why you're mostly writing positive test cases.
-* [The test pyramid](http://martinfowler.com/bliki/TestPyramid.html)
-
-### Writing for performance
-
-* [Numbers Everyone Should Know](https://everythingisdata.wordpress.com/2009/10/17/numbers-everyone-should-know/)
-
-## Things to know
-
-### List of things to know
-
-* [What every computer science major should know](http://matt.might.net/articles/what-cs-majors-should-know/)
-
-### Know characters sets
-
-* [The Absolute Minimum Every Software Developer Absolutely, Positively Must Know About Unicode and Character Sets (No Excuses!)](http://www.joelonsoftware.com/articles/Unicode.html)
-
-### Know your algorithm and data structures
-
-* Read the [CLRS](https://mitpress.mit.edu/books/introduction-algorithms). You can watch and download the course on [OCW](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-introduction-to-algorithms-sma-5503-fall-2005/) - there are newer courses as well.
-	*  Or [The Algorithm Design Manual](https://www.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1849967202?ie=UTF8&qid=1297127794&ref_=sr_1_1&sr=8-1)
-* Try out some algorithms on [Project Euler](https://projecteuler.net/)
-
-Let's be honest: algo can be a pretty dry topic. [This quota question](https://www.quora.com/Is-there-a-book-that-teaches-algorithms-data-structures-and-other-computer-science-basics-in-a-fun-way) lists some funnier learning alternative, including:
-
-* [Grokking Algorithms](https://www.amazon.com/dp/1617292230/ref=cm_sw_su_dp)
-* [Essential Algorithms](https://www.amazon.com/Essential-Algorithms-Practical-Approach-Computer/dp/1118612108?ie=UTF8&*Version*=1&*entries*=0)
-
-### Know your concepts
-
-* [DDD](https://en.wikipedia.org/wiki/Domain-driven_design)
-* [TDD](https://en.wikipedia.org/wiki/Test-driven_development)
-* [BDD](https://en.wikipedia.org/wiki/Behavior-driven_development)
-* [CAP theorem](https://en.wikipedia.org/wiki/CAP_theorem)
-* [OOP](https://en.wikipedia.org/wiki/Object-oriented_programming)
-* [YAGNI](https://en.wikipedia.org/wiki/You_aren%27t_gonna_need_it)
-* [DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself)
-* [KISS](https://en.wikipedia.org/wiki/KISS_principle)
-* [SOLID](https://en.wikipedia.org/wiki/SOLID_(object-oriented_design))
-* [GRASP](https://en.wikipedia.org/wiki/GRASP_(object-oriented_design))
-* [Make it run, make it right, make it fast](http://c2.com/cgi/wiki?MakeItWorkMakeItRightMakeItFast)
-
-### Know your editor
-
-* [Sublime Text essential plugins and resources](https://github.com/dreikanter/sublime-bookmarks)
-* [vim-awesome](http://vimawesome.com/)
-* Bram Moolenaar (Vim author), [Seven habits of effective text editing](http://www.moolenaar.net/habits.html) ([presentation](http://www.moolenaar.net/habits_2007.pdf)).
-
-### Know your database
-
-* [A plain english introduction to CAP Theorem](http://ksat.me/a-plain-english-introduction-to-cap-theorem/)
-* [NOSQL Patterns](http://horicky.blogspot.nl/2009/11/nosql-patterns.html)
-
-### Know your dev environment
-
-* [Awesome Dev Env](https://github.com/jondot/awesome-devenv)
-
-Tools
-
-* [Glances: An eye on your system](https://github.com/nicolargo/glances)
-* [HTTPie: a CLI, cURL-like tool for humans](https://github.com/jkbrzt/httpie)
-* [jq: command-line JSON processor](https://stedolan.github.io/jq/)
-* [tmux: terminal multiplexer](http://tmux.github.io/)
-* [htop: an interactive process viewer for Linux](http://hisham.hm/htop/)
-
-### Know your shell
+### Shell
 
 * [Awesome Shell](https://github.com/alebcay/awesome-shell)
 
@@ -196,44 +232,7 @@ Resources
 * [Bash Hackers Wiki](http://wiki.bash-hackers.org/)
 * [Master the command line, in one page](https://github.com/jlevy/the-art-of-command-line) **must read**
 
-### Know your webdesign
-
-* [Maintainable CSS](http://maintainablecss.com/)
-
-### Know your dotfiles
-
-* [Awesome dotfiles](https://github.com/webpro/awesome-dotfiles)
-
-Articles
-
-* [Setting Up a Mac Dev Machine From Zero to Hero With Dotfiles](http://code.tutsplus.com/tutorials/setting-up-a-mac-dev-machine-from-zero-to-hero-with-dotfiles--net-35449)
-
-### Know your git
-
-* [Git Cheat Sheet](https://github.com/arslanbilal/git-cheat-sheet)
-* [git-tips](https://github.com/git-tips/tips)
-
-### Know how the Internet works
-
-* [How Does the Internet Work?](https://web.stanford.edu/class/msande91si/www-spr04/readings/week1/InternetWhitepaper.htm)
-
-### Know how to debug
-
-* [Rubber Duck Problem Solving](http://blog.codinghorror.com/rubber-duck-problem-solving/)
-* [Rubber Ducking](http://c2.com/cgi/wiki?RubberDucking)
-* [Five Whys](https://en.wikipedia.org/wiki/5_Whys)
-* [The Infinite Hows](http://www.kitchensoap.com/2014/11/14/the-infinite-hows-or-the-dangers-of-the-five-whys/): this provides a strong criticism of the five whys method.
-* [Linux Performance Analysis in 60,000 Milliseconds](http://techblog.netflix.com/2015/11/linux-performance-analysis-in-60s.html)
-
-### Know how to design
-
-I highly recommend reading [The Non-Designer's Design Book](http://www.amazon.com/gp/product/0133966151/ref=pd_lpo_sbs_dp_ss_1?pf_rd_p=1944687602&pf_rd_s=lpo-top-stripe-1&pf_rd_t=201&pf_rd_i=0321534042&pf_rd_m=ATVPDKIKX0DER&pf_rd_r=1R7MVQP0BCP7GP9VZGYX). This is a pretty short book that will give you some very actionable design advices.
-
-* If you're working on data, Edward Tufte's [The Visual Display of Quantitative Information](http://www.amazon.com/Visual-Display-Quantitative-Information/dp/0961392142/ref=sr_1_1?ie=UTF8&qid=1458046603&sr=8-1&keywords=tufte) is considered a classic.
-* The [Universal Principles of Design](http://www.amazon.com/Universal-Principles-Design-Revised-Updated/dp/1592535879/ref=sr_1_1?ie=UTF8&qid=1458046663&sr=8-1&keywords=universal+principles+of+design) will give you enough vocabulary and concepts to describe design challenges into words.
-* [Microsoft's Rest API guidelines](https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md)
-
-### Know how to architect systems
+### System architecture
 
 * [High Scalability](http://highscalability.com/): great blog about system architecture, its weekly review article are packed with numerous insights and interesting technology reviews. Checkout the [all-times favorites](http://highscalability.com/all-time-favorites/).
 * [6 Rules of thumb to build blazing fast web server applications](http://loige.co/6-rules-of-thumb-to-build-blazing-fast-web-applications/)
@@ -247,38 +246,35 @@ I highly recommend reading [The Non-Designer's Design Book](http://www.amazon.co
 * [System Design Cheatsheet](https://gist.github.com/vasanthk/485d1c25737e8e72759f)
 * [The Log: What every software engineer should know about real-time data's unifying abstraction](https://engineering.linkedin.com/distributed-systems/log-what-every-software-engineer-should-know-about-real-time-datas-unifying): one of those classical articles that everyone should read.
 
-### Know your programming language
+### Testing
 
-This is language-specific, for instance, checkout my [professional Python education doc](https://github.com/charlax/python-education).
+* [Testing Strategies in a Microservices Architecture](http://martinfowler.com/articles/microservice-testing/) (Martin Fowler) is an awesome resources explaining how to test a service properly.
+* [A Quick Puzzle to Test Your Problem Solving](http://www.nytimes.com/interactive/2015/07/03/upshot/a-quick-puzzle-to-test-your-problem-solving.html?_r=0)... and a great way to learn about confirmation bias and why you're mostly writing positive test cases.
+* [The test pyramid](http://martinfowler.com/bliki/TestPyramid.html)
 
-I'd recommend learning:
+### Version control (Git)
 
-* At least one dynamic language (Python, Ruby, JavaScript, etc.). Pretty useful for quick one-off automation scripts, and fastest to write for interviews.
-* At least one compiled language (Java, C, C++, etc.)
-* At least one more recent language to see where the industry is going (as of writing, Go, Swift, Rust, etc.)
-* At least one language that has first-class support for functional programming (Haskell, Scala, etc.)
+* [Git Cheat Sheet](https://github.com/arslanbilal/git-cheat-sheet)
+* [git-tips](https://github.com/git-tips/tips)
 
-A bit more reading:
+### Webdesign
 
-* [A brief, incomplete, mostly wrong history of programming languages](http://james-iry.blogspot.fr/2009/05/brief-incomplete-and-mostly-wrong.html)
+* [Maintainable CSS](http://maintainablecss.com/)
 
-### FP vs. OOP
+### Writing for performance
 
-* [Jargon from the functional programming world](https://github.com/hemanth/functional-programming-jargon)
-* [Goodbye, Object Oriented Programming](https://medium.com/@cscalfani/goodbye-object-oriented-programming-a59cda4c0e53#.39ax09e4k)
+* [Numbers Everyone Should Know](https://everythingisdata.wordpress.com/2009/10/17/numbers-everyone-should-know/)
 
-### Know your design patterns and anti-patterns
+## Concepts
 
-Here's a list of good books:
-
-* [Design Patterns: Elements of Reusable Object-Oriented Software](http://www.amazon.com/dp/0201633612/): dubbed "the gang of four", this is almost a required reading for any developer. A lot of those are a bit overkill for Python (because everything is an object, and dynamic typing), but the main idea (composition is better than inheritance) definitely is a good philosophy.
-* [Patterns of Enterprise Application Architecture](http://www.amazon.com/dp/0321127420/?tag=stackoverfl08-20): learn about how database are used in real world applications. Mike Bayer's SQLAlchemy has been heavily influenced by this book.
-* SourceMaking's [Design Patterns](https://sourcemaking.com/design_patterns) seems to be a good web resource too.
-* O'Reilly's [How to make mistakes in Python](http://www.oreilly.com/programming/free/files/how-to-make-mistakes-in-python.pdf)
-* [101 Design Patterns & Tips for Developers](https://sourcemaking.com/design-patterns-and-tips)
-
-I maintain a [list of antipatterns](https://github.com/charlax/antipatterns) on another repo. This is a highly recommended read.
-
-# Other lists of resources
-
-* [List of free programming books](https://github.com/vhf/free-programming-books)
+* [DDD](https://en.wikipedia.org/wiki/Domain-driven_design)
+* [TDD](https://en.wikipedia.org/wiki/Test-driven_development)
+* [BDD](https://en.wikipedia.org/wiki/Behavior-driven_development)
+* [CAP theorem](https://en.wikipedia.org/wiki/CAP_theorem)
+* [OOP](https://en.wikipedia.org/wiki/Object-oriented_programming)
+* [YAGNI](https://en.wikipedia.org/wiki/You_aren%27t_gonna_need_it)
+* [DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself)
+* [KISS](https://en.wikipedia.org/wiki/KISS_principle)
+* [SOLID](https://en.wikipedia.org/wiki/SOLID_(object-oriented_design))
+* [GRASP](https://en.wikipedia.org/wiki/GRASP_(object-oriented_design))
+* [Make it run, make it right, make it fast](http://c2.com/cgi/wiki?MakeItWorkMakeItRightMakeItFast)
