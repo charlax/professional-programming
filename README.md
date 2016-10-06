@@ -5,23 +5,23 @@
 - [Professional Programming](#professional-programming)
   - [Must read books](#must-read-books)
   - [Must-read articles](#must-read-articles)
+  - [Other general material](#other-general-material)
   - [Topics](#topics)
     - [Algorithm and data structures](#algorithm-and-data-structures)
-    - [Attitude & habits](#attitude-&-habits)
+    - [Attitude, habits, mindset](#attitude-habits-mindset)
     - [Characters sets](#characters-sets)
     - [Coding](#coding)
     - [Computer science](#computer-science)
     - [Databases](#databases)
     - [Debugging](#debugging)
     - [Design (visual, UX, UI)](#design-visual-ux-ui)
-    - [Design patterns and anti-patterns](#design-patterns-and-anti-patterns)
+    - [Design patterns & anti-patterns (OOP)](#design-patterns-&-anti-patterns-oop)
     - [Dev environment & tools](#dev-environment-&-tools)
     - [Dotfiles](#dotfiles)
     - [Editors & IDE](#editors-&-ide)
     - [Incident response (outages, firefighting)](#incident-response-outages-firefighting)
     - [Internet](#internet)
     - [Interviewing](#interviewing)
-    - [Managing the database](#managing-the-database)
     - [Programming language](#programming-language)
       - [FP vs. OOP](#fp-vs-oop)
     - [Reading](#reading)
@@ -73,6 +73,10 @@ There are some free books available, including:
 * [Signs that you're a good programmer](http://www.yacoset.com/Home/signs-that-you-re-a-good-programmer)
 * [Signs that you're a bad programmer](http://www.yacoset.com/Home/signs-that-you-re-a-bad-programmer)
 
+## Other general material
+
+* [The Imposter's Handbook](https://bigmachine.io/products/the-imposters-handbook) - $30. From the author: "Don't have a CS Degree? Neither do I - That's why I wrote this book."
+
 ## Topics
 
 ### Algorithm and data structures
@@ -86,9 +90,10 @@ Let's be honest: algo can be a pretty dry topic. [This quora question](https://w
 * [Grokking Algorithms](https://www.amazon.com/dp/1617292230/ref=cm_sw_su_dp)
 * [Essential Algorithms](https://www.amazon.com/Essential-Algorithms-Practical-Approach-Computer/dp/1118612108?ie=UTF8&*Version*=1&*entries*=0)
 
-### Attitude & habits
+### Attitude, habits, mindset
 
 * [Mastering Programming](https://www.prod.facebook.com/notes/kent-beck/mastering-programming/1184427814923414#), Kent Beck.
+* [The traits of a proficient programmer](https://www.oreilly.com/ideas/the-traits-of-a-proficient-programmer)
 
 ### Characters sets
 
@@ -108,6 +113,9 @@ Let's be honest: algo can be a pretty dry topic. [This quora question](https://w
 
 * [A plain english introduction to CAP Theorem](http://ksat.me/a-plain-english-introduction-to-cap-theorem/)
 * [NOSQL Patterns](http://horicky.blogspot.nl/2009/11/nosql-patterns.html)
+* [NoSQL Databases: a Survey and Decision Guidance](https://medium.baqend.com/nosql-databases-a-survey-and-decision-guidance-ea7823a822d#.9fe79qr90)
+* [Safe Operations For High Volume PostgreSQL](https://www.braintreepayments.com/blog/safe-operations-for-high-volume-postgresql/) (this is for PostgreSQL but works great for other db as well).
+* [Zero downtime database migrations](https://blog.rainforestqa.com/2014-06-27-zero-downtime-database-migrations/) (code examples are using Rails but this works great for any programming language)
 
 ### Debugging
 
@@ -186,11 +194,6 @@ Articles
 * [How to Win the Coding Interview](https://blog.devmastery.com/how-to-win-the-coding-interview-71ae7102d685#.16ph6bp5y)
 * [The elevator programming game](http://play.elevatorsaga.com/)
 
-### Managing the database
-
-* [Safe Operations For High Volume PostgreSQL](https://www.braintreepayments.com/blog/safe-operations-for-high-volume-postgresql/) (this is for PostgreSQL but works great for other db as well).
-* [Zero downtime database migrations](https://blog.rainforestqa.com/2014-06-27-zero-downtime-database-migrations/) (code examples are using Rails but this works great for any programming language)
-
 ### Programming language
 
 This is language-specific, for instance, checkout my [professional Python education doc](https://github.com/charlax/python-education).
@@ -205,6 +208,7 @@ I'd recommend learning:
 A bit more reading:
 
 * [A brief, incomplete, mostly wrong history of programming languages](http://james-iry.blogspot.fr/2009/05/brief-incomplete-and-mostly-wrong.html)
+* [Types](https://gist.github.com/garybernhardt/122909856b570c5c457a6cd674795a9c)
 
 #### FP vs. OOP
 
