@@ -281,6 +281,7 @@ Resources
 ### Writing for performance
 
 * [Numbers Everyone Should Know](https://everythingisdata.wordpress.com/2009/10/17/numbers-everyone-should-know/)
+* [Latency numbers every programmer should know](https://gist.github.com/hellerbarde/2843375)
 
 ## Concepts
 
