@@ -271,6 +271,8 @@ Resources
 * [The test pyramid](http://martinfowler.com/bliki/TestPyramid.html)
 * [Just Say No to More End-to-End Tests](https://testing.googleblog.com/2015/04/just-say-no-to-more-end-to-end-tests.html)
 * [End-To-End Testing Considered Harmful](http://www.alwaysagileconsulting.com/articles/end-to-end-testing-considered-harmful/)
+* [Move fast and don't break things](https://docs.google.com/presentation/d/15gNk21rjer3xo-b1ZqyQVGebOp_aPvHU3YH7YnOMxtE/edit#slide=id.g437663ce1_53_591) (presentation)
+* [Eradicating Non-Determinism in Tests](http://www.martinfowler.com/articles/nonDeterminism.html), Martin Fowler
 
 ### Version control (Git)
 
