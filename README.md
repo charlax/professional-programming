@@ -116,6 +116,7 @@ Let's be honest: algo can be a pretty dry topic. [This quora question](https://w
 * [NoSQL Databases: a Survey and Decision Guidance](https://medium.baqend.com/nosql-databases-a-survey-and-decision-guidance-ea7823a822d#.9fe79qr90)
 * [Safe Operations For High Volume PostgreSQL](https://www.braintreepayments.com/blog/safe-operations-for-high-volume-postgresql/) (this is for PostgreSQL but works great for other db as well).
 * [Zero downtime database migrations](https://blog.rainforestqa.com/2014-06-27-zero-downtime-database-migrations/) (code examples are using Rails but this works great for any programming language)
+* [SQL styleguide](http://www.sqlstyle.guide/)
 
 ### Debugging
 
@@ -268,6 +269,8 @@ Resources
 * [Testing Strategies in a Microservices Architecture](http://martinfowler.com/articles/microservice-testing/) (Martin Fowler) is an awesome resources explaining how to test a service properly.
 * [A Quick Puzzle to Test Your Problem Solving](http://www.nytimes.com/interactive/2015/07/03/upshot/a-quick-puzzle-to-test-your-problem-solving.html?_r=0)... and a great way to learn about confirmation bias and why you're mostly writing positive test cases.
 * [The test pyramid](http://martinfowler.com/bliki/TestPyramid.html)
+* [Just Say No to More End-to-End Tests](https://testing.googleblog.com/2015/04/just-say-no-to-more-end-to-end-tests.html)
+* [End-To-End Testing Considered Harmful](http://www.alwaysagileconsulting.com/articles/end-to-end-testing-considered-harmful/)
 
 ### Version control (Git)
 
