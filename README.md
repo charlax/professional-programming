@@ -178,10 +178,11 @@ Articles
 * [vim-awesome](http://vimawesome.com/)
 * Bram Moolenaar (Vim author), [Seven habits of effective text editing](http://www.moolenaar.net/habits.html) ([presentation](http://www.moolenaar.net/habits_2007.pdf)).
 
-### Incident response (outages, firefighting)
+### Incident response (alerting, outages, firefighting)
 
 * [Incident Response at Heroku](https://blog.heroku.com/archives/2014/5/9/incident-response-at-heroku)
 * [Blameless PostMortems and a Just Culture](https://codeascraft.com/2012/05/22/blameless-postmortems/)
+* [My Philosophy on Alerting](https://docs.google.com/document/d/199PqyG3UsyXlwieHaqbGiWVa8eMWi8zzAn0YfcApr8Q/preview#heading=h.fs3knmjt7fjy)
 
 ### Internet
 
@@ -265,6 +266,12 @@ Resources
 
 * I already mentioned the book Release it! above. There's also a [presentation](http://www.slideshare.net/justindorfman/stability-patterns-presentation) from the author.
 
+#### Resiliency
+
+* [The Walking Dead - A Survival Guide to Resilient Applications](https://speakerdeck.com/daschl/the-walking-dead-a-survival-guide-to-resilient-applications)
+* [Defensive Programming & Resilient systems in Real World (TM)](https://speakerdeck.com/tuenti/defensive-programming-and-resilient-systems-in-real-world-tm)
+* [Full Stack Fest: Architectural Patterns of Resilient Distributed Systems](https://speakerdeck.com/randommood/full-stack-fest-architectural-patterns-of-resilient-distributed-systems)
+
 ### Testing
 
 * [Testing Strategies in a Microservices Architecture](http://martinfowler.com/articles/microservice-testing/) (Martin Fowler) is an awesome resources explaining how to test a service properly.
@@ -279,6 +286,7 @@ Resources
 
 * [Git Cheat Sheet](https://github.com/arslanbilal/git-cheat-sheet)
 * [git-tips](https://github.com/git-tips/tips)
+* [Git from the inside out](https://codewords.recurse.com/issues/two/git-from-the-inside-out)
 
 ### Webdesign
 
