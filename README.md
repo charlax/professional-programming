@@ -9,6 +9,7 @@
   - [Topics](#topics)
     - [Algorithm and data structures](#algorithm-and-data-structures)
     - [Attitude, habits, mindset](#attitude-habits-mindset)
+    - [Career growth](#career-growth)
     - [Characters sets](#characters-sets)
     - [Coding](#coding)
     - [Computer science](#computer-science)
@@ -19,9 +20,10 @@
     - [Dev environment & tools](#dev-environment-&-tools)
     - [Dotfiles](#dotfiles)
     - [Editors & IDE](#editors-&-ide)
-    - [Incident response (outages, firefighting)](#incident-response-outages-firefighting)
+    - [Incident response (alerting, outages, firefighting)](#incident-response-alerting-outages-firefighting)
     - [Internet](#internet)
     - [Interviewing](#interviewing)
+    - [Learning](#learning)
     - [Programming language](#programming-language)
       - [FP vs. OOP](#fp-vs-oop)
     - [Reading](#reading)
@@ -31,6 +33,7 @@
     - [System architecture](#system-architecture)
       - [Scalability](#scalability)
       - [Stability](#stability)
+      - [Resiliency](#resiliency)
     - [Testing](#testing)
     - [Version control (Git)](#version-control-git)
     - [Webdesign](#webdesign)
@@ -95,6 +98,10 @@ Let's be honest: algo can be a pretty dry topic. [This quora question](https://w
 * [Mastering Programming](https://www.prod.facebook.com/notes/kent-beck/mastering-programming/1184427814923414#), Kent Beck.
 * [The traits of a proficient programmer](https://www.oreilly.com/ideas/the-traits-of-a-proficient-programmer)
 
+### Career growth
+
+* [The Conjoined Triangles of Senior-Level Development](http://frontside.io/blog/2016/07/07/the-conjoined-triangles-of-senior-level-development.html) looks into how to define a senior engineer.
+
 ### Characters sets
 
 * [The Absolute Minimum Every Software Developer Absolutely, Positively Must Know About Unicode and Character Sets (No Excuses!)](http://www.joelonsoftware.com/articles/Unicode.html)
@@ -150,6 +157,7 @@ I maintain a [list of antipatterns](https://github.com/charlax/antipatterns) on 
 
 * [Inheritance vs. composition](http://learnpythonthehardway.org/book/ex44.html): a concrete example in Python. [Another slightly longer one here](http://python-textbok.readthedocs.io/en/latest/Object_Oriented_Programming.html). [One last one, in Python 3](http://blog.thedigitalcatonline.com/blog/2014/08/20/python-3-oop-part-3-delegation-composition-and-inheritance/#.V7SZ4tB96Rs).
 * [Composition Instead Of Inheritance](http://c2.com/cgi/wiki?CompositionInsteadOfInheritance)
+* [10 Modern Software Over-Engineering Mistakes](https://medium.com/@rdsubhas/10-modern-software-engineering-mistakes-bc67fbef4fc8#.da6dvzyne)
 
 ### Dev environment & tools
 
@@ -196,6 +204,13 @@ Articles
 * [Technical Interview Megarepo](https://github.com/jdsutton/Technical-Interview-Megarepo): study materials for SE/CS technical interviews
 * [How to Win the Coding Interview](https://blog.devmastery.com/how-to-win-the-coding-interview-71ae7102d685#.16ph6bp5y)
 * [The elevator programming game](http://play.elevatorsaga.com/)
+* [Cognitive bias cheat sheet](https://betterhumans.coach.me/cognitive-bias-cheat-sheet-55a472476b18#.6temb6hyg)  
+
+### Learning
+
+Learn how to learn! 
+
+* [How I Rewired My Brain to Become Fluent in Math](http://nautil.us/issue/40/learning/how-i-rewired-my-brain-to-become-fluent-in-math-rp): subtitled *the building blocks of understanding are memorization and repetition*.
 
 ### Programming language
 
