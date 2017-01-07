@@ -9,6 +9,8 @@
   - [Topics](#topics)
     - [Algorithm and data structures](#algorithm-and-data-structures)
     - [Attitude, habits, mindset](#attitude-habits-mindset)
+    - [Automation](#automation)
+    - [Biases](#biases)
     - [Career growth](#career-growth)
     - [Characters sets](#characters-sets)
     - [Coding](#coding)
@@ -16,18 +18,19 @@
     - [Databases](#databases)
     - [Debugging](#debugging)
     - [Design (visual, UX, UI)](#design-visual-ux-ui)
-    - [Design patterns & anti-patterns (OOP)](#design-patterns-&-anti-patterns-oop)
-    - [Dev environment & tools](#dev-environment-&-tools)
+    - [Design patterns & anti-patterns (OOP)](#design-patterns--anti-patterns-oop)
+    - [Dev environment & tools](#dev-environment--tools)
     - [Dotfiles](#dotfiles)
-    - [Editors & IDE](#editors-&-ide)
+    - [Editors & IDE](#editors--ide)
     - [Incident response (alerting, outages, firefighting)](#incident-response-alerting-outages-firefighting)
     - [Internet](#internet)
     - [Interviewing](#interviewing)
     - [Learning](#learning)
+    - [Project management](#project-management)
     - [Programming language](#programming-language)
       - [FP vs. OOP](#fp-vs-oop)
     - [Reading](#reading)
-    - [Releasing & deploying](#releasing-&-deploying)
+    - [Releasing & deploying](#releasing--deploying)
     - [Security](#security)
     - [Shell](#shell)
     - [System architecture](#system-architecture)
@@ -98,6 +101,12 @@ Let's be honest: algo can be a pretty dry topic. [This quora question](https://w
 * [Mastering Programming](https://www.prod.facebook.com/notes/kent-beck/mastering-programming/1184427814923414#), Kent Beck.
 * [The traits of a proficient programmer](https://www.oreilly.com/ideas/the-traits-of-a-proficient-programmer)
 * [The tao of programming](http://www.mit.edu/~xela/tao.html): a set of parables about programming.
+* [Taking Ownership Is The Most Effective Way to Get What You Want](http://www.theeffectiveengineer.com/blog/take-ownership-of-your-goals)
+* [Finding Time to Become a Better Developer](https://medium.freecodecamp.com/finding-time-to-become-a-better-developer-eebc154881b2#.4i2t1z6q2)
+
+### Automation
+
+* [Automation Should Be Like Iron Man, Not Ultron](http://queue.acm.org/detail.cfm?id=2841313)
 
 ### Biases
 
@@ -213,12 +222,21 @@ Articles
 * [How to Win the Coding Interview](https://blog.devmastery.com/how-to-win-the-coding-interview-71ae7102d685#.16ph6bp5y)
 * [The elevator programming game](http://play.elevatorsaga.com/)
 * [I spent 3 months applying to jobs after a coding bootcamp. Here’s what I learned.](https://medium.freecodecamp.com/5-key-learnings-from-the-post-bootcamp-job-search-9a07468d2331#.uq7vbbjfx)
+* [Top 10 algorithms in Interview Questions](http://www.geeksforgeeks.org/top-10-algorithms-in-interview-questions/)
+* [Questions to ask your interviewer](https://rkoutnik.com/articles/Questions-to-ask-your-interviewer.html)
 
 ### Learning
 
 Learn how to learn! 
 
 * [How I Rewired My Brain to Become Fluent in Math](http://nautil.us/issue/40/learning/how-i-rewired-my-brain-to-become-fluent-in-math-rp): subtitled *the building blocks of understanding are memorization and repetition*.
+* [One Sure-Fire Way to Improve Your Coding](https://changelog.com/posts/one-sure-fire-way-to-improve-your-coding): reading code!
+* [Tips for learning programming](http://blog.hiphipjorge.com/tips-for-learning-programming/)
+* [You can increase your intelligence: 5 ways to maximize your cognitive potential](https://blogs.scientificamerican.com/guest-blog/you-can-increase-your-intelligence-5-ways-to-maximize-your-cognitive-potential/): forgive the clickbait title, it’s actually a good article.
+
+### Project management
+
+* [How should deadlines be used in software engineering?](https://keen.io//blog/143850394061/how-should-deadlines-be-used-in-software)
 
 ### Programming language
 
@@ -305,6 +323,7 @@ Resources
 * [End-To-End Testing Considered Harmful](http://www.alwaysagileconsulting.com/articles/end-to-end-testing-considered-harmful/)
 * [Move fast and don't break things](https://docs.google.com/presentation/d/15gNk21rjer3xo-b1ZqyQVGebOp_aPvHU3YH7YnOMxtE/edit#slide=id.g437663ce1_53_591) (presentation)
 * [Eradicating Non-Determinism in Tests](http://www.martinfowler.com/articles/nonDeterminism.html), Martin Fowler
+* [Kent Beck : “I get paid for code that works, not for tests”](https://istacee.wordpress.com/2013/09/18/kent-beck-i-get-paid-for-code-that-works-not-for-tests/)
 
 ### Version control (Git)
 
