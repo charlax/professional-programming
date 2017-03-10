@@ -236,7 +236,7 @@ Learn how to learn!
 
 ### Project management
 
-* [How should deadlines be used in software engineering?](https://keen.io//blog/143850394061/how-should-deadlines-be-used-in-software)
+See [Project management section on my engineering-management list of resources](https://github.com/charlax/engineering-management#project-management).
 
 ### Programming language
 
@@ -299,6 +299,7 @@ Resources
 * [Services Engineering Reading List](https://github.com/mmcgrana/services-engineering)
 * [System Design Cheatsheet](https://gist.github.com/vasanthk/485d1c25737e8e72759f)
 * [The Log: What every software engineer should know about real-time data's unifying abstraction](https://engineering.linkedin.com/distributed-systems/log-what-every-software-engineer-should-know-about-real-time-datas-unifying): one of those classical articles that everyone should read.
+* [Learn how to design large scale systems. Prep for the system design interview](https://github.com/donnemartin/system-design-primer) (Github repo)
 
 #### Scalability
 
