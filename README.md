@@ -68,7 +68,7 @@ I've found these books incredibly inspiring:
 
 There are some free books available, including:
 
-* [Professional software development](http://mixmastamyk.bitbucket.org/pro_soft_dev/): pretty complete and a good companion to this page. The free chapters are mostly focused on software development processes: design, testing, code writing, etc. - and not so much about tech itself.
+* [Professional software development](http://mixmastamyk.bitbucket.io/pro_soft_dev/): pretty complete and a good companion to this page. The free chapters are mostly focused on software development processes: design, testing, code writing, etc. - and not so much about tech itself.
 * [List of free programming books](https://github.com/vhf/free-programming-books)
 
 ## Must-read articles
@@ -227,7 +227,7 @@ Articles
 
 ### Learning
 
-Learn how to learn! 
+Learn how to learn!
 
 * [How I Rewired My Brain to Become Fluent in Math](http://nautil.us/issue/40/learning/how-i-rewired-my-brain-to-become-fluent-in-math-rp): subtitled *the building blocks of understanding are memorization and repetition*.
 * [One Sure-Fire Way to Improve Your Coding](https://changelog.com/posts/one-sure-fire-way-to-improve-your-coding): reading code!
