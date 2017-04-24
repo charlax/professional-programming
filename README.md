@@ -224,6 +224,7 @@ Articles
 * [I spent 3 months applying to jobs after a coding bootcamp. Here’s what I learned.](https://medium.freecodecamp.com/5-key-learnings-from-the-post-bootcamp-job-search-9a07468d2331#.uq7vbbjfx)
 * [Top 10 algorithms in Interview Questions](http://www.geeksforgeeks.org/top-10-algorithms-in-interview-questions/)
 * [Questions to ask your interviewer](https://rkoutnik.com/articles/Questions-to-ask-your-interviewer.html)
+* [Interactive Python coding interview challenges](https://github.com/donnemartin/interactive-coding-challenges)
 
 ### Learning
 
@@ -253,6 +254,7 @@ A bit more reading:
 
 * [A brief, incomplete, mostly wrong history of programming languages](http://james-iry.blogspot.fr/2009/05/brief-incomplete-and-mostly-wrong.html)
 * [Types](https://gist.github.com/garybernhardt/122909856b570c5c457a6cd674795a9c)
+* [Resources To Help You To Create Programming Languages](https://tomassetti.me/resources-create-programming-languages/)
 
 #### FP vs. OOP
 
