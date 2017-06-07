@@ -18,10 +18,10 @@
     - [Databases](#databases)
     - [Debugging](#debugging)
     - [Design (visual, UX, UI)](#design-visual-ux-ui)
-    - [Design patterns & anti-patterns (OOP)](#design-patterns-&-anti-patterns-oop)
-    - [Dev environment & tools](#dev-environment-&-tools)
+    - [Design (OO modeling, patterns, anti-patterns, etc.)](#design-oo-modeling-patterns-anti-patterns-etc)
+    - [Dev environment & tools](#dev-environment--tools)
     - [Dotfiles](#dotfiles)
-    - [Editors & IDE](#editors-&-ide)
+    - [Editors & IDE](#editors--ide)
     - [Incident response (alerting, outages, firefighting)](#incident-response-alerting-outages-firefighting)
     - [Internet](#internet)
     - [Interviewing](#interviewing)
@@ -30,15 +30,17 @@
     - [Programming language](#programming-language)
       - [FP vs. OOP](#fp-vs-oop)
     - [Reading](#reading)
-    - [Releasing & deploying](#releasing-&-deploying)
+    - [Releasing & deploying](#releasing--deploying)
     - [Security](#security)
     - [Shell](#shell)
     - [System architecture](#system-architecture)
       - [Scalability](#scalability)
       - [Stability](#stability)
       - [Resiliency](#resiliency)
+    - [Site Reliability Engineering (SRE)](#site-reliability-engineering-sre)
     - [Testing](#testing)
     - [Version control (Git)](#version-control-git)
+    - [Work ethics & work/life balance](#work-ethics--worklife-balance)
     - [Webdesign](#webdesign)
     - [Writing for performance](#writing-for-performance)
   - [Concepts](#concepts)
@@ -131,6 +133,7 @@ Biases don't only apply to hiring. For instance, the fundamental attribution bia
 ### Computer science
 
 * [What every computer science major should know](http://matt.might.net/articles/what-cs-majors-should-know/)
+* [Teach Yourself Computer Science](https://teachyourselfcs.com/): an opinionated set of the best CS resources.
 
 ### Databases
 
@@ -158,16 +161,21 @@ I highly recommend reading [The Non-Designer's Design Book](http://www.amazon.co
 * [Microsoft's Rest API guidelines](https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md)
 * [Book recommendations from HackerNews](https://news.ycombinator.com/item?id=12711060)
 
-### Design patterns & anti-patterns (OOP)
+### Design (OO modeling, patterns, anti-patterns, etc.)
 
 Here's a list of good books:
 
 * [Design Patterns: Elements of Reusable Object-Oriented Software](http://www.amazon.com/dp/0201633612/): dubbed "the gang of four", this is almost a required reading for any developer. A lot of those are a bit overkill for Python (because everything is an object, and dynamic typing), but the main idea (composition is better than inheritance) definitely is a good philosophy.
 * [Patterns of Enterprise Application Architecture](http://www.amazon.com/dp/0321127420/?tag=stackoverfl08-20): learn about how database are used in real world applications. Mike Bayer's SQLAlchemy has been heavily influenced by this book.
-* SourceMaking's [Design Patterns](https://sourcemaking.com/design_patterns) seems to be a good web resource too.
-* O'Reilly's [How to make mistakes in Python](http://www.oreilly.com/programming/free/files/how-to-make-mistakes-in-python.pdf)
+
+Articles:
+
 * [101 Design Patterns & Tips for Developers](https://sourcemaking.com/design-patterns-and-tips)
 * [Python Design Patterns: For Sleek And Fashionable Code](https://www.toptal.com/python/python-design-patterns): a pretty simple introduction to common design patterns (Facade, Adapter, Decorator). A more complete list of design patterns implementation in Python on [Github](https://github.com/faif/python-patterns). [Also a book here](http://python-3-patterns-idioms-test.readthedocs.io/en/latest/PatternConcept.html).
+* SourceMaking's [Design Patterns](https://sourcemaking.com/design_patterns) seems to be a good web resource too.
+* O'Reilly's [How to make mistakes in Python](http://www.oreilly.com/programming/free/files/how-to-make-mistakes-in-python.pdf)
+* [Education of a Programmer](https://hackernoon.com/education-of-a-programmer-aaecf2d35312): a developer's thoughts after 35 years in the industry. There's a particularly good section about design & complexity (see "the end to end argument", "layering and componentization").
+* Google's [API Design Guide](https://cloud.google.com/apis/design/): a general guide to design networked API.
 
 I maintain a [list of antipatterns](https://github.com/charlax/antipatterns) on another repo. This is a highly recommended read.
 
@@ -175,6 +183,7 @@ I maintain a [list of antipatterns](https://github.com/charlax/antipatterns) on 
 * [Composition Instead Of Inheritance](http://c2.com/cgi/wiki?CompositionInsteadOfInheritance)
 * [10 Modern Software Over-Engineering Mistakes](https://medium.com/@rdsubhas/10-modern-software-engineering-mistakes-bc67fbef4fc8#.da6dvzyne)
 * [A good example of over-engineering: the Juicero press](https://blog.bolt.io/heres-why-juicero-s-press-is-so-expensive-6add74594e50) (April 2017)
+* [Complexity and Strategy](https://hackernoon.com/complexity-and-strategy-325cd7f59a92): interesting perspective on complexity and flexibility with really good examples (e.g. Google Apps Suite vs. Microsoft Office).
 
 ### Dev environment & tools
 
@@ -235,6 +244,7 @@ Learn how to learn!
 * [One Sure-Fire Way to Improve Your Coding](https://changelog.com/posts/one-sure-fire-way-to-improve-your-coding): reading code!
 * [Tips for learning programming](http://blog.hiphipjorge.com/tips-for-learning-programming/)
 * [You can increase your intelligence: 5 ways to maximize your cognitive potential](https://blogs.scientificamerican.com/guest-blog/you-can-increase-your-intelligence-5-ways-to-maximize-your-cognitive-potential/): forgive the clickbait title, it’s actually a good article.
+* [How to ask good questions](https://jvns.ca/blog/good-questions/), Julia Evans.
 
 ### Project management
 
@@ -265,6 +275,7 @@ A bit more reading:
 ### Reading
 
 * [Papers we love](https://github.com/papers-we-love/papers-we-love): papers from the computer science community to read and discuss. Can be a good source of inspiration of solving your design problems.
+* [The morning paper](https://blog.acolyer.org/): one CS research paper explained every morning.
 
 ### Releasing & deploying
 
@@ -279,6 +290,8 @@ A bit more reading:
 * [Penetration Testing Tools Cheat Sheet](https://highon.coffee/blog/penetration-testing-tools-cheat-sheet/#http--https-webserver-enumeration)
 * [My First 10 Minutes On a Server - Primer for Securing Ubuntu](http://www.codelitt.com/blog/my-first-10-minutes-on-a-server-primer-for-securing-ubuntu/)
 * [A practical guide to securing macOS](https://github.com/drduh/macOS-Security-and-Privacy-Guide)
+* [Web Developer Security Checklist](https://simplesecurity.sensedeep.com/web-developer-security-checklist-f2e4f43c9c56) 
+* [Reckon you've seen some stupid security things?](https://www.troyhunt.com/reckon-youve-seen-some-stupid-security-things-here-hold-my-beer/): everything *not* to do.
 
 ### Shell
 
@@ -319,6 +332,10 @@ Resources
 * [Defensive Programming & Resilient systems in Real World (TM)](https://speakerdeck.com/tuenti/defensive-programming-and-resilient-systems-in-real-world-tm)
 * [Full Stack Fest: Architectural Patterns of Resilient Distributed Systems](https://speakerdeck.com/randommood/full-stack-fest-architectural-patterns-of-resilient-distributed-systems)
 
+### Site Reliability Engineering (SRE)
+
+* [Graduating from Bootcamp and interested in becoming a Site Reliability Engineer?](https://medium.com/@tammybutow/graduating-from-bootcamp-and-interested-in-becoming-a-site-reliability-engineer-b69a38ce858b): a great collection of resources to learn about SRE.
+
 ### Testing
 
 * [Testing Strategies in a Microservices Architecture](http://martinfowler.com/articles/microservice-testing/) (Martin Fowler) is an awesome resources explaining how to test a service properly.
@@ -335,6 +352,11 @@ Resources
 * [Git Cheat Sheet](https://github.com/arslanbilal/git-cheat-sheet)
 * [git-tips](https://github.com/git-tips/tips)
 * [Git from the inside out](https://codewords.recurse.com/issues/two/git-from-the-inside-out)
+
+### Work ethics & work/life balance
+
+* [Your non-linear problem of 90% utilization](https://blog.asmartbear.com/utilization.html), Jason Cohen: why constantly running at 90% utilization is actually counter-productive.
+* [Evidence-based advice on how to be successful in any jobs](https://80000hours.org/career-guide/how-to-be-successful/): most self-help advices are not research-based. The ones listed in this article are.
 
 ### Webdesign
 
