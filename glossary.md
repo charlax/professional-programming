@@ -17,3 +17,7 @@
 * **Two Generals' Problem**: "a thought experiment meant to illustrate the pitfalls and design challenges of attempting to coordinate an action by communicating over an unreliable link" ([wikipedia](https://en.wikipedia.org/wiki/Two_Generals%27_Problem)).
 * **Whitebox monitoring**
 * **Law of Demeter**: only talk to your immediate friends ([wikipedia](https://en.wikipedia.org/wiki/Law_of_Demeter))
+
+### Second system effect
+
+"The second-system effect (also known as second-system syndrome) is the tendency of small, elegant, and successful systems to be plagued with feature creep due to inflated expectations." ([wikipedia](https://en.wikipedia.org/wiki/Second-system_effect))
