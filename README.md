@@ -5,7 +5,7 @@
 - [Professional Programming](#professional-programming)
   - [Must read books](#must-read-books)
   - [Must-read articles](#must-read-articles)
-  - [Other general material](#other-general-material)
+  - [Other general material and list of resources](#other-general-material-and-list-of-resources)
   - [Topics](#topics)
     - [Algorithm and data structures](#algorithm-and-data-structures)
     - [Attitude, habits, mindset](#attitude-habits-mindset)
@@ -81,9 +81,10 @@ There are some free books available, including:
 * [Signs that you're a good programmer](http://www.yacoset.com/Home/signs-that-you-re-a-good-programmer)
 * [Signs that you're a bad programmer](http://www.yacoset.com/Home/signs-that-you-re-a-bad-programmer)
 
-## Other general material
+## Other general material and list of resources
 
 * [The Imposter's Handbook](https://bigmachine.io/products/the-imposters-handbook) - $30. From the author: "Don't have a CS Degree? Neither do I - That's why I wrote this book."
+* [mr-mig/every-programmer-should-know: a collection of (mostly) technical things every software developer should know](https://github.com/mr-mig/every-programmer-should-know) 
 
 ## Topics
 
@@ -367,6 +368,7 @@ Resources
 
 * [Numbers Everyone Should Know](https://everythingisdata.wordpress.com/2009/10/17/numbers-everyone-should-know/)
 * [Latency numbers every programmer should know](https://gist.github.com/hellerbarde/2843375)
+* [Rob Pike's 5 Rules of Programming](http://users.ece.utexas.edu/~adnan/pike.html) 
 
 ## Concepts
 
