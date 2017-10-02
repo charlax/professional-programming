@@ -238,6 +238,12 @@ Articles
 * [Questions to ask your interviewer](https://rkoutnik.com/articles/Questions-to-ask-your-interviewer.html)
 * [Interactive Python coding interview challenges](https://github.com/donnemartin/interactive-coding-challenges)
 
+### JavaScript
+
+JavaScript is such a pervasive language that it's almost required learning.
+
+* [mbeaudru/modern-js-cheatsheet](https://github.com/mbeaudru/modern-js-cheatsheet): cheatsheet for the JavaScript knowledge you will frequently encounter in modern projects.
+
 ### Learning
 
 Learn how to learn!
