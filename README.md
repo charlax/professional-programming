@@ -20,6 +20,7 @@
     - [Design (visual, UX, UI)](#design-visual-ux-ui)
     - [Design (OO modeling, patterns, anti-patterns, etc.)](#design-oo-modeling-patterns-anti-patterns-etc)
     - [Dev environment & tools](#dev-environment--tools)
+    - [Documentation](#documentation)
     - [Dotfiles](#dotfiles)
     - [Editors & IDE](#editors--ide)
     - [Incident response (alerting, outages, firefighting)](#incident-response-alerting-outages-firefighting)
