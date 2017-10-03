@@ -25,6 +25,7 @@
     - [Incident response (alerting, outages, firefighting)](#incident-response-alerting-outages-firefighting)
     - [Internet](#internet)
     - [Interviewing](#interviewing)
+    - [JavaScript](#javascript)
     - [Learning](#learning)
     - [Project management](#project-management)
     - [Programming language](#programming-language)
@@ -198,6 +199,11 @@ Tools
 * [jq: command-line JSON processor](https://stedolan.github.io/jq/)
 * [tmux: terminal multiplexer](http://tmux.github.io/)
 * [htop: an interactive process viewer for Linux](http://hisham.hm/htop/)
+
+### Documentation
+
+* [Documentation-Driven Development](https://gist.github.com/zsup/9434452)
+* [Writing automated tests for your documentation](https://krausefx.com/blog/writing-automated-tests-for-your-documentation): this should be required, IMO. Testing code samples in your documentation ensures they never get outdated.
 
 ### Dotfiles
 
