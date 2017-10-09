@@ -205,6 +205,7 @@ Tools
 
 * [Documentation-Driven Development](https://gist.github.com/zsup/9434452)
 * [Writing automated tests for your documentation](https://krausefx.com/blog/writing-automated-tests-for-your-documentation): this should be required, IMO. Testing code samples in your documentation ensures they never get outdated.
+* [Documentation is king](https://speakerdeck.com/kennethreitz/documentation-is-king), Kenneth Reitz
 
 ### Dotfiles
 
