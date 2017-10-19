@@ -20,6 +20,7 @@
     - [Design (visual, UX, UI)](#design-visual-ux-ui)
     - [Design (OO modeling, patterns, anti-patterns, etc.)](#design-oo-modeling-patterns-anti-patterns-etc)
     - [Dev environment & tools](#dev-environment--tools)
+    - [Diversity & inclusion](#diversity--inclusion)
     - [Documentation](#documentation)
     - [Dotfiles](#dotfiles)
     - [Editors & IDE](#editors--ide)
@@ -86,7 +87,7 @@ There are some free books available, including:
 ## Other general material and list of resources
 
 * [The Imposter's Handbook](https://bigmachine.io/products/the-imposters-handbook) - $30. From the author: "Don't have a CS Degree? Neither do I - That's why I wrote this book."
-* [mr-mig/every-programmer-should-know: a collection of (mostly) technical things every software developer should know](https://github.com/mr-mig/every-programmer-should-know) 
+* [mr-mig/every-programmer-should-know: a collection of (mostly) technical things every software developer should know](https://github.com/mr-mig/every-programmer-should-know)
 
 ## Topics
 
@@ -171,6 +172,7 @@ Here's a list of good books:
 
 * [Design Patterns: Elements of Reusable Object-Oriented Software](http://www.amazon.com/dp/0201633612/): dubbed "the gang of four", this is almost a required reading for any developer. A lot of those are a bit overkill for Python (because everything is an object, and dynamic typing), but the main idea (composition is better than inheritance) definitely is a good philosophy.
 * [Patterns of Enterprise Application Architecture](http://www.amazon.com/dp/0321127420/?tag=stackoverfl08-20): learn about how database are used in real world applications. Mike Bayer's SQLAlchemy has been heavily influenced by this book.
+* [Domain-Driven Design: Tackling Complexity in the Heart of Software](https://www.amazon.com/Domain-Driven-Design-Tackling-Complexity-Software/dp/0321125215), Eric Evans
 
 Articles:
 
@@ -180,6 +182,7 @@ Articles:
 * O'Reilly's [How to make mistakes in Python](http://www.oreilly.com/programming/free/files/how-to-make-mistakes-in-python.pdf)
 * [Education of a Programmer](https://hackernoon.com/education-of-a-programmer-aaecf2d35312): a developer's thoughts after 35 years in the industry. There's a particularly good section about design & complexity (see "the end to end argument", "layering and componentization").
 * Google's [API Design Guide](https://cloud.google.com/apis/design/): a general guide to design networked API.
+* [Domain-driven design](https://en.wikipedia.org/wiki/Domain-driven_design), Wikipedia.
 
 I maintain a [list of antipatterns](https://github.com/charlax/antipatterns) on another repo. This is a highly recommended read.
 
@@ -200,6 +203,11 @@ Tools
 * [jq: command-line JSON processor](https://stedolan.github.io/jq/)
 * [tmux: terminal multiplexer](http://tmux.github.io/)
 * [htop: an interactive process viewer for Linux](http://hisham.hm/htop/)
+
+### Diversity & inclusion
+
+Checkout my [list of management
+resources](https://github.com/charlax/engineering-management).
 
 ### Documentation
 
@@ -306,7 +314,7 @@ A bit more reading:
 * [Penetration Testing Tools Cheat Sheet](https://highon.coffee/blog/penetration-testing-tools-cheat-sheet/#http--https-webserver-enumeration)
 * [My First 10 Minutes On a Server - Primer for Securing Ubuntu](http://www.codelitt.com/blog/my-first-10-minutes-on-a-server-primer-for-securing-ubuntu/)
 * [A practical guide to securing macOS](https://github.com/drduh/macOS-Security-and-Privacy-Guide)
-* [Web Developer Security Checklist](https://simplesecurity.sensedeep.com/web-developer-security-checklist-f2e4f43c9c56) 
+* [Web Developer Security Checklist](https://simplesecurity.sensedeep.com/web-developer-security-checklist-f2e4f43c9c56)
 * [Reckon you've seen some stupid security things?](https://www.troyhunt.com/reckon-youve-seen-some-stupid-security-things-here-hold-my-beer/): everything *not* to do.
 
 ### Shell
@@ -382,7 +390,7 @@ Resources
 
 * [Numbers Everyone Should Know](https://everythingisdata.wordpress.com/2009/10/17/numbers-everyone-should-know/)
 * [Latency numbers every programmer should know](https://gist.github.com/hellerbarde/2843375)
-* [Rob Pike's 5 Rules of Programming](http://users.ece.utexas.edu/~adnan/pike.html) 
+* [Rob Pike's 5 Rules of Programming](http://users.ece.utexas.edu/~adnan/pike.html)
 
 ## Concepts
 
