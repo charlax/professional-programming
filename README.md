@@ -63,17 +63,17 @@ The goal of this page is to make you a more proficient developer. You'll find on
 I've found these books incredibly inspiring:
 
 * [The Pragmatic Programmer: From Journeyman to
-  Master](http://www.amazon.com/The-Pragmatic-Programmer-Journeyman-Master/dp/020161622X): hands-on the most inspiring and useful book I've read about programming.
+  Master](http://www.amazon.com/The-Pragmatic-Programmer-Journeyman-Master/dp/020161622X) 📖: hands-on the most inspiring and useful book I've read about programming.
 * [Code Complete: A Practical Handbook of Software
-  Construction](http://www.amazon.com/Code-Complete-Practical-Handbook-Construction/dp/0735619670): a nice addition to The Programatic Programmer, gives you the necessary framework to talk about code.
-* [Release It!](http://www.amazon.com/Release-It-Production-Ready-Pragmatic-Programmers/dp/0978739213): this books goes beyond code and gives you best practices for building production-ready software. It will give you about 3 years worth of real-world experience.
+  Construction](http://www.amazon.com/Code-Complete-Practical-Handbook-Construction/dp/0735619670) 📖: a nice addition to The Programatic Programmer, gives you the necessary framework to talk about code.
+* [Release It!](http://www.amazon.com/Release-It-Production-Ready-Pragmatic-Programmers/dp/0978739213) 📖: this books goes beyond code and gives you best practices for building production-ready software. It will give you about 3 years worth of real-world experience.
 * [Scalability Rules: 50 Principles for Scaling Web
-  Sites](http://www.amazon.com/Scalability-Rules-Principles-Scaling-Sites/dp/0321753887)
-* [The Linux Programming Interface: A Linux and UNIX System Programming Handbook](http://www.amazon.com/The-Linux-Programming-Interface-Handbook/dp/1593272200): outside of teaching you almost everything you need to know about Linux, this book will give you insights into how software evolves, and the value of having simple & elegant interfaces.
+  Sites](http://www.amazon.com/Scalability-Rules-Principles-Scaling-Sites/dp/0321753887) 📖
+* [The Linux Programming Interface: A Linux and UNIX System Programming Handbook](http://www.amazon.com/The-Linux-Programming-Interface-Handbook/dp/1593272200) 📖: outside of teaching you almost everything you need to know about Linux, this book will give you insights into how software evolves, and the value of having simple & elegant interfaces.
 
 There are some free books available, including:
 
-* [Professional software development](http://mixmastamyk.bitbucket.io/pro_soft_dev/): pretty complete and a good companion to this page. The free chapters are mostly focused on software development processes: design, testing, code writing, etc. - and not so much about tech itself.
+* [Professional software development](http://mixmastamyk.bitbucket.io/pro_soft_dev/) 📖: pretty complete and a good companion to this page. The free chapters are mostly focused on software development processes: design, testing, code writing, etc. - and not so much about tech itself.
 * [List of free programming books](https://github.com/vhf/free-programming-books)
 
 ## Must-read articles
@@ -341,6 +341,7 @@ Resources
 * [The Log: What every software engineer should know about real-time data's unifying abstraction](https://engineering.linkedin.com/distributed-systems/log-what-every-software-engineer-should-know-about-real-time-datas-unifying): one of those classical articles that everyone should read.
 * [Learn how to design large scale systems. Prep for the system design interview](https://github.com/donnemartin/system-design-primer) (Github repo)
 * [Turning the database outside-out with Apache Samza](https://www.confluent.io/blog/turning-the-database-inside-out-with-apache-samza/)
+* [Building Microservices](https://www.amazon.com/Building-Microservices-Designing-Fine-Grained-Systems/dp/1491950358) 📖, Sam Newman (quite complete discussion of microservices)
 
 #### Scalability
 
