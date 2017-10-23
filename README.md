@@ -42,6 +42,7 @@
       - [Resiliency](#resiliency)
     - [Site Reliability Engineering (SRE)](#site-reliability-engineering-sre)
     - [Testing](#testing)
+    - [Tools](#tools)
     - [Version control (Git)](#version-control-git)
     - [Work ethics & work/life balance](#work-ethics--worklife-balance)
     - [Webdesign](#webdesign)
