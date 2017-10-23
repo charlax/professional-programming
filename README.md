@@ -245,6 +245,8 @@ Articles
 
 ### Interviewing
 
+Note: this is about you as an interviewee, **not** as an interviewer. To check out my list of resources for interviewers, go to my [engineering-management repository](https://github.com/charlax/engineering-management#hiring-interviews).
+
 * [All the best advice we could find on how to get a job](https://80000hours.org/career-guide/how-to-get-a-job/)
 * [System design interview for IT company](https://github.com/checkcheckzz/system-design-interview)
 * [Technical Interview Megarepo](https://github.com/jdsutton/Technical-Interview-Megarepo): study materials for SE/CS technical interviews
@@ -254,6 +256,7 @@ Articles
 * [Top 10 algorithms in Interview Questions](http://www.geeksforgeeks.org/top-10-algorithms-in-interview-questions/)
 * [Questions to ask your interviewer](https://rkoutnik.com/articles/Questions-to-ask-your-interviewer.html)
 * [Interactive Python coding interview challenges](https://github.com/donnemartin/interactive-coding-challenges)
+* [tech-interview-handbook/cheatsheet.md](https://github.com/yangshun/tech-interview-handbook/blob/master/preparing/cheatsheet.md) 
 
 ### JavaScript
 
