@@ -24,6 +24,7 @@
     - [Documentation](#documentation)
     - [Dotfiles](#dotfiles)
     - [Editors & IDE](#editors--ide)
+    - [Engineering management](#engineering-management)
     - [Incident response (alerting, outages, firefighting)](#incident-response-alerting-outages-firefighting)
     - [Internet](#internet)
     - [Interviewing](#interviewing)
@@ -230,6 +231,11 @@ Articles
 * [Sublime Text essential plugins and resources](https://github.com/dreikanter/sublime-bookmarks)
 * [vim-awesome](http://vimawesome.com/)
 * Bram Moolenaar (Vim author), [Seven habits of effective text editing](http://www.moolenaar.net/habits.html) ([presentation](http://www.moolenaar.net/habits_2007.pdf)).
+
+### Engineering management
+
+Checkout my [list of management
+resources](https://github.com/charlax/engineering-management).
 
 ### Incident response (alerting, outages, firefighting)
 
