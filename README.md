@@ -33,6 +33,7 @@
     - [Project management](#project-management)
     - [Programming language](#programming-language)
       - [FP vs. OOP](#fp-vs-oop)
+    - [Over-engineering](#over-engineering)
     - [Reading](#reading)
     - [Releasing & deploying](#releasing--deploying)
     - [Security](#security)
