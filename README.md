@@ -13,7 +13,7 @@
     - [Biases](#biases)
     - [Career growth](#career-growth)
     - [Characters sets](#characters-sets)
-    - [Coding](#coding)
+    - [Coding & code quality](#coding--code-quality)
     - [Computer science](#computer-science)
     - [Databases](#databases)
     - [Debugging](#debugging)
