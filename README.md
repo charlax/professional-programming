@@ -18,7 +18,7 @@
     - [Databases](#databases)
     - [Debugging](#debugging)
     - [Design (visual, UX, UI)](#design-visual-ux-ui)
-    - [Design (OO modeling, patterns, anti-patterns, etc.)](#design-oo-modeling-patterns-anti-patterns-etc)
+    - [Design (OO modeling, architecture, patterns, anti-patterns, etc.)](#design-oo-modeling-architecture-patterns-anti-patterns-etc)
     - [Dev environment & tools](#dev-environment--tools)
     - [Diversity & inclusion](#diversity--inclusion)
     - [Documentation](#documentation)
