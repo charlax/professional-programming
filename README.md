@@ -170,13 +170,14 @@ I highly recommend reading [The Non-Designer's Design Book](http://www.amazon.co
 * [Microsoft's Rest API guidelines](https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md)
 * [Book recommendations from HackerNews](https://news.ycombinator.com/item?id=12711060)
 
-### Design (OO modeling, patterns, anti-patterns, etc.)
+### Design (OO modeling, architecture, patterns, anti-patterns, etc.)
 
 Here's a list of good books:
 
 * [Design Patterns: Elements of Reusable Object-Oriented Software](http://www.amazon.com/dp/0201633612/): dubbed "the gang of four", this is almost a required reading for any developer. A lot of those are a bit overkill for Python (because everything is an object, and dynamic typing), but the main idea (composition is better than inheritance) definitely is a good philosophy.
 * [Patterns of Enterprise Application Architecture](http://www.amazon.com/dp/0321127420/?tag=stackoverfl08-20): learn about how database are used in real world applications. Mike Bayer's SQLAlchemy has been heavily influenced by this book.
-* [Domain-Driven Design: Tackling Complexity in the Heart of Software](https://www.amazon.com/Domain-Driven-Design-Tackling-Complexity-Software/dp/0321125215), Eric Evans
+* [Domain-Driven Design: Tackling Complexity in the Heart of Software](https://www.amazon.com/Domain-Driven-Design-Tackling-Complexity-Software/dp/0321125215) 📖, Eric Evans
+* [Clean Architecture](https://www.goodreads.com/book/show/18043011-clean-architecture) 📖, Robert C. Martin. Uncle Bob proposes an architecture that leverages the Single Responsibility Principle to its fullest. A great way to start a new codebase. Also checkout the [clean architecture cheatsheet](cheatsheets/cheatsheets/Clean-Architecture-V1.0.pdf).
 
 Articles:
 
