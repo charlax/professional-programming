@@ -153,6 +153,10 @@ Biases don't only apply to hiring. For instance, the fundamental attribution bia
 * [Zero downtime database migrations](https://blog.rainforestqa.com/2014-06-27-zero-downtime-database-migrations/) (code examples are using Rails but this works great for any programming language)
 * [SQL styleguide](http://www.sqlstyle.guide/)
 
+### Data science
+
+* [A dirty dozen: twelve common metric interpretation pitfalls in online controlled experiments](https://blog.acolyer.org/2017/09/25/a-dirty-dozen-twelve-common-metric-interpretation-pitfalls-in-online-controlled-experiments/) 
+
 ### Debugging
 
 * [Rubber Duck Problem Solving](http://blog.codinghorror.com/rubber-duck-problem-solving/)
