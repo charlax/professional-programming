@@ -16,6 +16,7 @@
     - [Coding & code quality](#coding--code-quality)
     - [Computer science](#computer-science)
     - [Databases](#databases)
+    - [Data science](#data-science)
     - [Debugging](#debugging)
     - [Design (visual, UX, UI)](#design-visual-ux-ui)
     - [Design (OO modeling, architecture, patterns, anti-patterns, etc.)](#design-oo-modeling-architecture-patterns-anti-patterns-etc)
