@@ -48,7 +48,7 @@
     - [Tools](#tools)
     - [Version control (Git)](#version-control-git)
     - [Work ethics & work/life balance](#work-ethics--worklife-balance)
-    - [Webdesign](#webdesign)
+    - [Web development](#web-development)
     - [Writing for performance](#writing-for-performance)
   - [Concepts](#concepts)
 
@@ -412,8 +412,9 @@ Resources
 * [Your non-linear problem of 90% utilization](https://blog.asmartbear.com/utilization.html), Jason Cohen: why constantly running at 90% utilization is actually counter-productive.
 * [Evidence-based advice on how to be successful in any jobs](https://80000hours.org/career-guide/how-to-be-successful/): most self-help advices are not research-based. The ones listed in this article are.
 
-### Webdesign
+### Web development
 
+* [grab/front-end-guide](https://github.com/grab/front-end-guide): a study guide and introduction to the modern front end stack.
 * [Maintainable CSS](http://maintainablecss.com/)
 
 ### Writing for performance
