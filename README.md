@@ -204,6 +204,10 @@ Quotes:
 
 * "You can use an eraser on the drafting table or a sledge hammer on the construction site.", Frank Lloyd Wright
 
+#### Design: simplicity
+
+* [Simple Made Easy](https://www.infoq.com/presentations/Simple-Made-Easy) 🎞, Rich Hickey. This is an incredibly inspiring talk redefining simplicity, ease and complexity, and showing that solutions that look easy may actually harm your design.
+
 ### Dev environment & tools
 
 * [Awesome Dev Env](https://github.com/jondot/awesome-devenv)
