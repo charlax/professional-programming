@@ -30,10 +30,11 @@
     - [Incident response (alerting, outages, firefighting)](#incident-response-alerting-outages-firefighting)
     - [Internet](#internet)
     - [Interviewing](#interviewing)
-    - [JavaScript](#javascript)
     - [Learning](#learning)
     - [Project management](#project-management)
     - [Programming languages](#programming-languages)
+      - [Python](#python)
+      - [JavaScript](#javascript)
       - [FP vs. OOP](#fp-vs-oop)
     - [Over-engineering](#over-engineering)
     - [Reading](#reading)
@@ -277,13 +278,7 @@ Note: this is about you as an interviewee, **not** as an interviewer. To check o
 * [Top 10 algorithms in Interview Questions](http://www.geeksforgeeks.org/top-10-algorithms-in-interview-questions/)
 * [Questions to ask your interviewer](https://rkoutnik.com/articles/Questions-to-ask-your-interviewer.html)
 * [Interactive Python coding interview challenges](https://github.com/donnemartin/interactive-coding-challenges)
-* [tech-interview-handbook/cheatsheet.md](https://github.com/yangshun/tech-interview-handbook/blob/master/preparing/cheatsheet.md)
-
-### JavaScript
-
-JavaScript is such a pervasive language that it's almost required learning.
-
-* [mbeaudru/modern-js-cheatsheet](https://github.com/mbeaudru/modern-js-cheatsheet): cheatsheet for the JavaScript knowledge you will frequently encounter in modern projects.
+* [tech-interview-handbook/cheatsheet.md](https://github.com/yangshun/tech-interview-handbook/blob/master/preparing/cheatsheet.md)[](https://github.com/mbeaudru/modern-js-cheatsheet):)
 
 ### Learning
 
@@ -315,7 +310,15 @@ A bit more reading:
 * [Resources To Help You To Create Programming Languages](https://tomassetti.me/resources-create-programming-languages/)
 * [Effective Programs - 10 Years of Clojure](https://www.youtube.com/watch?v=2V1FtfBDsLU) 🎞, Rich Hickey. The author of Clojure reflects on his programming experience and explains the rationale behind some of Clojure's key design decisions.
 
+#### Python
+
 For Python feel free to checkout my [professional Python education repository](https://github.com/charlax/python-education).
+
+#### JavaScript
+
+JavaScript is such a pervasive language that it's almost required learning.
+
+* [mbeaudru/modern-js-cheatsheet](https://github.com/mbeaudru/modern-js-cheatsheet): cheatsheet for the JavaScript knowledge you will frequently encounter in modern projects.
 
 #### FP vs. OOP
 
