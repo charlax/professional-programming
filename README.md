@@ -20,6 +20,7 @@
     - [Debugging](#debugging)
     - [Design (visual, UX, UI)](#design-visual-ux-ui)
     - [Design (OO modeling, architecture, patterns, anti-patterns, etc.)](#design-oo-modeling-architecture-patterns-anti-patterns-etc)
+      - [Design: simplicity](#design-simplicity)
     - [Dev environment & tools](#dev-environment--tools)
     - [Diversity & inclusion](#diversity--inclusion)
     - [Documentation](#documentation)
@@ -298,22 +299,23 @@ Learn how to learn!
 
 See [Project management section on my engineering-management list of resources](https://github.com/charlax/engineering-management#project-management).
 
-### Programming language
+### Programming languages
 
-This is language-specific, for instance, checkout my [professional Python education doc](https://github.com/charlax/python-education).
+I would recommend learning:
 
-I'd recommend learning:
-
-* At least one dynamic language (Python, Ruby, JavaScript, etc.). Pretty useful for quick one-off automation scripts, and fastest to write for interviews.
-* At least one compiled language (Java, C, C++, etc.)
-* At least one more recent language to see where the industry is going (as of writing, Go, Swift, Rust, etc.)
-* At least one language that has first-class support for functional programming (Haskell, Scala, etc.)
+* JavaScript and may be one other interpreted language (Python, Ruby, etc.). Interpreted languages are useful for quick one-off automation scripts, and fastest to write for interviews.
+* A compiled language (Java, C, C++...).
+* A more recent language to see where the industry is going (as of writing, Go, Swift, Rust, Elixir...).
+* A language that has first-class support for functional programming (Haskell, Scala, Clojure...).
 
 A bit more reading:
 
 * [A brief, incomplete, mostly wrong history of programming languages](http://james-iry.blogspot.fr/2009/05/brief-incomplete-and-mostly-wrong.html)
 * [Types](https://gist.github.com/garybernhardt/122909856b570c5c457a6cd674795a9c)
 * [Resources To Help You To Create Programming Languages](https://tomassetti.me/resources-create-programming-languages/)
+* [Effective Programs - 10 Years of Clojure](https://www.youtube.com/watch?v=2V1FtfBDsLU) 🎞, Rich Hickey. The author of Clojure reflects on his programming experience and explains the rationale behind some of Clojure's key design decisions.
+
+For Python feel free to checkout my [professional Python education repository](https://github.com/charlax/python-education).
 
 #### FP vs. OOP
 
