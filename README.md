@@ -33,7 +33,7 @@
     - [JavaScript](#javascript)
     - [Learning](#learning)
     - [Project management](#project-management)
-    - [Programming language](#programming-language)
+    - [Programming languages](#programming-languages)
       - [FP vs. OOP](#fp-vs-oop)
     - [Over-engineering](#over-engineering)
     - [Reading](#reading)
