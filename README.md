@@ -72,7 +72,7 @@ I've found these books incredibly inspiring:
   Master](http://www.amazon.com/The-Pragmatic-Programmer-Journeyman-Master/dp/020161622X) 📖: hands-on the most inspiring and useful book I've read about programming.
 * [Code Complete: A Practical Handbook of Software
   Construction](http://www.amazon.com/Code-Complete-Practical-Handbook-Construction/dp/0735619670) 📖: a nice addition to The Programatic Programmer, gives you the necessary framework to talk about code.
-* [Release It!](http://www.amazon.com/Release-It-Production-Ready-Pragmatic-Programmers/dp/0978739213) 📖: this books goes beyond code and gives you best practices for building production-ready software. It will give you about 3 years worth of real-world experience.
+* [Release It!](https://smile.amazon.com/Release-Design-Deploy-Production-Ready-Software/dp/1680502395) 📖: this books goes beyond code and gives you best practices for building production-ready software. It will give you about 3 years worth of real-world experience.
 * [Scalability Rules: 50 Principles for Scaling Web
   Sites](https://smile.amazon.com/Scalability-Rules-Principles-Scaling-Sites/dp/013443160X) 📖
 * [The Linux Programming Interface: A Linux and UNIX System Programming Handbook](http://www.amazon.com/The-Linux-Programming-Interface-Handbook/dp/1593272200) 📖: outside of teaching you almost everything you need to know about Linux, this book will give you insights into how software evolves, and the value of having simple & elegant interfaces.
