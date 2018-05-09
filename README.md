@@ -429,6 +429,7 @@ Resources
 
 * [grab/front-end-guide](https://github.com/grab/front-end-guide): a study guide and introduction to the modern front end stack.
 * [Maintainable CSS](http://maintainablecss.com/)
+* [Front-End Developer Handbook 2018](https://frontendmasters.com/books/front-end-handbook/2018/), Cody Lindley
 
 ### Writing for performance
 
