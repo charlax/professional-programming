@@ -253,6 +253,12 @@ Articles
 Checkout my [list of management
 resources](https://github.com/charlax/engineering-management).
 
+### Exercises
+
+The best way to learn is to learn by doing.
+
+* [danistefanovic/build-your-own-x: build your own (insert technology here)](https://github.com/danistefanovic/build-your-own-x) 
+
 ### Incident response (alerting, outages, firefighting)
 
 * [Incident Response at Heroku](https://blog.heroku.com/archives/2014/5/9/incident-response-at-heroku)
