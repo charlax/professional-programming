@@ -27,6 +27,7 @@
     - [Dotfiles](#dotfiles)
     - [Editors & IDE](#editors--ide)
     - [Engineering management](#engineering-management)
+    - [Exercises](#exercises)
     - [Incident response (alerting, outages, firefighting)](#incident-response-alerting-outages-firefighting)
     - [Internet](#internet)
     - [Interviewing](#interviewing)
