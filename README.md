@@ -197,6 +197,7 @@ Articles:
 * [Education of a Programmer](https://hackernoon.com/education-of-a-programmer-aaecf2d35312): a developer's thoughts after 35 years in the industry. There's a particularly good section about design & complexity (see "the end to end argument", "layering and componentization").
 * Google's [API Design Guide](https://cloud.google.com/apis/design/): a general guide to design networked API.
 * [Domain-driven design](https://en.wikipedia.org/wiki/Domain-driven_design), Wikipedia.
+* [On the Spectrum of Abstraction](https://www.youtube.com/watch?v=mVVNJKv9esE) 🎞, Cheng Lou
 
 I maintain a [list of antipatterns](https://github.com/charlax/antipatterns) on another repo. This is a highly recommended read.
 
