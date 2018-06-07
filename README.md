@@ -333,6 +333,7 @@ JavaScript is such a pervasive language that it's almost required learning.
 
 * [Jargon from the functional programming world](https://github.com/hemanth/functional-programming-jargon)
 * [Goodbye, Object Oriented Programming](https://medium.com/@cscalfani/goodbye-object-oriented-programming-a59cda4c0e53#.39ax09e4k)
+* [Functional Programming & Haskell](https://www.youtube.com/watch?v=LnX3B9oaKzw): some good reasons to learn FP!
 
 ### Over-engineering
 
