@@ -344,6 +344,11 @@ JavaScript is such a pervasive language that it's almost required learning.
 
 John Gall, General systemantics, an essay on how systems work, and especially how they fail..., 1975 (this quote is sometime referred as "Galls' law")
 
+> "Software engineering is what happens to programming 
+> when you add time and other programmers."
+
+Rob Pike, [Go at Google: Language Design in the Service of Software Engineering](https://talks.golang.org/2012/splash.article)
+
 ### Reading
 
 * [Papers we love](https://github.com/papers-we-love/papers-we-love): papers from the computer science community to read and discuss. Can be a good source of inspiration of solving your design problems.
