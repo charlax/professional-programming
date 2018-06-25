@@ -373,10 +373,8 @@ Rob Pike, [Go at Google: Language Design in the Service of Software Engineering]
 ### Shell
 
 * [Awesome Shell](https://github.com/alebcay/awesome-shell)
-
-Resources
-
 * [Bash Hackers Wiki](http://wiki.bash-hackers.org/)
+* [dylanaraps/pure-bash-bible: a collection of pure bash alternatives to external processes.](https://github.com/dylanaraps/pure-bash-bible)
 * [Master the command line, in one page](https://github.com/jlevy/the-art-of-command-line) **must read**
 
 ### System architecture
