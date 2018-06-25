@@ -445,6 +445,7 @@ Rob Pike, [Go at Google: Language Design in the Service of Software Engineering]
 * [grab/front-end-guide](https://github.com/grab/front-end-guide): a study guide and introduction to the modern front end stack.
 * [Maintainable CSS](http://maintainablecss.com/)
 * [Front-End Developer Handbook 2018](https://frontendmasters.com/books/front-end-handbook/2018/), Cody Lindley
+* [A Directory of design and front-end resources](http://uigoodies.com/index.html)
 
 ### Writing for performance
 
