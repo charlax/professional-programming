@@ -300,6 +300,10 @@ Learn how to learn!
 * [You can increase your intelligence: 5 ways to maximize your cognitive potential](https://blogs.scientificamerican.com/guest-blog/you-can-increase-your-intelligence-5-ways-to-maximize-your-cognitive-potential/): forgive the clickbait title, it’s actually a good article.
 * [How to ask good questions](https://jvns.ca/blog/good-questions/), Julia Evans.
 
+### Problem solving
+
+* [Dealing with Hard Problems](https://artofproblemsolving.com/articles/hard-problems) 
+
 ### Project management
 
 See [Project management section on my engineering-management list of resources](https://github.com/charlax/engineering-management#project-management).
