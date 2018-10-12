@@ -32,6 +32,7 @@
     - [Internet](#internet)
     - [Interviewing](#interviewing)
     - [Learning](#learning)
+    - [Problem solving](#problem-solving)
     - [Project management](#project-management)
     - [Programming languages](#programming-languages)
       - [Python](#python)
