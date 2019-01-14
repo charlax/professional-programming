@@ -6,6 +6,7 @@
   - [Must read books](#must-read-books)
   - [Must-read articles](#must-read-articles)
   - [Other general material and list of resources](#other-general-material-and-list-of-resources)
+    - [Courses](#courses)
   - [Topics](#topics)
     - [Algorithm and data structures](#algorithm-and-data-structures)
     - [Attitude, habits, mindset](#attitude-habits-mindset)
@@ -96,6 +97,10 @@ There are some free books available, including:
 
 * [The Imposter's Handbook](https://bigmachine.io/products/the-imposters-handbook) - $30. From the author: "Don't have a CS Degree? Neither do I - That's why I wrote this book."
 * [mr-mig/every-programmer-should-know: a collection of (mostly) technical things every software developer should know](https://github.com/mr-mig/every-programmer-should-know)
+
+### Courses
+
+* [Google Tech Dev Guide](https://techdevguide.withgoogle.com/) 
 
 ## Topics
 
@@ -300,10 +305,17 @@ Learn how to learn!
 * [Tips for learning programming](http://blog.hiphipjorge.com/tips-for-learning-programming/)
 * [You can increase your intelligence: 5 ways to maximize your cognitive potential](https://blogs.scientificamerican.com/guest-blog/you-can-increase-your-intelligence-5-ways-to-maximize-your-cognitive-potential/): forgive the clickbait title, it’s actually a good article.
 * [How to ask good questions](https://jvns.ca/blog/good-questions/), Julia Evans.
+* [Stop Learning Frameworks](https://sizovs.net/2018/12/17/stop-learning-frameworks/) 
+
+Richard Feynman's Learning Strategy:
+
+1. Step 1: Continually ask "Why?”
+2. Step 2: When you learn something, learn it to where you can explain it to a child.
+3. Step 3: Instead of arbitrarily memorizing things, look for the explanation that makes it obvious.
 
 ### Problem solving
 
-* [Dealing with Hard Problems](https://artofproblemsolving.com/articles/hard-problems) 
+* [Dealing with Hard Problems](https://artofproblemsolving.com/articles/hard-problems)
 
 ### Project management
 
@@ -350,7 +362,7 @@ JavaScript is such a pervasive language that it's almost required learning.
 
 John Gall, General systemantics, an essay on how systems work, and especially how they fail..., 1975 (this quote is sometime referred as "Galls' law")
 
-> "Software engineering is what happens to programming 
+> "Software engineering is what happens to programming
 > when you add time and other programmers."
 
 Rob Pike, [Go at Google: Language Design in the Service of Software Engineering](https://talks.golang.org/2012/splash.article)
