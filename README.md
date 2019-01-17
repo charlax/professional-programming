@@ -306,6 +306,7 @@ Learn how to learn!
 * [You can increase your intelligence: 5 ways to maximize your cognitive potential](https://blogs.scientificamerican.com/guest-blog/you-can-increase-your-intelligence-5-ways-to-maximize-your-cognitive-potential/): forgive the clickbait title, it’s actually a good article.
 * [How to ask good questions](https://jvns.ca/blog/good-questions/), Julia Evans.
 * [Stop Learning Frameworks](https://sizovs.net/2018/12/17/stop-learning-frameworks/) 
+* [Learning How to Learn](https://www.coursera.org/learn/learning-how-to-learn): Powerful mental tools to help you master tough subjects
 
 Richard Feynman's Learning Strategy:
 
