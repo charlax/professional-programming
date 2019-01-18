@@ -445,6 +445,7 @@ Rob Pike, [Go at Google: Language Design in the Service of Software Engineering]
 * [Eradicating Non-Determinism in Tests](http://www.martinfowler.com/articles/nonDeterminism.html), Martin Fowler
 * ["I get paid for code that works, not for tests"](https://istacee.wordpress.com/2013/09/18/kent-beck-i-get-paid-for-code-that-works-not-for-tests/)
 * [Software Testing Anti-patterns](http://blog.codepipes.com/testing/software-testing-antipatterns.html), Kostis Kapelonis.
+* [List of Software Testing Resources](https://github.com/ligurio/awesome-software-quality)
 
 ### Tools
 
