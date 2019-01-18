@@ -74,7 +74,7 @@ I've found these books incredibly inspiring:
 * [The Pragmatic Programmer: From Journeyman to
   Master](http://www.amazon.com/The-Pragmatic-Programmer-Journeyman-Master/dp/020161622X) 📖: hands-on the most inspiring and useful book I've read about programming.
 * [Code Complete: A Practical Handbook of Software
-  Construction](http://www.amazon.com/Code-Complete-Practical-Handbook-Construction/dp/0735619670) 📖: a nice addition to The Programatic Programmer, gives you the necessary framework to talk about code.
+  Construction](http://www.amazon.com/Code-Complete-Practical-Handbook-Construction/dp/0735619670) 📖: a nice addition to The Pragmatic Programmer, gives you the necessary framework to talk about code.
 * [Release It!](https://smile.amazon.com/Release-Design-Deploy-Production-Ready-Software/dp/1680502395) 📖: this books goes beyond code and gives you best practices for building production-ready software. It will give you about 3 years worth of real-world experience.
 * [Scalability Rules: 50 Principles for Scaling Web
   Sites](https://smile.amazon.com/Scalability-Rules-Principles-Scaling-Sites/dp/013443160X) 📖
