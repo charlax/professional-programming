@@ -121,7 +121,7 @@ Let's be honest: algo can be a pretty dry topic. [This quora question](https://w
 * [The traits of a proficient programmer](https://www.oreilly.com/ideas/the-traits-of-a-proficient-programmer)
 * [The tao of programming](http://www.mit.edu/~xela/tao.html): a set of parables about programming.
 * [Taking Ownership Is The Most Effective Way to Get What You Want](http://www.theeffectiveengineer.com/blog/take-ownership-of-your-goals)
-* [Finding Time to Become a Better Developer](https://medium.freecodecamp.com/finding-time-to-become-a-better-developer-eebc154881b2#.4i2t1z6q2)
+* [Finding Time to Become a Better Developer](https://medium.freecodecamp.org/finding-time-to-become-a-better-developer-eebc154881b2)
 
 ### Automation
 
