@@ -433,6 +433,7 @@ Rob Pike, [Go at Google: Language Design in the Service of Software Engineering]
 ### Site Reliability Engineering (SRE)
 
 * [Graduating from Bootcamp and interested in becoming a Site Reliability Engineer?](https://medium.com/@tammybutow/graduating-from-bootcamp-and-interested-in-becoming-a-site-reliability-engineer-b69a38ce858b): a great collection of resources to learn about SRE.
+* [Site Reliability Engineering](https://landing.google.com/sre/books/): written by members of Google's SRE team, with a comprehensive analysis of the entire software lifecycle - how to build, deploy, monitor, and maintain large scale systems.
 
 ### Testing
 
