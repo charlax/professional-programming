@@ -149,6 +149,7 @@ Biases don't only apply to hiring. For instance, the fundamental attribution bia
 * [Lessons learned writing highly available code](https://medium.com/imgur-engineering/lessons-learned-writing-highly-available-code-7eaf3d7aae00#.u7c4j6hac)
 * [The Ten Commandments of Egoless Programming](http://blog.codinghorror.com/the-ten-commandments-of-egoless-programming/)
 * [Clean Code: A Handbook of Agile Software Craftsmanship](https://www.goodreads.com/book/show/3735293-clean-code) 📖, Robert C. Martin. Describes numerous useful best practices. A bit long. There's also a [clean code cheatsheet](cheatsheets/Clean-Code-V2.4.pdf).
+* [Best engineering practices: how to fix a bug?](https://dev.to/wemake-services/best-engineering-practices-how-to-fix-a-bug-58g5)
 
 ### Computer science
 
