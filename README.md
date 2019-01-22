@@ -65,7 +65,7 @@
 
 A collection of full-stack resources for programmers.
 
-The goal of this page is to make you a more proficient developer. You'll find only resources that I've found truly inspiring, or that have been become timeless classics.
+The goal of this page is to make you a more proficient developer. You'll find only resources that I've found truly inspiring, or that have become timeless classics.
 
 ## Must read books
 
