@@ -334,7 +334,7 @@ See [Project management section on my engineering-management list of resources](
 
 I would recommend learning:
 
-* JavaScript may be another interpreted language (Python, Ruby, etc.). Interpreted languages are useful for quick one-off automation scripts, and fastest to write for interviews.
+* JavaScript and maybe another interpreted language (Python, Ruby, etc.). Interpreted languages are useful for quick one-off automation scripts, and fastest to write for interviews. JavaScript is ubiquitous.
 * A compiled language (Java, C, C++...).
 * A more recent language to see where the industry is going (as of writing, Go, Swift, Rust, Elixir...).
 * A language that has first-class support for functional programming (Haskell, Scala, Clojure...).
