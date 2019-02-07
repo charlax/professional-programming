@@ -3,7 +3,7 @@
 # Table of Contents
 
 - [Professional Programming](#professional-programming)
-  - [Must read books](#must-read-books)
+  - [Must-read books](#must-read-books)
   - [Must-read articles](#must-read-articles)
   - [Other general material and list of resources](#other-general-material-and-list-of-resources)
     - [Courses](#courses)
@@ -73,7 +73,7 @@ This page is not meant to be comprehensive. I am trying to keep it light and not
 
 Feel free to open a PR to contribute! I will not be adding everything: as stated above, I am trying to keep the list concise.
 
-## Must read books
+## Must-read books
 
 I've found these books incredibly inspiring:
 
@@ -116,7 +116,7 @@ There are some free books available, including:
 * Or [The Algorithm Design Manual](https://www.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1849967202?ie=UTF8&qid=1297127794&ref_=sr_1_1&sr=8-1)
 * Try out some algorithms on [Project Euler](https://projecteuler.net/)
 
-Let's be honest: algo can be a pretty dry topic. [This quora question](https://www.quora.com/Is-there-a-book-that-teaches-algorithms-data-structures-and-other-computer-science-basics-in-a-fun-way) lists some funnier learning alternative, including:
+Let's be honest: algorithms can be a pretty dry topic. [This quora question](https://www.quora.com/Is-there-a-book-that-teaches-algorithms-data-structures-and-other-computer-science-basics-in-a-fun-way) lists some funnier learning alternative, including:
 
 * [Grokking Algorithms](https://www.amazon.com/dp/1617292230/ref=cm_sw_su_dp)
 * [Essential Algorithms](https://www.amazon.com/Essential-Algorithms-Practical-Approach-Computer/dp/1118612108?ie=UTF8&*Version*=1&*entries*=0)
@@ -217,9 +217,7 @@ I maintain a [list of antipatterns](https://github.com/charlax/antipatterns) on 
 * [Composition Instead Of Inheritance](http://c2.com/cgi/wiki?CompositionInsteadOfInheritance)
 * [Complexity and Strategy](https://hackernoon.com/complexity-and-strategy-325cd7f59a92): interesting perspective on complexity and flexibility with really good examples (e.g. Google Apps Suite vs. Microsoft Office).
 
-Quotes:
-
-* "You can use an eraser on the drafting table or a sledge hammer on the construction site.", Frank Lloyd Wright
+> You can use an eraser on the drafting table or a sledge hammer on the construction site. (Frank Lloyd Wright)
 
 #### Design: simplicity
 
@@ -239,7 +237,7 @@ Tools
 
 ### Diversity & inclusion
 
-Checkout my [list of management
+Check out my [list of management
 resources](https://github.com/charlax/engineering-management).
 
 ### Documentation
