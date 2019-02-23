@@ -128,6 +128,7 @@ Let's be honest: algorithms can be a pretty dry topic. [This quora question](htt
 * [The tao of programming](http://www.mit.edu/~xela/tao.html): a set of parables about programming.
 * [Taking Ownership Is The Most Effective Way to Get What You Want](http://www.theeffectiveengineer.com/blog/take-ownership-of-your-goals)
 * [Finding Time to Become a Better Developer](https://medium.freecodecamp.org/finding-time-to-become-a-better-developer-eebc154881b2)
+* [Ten minutes a day](https://blog.usejournal.com/ten-minutes-a-day-e2fa1084f924): how Alex Allain wrote a book in less than 200 hours, by writing 10 minutes *every* day.
 
 ### Automation
 
@@ -170,6 +171,10 @@ Biases don't only apply to hiring. For instance, the fundamental attribution bia
 * [SQL styleguide](http://www.sqlstyle.guide/)
 * [Algorithms Behind Modern Storage Systems](https://queue.acm.org/detail.cfm?id=3220266), ACM Queue
 
+### Data formats
+
+* [Falsehoods Programmers Believe About Phone Numbers](https://github.com/googlei18n/libphonenumber/blob/master/FALSEHOODS.md), Google's `libphonenumber`.
+
 ### Data science
 
 * [A dirty dozen: twelve common metric interpretation pitfalls in online controlled experiments](https://blog.acolyer.org/2017/09/25/a-dirty-dozen-twelve-common-metric-interpretation-pitfalls-in-online-controlled-experiments/)
@@ -210,6 +215,7 @@ Articles:
 * Google's [API Design Guide](https://cloud.google.com/apis/design/): a general guide to design networked API.
 * [Domain-driven design](https://en.wikipedia.org/wiki/Domain-driven_design), Wikipedia.
 * [On the Spectrum of Abstraction](https://www.youtube.com/watch?v=mVVNJKv9esE) 🎞, Cheng Lou
+* [The “Bug-O” Notation](https://overreacted.io/the-bug-o-notation/), Dan Abramov
 
 I maintain a [list of antipatterns](https://github.com/charlax/antipatterns) on another repo. This is a highly recommended read.
 
@@ -358,6 +364,7 @@ JavaScript is such a pervasive language that it's almost required learning.
 * [Jargon from the functional programming world](https://github.com/hemanth/functional-programming-jargon)
 * [Goodbye, Object Oriented Programming](https://medium.com/@cscalfani/goodbye-object-oriented-programming-a59cda4c0e53#.39ax09e4k)
 * [Functional Programming & Haskell](https://www.youtube.com/watch?v=LnX3B9oaKzw): some good reasons to learn FP!
+* [Functional Programming Fundamentals](https://www.matthewgerstman.com/functional-programming-fundamentals/): short introduction to FP and its advantages.
 
 ### Over-engineering
 
@@ -449,6 +456,7 @@ Rob Pike, [Go at Google: Language Design in the Service of Software Engineering]
 * [Eradicating Non-Determinism in Tests](http://www.martinfowler.com/articles/nonDeterminism.html), Martin Fowler
 * ["I get paid for code that works, not for tests"](https://istacee.wordpress.com/2013/09/18/kent-beck-i-get-paid-for-code-that-works-not-for-tests/)
 * [Software Testing Anti-patterns](http://blog.codepipes.com/testing/software-testing-antipatterns.html), Kostis Kapelonis.
+* [Write tests. Not too many. Mostly integration.](https://blog.kentcdodds.com/write-tests-not-too-many-mostly-integration-5e8c7fff591c) for a contrarian take about unit testing...
 
 ### Tools
 
