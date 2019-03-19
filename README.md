@@ -17,6 +17,7 @@
     - [Coding & code quality](#coding--code-quality)
     - [Computer science](#computer-science)
     - [Databases](#databases)
+    - [Data formats](#data-formats)
     - [Data science](#data-science)
     - [Debugging](#debugging)
     - [Design (visual, UX, UI)](#design-visual-ux-ui)
@@ -103,6 +104,7 @@ There are some free books available, including:
 
 * [The Imposter's Handbook](https://bigmachine.io/products/the-imposters-handbook) - $30. From the author: "Don't have a CS Degree? Neither do I - That's why I wrote this book."
 * [mr-mig/every-programmer-should-know: a collection of (mostly) technical things every software developer should know](https://github.com/mr-mig/every-programmer-should-know)
+* [Famous Laws Of Software Development](https://www.timsommer.be/famous-laws-of-software-development/)
 
 ### Courses
 
@@ -145,6 +147,7 @@ Biases don't only apply to hiring. For instance, the fundamental attribution bia
 * [The Conjoined Triangles of Senior-Level Development](http://frontside.io/blog/2016/07/07/the-conjoined-triangles-of-senior-level-development.html) looks into how to define a senior engineer.
 * [Ten Principles for Growth as an Engineer](https://medium.com/@daniel.heller/ten-principles-for-growth-69015e08c35b), Dan Heller.
 * [Don't Call Yourself a Programmer](https://www.kalzumeus.com/2011/10/28/dont-call-yourself-a-programmer/), Patrick McKenzie.
+* [On being an Engineering Manager](https://nickmchardy.com/2019/02/on-being-an-engineering-manager.html)
 
 ### Characters sets
 
