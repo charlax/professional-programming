@@ -3,6 +3,7 @@
 # Table of Contents
 
 - [Professional Programming](#professional-programming)
+  - [Contributing to this list](#contributing-to-this-list)
   - [Must-read books](#must-read-books)
   - [Must-read articles](#must-read-articles)
   - [Other general material and list of resources](#other-general-material-and-list-of-resources)
