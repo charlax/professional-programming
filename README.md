@@ -485,6 +485,7 @@ Rob Pike, [Go at Google: Language Design in the Service of Software Engineering]
 * [Maintainable CSS](http://maintainablecss.com/)
 * [Front-End Developer Handbook 2018](https://frontendmasters.com/books/front-end-handbook/2018/), Cody Lindley
 * [A Directory of design and front-end resources](http://uigoodies.com/index.html)
+* [Working with Webhooks](https://requestbin.com/blog/working-with-webhooks/) : a comprehensive introduction to webhooks aimed at developers.
 
 ### Writing for performance
 
