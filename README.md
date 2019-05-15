@@ -444,7 +444,7 @@ Rob Pike, [Go at Google: Language Design in the Service of Software Engineering]
 * [The Walking Dead - A Survival Guide to Resilient Applications](https://speakerdeck.com/daschl/the-walking-dead-a-survival-guide-to-resilient-applications)
 * [Defensive Programming & Resilient systems in Real World (TM)](https://speakerdeck.com/tuenti/defensive-programming-and-resilient-systems-in-real-world-tm)
 * [Full Stack Fest: Architectural Patterns of Resilient Distributed Systems](https://speakerdeck.com/randommood/full-stack-fest-architectural-patterns-of-resilient-distributed-systems)
-* [Resilience Engineering Notes](http://resiliencepapers.club/)
+* [Resilience Engineering Notes](http://resiliencepapers.club/): comprehensive list of resources on resilience engineering
 
 ### Site Reliability Engineering (SRE)
 
