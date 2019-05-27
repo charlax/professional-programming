@@ -10,6 +10,7 @@
     - [Courses](#courses)
   - [Topics](#topics)
     - [Algorithm and data structures](#algorithm-and-data-structures)
+    - [API design](#api-design)
     - [Attitude, habits, mindset](#attitude-habits-mindset)
     - [Automation](#automation)
     - [Biases](#biases)
@@ -17,6 +18,7 @@
     - [Characters sets](#characters-sets)
     - [Coding & code quality](#coding--code-quality)
     - [Computer science](#computer-science)
+    - [Configuration](#configuration)
     - [Databases](#databases)
     - [Data formats](#data-formats)
     - [Data science](#data-science)
@@ -51,6 +53,7 @@
       - [Stability](#stability)
       - [Resiliency](#resiliency)
     - [Site Reliability Engineering (SRE)](#site-reliability-engineering-sre)
+    - [Technical debt](#technical-debt)
     - [Testing](#testing)
     - [Tools](#tools)
     - [Version control (Git)](#version-control-git)
@@ -124,6 +127,12 @@ Let's be honest: algorithms can be a pretty dry topic. [This quora question](htt
 * [Grokking Algorithms](https://www.amazon.com/dp/1617292230/ref=cm_sw_su_dp)
 * [Essential Algorithms](https://www.amazon.com/Essential-Algorithms-Practical-Approach-Computer/dp/1118612108?ie=UTF8&*Version*=1&*entries*=0)
 
+
+### API design
+
+* [Why you should use links, not keys, to represent relationships in APIs](https://cloud.google.com/blog/products/application-development/api-design-why-you-should-use-links-not-keys-to-represent-relationships-in-apis), Martin Nally, Google
+	* "Using links instead of foreign keys to express relationships in APIs reduces the amount of information a client needs to know to use an API, and reduces the ways in which clients and servers are coupled to each other."
+
 ### Attitude, habits, mindset
 
 * [Mastering Programming](https://www.prod.facebook.com/notes/kent-beck/mastering-programming/1184427814923414#), Kent Beck.
@@ -149,6 +158,26 @@ Biases don't only apply to hiring. For instance, the fundamental attribution bia
 * [Ten Principles for Growth as an Engineer](https://medium.com/@daniel.heller/ten-principles-for-growth-69015e08c35b), Dan Heller.
 * [Don't Call Yourself a Programmer](https://www.kalzumeus.com/2011/10/28/dont-call-yourself-a-programmer/), Patrick McKenzie.
 * [On being an Engineering Manager](https://nickmchardy.com/2019/02/on-being-an-engineering-manager.html)
+* [The career advice I wish I had at 25](https://www.linkedin.com/pulse/career-advice-i-wish-had-25-shane-rodgers/?trk=hp-feed-article-title-like)
+	* A career is a marathon, not a sprint
+	* Most success comes from repetition, not new things
+	* If work was really so great all the rich people would have the jobs
+	* Management is about people, not things
+	* Genuinely listen to others
+	* Recognise that staff are people with finite emotional capacity
+	* Don’t just network with people your own age
+	* Never sacrifice personal ethics for a work reason
+	* Recognise that failure is learning
+* [Career advice I wish I’d been given when I was young](https://80000hours.org/2019/04/career-advice-i-wish-id-been-given-when-i-was-young/)
+	* Don’t focus too much on long-term plans.
+	* Find good thinkers and cold-call the ones you most admire.
+	* Assign a high value to productivity over your whole lifespan.
+	* Don’t over-optimise things that aren’t your top priority.
+	* Read a lot, and read things that people around you aren’t reading.
+	* Reflect seriously on what problem to prioritise solving. 
+	* Read more history.
+* [Why Good Developers are Promoted into Unhappiness](https://robwalling.com/2007/06/27/why-good-developers-are-promoted-into-unhappiness/), Rob Walling. Or why management might not be for you.
+
 
 ### Characters sets
 
@@ -165,6 +194,13 @@ Biases don't only apply to hiring. For instance, the fundamental attribution bia
 * [What every computer science major should know](http://matt.might.net/articles/what-cs-majors-should-know/)
 * [Teach Yourself Computer Science](https://teachyourselfcs.com/): an opinionated set of the best CS resources.
 
+### Configuration
+
+* [The downsides of JSON for config files](https://arp242.net/weblog/JSON_as_configuration_files-_please_dont.html), Martin Tournoij.
+	* Can't add comments
+	* Excessive quotation and syntax noise
+	* Using DC (declarative configuration) to control logic is often not a good idea.
+
 ### Databases
 
 * [A plain english introduction to CAP Theorem](http://ksat.me/a-plain-english-introduction-to-cap-theorem/)
@@ -174,6 +210,7 @@ Biases don't only apply to hiring. For instance, the fundamental attribution bia
 * [Zero downtime database migrations](https://blog.rainforestqa.com/2014-06-27-zero-downtime-database-migrations/) (code examples are using Rails but this works great for any programming language)
 * [SQL styleguide](http://www.sqlstyle.guide/)
 * [Algorithms Behind Modern Storage Systems](https://queue.acm.org/detail.cfm?id=3220266), ACM Queue
+* [Let's Build a Simple Database](https://cstack.github.io/db_tutorial/)
 
 ### Data formats
 
@@ -322,7 +359,11 @@ Learn how to learn!
 * [You can increase your intelligence: 5 ways to maximize your cognitive potential](https://blogs.scientificamerican.com/guest-blog/you-can-increase-your-intelligence-5-ways-to-maximize-your-cognitive-potential/): forgive the clickbait title, it’s actually a good article.
 * [How to ask good questions](https://jvns.ca/blog/good-questions/), Julia Evans.
 * [Stop Learning Frameworks](https://sizovs.net/2018/12/17/stop-learning-frameworks/) 
-* [Learning How to Learn](https://www.coursera.org/learn/learning-how-to-learn): Powerful mental tools to help you master tough subjects
+* [Learning How to Learn](https://www.coursera.org/learn/learning-how-to-learn): powerful mental tools to help you master tough subjects
+* [Why books don’t work](https://andymatuschak.org/books/), Andy Matuschak.
+	* "As a medium, books are surprisingly bad at conveying knowledge, and readers mostly don’t realize it."
+	* "In learning sciences, we call this model “transmissionism.” It’s the notion that knowledge can be directly transmitted from teacher to student, like transcribing text from one page onto another. If only!"
+	* "By re-testing yourself on material you’ve learned over expanding intervals, you can cheaply and reliably commit huge volumes of information to long-term memory."
 
 Richard Feynman's Learning Strategy:
 
@@ -353,6 +394,8 @@ A bit more reading:
 * [Types](https://gist.github.com/garybernhardt/122909856b570c5c457a6cd674795a9c)
 * [Resources To Help You To Create Programming Languages](https://tomassetti.me/resources-create-programming-languages/)
 * [Effective Programs - 10 Years of Clojure](https://www.youtube.com/watch?v=2V1FtfBDsLU) 🎞, Rich Hickey. The author of Clojure reflects on his programming experience and explains the rationale behind some of Clojure's key design decisions.
+* [Learn more programming languages, even if you won't use them](https://thorstenball.com/blog/2019/04/09/learn-more-programming-languages/), Thorsten Ball
+	* These new perspectives, these ideas and patterns — they linger, they stay with you, even if you end up in another language. And that is powerful enough to keep on learning new languages, because one of the best things that can happen to you when you’re trying to solve a problem is a change of perspective.
 
 #### Python
 
@@ -451,8 +494,19 @@ Rob Pike, [Go at Google: Language Design in the Service of Software Engineering]
 * [Graduating from Bootcamp and interested in becoming a Site Reliability Engineer?](https://medium.com/@tammybutow/graduating-from-bootcamp-and-interested-in-becoming-a-site-reliability-engineer-b69a38ce858b): a great collection of resources to learn about SRE.
 * [Site Reliability Engineering](https://landing.google.com/sre/books/): written by members of Google's SRE team, with a comprehensive analysis of the entire software lifecycle - how to build, deploy, monitor, and maintain large scale systems.
 
+### Technical debt
+
+* [TechnicalDebt](https://martinfowler.com/bliki/TechnicalDebt.html), Martin Fowler.
+
 ### Testing
 
+* [Why bother writing tests at all?](https://dave.cheney.net/2019/05/14/why-bother-writing-tests-at-all), Dave Cheney. A good intro to the topic.
+	* Even if you don’t, someone will test your software
+	* The majority of testing should be performed by development teams
+	* Manual testing should not be the majority of your testing because manual testing is O(n)
+	* Tests are the critical component that ensure you can always ship your master branch
+	* Tests lock in behaviour
+	* Tests give you confidence to change someone else’s code
 * [Testing Strategies in a Microservices Architecture](http://martinfowler.com/articles/microservice-testing/) (Martin Fowler) is an awesome resources explaining how to test a service properly.
 * [A Quick Puzzle to Test Your Problem Solving](http://www.nytimes.com/interactive/2015/07/03/upshot/a-quick-puzzle-to-test-your-problem-solving.html?_r=0)... and a great way to learn about confirmation bias and why you're mostly writing positive test cases.
 * [The test pyramid](http://martinfowler.com/bliki/TestPyramid.html)
@@ -468,6 +522,8 @@ Rob Pike, [Go at Google: Language Design in the Service of Software Engineering]
 ### Tools
 
 * [DevDocs API Documentation](https://devdocs.io/): a repository for multiple API docs (see also [Dash for macOS](https://kapeli.com/dash)).
+* [DevChecklist](https://devchecklists.com/): a collaborative space for sharing checklists that help ensure software quality
+
 
 ### Version control (Git)
 
@@ -484,7 +540,7 @@ Rob Pike, [Go at Google: Language Design in the Service of Software Engineering]
 
 * [grab/front-end-guide](https://github.com/grab/front-end-guide): a study guide and introduction to the modern front end stack.
 * [Maintainable CSS](http://maintainablecss.com/)
-* [Front-End Developer Handbook 2018](https://frontendmasters.com/books/front-end-handbook/2018/), Cody Lindley
+* [Front-End Developer Handbook 2019](https://frontendmasters.com/books/front-end-handbook/2019/), Cody Lindley
 * [A Directory of design and front-end resources](http://uigoodies.com/index.html)
 
 ### Writing for performance
