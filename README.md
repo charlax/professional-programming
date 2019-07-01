@@ -93,6 +93,7 @@ I've found these books incredibly inspiring:
 * [Scalability Rules: 50 Principles for Scaling Web
   Sites](https://smile.amazon.com/Scalability-Rules-Principles-Scaling-Sites/dp/013443160X) 📖
 * [The Linux Programming Interface: A Linux and UNIX System Programming Handbook](http://www.amazon.com/The-Linux-Programming-Interface-Handbook/dp/1593272200) 📖: outside of teaching you almost everything you need to know about Linux, this book will give you insights into how software evolves, and the value of having simple & elegant interfaces.
+* [Structure and interpretation of Computer Programs](https://web.mit.edu/alexmv/6.037/sicp.pdf) (free) 📖: One of the most influential textbooks in Computer Science (written and used at MIT), SICP has been influential in CS education. [Byte](https://en.wikipedia.org/wiki/Byte_(magazine)) recommended SICP "for professional programmers who are really interested in their profession".
 
 There are some free books available, including:
 
