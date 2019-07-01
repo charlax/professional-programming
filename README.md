@@ -350,7 +350,7 @@ Note: this is about you as an interviewee, **not** as an interviewer. To check o
 * [Interactive Python coding interview challenges](https://github.com/donnemartin/interactive-coding-challenges)
 * [tech-interview-handbook/cheatsheet.md](https://github.com/yangshun/tech-interview-handbook/blob/master/preparing/cheatsheet.md)[](https://github.com/mbeaudru/modern-js-cheatsheet):)
 
-### Learning
+### Learning & memorising
 
 Learn how to learn!
 
@@ -365,6 +365,27 @@ Learn how to learn!
 	* "As a medium, books are surprisingly bad at conveying knowledge, and readers mostly don’t realize it."
 	* "In learning sciences, we call this model “transmissionism.” It’s the notion that knowledge can be directly transmitted from teacher to student, like transcribing text from one page onto another. If only!"
 	* "By re-testing yourself on material you’ve learned over expanding intervals, you can cheaply and reliably commit huge volumes of information to long-term memory."
+* [Strategies, Tips, and Tricks for Anki](https://senrigan.io/blog/everything-i-know-strategies-tips-and-tricks-for-spaced-repetition-anki/): those advices work for any tool actually
+	* Add images. Our brains are wired visually, so this helps retention.
+	* Don't add things you don't understand.
+	* Don't add cards memorizing entire lists.
+	* Write it out. For wrong answers, I'll write it on paper. The act of writing is meditative. I really enjoy this.
+	* Keep on asking yourself why? why does this work? why does it work this way? Force yourself to understand the root of a topic.
+	* Cornell Method: when reading a topic, write out questions on the margins to quiz yourself.
+	* Pretend you have to teach it
+	* Use mnemonics phrases like PEMDAS for lists and other hard-to-remember topics.
+	* Delete cards that don't make sense or you don't want to remember anymore.
+* [Effective learning: Twenty rules of formulating knowledge](https://www.supermemo.com/en/archives1990-2015/articles/20rules)
+	* Build upon the basics
+	* Stick to the minimum information principle: the material you learn must be formulated in as simple way as it is
+	* Cloze deletion is easy and effective: Kaleida's mission was to create a ... It finally produced one, called Script X. But it took three years
+	* Graphic deletion is as good as cloze deletion
+	* Avoid sets
+	* Avoid enumerations
+	* Combat interference - even the simplest items can be completely intractable if they are similar to other items. Use examples, context cues, vivid illustrations, refer to emotions, and to your personal life
+	* Personalize and provide examples - personalization might be the most effective way of building upon other memories. Your personal life is a gold mine of facts and events to refer to. As long as you build a collection for yourself, use personalization richly to build upon well established memories
+	* Provide sources - sources help you manage the learning process, updating your knowledge, judging its reliability, or importance
+	* Prioritize - effective learning is all about prioritizing.
 
 Richard Feynman's Learning Strategy:
 
@@ -543,6 +564,11 @@ Rob Pike, [Go at Google: Language Design in the Service of Software Engineering]
 * [Maintainable CSS](http://maintainablecss.com/)
 * [Front-End Developer Handbook 2019](https://frontendmasters.com/books/front-end-handbook/2019/), Cody Lindley
 * [A Directory of design and front-end resources](http://uigoodies.com/index.html)
+
+### Writing
+
+* [Undervalued Software Engineering Skills: Writing Well](https://blog.pragmaticengineer.com/on-writing-well/)
+	* From the HN discussion: "Writing a couple of pages of design docs or an Amazon-style 6 pager or whatever might take a few days of work, but can save weeks or more of wasted implementation time when you realise your system design was flawed or it doesn't address any real user needs."
 
 ### Writing for performance
 
