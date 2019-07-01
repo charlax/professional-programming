@@ -36,7 +36,9 @@
     - [Incident response (alerting, outages, firefighting)](#incident-response-alerting-outages-firefighting)
     - [Internet](#internet)
     - [Interviewing](#interviewing)
-    - [Learning & memorising](#learning--memorising)
+    - [Learning & memorizing](#learning--memorizing)
+    - [Low-level](#low-level)
+    - [Network](#network)
     - [Problem solving](#problem-solving)
     - [Project management](#project-management)
     - [Programming languages](#programming-languages)
@@ -103,8 +105,40 @@ There are some free books available, including:
 * [On Being A Senior Engineer](http://www.kitchensoap.com/2012/10/25/on-being-a-senior-engineer/)
 * [Lessons Learned in Software Development](http://henrikwarne.com/2015/04/16/lessons-learned-in-software-development/): one of those articles that give you years of hard-earned lessons, all in one short article. Must read.
 * [Things I Learnt The Hard Way](https://blog.juliobiason.net/thoughts/things-i-learnt-the-hard-way/)
+	* Spec first, then code
+	* Tests make better APIs
+	* Future thinking is future trashing
+	* Documentation is a love letter to your future self
+	* Sometimes, it's better to let the application crash than do nothing
+	* Understand and stay away of cargo cult
+	* "Right tool for the job" is just to push an agenda
+	* Learn the basics functional programming
+	* ALWAYS use timezones with your dates
+	* ALWAYS use UTF-8
+	* Create libraries
+	* Learn to monitor
+	* Explicit is better than implicit
+	* Companies look for specialists but keep generalists longer
+	* The best secure way to deal with user data is not to capture it
+	* When it's time to stop, it's time to stop
+	* You're responsible for the use of your code
+	* Don't tell "It's done" when it's not
+	* Pay attention on how people react to you
+	* Beware of micro-aggressions
+	* Keep a list of "Things I Don't Know"
 * [Signs that you're a good programmer](http://www.yacoset.com/Home/signs-that-you-re-a-good-programmer)
 * [Signs that you're a bad programmer](http://www.yacoset.com/Home/signs-that-you-re-a-bad-programmer)
+* [7 absolute truths I unlearned as junior developer](https://monicalent.com/blog/2019/06/03/absolute-truths-unlearned-as-junior-developer/)
+	* Early in your career, you can learn 10x more in a supportive team in 1 year, than coding on your own
+	* Every company has problems, every company has technical debt. 
+	* Being overly opinionated on topics you lack real-world experience with is pretty arrogant.
+	* Many conference talks cover proof of concepts rather than real-world scenarios.
+	* Dealing with legacy is completely normal.
+	* Architecture is more important than nitpicking.
+	* Focus on automation over documentation where appropriate.
+	* Having some technical debt is healthy.
+	* Senior engineers must develop many skills besides programming.
+	* We’re all still junior in some areas.
 
 ## Other general material and list of resources
 
@@ -190,6 +224,11 @@ Biases don't only apply to hiring. For instance, the fundamental attribution bia
 * [Write code that is easy to delete, not easy to extend](http://programmingisterrible.com/post/139222674273/write-code-that-is-easy-to-delete-not-easy-to)
 * [The Ten Commandments of Egoless Programming](http://blog.codinghorror.com/the-ten-commandments-of-egoless-programming/)
 * [Clean Code: A Handbook of Agile Software Craftsmanship](https://www.goodreads.com/book/show/3735293-clean-code) 📖, Robert C. Martin. Describes numerous useful best practices. A bit long. There's also a [clean code cheatsheet](cheatsheets/Clean-Code-V2.4.pdf).
+* [What Software Craftsmanship is about](https://blog.cleancoder.com/uncle-bob/2011/01/17/software-craftsmanship-is-about.html)
+	* We’re tired of writing crap.
+	* We will not accept the stupid old lie about cleaning things up later.
+	* We will not believe the claim that quick means dirty.
+	* We will not allow anyone to force us to behave unprofessionally.
 
 ### Computer science
 
@@ -351,7 +390,7 @@ Note: this is about you as an interviewee, **not** as an interviewer. To check o
 * [Interactive Python coding interview challenges](https://github.com/donnemartin/interactive-coding-challenges)
 * [tech-interview-handbook/cheatsheet.md](https://github.com/yangshun/tech-interview-handbook/blob/master/preparing/cheatsheet.md)[](https://github.com/mbeaudru/modern-js-cheatsheet):)
 
-### Learning & memorising
+### Learning & memorizing
 
 Learn how to learn!
 
@@ -387,12 +426,28 @@ Learn how to learn!
 	* Personalize and provide examples - personalization might be the most effective way of building upon other memories. Your personal life is a gold mine of facts and events to refer to. As long as you build a collection for yourself, use personalization richly to build upon well established memories
 	* Provide sources - sources help you manage the learning process, updating your knowledge, judging its reliability, or importance
 	* Prioritize - effective learning is all about prioritizing.
+* [How to Remember Anything You Really Want to Remember, Backed by Science](https://www.inc.com/jeff-haden/how-to-remember-anything-you-really-want-to-remember-backed-by-science.html)
+	* Quiz yourself
+	* Summarize and share with someone else.
+	* Connect what you just learned to experiences you previously had.
 
 Richard Feynman's Learning Strategy:
 
 1. Step 1: Continually ask "Why?”
 2. Step 2: When you learn something, learn it to where you can explain it to a child.
 3. Step 3: Instead of arbitrarily memorizing things, look for the explanation that makes it obvious.
+
+### Low-level
+
+* [Back to Basics](https://www.joelonsoftware.com/2001/12/11/back-to-basics/), Joel Spolsky. Explains why learning low level programming is important.
+	* I think that some of the biggest mistakes people make even at the highest architectural levels come from having a weak or broken understanding of a few simple things at the very lowest levels.
+
+### Network
+
+* [The Great Confusion About URIs](https://benbernardblog.com/the-great-confusion-about-uris/)
+	* A URI is a string of characters that identifies a resource. Its syntax is `<scheme>:<authority><path>?<query>#<fragment>`, where only `<scheme>` and `<path>` are mandatory. URL and URN are URIs.
+	* A URL is a string of characters that identifies a resource located on a computer network. Its syntax depends on its scheme. E.g. `mailto:billg@microsoft.com`.
+	* A URN is a string of characters that uniquely identifies a resource. Its syntax is `urn:<namespace identifier>:<namespace specific string>`. E.g. `urn:isbn:9780062301239`
 
 ### Problem solving
 
@@ -436,6 +491,12 @@ JavaScript is such a pervasive language that it's almost required learning.
 * [Goodbye, Object Oriented Programming](https://medium.com/@cscalfani/goodbye-object-oriented-programming-a59cda4c0e53#.39ax09e4k)
 * [Functional Programming & Haskell](https://www.youtube.com/watch?v=LnX3B9oaKzw): some good reasons to learn FP!
 * [Functional Programming Fundamentals](https://www.matthewgerstman.com/functional-programming-fundamentals/): short introduction to FP and its advantages.
+* [OO vs FP](https://blog.cleancoder.com/uncle-bob/2014/11/24/FPvsOO.html), Robert C. Martin, The Clean Code Blog. A pretty interesting take on the differences between OOP and FP from an expert in OOP.
+	* OO is not about state. Objects are bags of functions, not bags of data.
+	* Functional Programs, like OO Programs, are composed of functions that operate on data.
+	* FP imposes discipline upon assignment.
+	* OO imposes discipline on function pointers.
+	* The principles of software design still apply, regardless of your programming style. The fact that you’ve decided to use a language that doesn’t have an assignment operator does not mean that you can ignore the Single Responsibility Principle.
 
 ### Over-engineering
 
@@ -558,6 +619,18 @@ Rob Pike, [Go at Google: Language Design in the Service of Software Engineering]
 
 * [Your non-linear problem of 90% utilization](https://blog.asmartbear.com/utilization.html), Jason Cohen: why constantly running at 90% utilization is actually counter-productive.
 * [Evidence-based advice on how to be successful in any jobs](https://80000hours.org/career-guide/how-to-be-successful/): most self-help advices are not research-based. The ones listed in this article are.
+* [The Complete Guide to Deep Work](https://doist.com/blog/complete-guide-to-deep-work/)
+	* The ability to perform deep work is becoming increasingly rare at exactly the same time it is becoming increasingly valuable in our economy.
+	* Choose Your Deep Work Strategy
+	* Build a Deep Work Routine
+	* Discipline #1: Focus on the Wildly Important
+	* Discipline #2: Act on the Lead Measures
+	* Discipline #4: Create a Cadence of Accountability 
+	* Our Ability for Deep Work is Finite
+	* The Craftsman Approach to Tool Selection
+	* Stop Using Social Media
+	* Get Your Boss on Board With Deep Work
+
 
 ### Web development
 
