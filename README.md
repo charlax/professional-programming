@@ -36,7 +36,7 @@
     - [Incident response (alerting, outages, firefighting)](#incident-response-alerting-outages-firefighting)
     - [Internet](#internet)
     - [Interviewing](#interviewing)
-    - [Learning](#learning)
+    - [Learning & memorising](#learning--memorising)
     - [Problem solving](#problem-solving)
     - [Project management](#project-management)
     - [Programming languages](#programming-languages)
@@ -59,6 +59,7 @@
     - [Version control (Git)](#version-control-git)
     - [Work ethics & work/life balance](#work-ethics--worklife-balance)
     - [Web development](#web-development)
+    - [Writing](#writing)
     - [Writing for performance](#writing-for-performance)
   - [Concepts](#concepts)
 
