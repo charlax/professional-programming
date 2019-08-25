@@ -280,6 +280,17 @@ I highly recommend reading [The Non-Designer's Design Book](http://www.amazon.co
 * [Microsoft's Rest API guidelines](https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md)
 * [Book recommendations from HackerNews](https://news.ycombinator.com/item?id=12711060)
 
+Articles :
+
+* [10 Usability Heuristics Every Designer Should Know](https://uxdesign.cc/10-usability-heuristics-every-designer-should-know-129b9779ac53)
+	* Visibility of System Status
+	* The Match Between The System And The Real World
+	* Every system should have a clear emergency exit
+	* Don't forget that people spend 90% of their time interacting with other apps
+	* Recognition Rather Than Recall (recognition = shallow form of retrieval from memory, e.g. a familiar person, recall = deeper retrieval)
+	* ”Perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away.” – Antoine de Saint-Exupery
+	* Help Users Recognize, Diagnose, And Recover From Errors
+
 ### Design (OO modeling, architecture, patterns, anti-patterns, etc.)
 
 Here's a list of good books:
@@ -389,6 +400,7 @@ Note: this is about you as an interviewee, **not** as an interviewer. To check o
 * [Top 10 algorithms in Interview Questions](http://www.geeksforgeeks.org/top-10-algorithms-in-interview-questions/)
 * [Questions to ask your interviewer](https://rkoutnik.com/articles/Questions-to-ask-your-interviewer.html)
 * [Interactive Python coding interview challenges](https://github.com/donnemartin/interactive-coding-challenges)
+* [Tech Interview Handbook](https://yangshun.github.io/tech-interview-handbook/introduction/)
 * [tech-interview-handbook/cheatsheet.md](https://github.com/yangshun/tech-interview-handbook/blob/master/preparing/cheatsheet.md)[](https://github.com/mbeaudru/modern-js-cheatsheet):)
 
 ### Learning & memorizing
@@ -576,8 +588,16 @@ Rob Pike, [Go at Google: Language Design in the Service of Software Engineering]
 
 ### Site Reliability Engineering (SRE)
 
+Books:
+
+* [Site Reliability Engineering](https://landing.google.com/sre/books/) 📖
+	* Written by members of Google's SRE team, with a comprehensive analysis of the entire software lifecycle - how to build, deploy, monitor, and maintain large scale systems.
+
+Articles:
+
 * [Graduating from Bootcamp and interested in becoming a Site Reliability Engineer?](https://medium.com/@tammybutow/graduating-from-bootcamp-and-interested-in-becoming-a-site-reliability-engineer-b69a38ce858b): a great collection of resources to learn about SRE.
-* [Site Reliability Engineering](https://landing.google.com/sre/books/): written by members of Google's SRE team, with a comprehensive analysis of the entire software lifecycle - how to build, deploy, monitor, and maintain large scale systems.
+* [Operating a Large, Distributed System in a Reliable Way: Practices I Learned](https://blog.pragmaticengineer.com/operating-a-high-scale-distributed-system/)
+	* A good summary of processes to implement.
 
 ### Technical debt
 
@@ -616,7 +636,7 @@ Rob Pike, [Go at Google: Language Design in the Service of Software Engineering]
 * [git-tips](https://github.com/git-tips/tips)
 * [Git from the inside out](https://codewords.recurse.com/issues/two/git-from-the-inside-out)
 
-### Work ethics & work/life balance
+### Work ethics, productivity & work/life balance
 
 * [Your non-linear problem of 90% utilization](https://blog.asmartbear.com/utilization.html), Jason Cohen: why constantly running at 90% utilization is actually counter-productive.
 * [Evidence-based advice on how to be successful in any jobs](https://80000hours.org/career-guide/how-to-be-successful/): most self-help advices are not research-based. The ones listed in this article are.
@@ -631,6 +651,9 @@ Rob Pike, [Go at Google: Language Design in the Service of Software Engineering]
 	* The Craftsman Approach to Tool Selection
 	* Stop Using Social Media
 	* Get Your Boss on Board With Deep Work
+* [Every productivity thought I've ever had, as concisely as possible](https://guzey.com/productivity/)
+	* Context intentionality as the key difference between home and every other place on planet earth
+	* Rules are about exceptions
 
 
 ### Web development
