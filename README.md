@@ -140,6 +140,14 @@ There are some free books available, including:
 	* Having some technical debt is healthy.
 	* Senior engineers must develop many skills besides programming.
 	* We’re all still junior in some areas.
+* [How to Build Good Software](https://www.csc.gov.sg/articles/how-to-build-good-software)
+	* A good high-level summary of fundamental engineering practices.
+	* The root cause of bad software has less to do with specific engineering choices, and more to do with how development projects are managed.
+	* There is no such thing as platonically good engineering: it depends on your needs and the practical problems you encounter.
+	* Software should be treated not as a static product, but as a living manifestation of the development team’s collective understanding.
+	* Software projects rarely fail because they are too small; they fail because they get too big.
+	* Beware of bureaucratic goals masquerading as problem statements. If our end goal is to make citizens’ lives better, we need to explicitly acknowledge the things that are making their lives worse.
+	* Building software is not about avoiding failure; it is about strategically failing as fast as possible to get the information you need to build something good.
 
 ## Other general material and list of resources
 
