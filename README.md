@@ -59,7 +59,7 @@
     - [Testing](#testing)
     - [Tools](#tools)
     - [Version control (Git)](#version-control-git)
-    - [Work ethics & work/life balance](#work-ethics--worklife-balance)
+    - [Work ethics, productivity & work/life balance](#work-ethics-productivity--worklife-balance)
     - [Web development](#web-development)
     - [Writing](#writing)
     - [Writing for performance](#writing-for-performance)
