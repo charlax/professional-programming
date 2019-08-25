@@ -308,6 +308,8 @@ Here's a list of good books:
 * [Domain-Driven Design: Tackling Complexity in the Heart of Software](https://www.amazon.com/Domain-Driven-Design-Tackling-Complexity-Software/dp/0321125215) 📖, Eric Evans
 * [Clean Architecture](https://www.goodreads.com/book/show/18043011-clean-architecture) 📖, Robert C. Martin. Uncle Bob proposes an architecture that leverages the Single Responsibility Principle to its fullest. A great way to start a new codebase. Also checkout the [clean architecture cheatsheet](cheatsheets/Clean-Architecture-V1.0.pdf).
 
+One of the absolute references on architecture is Martin Fowler: checkout his [Software Architecture Guide](https://martinfowler.com/architecture/).
+
 Articles:
 
 * [101 Design Patterns & Tips for Developers](https://sourcemaking.com/design-patterns-and-tips)
