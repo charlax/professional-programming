@@ -467,6 +467,9 @@ Richard Feynman's Learning Strategy:
 > One bit of advice: it is important to view knowledge as sort of a semantic tree — make sure you understand the fundamental principles, ie the trunk and big branches, before you get into the details/leaves or there is nothing for them to hang on to.
 > — Elon Musk
 
+> "Experience is something you don't get until just after you need it."
+> ― Steven Wright
+
 ### Low-level
 
 * [Back to Basics](https://www.joelonsoftware.com/2001/12/11/back-to-basics/), Joel Spolsky. Explains why learning low level programming is important.
