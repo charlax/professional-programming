@@ -131,7 +131,7 @@ There are some free books available, including:
 * [Signs that you're a bad programmer](http://www.yacoset.com/Home/signs-that-you-re-a-bad-programmer)
 * [7 absolute truths I unlearned as junior developer](https://monicalent.com/blog/2019/06/03/absolute-truths-unlearned-as-junior-developer/)
 	* Early in your career, you can learn 10x more in a supportive team in 1 year, than coding on your own
-	* Every company has problems, every company has technical debt. 
+	* Every company has problems, every company has technical debt.
 	* Being overly opinionated on topics you lack real-world experience with is pretty arrogant.
 	* Many conference talks cover proof of concepts rather than real-world scenarios.
 	* Dealing with legacy is completely normal.
@@ -157,7 +157,7 @@ There are some free books available, including:
 
 ### Courses
 
-* [Google Tech Dev Guide](https://techdevguide.withgoogle.com/) 
+* [Google Tech Dev Guide](https://techdevguide.withgoogle.com/)
 
 ## Topics
 
@@ -219,7 +219,7 @@ Biases don't only apply to hiring. For instance, the fundamental attribution bia
 	* Assign a high value to productivity over your whole lifespan.
 	* Don’t over-optimise things that aren’t your top priority.
 	* Read a lot, and read things that people around you aren’t reading.
-	* Reflect seriously on what problem to prioritise solving. 
+	* Reflect seriously on what problem to prioritise solving.
 	* Read more history.
 * [Why Good Developers are Promoted into Unhappiness](https://robwalling.com/2007/06/27/why-good-developers-are-promoted-into-unhappiness/), Rob Walling. Or why management might not be for you.
 
@@ -422,7 +422,7 @@ Learn how to learn!
 * [Tips for learning programming](http://blog.hiphipjorge.com/tips-for-learning-programming/)
 * [You can increase your intelligence: 5 ways to maximize your cognitive potential](https://blogs.scientificamerican.com/guest-blog/you-can-increase-your-intelligence-5-ways-to-maximize-your-cognitive-potential/): forgive the clickbait title, it’s actually a good article.
 * [How to ask good questions](https://jvns.ca/blog/good-questions/), Julia Evans.
-* [Stop Learning Frameworks](https://sizovs.net/2018/12/17/stop-learning-frameworks/) 
+* [Stop Learning Frameworks](https://sizovs.net/2018/12/17/stop-learning-frameworks/)
 * [Learning How to Learn](https://www.coursera.org/learn/learning-how-to-learn): powerful mental tools to help you master tough subjects
 * [Why books don’t work](https://andymatuschak.org/books/), Andy Matuschak.
 	* "As a medium, books are surprisingly bad at conveying knowledge, and readers mostly don’t realize it."
@@ -459,6 +459,9 @@ Richard Feynman's Learning Strategy:
 1. Step 1: Continually ask "Why?”
 2. Step 2: When you learn something, learn it to where you can explain it to a child.
 3. Step 3: Instead of arbitrarily memorizing things, look for the explanation that makes it obvious.
+
+> Most people overestimate what they can do in 1 year and underestimate what they can do in a decade.
+> – Bill Gates
 
 ### Low-level
 
@@ -656,7 +659,7 @@ Articles:
 	* Build a Deep Work Routine
 	* Discipline #1: Focus on the Wildly Important
 	* Discipline #2: Act on the Lead Measures
-	* Discipline #4: Create a Cadence of Accountability 
+	* Discipline #4: Create a Cadence of Accountability
 	* Our Ability for Deep Work is Finite
 	* The Craftsman Approach to Tool Selection
 	* Stop Using Social Media
