@@ -508,6 +508,10 @@ A bit more reading:
 * [Learn more programming languages, even if you won't use them](https://thorstenball.com/blog/2019/04/09/learn-more-programming-languages/), Thorsten Ball
 	* These new perspectives, these ideas and patterns — they linger, they stay with you, even if you end up in another language. And that is powerful enough to keep on learning new languages, because one of the best things that can happen to you when you’re trying to solve a problem is a change of perspective.
 
+> There are only two kinds of languages: the ones people complain about and the ones nobody uses.
+
+-- Bjarne Stroustrup (C++ creator)
+
 #### Python
 
 For Python feel free to checkout my [professional Python education repository](https://github.com/charlax/python-education).
