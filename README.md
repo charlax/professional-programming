@@ -561,6 +561,8 @@ Rob Pike, [Go at Google: Language Design in the Service of Software Engineering]
 * [BlueGreenDeployment](http://martinfowler.com/bliki/BlueGreenDeployment.html), Martin Fowler
 * [Move fast and break nothing](https://zachholman.com/talk/move-fast-break-nothing/), Zach Holman
 * [Flipping out](http://code.flickr.net/2009/12/02/flipping-out/), flickr. One of the first articles about feature flags.
+* [Production Readiness Checklist](https://gruntwork.io/devops-checklist/), Gruntwork
+* [Checklist: what had to be done before deploying microservices to production](https://habr.com/en/post/438186/)
 
 ### Security
 
