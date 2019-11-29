@@ -222,6 +222,7 @@ Biases don't only apply to hiring. For instance, the fundamental attribution bia
 	* Reflect seriously on what problem to prioritise solving.
 	* Read more history.
 * [Why Good Developers are Promoted into Unhappiness](https://robwalling.com/2007/06/27/why-good-developers-are-promoted-into-unhappiness/), Rob Walling. Or why management might not be for you.
+* [A guide to using your career to help solve the world’s most pressing problems](https://80000hours.org/key-ideas/)
 
 
 ### Characters sets
@@ -384,6 +385,7 @@ resources](https://github.com/charlax/engineering-management).
 The best way to learn is to learn by doing.
 
 * [danistefanovic/build-your-own-x: build your own (insert technology here)](https://github.com/danistefanovic/build-your-own-x)
+* [The elevator programming game](http://play.elevatorsaga.com/)
 
 ### Incident response (alerting, outages, firefighting)
 
@@ -401,17 +403,16 @@ The best way to learn is to learn by doing.
 
 Note: this is about you as an interviewee, **not** as an interviewer. To check out my list of resources for interviewers, go to my [engineering-management repository](https://github.com/charlax/engineering-management#hiring-interviews).
 
-* [All the best advice we could find on how to get a job](https://80000hours.org/career-guide/how-to-get-a-job/)
 * [System design interview for IT company](https://github.com/checkcheckzz/system-design-interview)
 * [Technical Interview Megarepo](https://github.com/jdsutton/Technical-Interview-Megarepo): study materials for SE/CS technical interviews
-* [How to Win the Coding Interview](https://blog.devmastery.com/how-to-win-the-coding-interview-71ae7102d685#.16ph6bp5y)
-* [The elevator programming game](http://play.elevatorsaga.com/)
+* [How to Win the Coding Interview](https://medium.com/on-writing-code/how-to-win-the-coding-interview-71ae7102d685)
 * [I spent 3 months applying to jobs after a coding bootcamp. Here’s what I learned.](https://medium.freecodecamp.com/5-key-learnings-from-the-post-bootcamp-job-search-9a07468d2331#.uq7vbbjfx)
 * [Top 10 algorithms in Interview Questions](http://www.geeksforgeeks.org/top-10-algorithms-in-interview-questions/)
 * [Questions to ask your interviewer](https://rkoutnik.com/articles/Questions-to-ask-your-interviewer.html)
 * [Interactive Python coding interview challenges](https://github.com/donnemartin/interactive-coding-challenges)
 * [Tech Interview Handbook](https://yangshun.github.io/tech-interview-handbook/introduction/)
-* [tech-interview-handbook/cheatsheet.md](https://github.com/yangshun/tech-interview-handbook/blob/master/preparing/cheatsheet.md)[](https://github.com/mbeaudru/modern-js-cheatsheet):)
+
+See also the exercises section in this document.
 
 ### Learning & memorizing
 
