@@ -154,6 +154,7 @@ There are some free books available, including:
 * [The Imposter's Handbook](https://bigmachine.io/products/the-imposters-handbook) - $30. From the author: "Don't have a CS Degree? Neither do I - That's why I wrote this book."
 * [mr-mig/every-programmer-should-know: a collection of (mostly) technical things every software developer should know](https://github.com/mr-mig/every-programmer-should-know)
 * [Famous Laws Of Software Development](https://www.timsommer.be/famous-laws-of-software-development/)
+* [The Amazon Builders' Library](https://aws.amazon.com/builders-library/?cards-body.sort-by=item.additionalFields.customSort&cards-body.sort-order=asc)
 
 ### Courses
 
@@ -172,11 +173,16 @@ Let's be honest: algorithms can be a pretty dry topic. [This quora question](htt
 * [Grokking Algorithms](https://www.amazon.com/dp/1617292230/ref=cm_sw_su_dp)
 * [Essential Algorithms](https://www.amazon.com/Essential-Algorithms-Practical-Approach-Computer/dp/1118612108?ie=UTF8&*Version*=1&*entries*=0)
 
+Example implementations:
 
-### API design
+* [trekhleb/javascript-algorithms: Algorithms and data structures implemented in JavaScript](https://github.com/trekhleb/javascript-algorithms)
+
+
+### API design & development
 
 * [Why you should use links, not keys, to represent relationships in APIs](https://cloud.google.com/blog/products/application-development/api-design-why-you-should-use-links-not-keys-to-represent-relationships-in-apis), Martin Nally, Google
 	* "Using links instead of foreign keys to express relationships in APIs reduces the amount of information a client needs to know to use an API, and reduces the ways in which clients and servers are coupled to each other."
+* [A collection of useful resources for building RESTful HTTP+JSON APIs.](https://github.com/yosriady/api-development-tools)
 
 ### Attitude, habits, mindset
 
@@ -186,6 +192,25 @@ Let's be honest: algorithms can be a pretty dry topic. [This quora question](htt
 * [Taking Ownership Is The Most Effective Way to Get What You Want](http://www.theeffectiveengineer.com/blog/take-ownership-of-your-goals)
 * [Finding Time to Become a Better Developer](https://medium.freecodecamp.org/finding-time-to-become-a-better-developer-eebc154881b2)
 * [Ten minutes a day](https://blog.usejournal.com/ten-minutes-a-day-e2fa1084f924): how Alex Allain wrote a book in less than 200 hours, by writing 10 minutes *every* day.
+* [The care and feeding of software engineers (or, why engineers are grumpy)](https://humanwhocodes.com/blog/2012/06/12/the-care-and-feeding-of-software-engineers-or-why-engineers-are-grumpy/)
+  * In the triumvirate of software, product managers, designers, and software engineers, only the engineers are expected to turn off their creative minds and just produce.
+  * Both engineers and product managers tend to think, incorrectly, that product specifications or requirements are equivalent to the furniture manual from Ikea.
+  * This is one of the top things that make engineers grumpy: constantly shifting priorities.
+  * Even though many engineers will complain that product managers change their minds, almost none will account for that in their time estimates.
+  * Computer science programs aren’t about preparing you for the tasks you’ll face in industry.
+  * When there are more engineers than can be used, engineering time ends up going away from developing and towards planning, synchronization, and coordination.
+  * Involve engineers in the creative process
+  * Give engineers opportunities to be creative.
+  * Encourage time off.
+  * Let 'em code
+  * Express appreciation
+* [The Product-Minded Software Engineer](https://blog.pragmaticengineer.com/the-product-minded-engineer/), Gergely Orosz
+  * Great product engineers know that minimum lovable products need the right depth
+  * Product-minded engineers quickly map out edge cases and think of ways to reduce work on them: often bringing solutions that require no engineering work
+  * Engage in user research and customer support
+  * Bring well-backed product suggestions to the table
+  * Offer product/engineering tradeoffs
+
 
 ### Automation
 
@@ -228,6 +253,10 @@ Biases don't only apply to hiring. For instance, the fundamental attribution bia
 ### Characters sets
 
 * [The Absolute Minimum Every Software Developer Absolutely, Positively Must Know About Unicode and Character Sets (No Excuses!)](http://www.joelonsoftware.com/articles/Unicode.html)
+
+### Code reviews
+
+* [How to do a code review](https://google.github.io/eng-practices/review/reviewer/), Google's engineering practices documentation.
 
 ### Coding & code quality
 
@@ -346,6 +375,7 @@ Tools
 * [jq: command-line JSON processor](https://stedolan.github.io/jq/)
 * [tmux: terminal multiplexer](http://tmux.github.io/)
 * [htop: an interactive process viewer for Linux](http://hisham.hm/htop/)
+* [htop explained](https://peteris.rocks/blog/htop/)
 
 ### Diversity & inclusion
 
@@ -386,12 +416,19 @@ The best way to learn is to learn by doing.
 
 * [danistefanovic/build-your-own-x: build your own (insert technology here)](https://github.com/danistefanovic/build-your-own-x)
 * [The elevator programming game](http://play.elevatorsaga.com/)
+* [Challenging projects every programmer should try](http://web.eecs.utk.edu/~azh/blog/challengingprojects.html): text editor, space invaders, compiler (Tiny Basic), mini OS, spreadsheet, video game console emulator.
 
 ### Incident response (alerting, outages, firefighting)
 
 * [Incident Response at Heroku](https://blog.heroku.com/archives/2014/5/9/incident-response-at-heroku)
 * [Blameless PostMortems and a Just Culture](https://codeascraft.com/2012/05/22/blameless-postmortems/)
-* [My Philosophy on Alerting](https://docs.google.com/document/d/199PqyG3UsyXlwieHaqbGiWVa8eMWi8zzAn0YfcApr8Q/preview#heading=h.fs3knmjt7fjy)
+* [My Philosophy On Alerting](https://linuxczar.net/sysadmin/philosophy-on-alerting/)
+  * Pages should be urgent, important, actionable, and real.
+  * Err on the side of removing noisy alerts – over-monitoring is a harder problem to solve than under-monitoring.
+  * Symptoms are a better way to capture more problems more comprehensively and robustly with less effort.
+  * Include cause-based information in symptom-based pages or on dashboards, but avoid alerting directly on causes.
+  * The further up your serving stack you go, the more distinct problems you catch in a single rule. But don’t go so far you can’t sufficiently distinguish what’s going on.
+  * If you want a quiet oncall rotation, it’s imperative to have a system for dealing with things that need timely response, but are not imminently critical.
 * A great example of a [postmortem from Gitlab (01/31/2017)](https://about.gitlab.com/2017/02/01/gitlab-dot-com-database-incident/) for an outage during which an engineer's action caused the irremediable loss of 6 hours of data.
 
 ### Internet
@@ -411,6 +448,8 @@ Note: this is about you as an interviewee, **not** as an interviewer. To check o
 * [Questions to ask your interviewer](https://rkoutnik.com/articles/Questions-to-ask-your-interviewer.html)
 * [Interactive Python coding interview challenges](https://github.com/donnemartin/interactive-coding-challenges)
 * [Tech Interview Handbook](https://yangshun.github.io/tech-interview-handbook/introduction/)
+* [Questions to ask the company during your interview](https://github.com/viraptor/reverse-interview)
+* [A complete computer science study plan to become a software engineer](https://github.com/jwasham/coding-interview-university), jwasham/coding-interview-university
 
 See also the exercises section in this document.
 
@@ -508,6 +547,8 @@ A bit more reading:
 * [Effective Programs - 10 Years of Clojure](https://www.youtube.com/watch?v=2V1FtfBDsLU) 🎞, Rich Hickey. The author of Clojure reflects on his programming experience and explains the rationale behind some of Clojure's key design decisions.
 * [Learn more programming languages, even if you won't use them](https://thorstenball.com/blog/2019/04/09/learn-more-programming-languages/), Thorsten Ball
 	* These new perspectives, these ideas and patterns — they linger, they stay with you, even if you end up in another language. And that is powerful enough to keep on learning new languages, because one of the best things that can happen to you when you’re trying to solve a problem is a change of perspective.
+* [Programming Language Checklist](https://famicol.in/language_checklist.html):
+  a fun take on "so you want to build your own language?"
 
 > There are only two kinds of languages: the ones people complain about and the ones nobody uses.
 
@@ -523,7 +564,7 @@ JavaScript is such a pervasive language that it's almost required learning.
 
 * [mbeaudru/modern-js-cheatsheet](https://github.com/mbeaudru/modern-js-cheatsheet): cheatsheet for the JavaScript knowledge you will frequently encounter in modern projects.
 
-#### FP vs. OOP
+#### Functional programming
 
 * [Jargon from the functional programming world](https://github.com/hemanth/functional-programming-jargon)
 * [Goodbye, Object Oriented Programming](https://medium.com/@cscalfani/goodbye-object-oriented-programming-a59cda4c0e53#.39ax09e4k)
@@ -535,6 +576,13 @@ JavaScript is such a pervasive language that it's almost required learning.
 	* FP imposes discipline upon assignment.
 	* OO imposes discipline on function pointers.
 	* The principles of software design still apply, regardless of your programming style. The fact that you’ve decided to use a language that doesn’t have an assignment operator does not mean that you can ignore the Single Responsibility Principle.
+* [Parse, don’t validate](https://lexi-lambda.github.io/blog/2019/11/05/parse-don-t-validate/)
+  * Use a data structure that makes illegal states unrepresentable
+  * Push the burden of proof upward as far as possible, but no further
+  * Let your datatypes inform your code, don’t let your code control your datatypes
+  * Don’t be afraid to parse data in multiple passes
+  * Avoid denormalized representations of data, especially if it’s mutable
+  * Use abstract datatypes to make validators “look like” parsers
 
 ### Over-engineering
 
@@ -564,6 +612,10 @@ Rob Pike, [Go at Google: Language Design in the Service of Software Engineering]
 * [Flipping out](http://code.flickr.net/2009/12/02/flipping-out/), flickr. One of the first articles about feature flags.
 * [Production Readiness Checklist](https://gruntwork.io/devops-checklist/), Gruntwork
 * [Checklist: what had to be done before deploying microservices to production](https://habr.com/en/post/438186/)
+* [Things end users care about but programmers
+  don't](https://instadeq.com/blog/posts/things-end-users-care-about-but-programmers-dont/):
+  includes colors, formatting, themes, integrations, UX, compatibility,
+  operations.
 
 ### Security
 
@@ -572,6 +624,9 @@ Rob Pike, [Go at Google: Language Design in the Service of Software Engineering]
 * [A practical guide to securing macOS](https://github.com/drduh/macOS-Security-and-Privacy-Guide)
 * [Web Developer Security Checklist](https://www.powerdown.io/blog/posts/stories/web-developer-security-checklist.html)
 * [Reckon you've seen some stupid security things?](https://www.troyhunt.com/reckon-youve-seen-some-stupid-security-things-here-hold-my-beer/): everything *not* to do.
+* [Checklist of the most important security countermeasures when designing, testing, and releasing your API](https://github.com/shieldfy/API-Security-Checklist)
+* [OWASP Cheat Sheet Series](https://cheatsheetseries.owasp.org/): a series of
+  cheat sheets about various security topics.
 
 ### Shell
 
@@ -681,6 +736,11 @@ Articles:
 * [Every productivity thought I've ever had, as concisely as possible](https://guzey.com/productivity/)
 	* Context intentionality as the key difference between home and every other place on planet earth
 	* Rules are about exceptions
+* [Makers, Don't Let Yourself Be Forced Into the 'Manager Schedule'](https://blog.nuclino.com/makers-don-t-let-yourself-be-forced-into-the-manager-schedule)
+  * Research shows that it takes as long as 30 minutes for makers to get into the flow
+  * Use maker-manager office hours
+  * Communication can happen at a quieter asynchronous frequency in the form of thoughtful, written discussions rather than soul-sucking meetings or erratic one-line-at-a-time chat messages
+  * Build a team knowledge base to minimize repetitive questions and allow self-onboarding.
 
 
 ### Web development
