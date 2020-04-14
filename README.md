@@ -281,6 +281,9 @@ Biases don't only apply to hiring. For instance, the fundamental attribution bia
 	* Can't add comments
 	* Excessive quotation and syntax noise
 	* Using DC (declarative configuration) to control logic is often not a good idea.
+* [Your configs suck? Try a real programming language](https://beepb00p.xyz/configs-suck.html)
+  * Most modern config formats suck
+  * Use a real programming language
 
 ### Databases
 
