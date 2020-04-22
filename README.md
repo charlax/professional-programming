@@ -56,6 +56,7 @@
       - [Stability](#stability)
       - [Resiliency](#resiliency)
     - [Site Reliability Engineering (SRE)](#site-reliability-engineering-sre)
+      - [Monitoring](#monitoring)
     - [Technical debt](#technical-debt)
     - [Testing](#testing)
     - [Tools](#tools)
@@ -688,6 +689,7 @@ Articles:
 #### Monitoring
 
 * Google, [Site Reliability Engineering, Monitoring Distributed Systems](https://landing.google.com/sre/sre-book/chapters/monitoring-distributed-systems/)
+* PagerDuty, [Monitoring Business Metrics and Refining Outage Response](https://www.pagerduty.com/blog/monitoring-business-metrics/)
 
 ### Technical debt
 
