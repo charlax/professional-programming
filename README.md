@@ -685,6 +685,10 @@ Articles:
 * [Operating a Large, Distributed System in a Reliable Way: Practices I Learned](https://blog.pragmaticengineer.com/operating-a-high-scale-distributed-system/)
 	* A good summary of processes to implement.
 
+#### Monitoring
+
+* Google, [Site Reliability Engineering, Monitoring Distributed Systems](https://landing.google.com/sre/sre-book/chapters/monitoring-distributed-systems/)
+
 ### Technical debt
 
 * [TechnicalDebt](https://martinfowler.com/bliki/TechnicalDebt.html), Martin Fowler.
