@@ -705,6 +705,12 @@ Articles:
 	* Tests lock in behaviour
 	* Tests give you confidence to change someone else’s code
 * [Testing Strategies in a Microservices Architecture](http://martinfowler.com/articles/microservice-testing/) (Martin Fowler) is an awesome resources explaining how to test a service properly.
+* [The Practical Test
+    Pyramid](https://martinfowler.com/articles/practical-test-pyramid.html)
+    (also on Martin Fowler's blog).
+  * Be clear about the different types of tests that you want to write. Agree on the naming in your team and find consensus on the scope of each type of test.
+  * Every single test in your test suite is additional baggage and doesn't come for free.
+  * Test code is as important as production code.
 * [A Quick Puzzle to Test Your Problem Solving](http://www.nytimes.com/interactive/2015/07/03/upshot/a-quick-puzzle-to-test-your-problem-solving.html?_r=0)... and a great way to learn about confirmation bias and why you're mostly writing positive test cases.
 * [The test pyramid](http://martinfowler.com/bliki/TestPyramid.html)
 * [Just Say No to More End-to-End Tests](https://testing.googleblog.com/2015/04/just-say-no-to-more-end-to-end-tests.html)
