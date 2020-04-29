@@ -34,7 +34,7 @@
     - [Editors & IDE](#editors--ide)
     - [Engineering management](#engineering-management)
     - [Exercises](#exercises)
-    - [Incident response (alerting, outages, firefighting)](#incident-response-alerting-outages-firefighting)
+    - [Incident response (oncall, alerting, outages, firefighting)](#incident-response-oncall-alerting-outages-firefighting)
     - [Internet](#internet)
     - [Interviewing](#interviewing)
     - [Learning & memorizing](#learning--memorizing)
