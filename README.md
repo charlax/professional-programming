@@ -423,7 +423,7 @@ The best way to learn is to learn by doing.
 * [The elevator programming game](http://play.elevatorsaga.com/)
 * [Challenging projects every programmer should try](http://web.eecs.utk.edu/~azh/blog/challengingprojects.html): text editor, space invaders, compiler (Tiny Basic), mini OS, spreadsheet, video game console emulator.
 
-### Incident response (alerting, outages, firefighting)
+### Incident response (oncall, alerting, outages, firefighting)
 
 * [Incident Response at Heroku](https://blog.heroku.com/archives/2014/5/9/incident-response-at-heroku)
 * [Blameless PostMortems and a Just Culture](https://codeascraft.com/2012/05/22/blameless-postmortems/)
@@ -435,6 +435,13 @@ The best way to learn is to learn by doing.
   * The further up your serving stack you go, the more distinct problems you catch in a single rule. But don’t go so far you can’t sufficiently distinguish what’s going on.
   * If you want a quiet oncall rotation, it’s imperative to have a system for dealing with things that need timely response, but are not imminently critical.
 * A great example of a [postmortem from Gitlab (01/31/2017)](https://about.gitlab.com/2017/02/01/gitlab-dot-com-database-incident/) for an outage during which an engineer's action caused the irremediable loss of 6 hours of data.
+* The Google SRE book's [chapter about oncall](https://landing.google.com/sre/workbook/chapters/on-call/)
+* [Writing Runbook Documentation When You’re An SRE](https://www.transposit.com/blog/2020.01.30-writing-runbook-documentation-when-youre-an-sre/)
+  * Playbooks “reduce stress, the mean time to repair (MTTR), and the risk of human error.”
+  * Using a template can be beneficial because starting from a blank document is incredibly hard.
+  * The Curse of Knowledge is a cognitive bias that occurs when someone is communicating with others and unknowingly assumes the level of knowledge of the people they are communicating with.
+  * Make your content easy to glance over.
+  * If a script is longer than a single line, treat it like code, and check it into a repository to be source control and potentially tested.
 
 ### Internet
 
