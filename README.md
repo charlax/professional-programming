@@ -781,6 +781,8 @@ Articles:
 * [Undervalued Software Engineering Skills: Writing Well](https://blog.pragmaticengineer.com/on-writing-well/)
 	* From the HN discussion: "Writing a couple of pages of design docs or an Amazon-style 6 pager or whatever might take a few days of work, but can save weeks or more of wasted implementation time when you realise your system design was flawed or it doesn't address any real user needs."
 
+![Write like an Amazonian](./images/amazon_writing_rules.jpeg)
+
 ### Writing for performance
 
 * [Numbers Everyone Should Know](https://everythingisdata.wordpress.com/2009/10/17/numbers-everyone-should-know/)
