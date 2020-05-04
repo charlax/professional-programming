@@ -719,7 +719,8 @@ Articles:
   * Every single test in your test suite is additional baggage and doesn't come for free.
   * Test code is as important as production code.
 * [A Quick Puzzle to Test Your Problem Solving](http://www.nytimes.com/interactive/2015/07/03/upshot/a-quick-puzzle-to-test-your-problem-solving.html?_r=0)... and a great way to learn about confirmation bias and why you're mostly writing positive test cases.
-* [The test pyramid](http://martinfowler.com/bliki/TestPyramid.html)
+* [The test pyramid](http://martinfowler.com/bliki/TestPyramid.html), Martin
+  Fowler
 * [Just Say No to More End-to-End Tests](https://testing.googleblog.com/2015/04/just-say-no-to-more-end-to-end-tests.html)
 * [End-To-End Testing Considered Harmful](https://dzone.com/articles/end-to-end-testing-considered-harmful)
 * [Move fast and don't break things](https://docs.google.com/presentation/d/15gNk21rjer3xo-b1ZqyQVGebOp_aPvHU3YH7YnOMxtE/edit#slide=id.g437663ce1_53_591) (presentation)
