@@ -26,6 +26,8 @@
     - [Debugging](#debugging)
     - [Design (visual, UX, UI)](#design-visual-ux-ui)
     - [Design (OO modeling, architecture, patterns, anti-patterns, etc.)](#design-oo-modeling-architecture-patterns-anti-patterns-etc)
+      - [Design: database schema](#design-database-schema)
+      - [Design: patterns](#design-patterns)
       - [Design: simplicity](#design-simplicity)
     - [Dev environment & tools](#dev-environment--tools)
     - [Diversity & inclusion](#diversity--inclusion)
@@ -41,14 +43,20 @@
     - [Learning & memorizing](#learning--memorizing)
     - [Low-level](#low-level)
     - [Network](#network)
+    - [Observability (monitoring, logging, exception handling)](#observability-monitoring-logging-exception-handling)
+      - [Logging](#logging)
+      - [Error/exception handling](#errorexception-handling)
+      - [Monitoring](#monitoring)
     - [Problem solving](#problem-solving)
     - [Project management](#project-management)
     - [Programming languages](#programming-languages)
       - [Python](#python)
       - [JavaScript](#javascript)
       - [Functional programming](#functional-programming)
+    - [Programming paradigm](#programming-paradigm)
     - [Over-engineering](#over-engineering)
     - [Reading](#reading)
+    - [Refactoring](#refactoring)
     - [Releasing & deploying](#releasing--deploying)
     - [Security](#security)
     - [Shell](#shell)
@@ -57,7 +65,6 @@
       - [Stability](#stability)
       - [Resiliency](#resiliency)
     - [Site Reliability Engineering (SRE)](#site-reliability-engineering-sre)
-      - [Monitoring](#monitoring)
     - [Technical debt](#technical-debt)
     - [Testing](#testing)
     - [Tools](#tools)
@@ -159,9 +166,26 @@ There are some free books available, including:
 * [Famous Laws Of Software Development](https://www.timsommer.be/famous-laws-of-software-development/)
 * [The Amazon Builders' Library](https://aws.amazon.com/builders-library/?cards-body.sort-by=item.additionalFields.customSort&cards-body.sort-order=asc)
 
+List of axioms:
+
+* [Precepts - Urbit](https://urbit.org/blog/precepts/)
+	* Data is better than code.
+	* Correctness is more important than performance.
+	* Deterministic beats heuristic.
+	* One hundred lines of simplicity is better than twenty lines of complexity.
+	* If your abstractions are leaking, it's not due to some law of the universe; you just suck at abstracting. Usually, you didn't specify the abstraction narrowly enough.
+	* If you avoid changing a section of code for fear of awakening the demons therein, you are living in fear. If you stay in the comfortable confines of the small section of the code you wrote or know well, you will never write legendary code. All code was written by humans and can be mastered by humans.
+	* If there's clearly a right way to do something and a wrong way, do it the right way. Coding requires incredible discipline.
+	* The best way to get the right answer is to try it the wrong way.
+	* Practice tells you that things are good or bad; theory tells you why.
+	* Not being qualified to solve a problem is no reason not to solve it.
+	* If you don't understand a system you're using, you don't control it. If nobody understands the system, the system is in control.
+
 ### Courses
 
 * [Google Tech Dev Guide](https://techdevguide.withgoogle.com/)
+* [The Missing Semester of Your CS Education](https://missing.csail.mit.edu/), MIT. Includes lectures about the shell, editors, data wrangling, git, debugging and profiling, meta programming, security and cryptography.
+* [Mathematics for the adventurous self-learner](https://www.neilwithdata.com/mathematics-self-learner), Neil Sainsbury
 
 ## Topics
 
@@ -179,7 +203,6 @@ Let's be honest: algorithms can be a pretty dry topic. [This quora question](htt
 Example implementations:
 
 * [trekhleb/javascript-algorithms: Algorithms and data structures implemented in JavaScript](https://github.com/trekhleb/javascript-algorithms)
-
 
 ### API design & development
 
@@ -213,7 +236,14 @@ Example implementations:
   * Engage in user research and customer support
   * Bring well-backed product suggestions to the table
   * Offer product/engineering tradeoffs
-
+* [40 Lessons From 40 Years](https://medium.com/@schlaf/40-lessons-from-40-years-de39d2c622d6), Steve Schlafman
+	* If you want to make progress on the things that matter most, you need to decide who you’re going to disappoint. It’s inevitable.
+	* The best investment you can make is your own education. Never stop learning. The second best investment you can make is building your network through authentic and meaningful interactions. It is what you know and who you know.
+	* You’ll never get what you don’t ask for or actively seek out. Go for it!
+	* It’s not about the light at the end of the tunnel. It’s the tunnel. Show up every day and enjoy the process.
+	* A great teammate always puts the organization and its purpose ahead of their own self interests.
+	* Pick your spots. We have limited time and our brains can only process so much. Focus is key. Choose wisely.
+	* Every person is likely struggling with something. Be kind. Be helpful.
 
 ### Automation
 
@@ -339,18 +369,15 @@ Articles :
 
 Here's a list of good books:
 
-* [Design Patterns: Elements of Reusable Object-Oriented Software](http://www.amazon.com/dp/0201633612/): dubbed "the gang of four", this is almost a required reading for any developer. A lot of those are a bit overkill for Python (because everything is an object, and dynamic typing), but the main idea (composition is better than inheritance) definitely is a good philosophy.
-* [Patterns of Enterprise Application Architecture](http://www.amazon.com/dp/0321127420/?tag=stackoverfl08-20): learn about how database are used in real world applications. Mike Bayer's SQLAlchemy has been heavily influenced by this book.
-* [Domain-Driven Design: Tackling Complexity in the Heart of Software](https://www.amazon.com/Domain-Driven-Design-Tackling-Complexity-Software/dp/0321125215) 📖, Eric Evans
-* [Clean Architecture](https://www.goodreads.com/book/show/18043011-clean-architecture) 📖, Robert C. Martin. Uncle Bob proposes an architecture that leverages the Single Responsibility Principle to its fullest. A great way to start a new codebase. Also checkout the [clean architecture cheatsheet](cheatsheets/Clean-Architecture-V1.0.pdf).
+* 📖 [Design Patterns: Elements of Reusable Object-Oriented Software](http://www.amazon.com/dp/0201633612/): dubbed "the gang of four", this is almost a required reading for any developer. A lot of those are a bit overkill for Python (because everything is an object, and dynamic typing), but the main idea (composition is better than inheritance) definitely is a good philosophy.
+* 📖 [Patterns of Enterprise Application Architecture](http://www.amazon.com/dp/0321127420/?tag=stackoverfl08-20): learn about how database are used in real world applications. Mike Bayer's SQLAlchemy has been heavily influenced by this book.
+* 📖 [Domain-Driven Design: Tackling Complexity in the Heart of Software](https://www.amazon.com/Domain-Driven-Design-Tackling-Complexity-Software/dp/0321125215), Eric Evans
+* 📖 [Clean Architecture](https://www.goodreads.com/book/show/18043011-clean-architecture), Robert C. Martin. Uncle Bob proposes an architecture that leverages the Single Responsibility Principle to its fullest. A great way to start a new codebase. Also checkout the [clean architecture cheatsheet](cheatsheets/Clean-Architecture-V1.0.pdf).
 
 One of the absolute references on architecture is Martin Fowler: checkout his [Software Architecture Guide](https://martinfowler.com/architecture/).
 
 Articles:
 
-* [101 Design Patterns & Tips for Developers](https://sourcemaking.com/design-patterns-and-tips)
-* [Python Design Patterns: For Sleek And Fashionable Code](https://www.toptal.com/python/python-design-patterns): a pretty simple introduction to common design patterns (Facade, Adapter, Decorator). A more complete list of design patterns implementation in Python on [Github](https://github.com/faif/python-patterns). [Also a book here](http://python-3-patterns-idioms-test.readthedocs.io/en/latest/PatternConcept.html).
-* SourceMaking's [Design Patterns](https://sourcemaking.com/design_patterns) seems to be a good web resource too.
 * O'Reilly's [How to make mistakes in Python](http://www.oreilly.com/programming/free/files/how-to-make-mistakes-in-python.pdf)
 * [Education of a Programmer](https://hackernoon.com/education-of-a-programmer-aaecf2d35312): a developer's thoughts after 35 years in the industry. There's a particularly good section about design & complexity (see "the end to end argument", "layering and componentization").
 * Google's [API Design Guide](https://cloud.google.com/apis/design/): a general guide to design networked API.
@@ -365,6 +392,24 @@ I maintain a [list of antipatterns](https://github.com/charlax/antipatterns) on 
 * [Complexity and Strategy](https://hackernoon.com/complexity-and-strategy-325cd7f59a92): interesting perspective on complexity and flexibility with really good examples (e.g. Google Apps Suite vs. Microsoft Office).
 
 > You can use an eraser on the drafting table or a sledge hammer on the construction site. (Frank Lloyd Wright)
+
+#### Design: database schema
+
+* [A humble guide to database schema design](https://www.mikealche.com/software-development/a-humble-guide-to-database-schema-design), Mike Alche
+	* Use at least third normal form
+	* Create a last line of defense with constraints
+	* Never store full addresses in a single field
+	* Never store firstname and lastname in the same field
+	* Establish conventions for table and field names.
+
+#### Design: patterns
+
+* [KeystoneInterface](https://martinfowler.com/bliki/KeystoneInterface.html), Martin Fowler.
+	* Build all the back-end code, integrate, but don't build the user-interface
+* [101 Design Patterns & Tips for Developers](https://sourcemaking.com/design-patterns-and-tips)
+* [Python Design Patterns: For Sleek And Fashionable Code](https://www.toptal.com/python/python-design-patterns): a pretty simple introduction to common design patterns (Facade, Adapter, Decorator). A more complete list of design patterns implementation in Python on [Github](https://github.com/faif/python-patterns). [Also a book here](http://python-3-patterns-idioms-test.readthedocs.io/en/latest/PatternConcept.html).
+* SourceMaking's [Design Patterns](https://sourcemaking.com/design_patterns) seems to be a good web resource too.
+* [Anti-If: The missing patterns](https://code.joejag.com/2016/anti-if-the-missing-patterns.html)
 
 #### Design: simplicity
 
@@ -394,10 +439,11 @@ resources](https://github.com/charlax/engineering-management).
 * [Writing automated tests for your documentation](https://krausefx.com/blog/writing-automated-tests-for-your-documentation): this should be required, IMO. Testing code samples in your documentation ensures they never get outdated.
 * [Documentation is king](https://speakerdeck.com/kennethreitz/documentation-is-king), Kenneth Reitz
 * [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
+* [Architectural Decision Records](https://adr.github.io/): a way to document architecture decision.
 
 ### Dotfiles
 
-* [Awesome dotfiles](https://github.com/webpro/awesome-dotfiles)
+* [Awesome dotfiles](https://github.com/webpro/awesome-dotfiles): lots of great dotfiles.
 * [My dotfiles](https://github.com/charlax/dotfiles)
 
 Articles
@@ -542,6 +588,24 @@ Richard Feynman's Learning Strategy:
 	* A URL is a string of characters that identifies a resource located on a computer network. Its syntax depends on its scheme. E.g. `mailto:billg@microsoft.com`.
 	* A URN is a string of characters that uniquely identifies a resource. Its syntax is `urn:<namespace identifier>:<namespace specific string>`. E.g. `urn:isbn:9780062301239`
 
+### Observability (monitoring, logging, exception handling)
+
+#### Logging
+
+* [Do not log](https://sobolevn.me/2020/03/do-not-log) dwells on some logging antipatterns.
+	* Logging does not make much sense in monitoring and error tracking. Use better tools instead: error and business monitorings with alerts, versioning, event sourcing.
+	* Logging adds significant complexity to your architecture. And it requires more testing. Use architecture patterns that will make logging an explicit part of your contracts
+	* Logging is a whole infrastructure subsystem on its own. And quite a complex one. You will have to maintain it or to outsource this job to existing logging services
+
+#### Error/exception handling
+
+* [Error handling antipattners](https://github.com/charlax/antipatterns/blob/master/error-handling-antipatterns.md) in my antipatterns repo.
+
+#### Monitoring
+
+* Google, [Site Reliability Engineering, Monitoring Distributed Systems](https://landing.google.com/sre/sre-book/chapters/monitoring-distributed-systems/)
+* PagerDuty, [Monitoring Business Metrics and Refining Outage Response](https://www.pagerduty.com/blog/monitoring-business-metrics/)
+
 ### Problem solving
 
 * [Dealing with Hard Problems](https://artofproblemsolving.com/articles/hard-problems)
@@ -604,6 +668,11 @@ JavaScript is such a pervasive language that it's almost required learning.
   * Avoid denormalized representations of data, especially if it’s mutable
   * Use abstract datatypes to make validators “look like” parsers
 
+### Programming paradigm
+
+* [Imperative vs Declarative Programming](https://tylermcginnis.com/imperative-vs-declarative-programming/), Tyler McGinnis.
+	* I draw the line between declarative and non-declarative at whether you can trace the code as it runs. Regex is 100% declarative, as it’s untraceable while the pattern is being executed.
+
 ### Over-engineering
 
 * [10 modern software over-engineering mistakes](https://medium.com/@rdsubhas/10-modern-software-engineering-mistakes-bc67fbef4fc8#.da6dvzyne)
@@ -623,6 +692,13 @@ Rob Pike, [Go at Google: Language Design in the Service of Software Engineering]
 * [Papers we love](https://github.com/papers-we-love/papers-we-love): papers from the computer science community to read and discuss. Can be a good source of inspiration of solving your design problems.
 * [The morning paper](https://blog.acolyer.org/): one CS research paper explained every morning.
 
+### Refactoring
+
+* [The Rule of Three](https://blog.codinghorror.com/rule-of-three/), Coding Horror
+	* Every programmer ever born thinks whatever idea just popped out of their head into their editor is the most generalized, most flexible, most one-size-fits all solution that has ever been conceived.
+	* It is three times as difficult to build reusable components as single use components.
+	* A reusable component should be tried out in three different applications before it will be sufficiently general to accept into a reuse library.
+
 ### Releasing & deploying
 
 * [How We Release So Frequently](http://engineering.skybettingandgaming.com/2016/02/02/how-we-release-so-frequently/)
@@ -633,9 +709,23 @@ Rob Pike, [Go at Google: Language Design in the Service of Software Engineering]
 * [Production Readiness Checklist](https://gruntwork.io/devops-checklist/), Gruntwork
 * [Checklist: what had to be done before deploying microservices to production](https://habr.com/en/post/438186/)
 * [Things end users care about but programmers
-  don't](https://instadeq.com/blog/posts/things-end-users-care-about-but-programmers-dont/):
-  includes colors, formatting, themes, integrations, UX, compatibility,
-  operations.
+  don't](https://instadeq.com/blog/posts/things-end-users-care-about-but-programmers-dont/): includes colors, formatting, themes, integrations, UX, compatibility, operations.
+* [Feature Flags, Toggles, Controls](https://featureflags.io/), a website documenting feature flags, from Launch Darkly.
+* [Feature Toggles (aka Feature Flags)](https://martinfowler.com/articles/feature-toggles.html), Pete Hodgson, martinFowler.com. Comprehensive article on the topic.
+	* Deliver new functionality to users rapidly but safely
+	* Release Toggles allow incomplete and un-tested codepaths to be shipped to production as latent code which may never be turned on.
+	* Experiment Toggles are used to perform multivariate or A/B testing.
+	* Ops Toggles control operational aspects of our system's behavior.
+	* Permissioning Toggles change the features or product experience that certain users receive.
+	* Static vs dynamic toggles
+	* Long-lived toggles vs transient toggles
+	* Savvy teams view their Feature Toggles as inventory which comes with a carrying cost, and work to keep that inventory as low as possible.
+* [Feature Flags Best Practices: Release Management](https://launchdarkly.com/blog/release-management-flags-best-practices/), LaunchDarkly
+* [Developing in Production](https://tersesystems.com/blog/2020/01/22/developing-in-production/) 
+	* Complex systems have emergent behavior, producing epiphenomenon that only appears with sufficient scale. 
+	* Wood's theorem: As the complexity of a system increases, the accuracy of any single agent’s own model of that system decreases rapidly.
+	* The more tools and code that you add to create elements in a system, the harder it is to replicate an environment encompassing those tools and code.
+	* At the core of testing in production is the idea of splitting deployments (of artifacts) from releases (of features).
 
 ### Security
 
@@ -647,6 +737,13 @@ Rob Pike, [Go at Google: Language Design in the Service of Software Engineering]
 * [Checklist of the most important security countermeasures when designing, testing, and releasing your API](https://github.com/shieldfy/API-Security-Checklist)
 * [OWASP Cheat Sheet Series](https://cheatsheetseries.owasp.org/): a series of
   cheat sheets about various security topics.
+* [Secure by Design](https://henrikwarne.com/2020/03/22/secure-by-design/), a book review by Henrik Warne.
+	* There is a big overlap between secure code and good software design
+	* Every domain value should instead be represented by a domain primitive.
+	* External input needs to be validated before it is used in the system, in the following order: origin, size, lexical content, syntax, semantics.
+	* Entities should be consistent at creation, have limited operation, shouldn't be sharing mutable objects.
+	* Three Rs to do every few hours: rotate secrets automatically, repave servers and applications (redeploy on clean footprint), repair vulnerable.
+	* Don’t use exceptions for the control flow.
 
 ### Shell
 
@@ -654,6 +751,7 @@ Rob Pike, [Go at Google: Language Design in the Service of Software Engineering]
 * [Bash Hackers Wiki](http://wiki.bash-hackers.org/)
 * [dylanaraps/pure-bash-bible: a collection of pure bash alternatives to external processes.](https://github.com/dylanaraps/pure-bash-bible)
 * [Master the command line, in one page](https://github.com/jlevy/the-art-of-command-line) **must read**
+* [The Bash Hackers Wiki](https://wiki.bash-hackers.org/) provides a gentler way to learn about bash than its manages.
 
 ### System architecture
 
@@ -670,8 +768,14 @@ Rob Pike, [Go at Google: Language Design in the Service of Software Engineering]
 * [The Log: What every software engineer should know about real-time data's unifying abstraction](https://engineering.linkedin.com/distributed-systems/log-what-every-software-engineer-should-know-about-real-time-datas-unifying): one of those classical articles that everyone should read.
 * [Learn how to design large scale systems. Prep for the system design interview](https://github.com/donnemartin/system-design-primer) (Github repo)
 * [Turning the database outside-out with Apache Samza](https://www.confluent.io/blog/turning-the-database-inside-out-with-apache-samza/)
-* [Building Microservices](https://www.amazon.com/Building-Microservices-Designing-Fine-Grained-Systems/dp/1491950358) 📖, Sam Newman (quite complete discussion of microservices)
+* 📖 [Building Microservices](https://www.amazon.com/Building-Microservices-Designing-Fine-Grained-Systems/dp/1491950358), Sam Newman (quite complete discussion of microservices)
 * [Designing Data-Intensive Applications](https://www.amazon.com/Designing-Data-Intensive-Applications-Reliable-Maintainable/dp/1449373321)
+* [Monoliths are the future](https://changelog.com/posts/monoliths-are-the-future)
+	* "We’re gonna break it up and somehow find the engineering discipline we never had in the first place."
+* [Scaling to 100k Users](https://alexpareto.com/scalability/systems/2020/02/03/scaling-100k.html), Alex Pareto. The basics of getting from 1 to 100k users.
+* [Systems that defy detailed understanding - Made of Bugs](https://blog.nelhage.com/post/systems-that-defy-understanding/) 
+	* Focus effort on systems-level failure, instead of the individual component failure.
+	* Invest in sophisticated observability tools, aiming to increase the number of questions we can ask without deploying custom code
 
 #### Scalability
 
@@ -698,13 +802,20 @@ Books:
 Articles:
 
 * [Graduating from Bootcamp and interested in becoming a Site Reliability Engineer?](https://medium.com/@tammybutow/graduating-from-bootcamp-and-interested-in-becoming-a-site-reliability-engineer-b69a38ce858b): a great collection of resources to learn about SRE.
-* [Operating a Large, Distributed System in a Reliable Way: Practices I Learned](https://blog.pragmaticengineer.com/operating-a-high-scale-distributed-system/)
+* [Operating a Large, Distributed System in a Reliable Way: Practices I Learned](https://blog.pragmaticengineer.com/operating-a-high-scale-distributed-system/), Gergely Orosz.
 	* A good summary of processes to implement.
-
-#### Monitoring
-
-* Google, [Site Reliability Engineering, Monitoring Distributed Systems](https://landing.google.com/sre/sre-book/chapters/monitoring-distributed-systems/)
-* PagerDuty, [Monitoring Business Metrics and Refining Outage Response](https://www.pagerduty.com/blog/monitoring-business-metrics/)
+* [Production Oriented Development](https://paulosman.me/2019/12/30/production-oriented-development.html)
+	* Code in production is the only code that matters
+	* Engineers are the subject matter experts for the code they write and should be responsible for operating it in production.
+	* Buy Almost Always Beats Build
+	* Make Deploys Easy
+	* Trust the People Closest to the Knives
+	* QA Gates Make Quality Worse
+	* Boring Technology is Great.
+	* Non-Production Environments Have Diminishing Returns
+	* Things Will Always Break
+* [Meaningful availability](https://blog.acolyer.org/2020/02/26/meaningful-availability/)
+	* A good availability metric should be meaningful, proportional, and actionable. By "meaningful" we mean that it should capture what users experience. By "proportional" we mean that a change in the metric should be proportional to the change in user-perceived availability. By "actionable" we mean that the metric should give system owners insight into why availability for a period was low. This paper shows that none of the commonly used metrics satisfy these requirements…
 
 ### Technical debt
 
@@ -773,7 +884,6 @@ Articles:
   * Use maker-manager office hours
   * Communication can happen at a quieter asynchronous frequency in the form of thoughtful, written discussions rather than soul-sucking meetings or erratic one-line-at-a-time chat messages
   * Build a team knowledge base to minimize repetitive questions and allow self-onboarding.
-
 
 ### Web development
 
