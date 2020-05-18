@@ -77,7 +77,7 @@
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-# Professional Programming
+# Professional Programming - about this list
 
 > Give me six hours to chop down a tree and I will spend the first four sharpening the axe. (Abraham Lincoln)
 
@@ -86,6 +86,13 @@ A collection of full-stack resources for programmers.
 The goal of this page is to make you a more proficient developer. You'll find only resources that I've found truly inspiring, or that have become timeless classics.
 
 This page is not meant to be comprehensive. I am trying to keep it light and not too overwhelming. The selection of articles is opinionated.
+
+Items:
+
+* 🧰: list of resources
+* 📖: book
+* 🎞: video/movie extract/movie
+* 🎤: slides/presentation
 
 ## Contributing to this list
 
@@ -437,7 +444,7 @@ resources](https://github.com/charlax/engineering-management).
 
 * [Documentation-Driven Development](https://gist.github.com/zsup/9434452)
 * [Writing automated tests for your documentation](https://krausefx.com/blog/writing-automated-tests-for-your-documentation): this should be required, IMO. Testing code samples in your documentation ensures they never get outdated.
-* [Documentation is king](https://speakerdeck.com/kennethreitz/documentation-is-king), Kenneth Reitz
+* 🎤 [Documentation is king](https://speakerdeck.com/kennethreitz/documentation-is-king), Kenneth Reitz
 * [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 * [Architectural Decision Records](https://adr.github.io/): a way to document architecture decision.
 
@@ -787,9 +794,9 @@ Rob Pike, [Go at Google: Language Design in the Service of Software Engineering]
 
 #### Resiliency
 
-* [The Walking Dead - A Survival Guide to Resilient Applications](https://speakerdeck.com/daschl/the-walking-dead-a-survival-guide-to-resilient-applications)
-* [Defensive Programming & Resilient systems in Real World (TM)](https://speakerdeck.com/tuenti/defensive-programming-and-resilient-systems-in-real-world-tm)
-* [Full Stack Fest: Architectural Patterns of Resilient Distributed Systems](https://speakerdeck.com/randommood/full-stack-fest-architectural-patterns-of-resilient-distributed-systems)
+* 🎤 [The Walking Dead - A Survival Guide to Resilient Applications](https://speakerdeck.com/daschl/the-walking-dead-a-survival-guide-to-resilient-applications)
+* 🎤 [Defensive Programming & Resilient systems in Real World (TM)](https://speakerdeck.com/tuenti/defensive-programming-and-resilient-systems-in-real-world-tm)
+* 🎤 [Full Stack Fest: Architectural Patterns of Resilient Distributed Systems](https://speakerdeck.com/randommood/full-stack-fest-architectural-patterns-of-resilient-distributed-systems)
 * [Resilience Engineering Notes](http://resiliencepapers.club/): comprehensive list of resources on resilience engineering
 
 ### Site Reliability Engineering (SRE)
@@ -816,6 +823,9 @@ Articles:
 	* Things Will Always Break
 * [Meaningful availability](https://blog.acolyer.org/2020/02/26/meaningful-availability/)
 	* A good availability metric should be meaningful, proportional, and actionable. By "meaningful" we mean that it should capture what users experience. By "proportional" we mean that a change in the metric should be proportional to the change in user-perceived availability. By "actionable" we mean that the metric should give system owners insight into why availability for a period was low. This paper shows that none of the commonly used metrics satisfy these requirements…
+* 🎤 [High Reliability Infrastructure migrations](https://speakerdeck.com/jvns/high-reliability-infrastructure-migrations), Julia Evans.
+
+> Reliability is the one feature every customer users. -- An auth0 SRE.
 
 ### Technical debt
 
@@ -906,6 +916,13 @@ Articles:
 * [Numbers Everyone Should Know](https://everythingisdata.wordpress.com/2009/10/17/numbers-everyone-should-know/)
 * [Latency numbers every programmer should know](https://gist.github.com/hellerbarde/2843375)
 * [Rob Pike's 5 Rules of Programming](http://users.ece.utexas.edu/~adnan/pike.html)
+
+## Resources & inspiration for presentations
+
+* https://twitter.com/devops_borat
+* https://speakerdeck.com/
+* Dilbert
+* Calvin & Hobbes
 
 ## Concepts
 
