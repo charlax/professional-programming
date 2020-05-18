@@ -2,7 +2,7 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 # Table of Contents
 
-- [Professional Programming](#professional-programming)
+- [Professional Programming - about this list](#professional-programming---about-this-list)
   - [Contributing to this list](#contributing-to-this-list)
   - [Must-read books](#must-read-books)
   - [Must-read articles](#must-read-articles)
@@ -73,6 +73,7 @@
     - [Web development](#web-development)
     - [Writing](#writing)
     - [Writing for performance](#writing-for-performance)
+  - [Resources & inspiration for presentations](#resources--inspiration-for-presentations)
   - [Concepts](#concepts)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
