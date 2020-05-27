@@ -309,6 +309,11 @@ Biases don't only apply to hiring. For instance, the fundamental attribution bia
 	* We will not accept the stupid old lie about cleaning things up later.
 	* We will not believe the claim that quick means dirty.
 	* We will not allow anyone to force us to behave unprofessionally.
+* [Tips on naming boolean variables](https://dev.to/michi/tips-on-naming-boolean-variables-cleaner-code-35ig)
+  * There is a convention to prefix boolean variables and function names with "is" or "has".
+  * Try to always use is, even for plurals (`isEachUserLoggedIn` is better than `areUsersLoggedIn` or `isUsersLoggedIn`)
+  * Avoid custom prefixes (`isPaidFor` is better than `wasPaidFor`)
+  * Avoid negatives (`isEnabled` is better than `isDisabled`)
 
 ### Computer science
 
@@ -729,8 +734,8 @@ Rob Pike, [Go at Google: Language Design in the Service of Software Engineering]
 	* Long-lived toggles vs transient toggles
 	* Savvy teams view their Feature Toggles as inventory which comes with a carrying cost, and work to keep that inventory as low as possible.
 * [Feature Flags Best Practices: Release Management](https://launchdarkly.com/blog/release-management-flags-best-practices/), LaunchDarkly
-* [Developing in Production](https://tersesystems.com/blog/2020/01/22/developing-in-production/) 
-	* Complex systems have emergent behavior, producing epiphenomenon that only appears with sufficient scale. 
+* [Developing in Production](https://tersesystems.com/blog/2020/01/22/developing-in-production/)
+	* Complex systems have emergent behavior, producing epiphenomenon that only appears with sufficient scale.
 	* Wood's theorem: As the complexity of a system increases, the accuracy of any single agent’s own model of that system decreases rapidly.
 	* The more tools and code that you add to create elements in a system, the harder it is to replicate an environment encompassing those tools and code.
 	* At the core of testing in production is the idea of splitting deployments (of artifacts) from releases (of features).
@@ -781,7 +786,7 @@ Rob Pike, [Go at Google: Language Design in the Service of Software Engineering]
 * [Monoliths are the future](https://changelog.com/posts/monoliths-are-the-future)
 	* "We’re gonna break it up and somehow find the engineering discipline we never had in the first place."
 * [Scaling to 100k Users](https://alexpareto.com/scalability/systems/2020/02/03/scaling-100k.html), Alex Pareto. The basics of getting from 1 to 100k users.
-* [Systems that defy detailed understanding - Made of Bugs](https://blog.nelhage.com/post/systems-that-defy-understanding/) 
+* [Systems that defy detailed understanding - Made of Bugs](https://blog.nelhage.com/post/systems-that-defy-understanding/)
 	* Focus effort on systems-level failure, instead of the individual component failure.
 	* Invest in sophisticated observability tools, aiming to increase the number of questions we can ask without deploying custom code
 
