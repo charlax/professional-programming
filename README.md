@@ -252,6 +252,10 @@ Example implementations:
 	* A great teammate always puts the organization and its purpose ahead of their own self interests.
 	* Pick your spots. We have limited time and our brains can only process so much. Focus is key. Choose wisely.
 	* Every person is likely struggling with something. Be kind. Be helpful.
+* [On Coding, Ego and Attention](https://josebrowne.com/on-coding-ego-and-attention/)
+  * Beginner’s mind accepts the fact that absolute knowledge is infinite and thus keeping score is a waste of time.
+  * Mastery is simply the accumulation of momentum, not the accumulation of knowledge.
+  * Dealing with ego distraction has taught me to love the problem solving process. It’s taught me to love and respect the learning process. As a result I’m more productive. I’m less anxious. I’m a better teammate. I’m a better friend and a better thinker.
 
 ### Automation
 
