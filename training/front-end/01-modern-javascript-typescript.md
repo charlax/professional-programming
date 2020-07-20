@@ -4,6 +4,13 @@ Note: run code quickly with https://codesandbox.io/s/
 
 ## Quirks
 
+### Printing and interacting with the console
+
+```javascript
+// Do not leave console.log in your code! There are linters such as eslint that will check for their absence
+console.log("hello");
+```
+
 ### Comparing scalar, arrays, and objects
 
 #### Always use triple comparators (`===`) instead of double (`==`)
@@ -38,9 +45,19 @@ import _ from 'lodash'
 
 console.assert(_.isEqual({a: 1}, {a: 1}))
 console.assert(_.isEqual([1, 2], [1, 2]))
+```
 
+### `Object` methods
 
-## Object assignment and destructuring
+#### `Object.assign`, spread operator
+
+`Object.assign` (ES 2015)
+
+### `Array` methods
+
+#### `Array.includes` (ES7)
+
+## Object literals, assignment and destructuring
 
 ### Objects
 
@@ -54,6 +71,25 @@ console.assert(size === 2)
 // Get the rest with ...rest
 const {color, brand, ...rest} = toaster;
 console.assert(_.isEqual(rest, {size: 2}));
+
+// Set default
+const {size2 = 3} = toaster
+console.assert(size2 === 3)
+
+// Rename variables
+const {size: size3} = toaster
+console.assert(size3 === 2)
+
+// Enhances object literals
+const name = 'Louis'
+const person = {name}
+console.assert(_.isEqual(person, {name: 'Louis'}))
+
+// Dynamic properties
+const person2 = {['first' + 'Name']: 'Olympe'}
+console.assert(_.isEqual(person2, {firstName: 'Olympe'}))
+// Btw, you can include quotes although nobody does this
+console.assert(_.isEqual(person2, {'firstName': 'Olympe'}))
 ```
 
 ### Array
@@ -141,9 +177,50 @@ const myFunctionToBeShortenedArrowV2 = a => a
 console.assert(myFunctionToBeShortenedArrowV2(1) === 1)
 ```
 
-Best practices:
+### How `this` works in arrow functions
+
+### Best practices
 
 - I usually keep the parameters parenthesis. If you add a parameter, you'll have to add them back.
+
+## Classes
+
+### Prototypal inheritance
+
+## Template literals
+
+### Template tags
+
+## Loops
+
+### `for... of`
+
+Note: prefer using some functional constructs such as `map`, `reduce`, etc.
+
+## Promises
+
+### Creating a promise
+
+### Consuming a promise
+
+### Chaining promises
+
+## Async functions
+
+## Modules
+
+CommonJS syntax:
+
+ES Module syntax:
+
+- default export and imports
+- renaming imports
+
+## TypeScript
+
+### Differences between TypeScript and JavaScript
+
+### An introduction to TypeScript's type system
 
 ## References
 
