@@ -127,6 +127,21 @@ const person2 = { ["first" + "Name"]: "Olympe" };
 console.assert(_.isEqual(person2, { firstName: "Olympe" }));
 // Btw, you can include quotes although nobody does this
 console.assert(_.isEqual(person2, { firstName: "Olympe" }));
+
+// Short form function
+const es5Object = {
+  say: function () {
+    console.log("hello");
+  },
+};
+es5Object.say()
+
+const es6Object = {
+  say() {
+    console.log("hello");
+  },
+};
+es6Object.say()
 ```
 
 ### Array
@@ -226,6 +241,16 @@ console.assert(myFunctionToBeShortenedArrowV2(1) === 1);
 
 ## Template literals
 
+```javascript
+const longString = `multi
+line
+string`;
+
+const name = "Louis";
+// Template interpolation
+const hello = `Hello ${name}`;
+```
+
 ### Template tags
 
 ## Loops
@@ -256,3 +281,4 @@ ES Module syntax:
 ## References
 
 - [ES5 to ESNext — here’s every feature added to JavaScript since 2015](https://www.freecodecamp.org/news/es5-to-esnext-heres-every-feature-added-to-javascript-since-2015-d0c255e13c6e/)
+- [ES2015 / ES6: Basics of modern Javascript](https://www.slideshare.net/WojciechDzikowski/es2015-es6-basics-of-modern-javascript)

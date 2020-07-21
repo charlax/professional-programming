@@ -15,7 +15,7 @@
 
 ## Goal of this training
 
-This training was developed for back-end and infra developers.
+This training was developed for back-end and infra developers. It is meant to be used as a support for an oral presentation.
 
 I am not an expert in front-end development. This should only be considered an introduction.
 
@@ -25,7 +25,8 @@ Assumed knowledge:
 
 - HTTP
 - Basics about browser
-- Basic about HTML/CSS/JS
+- Basics about HTML and CSS
+- Basics about programming languages
 
 ## To do before the course
 
@@ -33,8 +34,11 @@ Read the [grab/front-end-guide](https://github.com/grab/front-end-guide) to get 
 
 ## Curriculum
 
-1. Modern Javascript/TypeScript development
-2. Intro to React
+1. Modern Javascript
+2. TypeScript
+3. Intro to React
+4. CSS/HTML restart
+5. Front-end development practices
 
 ## Inspiration
 

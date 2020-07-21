@@ -5,6 +5,7 @@
 - [Front-end development practices](#front-end-development-practices)
   - [Testing](#testing)
   - [Code style](#code-style)
+  - [Dependency management: npm or yarn](#dependency-management-npm-or-yarn)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -13,3 +14,5 @@
 ## Testing
 
 ## Code style
+
+## Dependency management: npm or yarn
