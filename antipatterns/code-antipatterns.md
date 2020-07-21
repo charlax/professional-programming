@@ -1,5 +1,6 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
 # Table of Contents
 
 - [Antipatterns](#antipatterns)
@@ -25,8 +26,7 @@
 Most of those are antipatterns in the Python programming language, but some of
 them might be more generic.
 
-Strict email validation
------------------------
+## Strict email validation
 
 It is almost impossible to strictly validate an email. Even if you were writing
 or using a regex that follows
@@ -41,8 +41,7 @@ To sum up, don't waste your time trying to validate an email if you don't need
 to (or just check that there's a `@` in it). If you need to, send an email with
 a token and validate that the user received it.
 
-Late returns
-------------
+## Late returns
 
 Returning early reduces cognitive overhead, and improve readability by killing
 indentation levels.
@@ -66,8 +65,7 @@ def toast(bread):
     toaster.toast(bread)
 ```
 
-Hacks comment
--------------
+## Hacks comment
 
 Bad:
 
@@ -78,13 +76,13 @@ toaster.restart()
 
 There's multiple things wrong with this comment:
 
-* Even if it is actually a hack, no need to say it in a comment. It lowers the
+- Even if it is actually a hack, no need to say it in a comment. It lowers the
   perceived quality of a codebase and impacts developer motivation.
-* Putting the author and the date is totally useless when using source control
+- Putting the author and the date is totally useless when using source control
   (`git blame`).
-* This does not explain why it's temporary.
-* It's impossible to easily grep for temporary fixes.
-* [Louis de Funès](https://en.wikipedia.org/wiki/Louis_de_Fun%C3%A8s) would never
+- This does not explain why it's temporary.
+- It's impossible to easily grep for temporary fixes.
+- [Louis de Funès](https://en.wikipedia.org/wiki/Louis_de_Fun%C3%A8s) would never
   write a hack.
 
 Good:
@@ -95,10 +93,10 @@ Good:
 toaster.restart()
 ```
 
-* This clearly explains the nature of the temporary fix.
-* Using `TODO` is an ubiquitous pattern that allows easy grepping and plays
+- This clearly explains the nature of the temporary fix.
+- Using `TODO` is an ubiquitous pattern that allows easy grepping and plays
   nice with most text editors.
-* The perceived quality of this temporary fix is much higher.
+- The perceived quality of this temporary fix is much higher.
 
 ## Repeating arguments in function name
 
@@ -146,8 +144,7 @@ Which produces much more concise code:
 toaster = Toasters.get(1)
 ```
 
-Repeating function name in docstring
-------------------------------------
+## Repeating function name in docstring
 
 Bad:
 
@@ -159,8 +156,8 @@ def test_return_true_if_toast_is_valid():
 
 Why is it bad?
 
-* The docstring and function name are not DRY.
-* There's no actual explanation of what valid means.
+- The docstring and function name are not DRY.
+- There's no actual explanation of what valid means.
 
 Good:
 
@@ -177,8 +174,7 @@ def test_brioche_are_valid_toast():
     assert is_valid(Toast('brioche')) is true
 ```
 
-Unreadable response construction
---------------------------------
+## Unreadable response construction
 
 TODO
 
@@ -207,8 +203,7 @@ def get_data():
     }
 ```
 
-Undeterministic tests
----------------------
+## Undeterministic tests
 
 When testing function that don't behave deterministically, it can be tempting
 to run them multiple time and average their results.
@@ -235,11 +230,11 @@ def test_function():
 
 There are multiple things that are wrong with this approach:
 
-* This is a flaky test. Theoretically, this test could still fail.
-* This example is simple enough, but `function` might be doing some
+- This is a flaky test. Theoretically, this test could still fail.
+- This example is simple enough, but `function` might be doing some
   computationally expensive task, which would make this test severely
   inefficient.
-* The test is quite difficult to understand.
+- The test is quite difficult to understand.
 
 Good:
 
@@ -252,8 +247,7 @@ def test_function(mock_random):
 
 This is a deterministic test that clearly tells what's going on.
 
-Unbalanced boilerplate
-----------------------
+## Unbalanced boilerplate
 
 One thing to strive for in libraries is have as little boilerplate as possible,
 but not less.
@@ -269,8 +263,7 @@ library.
 
 I think Flask and SQLAlchemy do a very good job at keeping this under control.
 
-Inconsistent use of verbs in functions
---------------------------------------
+## Inconsistent use of verbs in functions
 
 Bad:
 
@@ -299,9 +292,9 @@ of toasts in the third function.
 
 This is based on personal taste but I have the following rule:
 
-* `get` prefixes function that return at most one object (they either return
+- `get` prefixes function that return at most one object (they either return
   none or raise an exception depending on the cases)
-* `find` prefixes function that return a possibly empty list (or iterable) of
+- `find` prefixes function that return a possibly empty list (or iterable) of
   objects.
 
 Good:
@@ -324,8 +317,7 @@ def find_toasts(color):
     return filter(lambda toast: toast.color == color, TOASTS)
 ```
 
-Opaque function arguments
--------------------------
+## Opaque function arguments
 
 A few variants of what I consider code that is difficult to debug:
 
@@ -348,12 +340,11 @@ def create2(*args, **kwargs):
 
 Why is this bad?
 
-* It's really easy to make a mistake, especially in interpreted languages such
-  as Python. For instance, if I call `create({'name': 'hello', 'ccolor':
-  'blue'})`, I won't get any error, but the color won't be the one I expect.
-* It increases cognitive load, as I have to understand where the object is
+- It's really easy to make a mistake, especially in interpreted languages such
+  as Python. For instance, if I call `create({'name': 'hello', 'ccolor': 'blue'})`, I won't get any error, but the color won't be the one I expect.
+- It increases cognitive load, as I have to understand where the object is
   coming from to introspect its content.
-* It makes the job of static analyzer harder or impossible.
+- It makes the job of static analyzer harder or impossible.
 
 Granted, this pattern is sometimes required (for instance when the number of
 params is too large, or when dealing with pure data).
@@ -365,8 +356,7 @@ def create(name, color='red'):
     pass  # ...
 ```
 
-Hiding formatting
------------------
+## Hiding formatting
 
 Bad:
 
@@ -401,8 +391,8 @@ def get_user(user_id):
 
 Even if you were duplicating the logic once or twice it might still be fine, because:
 
-* You're unlikely to re-use anywhere else outside this file.
-* Putting this inline makes it easier for follow the flow. Code is written to be read primarily by computers.
+- You're unlikely to re-use anywhere else outside this file.
+- Putting this inline makes it easier for follow the flow. Code is written to be read primarily by computers.
 
 ## Returning nothing instead of raising NotFound exception
 
@@ -456,8 +446,8 @@ def do_stuff_b(toaster):
 
 What's the correct things to do?
 
-* If you expect the object to be there, make sure to raise if you don't find it.
-* If you're using SQLAlchemy, use `one()` to force raising an exception if the object can't be found. Don't use `first` or `one_or_none()`.
+- If you expect the object to be there, make sure to raise if you don't find it.
+- If you're using SQLAlchemy, use `one()` to force raising an exception if the object can't be found. Don't use `first` or `one_or_none()`.
 
 ## Having a library that contains all utils
 
@@ -476,6 +466,6 @@ def upload_to_sftp(...):
     ...
 ```
 
-`util` or `tools` or `lib` modules that contain all sorts of utilities have a tendency to become bloated and unmaintainable. Prefer to have small, dedicated files. 
+`util` or `tools` or `lib` modules that contain all sorts of utilities have a tendency to become bloated and unmaintainable. Prefer to have small, dedicated files.
 
 This will keep your imports logical (`lib.date_utils`, `lib.csv_utils`, `lib.sftp`), make it easier for the reader to identify all the utilities around a specific topic, and test files easy to keep organized.

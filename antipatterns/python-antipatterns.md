@@ -1,5 +1,6 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
 # Table of Contents
 
 - [Python Antipatterns](#python-antipatterns)
@@ -16,11 +17,9 @@
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-Python Antipatterns
-===================
+# Python Antipatterns
 
-Redundant type checking
------------------------
+## Redundant type checking
 
 Bad:
 
@@ -33,8 +32,7 @@ def toast(bread):
 ```
 
 In this case, checking against `None` is totally useless because in the next
-line, `bread.is_toastable` would raise `AttributeError: 'NoneType' object has
-no attribute 'is_toastable'`. This is not a general rule, but in this case
+line, `bread.is_toastable` would raise `AttributeError: 'NoneType' object has no attribute 'is_toastable'`. This is not a general rule, but in this case
 I would definitely argue that adding the type checks hurts readability and adds
 very little value to the function.
 
@@ -46,15 +44,14 @@ def toast(bread):
         toaster.toast(bread)
 ```
 
-Restricting version in setup.py dependencies
---------------------------------------------
+## Restricting version in setup.py dependencies
 
 Read those articles first:
 
-* [setup.py vs.
+- [setup.py vs.
   requirements.txt](https://caremad.io/2013/07/setup-vs-requirement/)
-* [Pin Your Packages](http://nvie.com/posts/pin-your-packages/)
-* [Better Package Management](http://nvie.com/posts/better-package-management/)
+- [Pin Your Packages](http://nvie.com/posts/pin-your-packages/)
+- [Better Package Management](http://nvie.com/posts/better-package-management/)
 
 **Summary: The main point is that `setup.py` should not specify explicit version
 requirements (good: `flask`, bad: `flask==1.1.1`).**
@@ -65,9 +62,9 @@ them both in application `app`.
 
 Yet in 99.999% of the cases, you don't need a specific version of flask, so:
 
-* `lib1` should just require `flask` in `setup.py` (no version specified, not
+- `lib1` should just require `flask` in `setup.py` (no version specified, not
   even with inequality operators: `flask<=2` is bad for instance)
-* `lib2` should just require `flask` in `setup.py` (same)
+- `lib2` should just require `flask` in `setup.py` (same)
 
 `app` will be happy using `lib1` and `lib2` with whatever version of `flask` it
 wants.
@@ -77,8 +74,7 @@ strictly pinning (`==`) every single dependency. This way the app's stability
 will be very predictable, because always the same packages version will be
 installed.
 
-Usually apps only use `requirements.txt`, not `setup.py`, because `pip install
--r requirements.txt` is used when deploying.
+Usually apps only use `requirements.txt`, not `setup.py`, because `pip install -r requirements.txt` is used when deploying.
 
 The only exception for pinning a dependency in a library is in case of a known
 incompatibility, but again this should be a very temporary move, because that
@@ -87,8 +83,7 @@ will prevent people from upgrading.
 Ruby has a pretty similar dichotomy with [Gemspec and
 gemfile](http://yehudakatz.com/2010/12/16/clarifying-the-roles-of-the-gemspec-and-gemfile/).
 
-Unwieldy if... else instead of dict
------------------------------------
+## Unwieldy if... else instead of dict
 
 Bad:
 
@@ -147,31 +142,26 @@ def get_operator(value):
         raise ValueError('Unknown operator %s' % value)
 ```
 
-Overreliance on kwargs
-----------------------
+## Overreliance on kwargs
 
 TODO
 
-Overreliance on list/dict comprehensions
-----------------------------------------
+## Overreliance on list/dict comprehensions
 
 TODO
 
-Mutable default arguments
--------------------------
+## Mutable default arguments
 
 TODO
 
-Using `is` to compare objects
------------------------------
+## Using `is` to compare objects
 
 TODO
 
 [Why you should almost never use “is” in
 Python](http://blog.lerner.co.il/why-you-should-almost-never-use-is-in-python/)
 
-Instantiating exception with a dict
------------------------------------
+## Instantiating exception with a dict
 
 Example:
 
@@ -246,14 +236,14 @@ The proper way to update a package and its dependency is to use another tool, fo
 
 **Reference**
 
-* [Pin Your Packages](http://nvie.com/posts/pin-your-packages/)
+- [Pin Your Packages](http://nvie.com/posts/pin-your-packages/)
 
 # Reference
 
-* [Pythonic Pitfalls](http://nafiulis.me/potential-pythonic-pitfalls.html)
-* [Python Patterns](https://github.com/faif/python-patterns)
-* [The Little Book of Python
+- [Pythonic Pitfalls](http://nafiulis.me/potential-pythonic-pitfalls.html)
+- [Python Patterns](https://github.com/faif/python-patterns)
+- [The Little Book of Python
   Anti-Patterns](http://docs.quantifiedcode.com/python-anti-patterns/)
-* [How to make mistakes in
+- [How to make mistakes in
   Python](http://www.oreilly.com/programming/free/files/how-to-make-mistakes-in-python.pdf)
-G
+  G

@@ -1,5 +1,6 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
 # Table of Contents
 
 - [Test antipatterns](#test-antipatterns)
@@ -15,31 +16,25 @@
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-Test antipatterns
-=================
+# Test antipatterns
 
-Testing implementation
-----------------------
+## Testing implementation
 
 TODO
 
-Testing configuration
----------------------
+## Testing configuration
 
 TODO
 
-Testing multiple things
------------------------
+## Testing multiple things
 
 TODO
 
-Repeating integration tests for minor variations
-------------------------------------------------
+## Repeating integration tests for minor variations
 
 TODO
 
-Over-reliance on centralized fixtures
--------------------------------------
+## Over-reliance on centralized fixtures
 
 Bad:
 
@@ -71,7 +66,7 @@ efficient part of the developer flow.
 
 Lastly, this separate the setup and running part of the tests. It makes it more
 difficult for a new engineer to understand what is specific about this test's
-setup without having to open the ``fixtures`` file.
+setup without having to open the `fixtures` file.
 
 Here's a more explicit way to do this. Most fixtures libraries allow you to
 override default parameters, so that you can make clear what setup is specific
@@ -83,13 +78,11 @@ def test_stuff():
     toaster_with_color_blue.toast('brioche')
 ```
 
-Over-reliance on replaying external requests
---------------------------------------------
+## Over-reliance on replaying external requests
 
 TODO
 
-Inefficient query testing
--------------------------
+## Inefficient query testing
 
 Bad:
 
@@ -125,9 +118,7 @@ to verify the behavior.
 One would also recommend to not do this kind of integration testing for queries
 going to the database, but sometimes it's a good tradeoff.
 
-
-Assertions in loop
-------------------
+## Assertions in loop
 
 Bad:
 
@@ -159,22 +150,22 @@ at our test trying to do too many things.
 
 ![Test Pyramid](/images/test-pyramid.png)
 
-*The [test pyramid](https://martinfowler.com/bliki/TestPyramid.html). Image courtesy of Martin Fowler.*
+_The [test pyramid](https://martinfowler.com/bliki/TestPyramid.html). Image courtesy of Martin Fowler._
 
 Building lots of automated comprehensive end-to-end tests was tried multiple time, and almost never worked.
 
-* End to end tests try to do too many things, are highly indeterministic and as a result very flakey.
-* Debugging end to end tests failure is painful and slow - this is usually where most of the time is wasted.
-* Building and maintaining e2e tests is very costly.
-* The time to run e2e tests is much much longer than unit tests.
+- End to end tests try to do too many things, are highly indeterministic and as a result very flakey.
+- Debugging end to end tests failure is painful and slow - this is usually where most of the time is wasted.
+- Building and maintaining e2e tests is very costly.
+- The time to run e2e tests is much much longer than unit tests.
 
 Focused testing (e.g. unit, component, etc) prior to roll out, and business monitoring with alerting are much more efficient.
 
 More reading on this topic:
 
-* [End-To-End Testing Considered Harmful](http://www.alwaysagileconsulting.com/articles/end-to-end-testing-considered-harmful/), Always Agile Consulting
-* [Just Say No to More End-to-End Tests](https://testing.googleblog.com/2015/04/just-say-no-to-more-end-to-end-tests.html), Google Testing Blog
-* [Testing Strategies in a Microservice Architecture](https://martinfowler.com/articles/microservice-testing/#testing-end-to-end-tips), section titled "Writing and maintaining end-to-end tests can be very difficult", Toby Clemson, MartinFowler.com
-* [Introducing the software testing ice-cream cone (anti-pattern)](https://watirmelon.blog/2012/01/31/introducing-the-software-testing-ice-cream-cone/), Alister Scott
-* [TestPyramid](https://martinfowler.com/bliki/TestPyramid.html), Martin Fowler
-* [professional-programming's testing section](https://github.com/charlax/professional-programming#testing)
+- [End-To-End Testing Considered Harmful](http://www.alwaysagileconsulting.com/articles/end-to-end-testing-considered-harmful/), Always Agile Consulting
+- [Just Say No to More End-to-End Tests](https://testing.googleblog.com/2015/04/just-say-no-to-more-end-to-end-tests.html), Google Testing Blog
+- [Testing Strategies in a Microservice Architecture](https://martinfowler.com/articles/microservice-testing/#testing-end-to-end-tips), section titled "Writing and maintaining end-to-end tests can be very difficult", Toby Clemson, MartinFowler.com
+- [Introducing the software testing ice-cream cone (anti-pattern)](https://watirmelon.blog/2012/01/31/introducing-the-software-testing-ice-cream-cone/), Alister Scott
+- [TestPyramid](https://martinfowler.com/bliki/TestPyramid.html), Martin Fowler
+- [professional-programming's testing section](https://github.com/charlax/professional-programming#testing)
