@@ -1,3 +1,43 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+## Table of Contents
+
+- [Modern JavaScript/TypeScript](#modern-javascripttypescript)
+  - [Quirks](#quirks)
+    - [Printing and interacting with the console](#printing-and-interacting-with-the-console)
+    - [Comparing scalar, arrays, and objects](#comparing-scalar-arrays-and-objects)
+      - [Always use triple comparators (`===`) instead of double (`==`)](#always-use-triple-comparators--instead-of-double-)
+      - [Comparing non-scalar](#comparing-non-scalar)
+    - [`Object` methods](#object-methods)
+      - [`Object.assign`, spread operator](#objectassign-spread-operator)
+    - [`Array` methods](#array-methods)
+      - [`Array.includes` (ES7)](#arrayincludes-es7)
+  - [Object literals, assignment and destructuring](#object-literals-assignment-and-destructuring)
+    - [Objects](#objects)
+    - [Array](#array)
+  - [`let` and `const`](#let-and-const)
+  - [Arrow functions](#arrow-functions)
+    - [How `this` works in arrow functions](#how-this-works-in-arrow-functions)
+    - [Best practices](#best-practices)
+  - [Classes](#classes)
+    - [Prototypal inheritance](#prototypal-inheritance)
+  - [Template literals](#template-literals)
+    - [Template tags](#template-tags)
+  - [Loops](#loops)
+    - [`for... of`](#for-of)
+  - [Promises](#promises)
+    - [Creating a promise](#creating-a-promise)
+    - [Consuming a promise](#consuming-a-promise)
+    - [Chaining promises](#chaining-promises)
+  - [Async functions](#async-functions)
+  - [Modules](#modules)
+  - [TypeScript](#typescript)
+    - [Differences between TypeScript and JavaScript](#differences-between-typescript-and-javascript)
+    - [An introduction to TypeScript's type system](#an-introduction-to-typescripts-type-system)
+  - [References](#references)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # Modern JavaScript/TypeScript
 
 Note: run code quickly with https://codesandbox.io/s/

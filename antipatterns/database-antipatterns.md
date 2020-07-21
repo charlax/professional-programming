@@ -1,7 +1,6 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-
-# Table of Contents
+## Table of Contents
 
 - [Database anti-patterns](#database-anti-patterns)
   - [Using `VARCHAR` instead of `TEXT` (PostgreSQL)](#using-varchar-instead-of-text-postgresql)

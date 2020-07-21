@@ -4,13 +4,13 @@ from sqlalchemy.orm import sessionmaker
 from sqlalchemy.ext.declarative import declarative_base
 
 
-engine = create_engine('sqlite:///:memory:', echo=True)
+engine = create_engine("sqlite:///:memory:", echo=True)
 Session = sessionmaker(bind=engine)
 Base = declarative_base()
 
 
 class Toaster(Base):
-    __tablename__ = 'toasters'
+    __tablename__ = "toasters"
 
     id = Column(Integer, primary_key=True)
     name = Column(String)

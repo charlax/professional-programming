@@ -1,3 +1,16 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+## Table of Contents
+
+- [Introduction to front-end programming](#introduction-to-front-end-programming)
+  - [Goal of this training](#goal-of-this-training)
+  - [Prerequisites](#prerequisites)
+  - [To do before the course](#to-do-before-the-course)
+  - [Curriculum](#curriculum)
+  - [Inspiration](#inspiration)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # Introduction to front-end programming
 
 ## Goal of this training

@@ -13,4 +13,6 @@ repos:
     rev: v1.4.0
     hooks:
     -   id: doctoc
-        args: --title "## Table of Contents"
+        args:
+          - --title
+          - "## Table of Contents"
