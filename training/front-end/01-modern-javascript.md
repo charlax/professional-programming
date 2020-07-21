@@ -52,13 +52,13 @@ There are no required arguments in JavaScript:
 ```javascript
 function hello(name) {
   return name;
-  }
+}
 
-  // No raise, will log "undefined"
+// No raise, will log "undefined"
 console.log(hello());
 
 // Here's how to compare to undefined
-console.assert(typeof undefined === 'undefined')
+console.assert(typeof undefined === "undefined");
 ```
 
 ### Printing and interacting with the console
@@ -121,9 +121,16 @@ console.assert(_.isEqual([1, 2], [1, 2]));
 ```javascript
 const toaster = { size: 2, color: "red", brand: "NoName" };
 
-// Get one object key
+// Get ("destructure") one object key
 const { size } = toaster;
 console.assert(size === 2);
+
+// Note: this also works with functions
+function destructuredFunction({ color }) {
+  return color;
+}
+
+console.assert(destructuredFunction({ color: "red" }) === "red");
 
 // Get the rest with ...rest
 const { color, brand, ...rest } = toaster;
@@ -136,8 +143,11 @@ console.assert(size2 === 3);
 // Rename variables
 const { size: size3 } = toaster;
 console.assert(size3 === 2);
+```
 
-// Enhances object literals
+Enhanced object literals:
+
+```javascript
 const name = "Louis";
 const person = { name };
 console.assert(_.isEqual(person, { name: "Louis" }));
@@ -162,6 +172,23 @@ const es6Object = {
   },
 };
 es6Object.say();
+
+// Prototype and super()
+const firstObject = {
+  a: "a",
+  hello() {
+    return "hello";
+  },
+};
+
+const secondObject = {
+  __proto__: firstObject,
+  hello() {
+    return super.hello() + " from second object";
+  },
+};
+
+console.assert(secondObject.hello() === "hello from second object");
 ```
 
 ### Array
@@ -263,32 +290,32 @@ console.assert(myFunctionToBeShortenedArrowV2(1) === 1);
 
 ```javascript
 class Toaster {
-constructor(color) {
-this.color = color
-}
+  constructor(color) {
+    this.color = color;
+  }
 
-dring() {
-return 'dring';
-}
+  dring() {
+    return "dring";
+  }
 }
 
 // Don't forget new!
 // Raises: TypeError: Cannot call a class as a function
 // const toaster = Toaster('red');
 
-const toaster = new Toaster('red');
-console.log(toaster.dring())
+const toaster = new Toaster("red");
+console.log(toaster.dring());
 
 // Inheritance
 
 class BunToaster extends Toaster {
   dring() {
-  return super.dring() + ' dring';
+    return super.dring() + " dring";
   }
-  }
+}
 
-const bunToaster = new BunToaster("red")
-console.assert(bunToaster.dring() === "dring dring")
+const bunToaster = new BunToaster("red");
+console.assert(bunToaster.dring() === "dring dring");
 ```
 
 Those are my opinions about other class features:
@@ -310,15 +337,44 @@ string`;
 const name = "Louis";
 // Template interpolation
 const hello = `Hello ${name}`;
+
+// You can have expressions
+const hello1 = `Hello ${name + "!"}`;
+const hello2 = `Hello ${name === "Louis" ? name : "Noname"}`;
 ```
 
 ### Template tags
+
+They are used in some libraries, like Apollo and Styled Components.
+
+```javascript
+function templateTag(literals, ...expressions) {
+  console.assert(_.isEqual(literals, ["hello ", ""]));
+  console.assert(_.isEqual(expressions, [3]));
+  return _.join(_.flatten(_.zip(literals, expressions)), "");
+}
+
+const result = templateTag`hello ${1 + 2}`;
+console.assert(result === "hello 3");
+```
 
 ## Loops
 
 ### `for... of`
 
 Note: prefer using some functional constructs such as `map`, `reduce`, etc.
+
+```javascript
+for (const i of [1, 2, 3]) {
+  console.log({ i });
+}
+// 1, 2, 3
+
+for (const key in { a: "aaa", b: "bbb" }) {
+  console.log({ key });
+}
+// 'a', 'b'
+```
 
 ## Promises
 
