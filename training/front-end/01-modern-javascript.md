@@ -4,6 +4,7 @@
 
 - [Modern JavaScript](#modern-javascript)
   - [Quirks](#quirks)
+    - [Undefined everywhere!](#undefined-everywhere)
     - [Printing and interacting with the console](#printing-and-interacting-with-the-console)
     - [Comparing scalar, arrays, and objects](#comparing-scalar-arrays-and-objects)
       - [Always use triple comparators (`===`) instead of double (`==`)](#always-use-triple-comparators--instead-of-double-)
@@ -16,6 +17,7 @@
     - [Objects](#objects)
     - [Array](#array)
   - [`let` and `const`](#let-and-const)
+    - [Hoisting](#hoisting)
   - [Arrow functions](#arrow-functions)
     - [How `this` works in arrow functions](#how-this-works-in-arrow-functions)
     - [Best practices](#best-practices)
@@ -42,6 +44,22 @@
 Note: run code quickly with https://codesandbox.io/s/
 
 ## Quirks
+
+### Undefined everywhere!
+
+There are no required arguments in JavaScript:
+
+```javascript
+function hello(name) {
+  return name;
+  }
+
+  // No raise, will log "undefined"
+console.log(hello());
+
+// Here's how to compare to undefined
+console.assert(typeof undefined === 'undefined')
+```
 
 ### Printing and interacting with the console
 
@@ -200,6 +218,10 @@ Never use `var`:
 - `let` and `const` are block-scoped
 - `let` and `const` cannot be reused for the same variable name
 
+### Hoisting
+
+See [Hoisting on MDN](https://developer.mozilla.org/en-US/docs/Glossary/Hoisting)
+
 ## Arrow functions
 
 The first advantage of arrow function is that they're shorter to write:
@@ -238,6 +260,43 @@ console.assert(myFunctionToBeShortenedArrowV2(1) === 1);
 - I usually keep the parameters parenthesis. If you add a parameter, you'll have to add them back.
 
 ## Classes
+
+```javascript
+class Toaster {
+constructor(color) {
+this.color = color
+}
+
+dring() {
+return 'dring';
+}
+}
+
+// Don't forget new!
+// Raises: TypeError: Cannot call a class as a function
+// const toaster = Toaster('red');
+
+const toaster = new Toaster('red');
+console.log(toaster.dring())
+
+// Inheritance
+
+class BunToaster extends Toaster {
+  dring() {
+  return super.dring() + ' dring';
+  }
+  }
+
+const bunToaster = new BunToaster("red")
+console.assert(bunToaster.dring() === "dring dring")
+```
+
+Those are my opinions about other class features:
+
+- Avoid using `static` methods, use plain functions instead.
+- Avoid using more than one level of inheritance.
+- Avoid using getter and setters (`get` and `set`).
+- Avoid using classes altogether.
 
 ### Prototypal inheritance
 
