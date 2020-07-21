@@ -134,14 +134,14 @@ const es5Object = {
     console.log("hello");
   },
 };
-es5Object.say()
+es5Object.say();
 
 const es6Object = {
   say() {
     console.log("hello");
   },
 };
-es6Object.say()
+es6Object.say();
 ```
 
 ### Array
