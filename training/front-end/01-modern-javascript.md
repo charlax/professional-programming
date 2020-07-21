@@ -31,6 +31,8 @@
     - [Chaining promises](#chaining-promises)
   - [Async functions](#async-functions)
   - [Modules](#modules)
+  - [Other features](#other-features)
+    - [Optional chaining](#optional-chaining)
   - [References](#references)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -164,8 +166,8 @@ const constantVar = "a";
 // Raises "constantVar" is read-only
 constantVar = "b";
 
-let mutableVar = "a";
-mutableVar = "a";
+let theVar = "a";
+theVar = "a";
 
 // Note: this will work ok
 const constantObject = { a: 1 };
@@ -277,6 +279,10 @@ ES Module syntax:
 
 - default export and imports
 - renaming imports
+
+## Other features
+
+### Optional chaining
 
 ## References
 
