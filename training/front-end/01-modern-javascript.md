@@ -2,7 +2,7 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 ## Table of Contents
 
-- [Modern JavaScript/TypeScript](#modern-javascripttypescript)
+- [Modern JavaScript](#modern-javascript)
   - [Quirks](#quirks)
     - [Printing and interacting with the console](#printing-and-interacting-with-the-console)
     - [Comparing scalar, arrays, and objects](#comparing-scalar-arrays-and-objects)
@@ -31,14 +31,11 @@
     - [Chaining promises](#chaining-promises)
   - [Async functions](#async-functions)
   - [Modules](#modules)
-  - [TypeScript](#typescript)
-    - [Differences between TypeScript and JavaScript](#differences-between-typescript-and-javascript)
-    - [An introduction to TypeScript's type system](#an-introduction-to-typescripts-type-system)
   - [References](#references)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-# Modern JavaScript/TypeScript
+# Modern JavaScript
 
 Note: run code quickly with https://codesandbox.io/s/
 
@@ -255,12 +252,6 @@ ES Module syntax:
 
 - default export and imports
 - renaming imports
-
-## TypeScript
-
-### Differences between TypeScript and JavaScript
-
-### An introduction to TypeScript's type system
 
 ## References
 
