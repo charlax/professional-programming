@@ -1,5 +1,6 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
 ## Table of Contents
 
 - [Modern JavaScript](#modern-javascript)
@@ -43,6 +44,8 @@
 
 Note: run code quickly with https://codesandbox.io/s/
 
+- JavaScript: https://codesandbox.io/s/front-end-training-014br
+
 ## Quirks
 
 ### Undefined everywhere!
@@ -66,6 +69,7 @@ console.assert(typeof undefined === "undefined");
 ```javascript
 // Do not leave console.log in your code! There are linters such as eslint that will check for their absence
 console.log("hello");
+console.assert(true === true);
 ```
 
 ### Comparing scalar, arrays, and objects
@@ -74,7 +78,7 @@ console.log("hello");
 
 ```javascript
 // ???
-console.assert("1" == 1);
+console.assert("1" == 1); // this is true!
 
 // Better
 console.assert(!("1" === 1));
@@ -91,6 +95,7 @@ console.assert({ a: 1 } !== { a: 1 });
 
 const obj = { a: 1 };
 const obj2 = obj;
+// This is true because obj and obj2 refer to the same object ("identity")
 console.assert(obj == obj2);
 console.assert(obj === obj2);
 ```
@@ -233,10 +238,9 @@ console.log({ a });
 
 Note: try to use `const` as much as you can.
 
-- More constraints = safer code
-- Some kind of "immutability" is good (since `const` objects can be modified, it is not true immutability)
-- You can't define a `const` without providing its initial value
-- Most people do this in modern JS
+- Those variables can't be reassigned. More constraints leads to safer code.
+- You can't define a `const` without providing its initial value.
+- Most people do this in modern JS.
 
 Never use `var`:
 
@@ -414,10 +418,55 @@ TODO
 
 CommonJS syntax:
 
+```javascript
+const lodash = require("lodash");
+```
+
 ES Module syntax:
 
-- default export and imports
-- renaming imports
+```javascript
+import lodash from "lodash";
+```
+
+### Imports
+
+```javascript
+// Import all and provide under name
+import * as toaster from "./toaster";
+
+// Named import (same as object destructuring!)
+import { defaultColor, defaultSize } from "./toaster";
+
+// Renaming imports
+import { defaultBrand as toasterDefaultBrand } from "./toaster";
+
+// Default import
+import createToaster from "./toaster";
+
+// Import both defaults and other
+// import createToaster, {defaultColor} from './toaster'
+```
+
+### Exports
+
+In `toaster.js`:
+
+```javascript
+// Shorthand definition + export
+export const defaultSize = 4;
+
+// Alternative export syntax
+const defaultBrand = "Moulinex";
+export { defaultBrand };
+
+// Default export
+const createToaster = ({ size, color }) => ({ size, color });
+export default createToaster;
+
+// Note that you have a shorthand default export, but it's not recommended to
+// use it as the export won't have a name.
+// export default () => ({})
+```
 
 ## Other features
 
