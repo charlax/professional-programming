@@ -378,7 +378,31 @@ for (const key in { a: "aaa", b: "bbb" }) {
 
 ## Promises
 
+This is only going to be an introduction to the magnificent world of promise.
+
+- Async functions (seen later) use promises as a building block.
+- Promise are indeed async in nature: the calling code continues executing the promise does its thing.
+- Some Web API return promises, including `Fetch`
+
 ### Creating a promise
+
+Note: we use TypeScript in this example, to clarify what's return. You can ignore the type annotations for now.
+
+```typescript
+let isDone: boolean = true
+
+const thePromise = new Promise((resolve, reject) => {
+  if (isDone) {
+    resolve("the work is done");
+  } else {
+    reject("this is still pending");
+    }
+    }
+
+console.assert(thePromise === 'the work is done')
+```
+
+TODO
 
 ### Consuming a promise
 

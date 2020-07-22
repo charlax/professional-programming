@@ -23,10 +23,11 @@ I am not an expert in front-end development. This should only be considered an i
 
 Assumed knowledge:
 
-- HTTP
-- Basics about browser
-- Basics about HTML and CSS
-- Basics about programming languages
+- Basics about HTTP (cookies, protocol, HTTPS)
+- Basics about browser (DOM, using the developer console)
+- Basics about HTML and CSS (tags & attributes, how CSS work, CSS selectors, CSS styling)
+- Basics about programming languages (conditionals, loops, variables, typing, tests)
+- Basics about JavaScript (syntax, having written a few hundred lines of code)
 
 ## To do before the course
 
@@ -36,7 +37,7 @@ Read the [grab/front-end-guide](https://github.com/grab/front-end-guide) to get 
 
 1. Modern Javascript
 2. TypeScript
-3. Intro to React
+3. React
 4. CSS/HTML restart
 5. Front-end development practices
 
