@@ -1,6 +1,5 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-
 ## Table of Contents
 
 - [Introduction to front-end programming](#introduction-to-front-end-programming)
@@ -8,6 +7,7 @@
   - [Prerequisites](#prerequisites)
   - [To do before the course](#to-do-before-the-course)
   - [Curriculum](#curriculum)
+  - [Roadmap: to go further](#roadmap-to-go-further)
   - [Inspiration](#inspiration)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -36,11 +36,18 @@ Read the [grab/front-end-guide](https://github.com/grab/front-end-guide) to get 
 
 ## Curriculum
 
-1. Modern Javascript
-2. TypeScript
-3. React
-4. CSS/HTML restart
-5. Front-end development practices
+1. The language: writing modern Javascript
+2. The environment: the browser
+3. TypeScript
+4. React
+5. CSS/HTML restart
+6. Front-end development practices
+
+## Roadmap: to go further
+
+![learning front-end roadmap](./img/learning-roadmap.png)
+
+Image from https://github.com/kamranahmedse/developer-roadmap
 
 ## Inspiration
 

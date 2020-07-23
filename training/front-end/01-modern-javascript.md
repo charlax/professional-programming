@@ -1,19 +1,22 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-
 ## Table of Contents
 
 - [Modern JavaScript](#modern-javascript)
+  - [Prererequisites](#prererequisites)
+  - [Introduction](#introduction)
   - [Quirks](#quirks)
+    - [Make sure your target browser supports the feature!](#make-sure-your-target-browser-supports-the-feature)
     - [Undefined everywhere!](#undefined-everywhere)
     - [Printing and interacting with the console](#printing-and-interacting-with-the-console)
-    - [Comparing scalar, arrays, and objects](#comparing-scalar-arrays-and-objects)
+    - [Casting](#casting)
       - [Always use triple comparators (`===`) instead of double (`==`)](#always-use-triple-comparators--instead-of-double-)
-      - [Comparing non-scalar](#comparing-non-scalar)
+    - [Primitive types vs. reference types](#primitive-types-vs-reference-types)
     - [`Object` methods](#object-methods)
       - [`Object.assign`, spread operator](#objectassign-spread-operator)
     - [`Array` methods](#array-methods)
       - [`Array.includes` (ES7)](#arrayincludes-es7)
+  - [Prototypes in JavaScript](#prototypes-in-javascript)
   - [Object literals, assignment and destructuring](#object-literals-assignment-and-destructuring)
     - [Objects](#objects)
     - [Array](#array)
@@ -34,8 +37,11 @@
     - [Chaining promises](#chaining-promises)
   - [Async functions](#async-functions)
   - [Modules](#modules)
+    - [Imports](#imports)
+    - [Exports](#exports)
   - [Other features](#other-features)
     - [Optional chaining](#optional-chaining)
+  - [Self assessment](#self-assessment)
   - [References](#references)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -46,13 +52,57 @@ Note: run code quickly with https://codesandbox.io/s/
 
 - JavaScript: https://codesandbox.io/s/front-end-training-014br
 
+## Prererequisites
+
+This course assumes you already have experience with JavaScript. If you don't, start with this:
+
+- [JavaScript First Steps](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps), MDN
+- [Learn JavaScript](https://learnjavascript.online/)
+
+## Introduction
+
+JavaScript is a programming language evolving very rapidly that can run in different environments:
+
+- Browser (the assumed target for this document).
+- Computer and embedded systems (usually through node)
+- Mobile and desktop apps with frameworks such as Electron, React Native, etc.
+
+Key historical elements:
+
+- September 1995: LiveScript is released in the Netscape Navigator Browser. It was developed by Brendan Eich.
+- June 1997: Ecma International releases the first ECMAScript language *specification*. (note: the European Computer Manufacturers Association was founded in 1961 to standardize computer systems)
+- December 2009: the ECMAScript 5 standard is released.
+
+From 2016 to today, a new version of ECMAScript is released each year. The language has reached maturity and supports many modern constructs.
+
+Key features of JavaScript:
+
+- It is imperative & inspired by C
+  - `if`, `while`, `switch`, `while`, `do while`
+- It is weakly typed: it has types (`String`, `Number`, etc.) but uses implicit cast (`"1" - "1" === 0`).
+- It is dynamically typed: types are associated with values rather than expressions (a variable `x` can be associated with a `String`, then with a `Number`).
+- It supports runtime evaluation with `eval`. `eval('1 === 1')` evaluates to `true`
+- It supports object orientation with a very powerful prototype-based approach.
+- While it is not necessarily considered a pure functional language, its functions are first-class citizen and it supports closures and anonymous functions. As a result, it can be used to go pretty far with functional programming patterns.
+- It is very concise. Newer features such as arrow functions, object and array destructuring leads to very terse code with a very high signal to noise ration.
+
 ## Quirks
+
+### Make sure your target browser supports the feature!
+
+Use [caniuse](https://caniuse.com/) to check what browser support the feature you're using. For instance, for `[1, 2].includes(1)` requires `Array.prototype.includes`:
+
+![caniuse](./img/caniuse.png)
+
+You can then use "polyfills" (or "shims") to support older browser. There are some polyfills for each specific feature, and some other that includes lots of polyfills (e.g. [zloirock/core-js](https://github.com/zloirock/core-js#ecmascript-array)).
 
 ### Undefined everywhere!
 
-There are no required arguments in JavaScript:
-
 ```javascript
+var a;
+console.assert(typeof a === "undefined");
+
+// There are no required arguments in JavaScript
 function hello(name) {
   return name;
 }
@@ -62,6 +112,10 @@ console.log(hello());
 
 // Here's how to compare to undefined
 console.assert(typeof undefined === "undefined");
+
+const anObject = {a: 1}
+// Accessing an absent object key also returns undefined
+console.assert(typeof anObject.nonexistent === "undefined");
 ```
 
 ### Printing and interacting with the console
@@ -69,23 +123,58 @@ console.assert(typeof undefined === "undefined");
 ```javascript
 // Do not leave console.log in your code! There are linters such as eslint that will check for their absence
 console.log("hello");
+
+// In this document, we use assert to show the actual value
 console.assert(true === true);
 ```
 
-### Comparing scalar, arrays, and objects
+### Casting
+
+Rules for string conversion:
+
+- `String` are left as is
+- `Number` are converted to their string representation
+- Elements of `Array` are converted to string, then joined with commas `,`
+- Objects are converted to `[object Object]` where `Object` is the constructor of the object
+
+Can you guess how those will be converted?
+
+```javascript
+[] + []
+
+{} + {}
+
+"1" + 1
+
+"1" + "1"
+
+"1" - 1
+
+[1, 2] + 2
+
+[1] + 1
+
+function Dog {}
+
+const dog = new Dog()
+
+dog + 1 + "a"
+
+dog - 1
+```
 
 #### Always use triple comparators (`===`) instead of double (`==`)
 
 ```javascript
-// ???
-console.assert("1" == 1); // this is true!
+// Double equals will coerce values to make them comparable!
+console.assert("1" == 1);
 
 // Better
 console.assert(!("1" === 1));
 console.assert("1" !== 1);
 ```
 
-#### Comparing non-scalar
+### Primitive types vs. reference types
 
 Applied on arrays and objects, `==` and `===` will check for object identity, which is almost never what you want.
 
@@ -118,6 +207,20 @@ console.assert(_.isEqual([1, 2], [1, 2]));
 ### `Array` methods
 
 #### `Array.includes` (ES7)
+
+## Prototypes in JavaScript
+
+JavaScript has a very powerful prototypal inheritance system that is very interesting to study.
+
+The truth is, it is much less used nowadays, and you don't really need to know it to develop with React. So we will leave it aside for now.
+
+The book [JavaScript: The Good Parts](https://www.oreilly.com/library/view/javascript-the-good/9780596517748/) by Douglas Crockford (2008) is a great introduction to it. Here's a quote from the author:
+
+> You make prototype objects, and then … make new instances. Objects are mutable in JavaScript, so we can augment the new instances, giving them new fields and methods. These can then act as prototypes for even newer objects. We don't need classes to make lots of similar objects… Objects inherit from objects. What could be more object oriented than that?
+
+Some good articles:
+
+- [A Plain English Guide to JavaScript Prototypes](http://sporto.github.io/blog/2013/02/22/a-plain-english-guide-to-javascript-prototypes/)
 
 ## Object literals, assignment and destructuring
 
@@ -472,7 +575,21 @@ export default createToaster;
 
 ### Optional chaining
 
+## Self assessment
+
+- How old is JavaScript?
+- Is it a modern language?
+- Can we say that JavaScript does not have types?
+- What is the value of this expression: `"1" + "1"`?
+- What should I use? `let`, `var`, or `cost`?
+- How do you add support for modern JS features in older browsers?
+
 ## References
 
 - [ES5 to ESNext — here’s every feature added to JavaScript since 2015](https://www.freecodecamp.org/news/es5-to-esnext-heres-every-feature-added-to-javascript-since-2015-d0c255e13c6e/)
 - [ES2015 / ES6: Basics of modern Javascript](https://www.slideshare.net/WojciechDzikowski/es2015-es6-basics-of-modern-javascript)
+- [JavaScript](https://en.wikipedia.org/wiki/JavaScript), Wikipedia
+
+Future changes:
+
+- [tc39/proposal-record-tuple: ECMAScript proposal for the Record and Tuple value types.](https://github.com/tc39/proposal-record-tuple)
