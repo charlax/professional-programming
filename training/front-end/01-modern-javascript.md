@@ -12,10 +12,7 @@
     - [Casting](#casting)
       - [Always use triple comparators (`===`) instead of double (`==`)](#always-use-triple-comparators--instead-of-double-)
     - [Primitive types vs. reference types](#primitive-types-vs-reference-types)
-    - [`Object` methods](#object-methods)
-      - [`Object.assign`, spread operator](#objectassign-spread-operator)
-    - [`Array` methods](#array-methods)
-      - [`Array.includes` (ES7)](#arrayincludes-es7)
+    - [`Object` and `Array` methods](#object-and-array-methods)
   - [Prototypes in JavaScript](#prototypes-in-javascript)
   - [Object literals, assignment and destructuring](#object-literals-assignment-and-destructuring)
     - [Objects](#objects)
@@ -26,7 +23,6 @@
     - [How `this` works in arrow functions](#how-this-works-in-arrow-functions)
     - [Best practices](#best-practices)
   - [Classes](#classes)
-    - [Prototypal inheritance](#prototypal-inheritance)
   - [Template literals](#template-literals)
     - [Template tags](#template-tags)
   - [Loops](#loops)
@@ -198,21 +194,20 @@ console.assert(_.isEqual({ a: 1 }, { a: 1 }));
 console.assert(_.isEqual([1, 2], [1, 2]));
 ```
 
-### `Object` methods
+### `Object` and `Array` methods
 
-#### `Object.assign`, spread operator
+```javascript
+// Use Object.assign (ES 2015) to copy objects
 
-`Object.assign` (ES 2015)
+// Array.includes (ES7)
 
-### `Array` methods
-
-#### `Array.includes` (ES7)
+```
 
 ## Prototypes in JavaScript
 
 JavaScript has a very powerful prototypal inheritance system that is very interesting to study.
 
-The truth is, it is much less used nowadays, and you don't really need to know it to develop with React. So we will leave it aside for now.
+The truth is, it is much less used nowadays, and you don't really need to know it to develop with React. It also requires a bit of personal study to fully understand it. So we will leave it aside for now.
 
 The book [JavaScript: The Good Parts](https://www.oreilly.com/library/view/javascript-the-good/9780596517748/) by Douglas Crockford (2008) is a great introduction to it. Here's a quote from the author:
 
@@ -356,6 +351,24 @@ Never use `var`:
 
 See [Hoisting on MDN](https://developer.mozilla.org/en-US/docs/Glossary/Hoisting)
 
+```javascript
+console.log(typeof variable); // undefined
+// console.log(variable); // Raises: ReferenceError: variable is not defined
+
+function hoist() {
+  a = 20;
+  var b = 100;
+}
+
+hoist();
+
+// 20, accessible as a global variable outside of hoist
+console.log(a);
+
+// Raises: ReferenceError: b is not defined
+// console.log(b);
+```
+
 ## Arrow functions
 
 The first advantage of arrow function is that they're shorter to write:
@@ -391,7 +404,7 @@ console.assert(myFunctionToBeShortenedArrowV2(1) === 1);
 
 ### Best practices
 
-- I usually keep the parameters parenthesis. If you add a parameter, you'll have to add them back.
+I usually keep the parameters parenthesis. If you add a parameter and weren't including them, you'll have to add them back.
 
 ## Classes
 
@@ -431,8 +444,6 @@ Those are my opinions about other class features:
 - Avoid using more than one level of inheritance.
 - Avoid using getter and setters (`get` and `set`).
 - Avoid using classes altogether.
-
-### Prototypal inheritance
 
 ## Template literals
 
@@ -583,12 +594,28 @@ export default createToaster;
 - What is the value of this expression: `"1" + "1"`?
 - What should I use? `let`, `var`, or `cost`?
 - How do you add support for modern JS features in older browsers?
+- How are variables scoped in JavaScript?
+- What should you watch for when comparing variables in JavaScript?
+- `const a = [1]; const b = [1];`: what does `b == b` evaluates to?
+- How do you write arrow functions?
+- `const {a} = {a: 1}`: what does `a` evaluate to?
+
+Advanced:
+
+- How does JavaScript "inherit" from each other?
+- If `const toaster = {name: 'Foo'}` and I want `const obj = {Foo: 1}`. How can I write this whatever the `toaster`'s `name`?
+
+Other assessments:
+
+- [37 Essential JavaScript Interview Questions and Answers](https://www.toptal.com/javascript/interview-questions)
+- [70 JavaScript Interview Questions](https://dev.to/macmacky/70-javascript-interview-questions-5gfi), DEV
 
 ## References
 
 - [ES5 to ESNext — here’s every feature added to JavaScript since 2015](https://www.freecodecamp.org/news/es5-to-esnext-heres-every-feature-added-to-javascript-since-2015-d0c255e13c6e/)
 - [ES2015 / ES6: Basics of modern Javascript](https://www.slideshare.net/WojciechDzikowski/es2015-es6-basics-of-modern-javascript)
 - [JavaScript](https://en.wikipedia.org/wiki/JavaScript), Wikipedia
+- [mbeaudru/modern-js-cheatsheet](https://github.com/mbeaudru/modern-js-cheatsheet)
 
 Future changes:
 
