@@ -3,7 +3,9 @@
 ## Table of Contents
 
 - [Modern JavaScript](#modern-javascript)
-  - [Prererequisites](#prererequisites)
+  - [Objectives of this course](#objectives-of-this-course)
+  - [Prerequisites](#prerequisites)
+    - [Check your knowledge of JS](#check-your-knowledge-of-js)
   - [Introduction](#introduction)
   - [Quirks](#quirks)
     - [Make sure your target browser supports the feature!](#make-sure-your-target-browser-supports-the-feature)
@@ -48,12 +50,24 @@ Note: run code quickly with https://codesandbox.io/s/
 
 - JavaScript: https://codesandbox.io/s/front-end-training-014br
 
-## Prererequisites
+## Objectives of this course
+
+- Review the syntax of modern JavaScript features
+- Mention some JS best practices
+
+## Prerequisites
 
 This course assumes you already have experience with JavaScript. If you don't, start with this:
 
 - [JavaScript First Steps](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps), MDN
 - [Learn JavaScript](https://learnjavascript.online/)
+
+### Check your knowledge of JS
+
+- What are the 5 JS datatypes?
+  - `Number`, `String`, `Boolean`, `Object`, `Undefined`
+- What does `1 / "a"` evaluate to?
+  - `NaN`
 
 ## Introduction
 
@@ -66,21 +80,21 @@ JavaScript is a programming language evolving very rapidly that can run in diffe
 Key historical elements:
 
 - September 1995: LiveScript is released in the Netscape Navigator Browser. It was developed by Brendan Eich.
-- June 1997: Ecma International releases the first ECMAScript language *specification*. (note: the European Computer Manufacturers Association was founded in 1961 to standardize computer systems)
+- June 1997: Ecma International releases the first ECMAScript language _specification_. (note: the European Computer Manufacturers Association was founded in 1961 to standardize computer systems)
 - December 2009: the ECMAScript 5 standard is released.
 
 From 2016 to today, a new version of ECMAScript is released each year. The language has reached maturity and supports many modern constructs.
 
 Key features of JavaScript:
 
-- It is imperative & inspired by C
+- It is **imperative** & inspired by C
   - `if`, `while`, `switch`, `while`, `do while`
-- It is weakly typed: it has types (`String`, `Number`, etc.) but uses implicit cast (`"1" - "1" === 0`).
-- It is dynamically typed: types are associated with values rather than expressions (a variable `x` can be associated with a `String`, then with a `Number`).
-- It supports runtime evaluation with `eval`. `eval('1 === 1')` evaluates to `true`
-- It supports object orientation with a very powerful prototype-based approach.
-- While it is not necessarily considered a pure functional language, its functions are first-class citizen and it supports closures and anonymous functions. As a result, it can be used to go pretty far with functional programming patterns.
-- It is very concise. Newer features such as arrow functions, object and array destructuring leads to very terse code with a very high signal to noise ration.
+- It is **weakly typed**: it has types (`String`, `Number`, etc.) but uses implicit cast (`"1" - "1" === 0`).
+- It is **dynamically typed**: types are associated with values rather than expressions (a variable `x` can be associated with a `String`, then with a `Number`).
+- It supports **runtime evaluation** with `eval`. `eval('1 === 1')` evaluates to `true`
+- It supports **object orientation** with a very powerful prototype-based approach.
+- While it is not necessarily considered a pure functional language, its **functions are first-class citizen**. It supports closures and anonymous functions. As a result, it can be used to go pretty far with functional programming patterns.
+- It is very **concise**. Newer features such as arrow functions, object and array destructuring leads to very terse code with a very high signal to noise ration.
 
 ## Quirks
 
@@ -96,6 +110,7 @@ You can then use "polyfills" (or "shims") to support older browser. There are so
 
 ```javascript
 var a;
+// an uninitialized variable is undefined
 console.assert(typeof a === "undefined");
 
 // There are no required arguments in JavaScript
@@ -109,15 +124,16 @@ console.log(hello());
 // Here's how to compare to undefined
 console.assert(typeof undefined === "undefined");
 
-const anObject = {a: 1}
+const anObject = { a: 1 };
 // Accessing an absent object key also returns undefined
-console.assert(typeof anObject.nonexistent === "undefined");
+console.assert(typeof anObject.nonExistent === "undefined");
 ```
 
 ### Printing and interacting with the console
 
 ```javascript
-// Do not leave console.log in your code! There are linters such as eslint that will check for their absence
+// Do not leave console.log in your code!
+// There are linters such as eslint that will check for their absence
 console.log("hello");
 
 // In this document, we use assert to show the actual value
@@ -128,10 +144,10 @@ console.assert(true === true);
 
 Rules for string conversion:
 
-- `String` are left as is
-- `Number` are converted to their string representation
-- Elements of `Array` are converted to string, then joined with commas `,`
-- Objects are converted to `[object Object]` where `Object` is the constructor of the object
+- `String` are left as is.
+- `Number` are converted to their string representation.
+- Elements of `Array` are converted to string, then joined with commas `,`.
+- Objects are converted to `[object Object]` where `Object` is the constructor of the object.
 
 Can you guess how those will be converted?
 
@@ -198,9 +214,14 @@ console.assert(_.isEqual([1, 2], [1, 2]));
 
 ```javascript
 // Use Object.assign (ES 2015) to copy objects
+const target = { a: 1, b: 1};
+const source = { b: 2};
+const merged = Object.assign(target, source);
+console.assert(_.isEqual(merged, {a: 1, b:2});
 
 // Array.includes (ES7)
-
+const theArray = [1, 2]
+console.assert(theArray.includes(1))
 ```
 
 ## Prototypes in JavaScript
@@ -262,6 +283,8 @@ console.assert(_.isEqual(person2, { firstName: "Olympe" }));
 console.assert(_.isEqual(person2, { firstName: "Olympe" }));
 
 // Short form function
+
+// Before:
 const es5Object = {
   say: function () {
     console.log("hello");
@@ -269,13 +292,18 @@ const es5Object = {
 };
 es5Object.say();
 
+// After: (short form function)
 const es6Object = {
   say() {
     console.log("hello");
   },
 };
 es6Object.say();
+```
 
+Advanced (with prototype):
+
+```javascript
 // Prototype and super()
 const firstObject = {
   a: "a",
@@ -317,7 +345,7 @@ constantVar = "b";
 let theVar = "a";
 theVar = "a";
 
-// Note: this will work ok
+// Note: const != immutable
 const constantObject = { a: 1 };
 constantObject.a = 2;
 constantObject.b = 3;
@@ -325,7 +353,7 @@ constantObject.b = 3;
 // Raises: "constantObject" is read-only
 constantObject = { a: 1 };
 
-// const and let are block scoped. A block is enclosed in {}
+// const and let are block scoped. A block is enclosed in {} (if, loops, functions, etc.)
 {
   const a = "a";
   console.log({ a });
@@ -346,6 +374,8 @@ Never use `var`:
 - `var` is globally or function-scoped, depending on whether it is used inside a function.
 - `let` and `const` are block-scoped
 - `let` and `const` cannot be reused for the same variable name
+
+Future of JavaScript: [tc39/proposal-record-tuple: ECMAScript proposal for the Record and Tuple value types](https://github.com/tc39/proposal-record-tuple)
 
 ### Hoisting
 
@@ -402,9 +432,19 @@ console.assert(myFunctionToBeShortenedArrowV2(1) === 1);
 
 ### How `this` works in arrow functions
 
+TODO
+
 ### Best practices
 
-I usually keep the parameters parenthesis. If you add a parameter and weren't including them, you'll have to add them back.
+I usually keep the parameters parenthesis. If you add a parameter and weren't including them, you'll have to add them back:
+
+```javascript
+const a1 = (arg) => {};
+const a2 = (arg1, arg2) => {};
+
+// vs.
+const a3 = (arg) => {};
+```
 
 ## Classes
 
@@ -443,7 +483,7 @@ Those are my opinions about other class features:
 - Avoid using `static` methods, use plain functions instead.
 - Avoid using more than one level of inheritance.
 - Avoid using getter and setters (`get` and `set`).
-- Avoid using classes altogether.
+- Avoid using classes if you can.
 
 ## Template literals
 
@@ -466,6 +506,9 @@ const hello2 = `Hello ${name === "Louis" ? name : "Noname"}`;
 They are used in some libraries, like Apollo and Styled Components.
 
 ```javascript
+// First arg is an array of string values, the rest is the expressions
+
+// ["hello ", ""], 3
 function templateTag(literals, ...expressions) {
   console.assert(_.isEqual(literals, ["hello ", ""]));
   console.assert(_.isEqual(expressions, [3]));
@@ -586,12 +629,19 @@ export default createToaster;
 
 ### Optional chaining
 
+```javascript
+let nestedProp = obj.first && obj.first.second;
+
+// with optional chaining:
+let nestedProp = obj.first?.second;
+```
+
 ## Self assessment
 
 - How old is JavaScript?
 - Is it a modern language?
 - Can we say that JavaScript does not have types?
-- What is the value of this expression: `"1" + "1"`?
+- What is the value of this expression: `"1" + "1"`? `3 + 2 + "5"`?
 - What should I use? `let`, `var`, or `cost`?
 - How do you add support for modern JS features in older browsers?
 - How are variables scoped in JavaScript?
