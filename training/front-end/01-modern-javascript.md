@@ -40,7 +40,6 @@
   - [Other features](#other-features)
     - [Optional chaining](#optional-chaining)
   - [Self assessment](#self-assessment)
-  - [References](#references)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -64,8 +63,8 @@ This course assumes you already have experience with JavaScript. If you don't, s
 
 ### Check your knowledge of JS
 
-- What are the 5 JS datatypes?
-  - `Number`, `String`, `Boolean`, `Object`, `Undefined`
+- What are the main JS datatypes?
+  - `Number`, `String`, `Boolean`, `Object`, `Undefined`, `BigInt`
 - What does `1 / "a"` evaluate to?
   - `NaN`
 
@@ -105,6 +104,25 @@ Use [caniuse](https://caniuse.com/) to check what browser support the feature yo
 ![caniuse](./img/caniuse.png)
 
 You can then use "polyfills" (or "shims") to support older browser. There are some polyfills for each specific feature, and some other that includes lots of polyfills (e.g. [zloirock/core-js](https://github.com/zloirock/core-js#ecmascript-array)).
+
+Polyfills are different from transpiling. Babel is a transpiler, you
+can see how it work online here:
+
+For instance, it will translate:
+
+```javascript
+[1, 2, 3].map((n) => n + 1)
+```
+
+Into:
+
+```javascript
+"use strict";
+
+[1, 2, 3].map(function (n) {
+  return n + 1;
+});
+```
 
 ### Undefined everywhere!
 
@@ -175,6 +193,17 @@ dog + 1 + "a"
 dog - 1
 ```
 
+Other gotchas:
+
+```javascript
+// NaN is fun!
+console.assert(typeof NaN === "number");
+Object.is(NaN, NaN) // true
+NaN === NaN // false
+```
+
+A good talk on the topic: [Wat](https://www.destroyallsoftware.com/talks/wat)
+
 #### Always use triple comparators (`===`) instead of double (`==`)
 
 ```javascript
@@ -219,6 +248,9 @@ const source = { b: 2};
 const merged = Object.assign(target, source);
 console.assert(_.isEqual(merged, {a: 1, b:2});
 
+// Spread operator
+const merge2 = {...target, ...source};
+
 // Array.includes (ES7)
 const theArray = [1, 2]
 console.assert(theArray.includes(1))
@@ -233,6 +265,8 @@ The truth is, it is much less used nowadays, and you don't really need to know i
 The book [JavaScript: The Good Parts](https://www.oreilly.com/library/view/javascript-the-good/9780596517748/) by Douglas Crockford (2008) is a great introduction to it. Here's a quote from the author:
 
 > You make prototype objects, and then … make new instances. Objects are mutable in JavaScript, so we can augment the new instances, giving them new fields and methods. These can then act as prototypes for even newer objects. We don't need classes to make lots of similar objects… Objects inherit from objects. What could be more object oriented than that?
+
+![JavaScript: the good parts](./img/js-the-good-parts.jpg)
 
 Some good articles:
 
@@ -519,6 +553,31 @@ const result = templateTag`hello ${1 + 2}`;
 console.assert(result === "hello 3");
 ```
 
+Here's an example with Styled Components:
+
+```javascript
+const Button = styled.a`
+  /* This renders the buttons above... Edit me! */
+  display: inline-block;
+  border-radius: 3px;
+  padding: 0.5rem 0;
+  margin: 0.5rem 1rem;
+  width: 11rem;
+  background: transparent;
+  color: white;
+  border: 2px solid white;
+
+  /* The GitHub button is a primary button
+   * edit this to target it specifically! */
+  ${props => props.primary && css`
+    background: white;
+    color: black;
+  `}
+`
+```
+
+You can see how template tags and arrow functions lead to more concise code!
+
 ## Loops
 
 ### `for... of`
@@ -642,18 +701,22 @@ let nestedProp = obj.first?.second;
 - Is it a modern language?
 - Can we say that JavaScript does not have types?
 - What is the value of this expression: `"1" + "1"`? `3 + 2 + "5"`?
-- What should I use? `let`, `var`, or `cost`?
+- What should I use? `let`, `var`, or `const`?
 - How do you add support for modern JS features in older browsers?
 - How are variables scoped in JavaScript?
 - What should you watch for when comparing variables in JavaScript?
-- `const a = [1]; const b = [1];`: what does `b == b` evaluates to?
+- `const a = [1]; const b = [1];`: what does `a == b` evaluates to?
 - How do you write arrow functions?
 - `const {a} = {a: 1}`: what does `a` evaluate to?
 
 Advanced:
 
-- How does JavaScript "inherit" from each other?
-- If `const toaster = {name: 'Foo'}` and I want `const obj = {Foo: 1}`. How can I write this whatever the `toaster`'s `name`?
+- How does JavaScript objects "inherit" from each other?
+
+```javascript
+// Write transform1 using a one-line arrow function with object structuring
+console.assert(_.isEqual(transform1({name: "Foo"}), {FooA:1}))
+console.assert(_.isEqual(transform1({name: "Bar"}), {Bar:1}))
 
 Other assessments:
 
