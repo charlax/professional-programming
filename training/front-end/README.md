@@ -2,7 +2,7 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 ## Table of Contents
 
-- [Introduction to front-end programming](#introduction-to-front-end-programming)
+- [Introduction to front-end programming for back-end developers](#introduction-to-front-end-programming-for-back-end-developers)
   - [Goal of this training](#goal-of-this-training)
   - [Prerequisites](#prerequisites)
   - [To do before the course](#to-do-before-the-course)
@@ -12,7 +12,7 @@
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-# Introduction to front-end programming
+# Introduction to front-end programming for back-end developers
 
 ## Goal of this training
 
@@ -36,10 +36,12 @@ Read the [grab/front-end-guide](https://github.com/grab/front-end-guide) to get 
 
 ## Curriculum
 
+Instead of going deep in topics, we try to go as fast as possible to front-end programming (i.e. React with TypeScript), and then we go back to address those more specific topics.
+
 1. The language: writing modern Javascript
-2. The environment: the browser
+2. React
 3. TypeScript
-4. React
+4. The browser
 5. CSS/HTML restart
 6. Front-end development practices
 

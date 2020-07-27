@@ -39,7 +39,9 @@
     - [Exports](#exports)
   - [Other features](#other-features)
     - [Optional chaining](#optional-chaining)
+    - [Ternary operator](#ternary-operator)
   - [Self assessment](#self-assessment)
+  - [References](#references)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -694,6 +696,15 @@ let nestedProp = obj.first && obj.first.second;
 let nestedProp = obj.first?.second;
 ```
 
+### Ternary operator
+
+```javascript
+const a = 'a'
+const r = a === 'a' ? 'isA' : 'isNotA'
+
+console.assert(r === 'isA')
+```
+
 ## Self assessment
 
 - How old is JavaScript?
@@ -707,6 +718,7 @@ let nestedProp = obj.first?.second;
 - `const a = [1]; const b = [1];`: what does `a == b` evaluates to?
 - How do you write arrow functions?
 - `const {a} = {a: 1}`: what does `a` evaluate to?
+- How do you write the ternary operator?
 
 Advanced:
 
@@ -716,6 +728,13 @@ Advanced:
 // Write transform1 using a one-line arrow function with object structuring
 console.assert(_.isEqual(transform1({name: "Foo"}), {FooA:1}))
 console.assert(_.isEqual(transform1({name: "Bar"}), {Bar:1}))
+```
+
+The three things you need:
+
+- Use `let` and `const`
+- Object destructuring `const { a } = {a: 1}`
+- Arrow functions `const noop = () => { }`
 
 Other assessments:
 

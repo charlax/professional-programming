@@ -18,8 +18,10 @@
 
 ## Security
 
+- HTTPS
 - CORS
 - XSS prevention
 - CSP
+- OWASP
 
 ## Dependency management: npm or yarn

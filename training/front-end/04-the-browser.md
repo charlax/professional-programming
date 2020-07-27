@@ -1,19 +1,20 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-
 ## Table of Contents
 
-- [CSS & HTML: restart](#css--html-restart)
-  - [An intro to modern technologies and methodologies](#an-intro-to-modern-technologies-and-methodologies)
+- [The browser](#the-browser)
   - [Topics](#topics)
-    - [Accessibility](#accessibility)
+    - [Reading and manipulating the DOM](#reading-and-manipulating-the-dom)
+    - [Events](#events)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-# CSS & HTML: restart
-
-## An intro to modern technologies and methodologies
+# The browser
 
 ## Topics
 
-### Accessibility
+### Reading and manipulating the DOM
+
+### Events
+
+https://dmitripavlutin.com/javascript-event-delegation/
