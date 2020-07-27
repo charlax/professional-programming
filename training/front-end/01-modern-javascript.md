@@ -105,10 +105,9 @@ Use [caniuse](https://caniuse.com/) to check what browser support the feature yo
 
 You can then use "polyfills" (or "shims") to support older browser. There are some polyfills for each specific feature, and some other that includes lots of polyfills (e.g. [zloirock/core-js](https://github.com/zloirock/core-js#ecmascript-array)).
 
-Polyfills are different from transpiling. Babel is a transpiler, you
-can see how it work online here:
+Polyfills are different from transpiling. Babel is a transpiler, you can see how it work online here:
 
-For instance, it will translate:
+For instance, it will transpile (notice the replacement of an arrow function):
 
 ```javascript
 [1, 2, 3].map((n) => n + 1)
