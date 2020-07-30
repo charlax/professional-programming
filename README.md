@@ -103,19 +103,19 @@ Feel free to open a PR to contribute! I will not be adding everything: as stated
 
 I've found these books incredibly inspiring:
 
-- [The Pragmatic Programmer: From Journeyman to
-  Master](http://www.amazon.com/The-Pragmatic-Programmer-Journeyman-Master/dp/020161622X) 📖: hands-on the most inspiring and useful book I've read about programming.
-- [Code Complete: A Practical Handbook of Software
-  Construction](http://www.amazon.com/Code-Complete-Practical-Handbook-Construction/dp/0735619670) 📖: a nice addition to The Pragmatic Programmer, gives you the necessary framework to talk about code.
-- [Release It!](https://smile.amazon.com/Release-Design-Deploy-Production-Ready-Software/dp/1680502395) 📖: this books goes beyond code and gives you best practices for building production-ready software. It will give you about 3 years worth of real-world experience.
-- [Scalability Rules: 50 Principles for Scaling Web
-  Sites](https://smile.amazon.com/Scalability-Rules-Principles-Scaling-Sites/dp/013443160X) 📖
-- [The Linux Programming Interface: A Linux and UNIX System Programming Handbook](http://www.amazon.com/The-Linux-Programming-Interface-Handbook/dp/1593272200) 📖: outside of teaching you almost everything you need to know about Linux, this book will give you insights into how software evolves, and the value of having simple & elegant interfaces.
-- [Structure and interpretation of Computer Programs](https://web.mit.edu/alexmv/6.037/sicp.pdf) (free) 📖: One of the most influential textbooks in Computer Science (written and used at MIT), SICP has been influential in CS education. [Byte](<https://en.wikipedia.org/wiki/Byte_(magazine)>) recommended SICP "for professional programmers who are really interested in their profession".
+- 📖 [The Pragmatic Programmer: From Journeyman to
+  Master](https://pragprog.com/titles/tpp20/): hands-on the most inspiring and useful book I've read about programming.
+- 📖 [Code Complete: A Practical Handbook of Software
+  Construction](http://www.amazon.com/Code-Complete-Practical-Handbook-Construction/dp/0735619670): a nice addition to The Pragmatic Programmer, gives you the necessary framework to talk about code.
+- 📖 [Release It!](https://smile.amazon.com/Release-Design-Deploy-Production-Ready-Software/dp/1680502395): this books goes beyond code and gives you best practices for building production-ready software. It will give you about 3 years worth of real-world experience.
+- 📖 [Scalability Rules: 50 Principles for Scaling Web
+  Sites](https://smile.amazon.com/Scalability-Rules-Principles-Scaling-Sites/dp/013443160X)
+- 📖 [The Linux Programming Interface: A Linux and UNIX System Programming Handbook](http://www.amazon.com/The-Linux-Programming-Interface-Handbook/dp/1593272200): outside of teaching you almost everything you need to know about Linux, this book will give you insights into how software evolves, and the value of having simple & elegant interfaces.
+- 📖 [Structure and interpretation of Computer Programs](https://web.mit.edu/alexmv/6.037/sicp.pdf) (free): One of the most influential textbooks in Computer Science (written and used at MIT), SICP has been influential in CS education. [Byte](<https://en.wikipedia.org/wiki/Byte_(magazine)>) recommended SICP "for professional programmers who are really interested in their profession".
 
 There are some free books available, including:
 
-- [Professional software development](http://mixmastamyk.bitbucket.io/pro_soft_dev/) 📖: pretty complete and a good companion to this page. The free chapters are mostly focused on software development processes: design, testing, code writing, etc. - and not so much about tech itself.
+- 📖 [Professional software development](http://mixmastamyk.bitbucket.io/pro_soft_dev/): pretty complete and a good companion to this page. The free chapters are mostly focused on software development processes: design, testing, code writing, etc. - and not so much about tech itself.
 - [List of free programming books](https://github.com/vhf/free-programming-books)
 
 ## Must-read articles
@@ -306,7 +306,7 @@ Biases don't only apply to hiring. For instance, the fundamental attribution bia
 
 - [Write code that is easy to delete, not easy to extend](http://programmingisterrible.com/post/139222674273/write-code-that-is-easy-to-delete-not-easy-to)
 - [The Ten Commandments of Egoless Programming](http://blog.codinghorror.com/the-ten-commandments-of-egoless-programming/)
-- [Clean Code: A Handbook of Agile Software Craftsmanship](https://www.goodreads.com/book/show/3735293-clean-code) 📖, Robert C. Martin. Describes numerous useful best practices. A bit long. There's also a [clean code cheatsheet](cheatsheets/Clean-Code-V2.4.pdf).
+- 📖 [Clean Code: A Handbook of Agile Software Craftsmanship](https://www.goodreads.com/book/show/3735293-clean-code), Robert C. Martin. Describes numerous useful best practices. A bit long. There's also a [clean code cheatsheet](cheatsheets/Clean-Code-V2.4.pdf).
 - [What Software Craftsmanship is about](https://blog.cleancoder.com/uncle-bob/2011/01/17/software-craftsmanship-is-about.html)
   - We’re tired of writing crap.
   - We will not accept the stupid old lie about cleaning things up later.
@@ -743,6 +743,7 @@ Rob Pike, [Go at Google: Language Design in the Service of Software Engineering]
 
 ### Security
 
+- 📖 [Penetration Testing: A Hands-On Introduction to Hacking](https://nostarch.com/pentesting), Georgia Weidman
 - [Penetration Testing Tools Cheat Sheet](https://highon.coffee/blog/penetration-testing-tools-cheat-sheet/#http--https-webserver-enumeration)
 - [A practical guide to securing macOS](https://github.com/drduh/macOS-Security-and-Privacy-Guide)
 - [Web Developer Security Checklist](https://www.powerdown.io/blog/posts/stories/web-developer-security-checklist.html)
@@ -809,7 +810,7 @@ Rob Pike, [Go at Google: Language Design in the Service of Software Engineering]
 
 Books:
 
-- [Site Reliability Engineering](https://landing.google.com/sre/books/) 📖
+- 📖 [Site Reliability Engineering](https://landing.google.com/sre/books/)
   - Written by members of Google's SRE team, with a comprehensive analysis of the entire software lifecycle - how to build, deploy, monitor, and maintain large scale systems.
 
 Articles:
