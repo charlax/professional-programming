@@ -400,7 +400,6 @@ Articles:
 - [Domain-driven design](https://en.wikipedia.org/wiki/Domain-driven_design), Wikipedia.
 - [On the Spectrum of Abstraction](https://www.youtube.com/watch?v=mVVNJKv9esE) 🎞, Cheng Lou
 - [The “Bug-O” Notation](https://overreacted.io/the-bug-o-notation/), Dan Abramov
-
 - [Antipatterns](./antipatterns)
 - [Inheritance vs. composition](http://learnpythonthehardway.org/book/ex44.html): a concrete example in Python. [Another slightly longer one here](http://python-textbok.readthedocs.io/en/latest/Object_Oriented_Programming.html). [One last one, in Python 3](http://blog.thedigitalcatonline.com/blog/2014/08/20/python-3-oop-part-3-delegation-composition-and-inheritance/#.V7SZ4tB96Rs).
 - [Composition Instead Of Inheritance](http://c2.com/cgi/wiki?CompositionInsteadOfInheritance)
