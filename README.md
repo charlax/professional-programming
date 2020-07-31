@@ -60,6 +60,7 @@
     - [Releasing & deploying](#releasing--deploying)
     - [Security](#security)
     - [Shell](#shell)
+    - [System administration](#system-administration)
     - [System architecture](#system-architecture)
       - [Scalability](#scalability)
       - [Stability](#stability)
@@ -431,7 +432,7 @@ Articles:
 
 ### Dev environment & tools
 
-- [Awesome Dev Env](https://github.com/jondot/awesome-devenv)
+- 🧰 [Awesome Dev Env](https://github.com/jondot/awesome-devenv)
 
 Tools
 
@@ -457,7 +458,7 @@ resources](https://github.com/charlax/engineering-management).
 
 ### Dotfiles
 
-- [Awesome dotfiles](https://github.com/webpro/awesome-dotfiles): lots of great dotfiles.
+- 🧰 [Awesome dotfiles](https://github.com/webpro/awesome-dotfiles): lots of great dotfiles.
 - [My dotfiles](https://github.com/charlax/dotfiles)
 
 Articles
@@ -467,7 +468,7 @@ Articles
 ### Editors & IDE
 
 - [Sublime Text essential plugins and resources](https://github.com/dreikanter/sublime-bookmarks)
-- [vim-awesome](http://vimawesome.com/)
+- 🧰 [vim-awesome](http://vimawesome.com/)
 - Bram Moolenaar (Vim author), [Seven habits of effective text editing](http://www.moolenaar.net/habits.html) ([presentation](http://www.moolenaar.net/habits_2007.pdf)). This is about Vim but it contains good lessons about why investing time in learning how to be productive with your text editors pays off.
 - [VScode](https://code.visualstudio.com/) is one of the most popular text editors as of writing. [Visual Studio Code Can Do That?](https://www.smashingmagazine.com/2018/01/visual-studio-code/), Smashing Magazine.
 
@@ -613,12 +614,13 @@ Richard Feynman's Learning Strategy:
 
 #### Error/exception handling
 
-- [Error handling antipattners](https://github.com/charlax/antipatterns/blob/master/error-handling-antipatterns.md) in my antipatterns repo.
+- [Error handling antipatterns](./antipatterns/error-handling-antipatterns.md) in my this repo.
 
 #### Monitoring
 
 - Google, [Site Reliability Engineering, Monitoring Distributed Systems](https://landing.google.com/sre/sre-book/chapters/monitoring-distributed-systems/)
 - PagerDuty, [Monitoring Business Metrics and Refining Outage Response](https://www.pagerduty.com/blog/monitoring-business-metrics/)
+- 🧰 [crazy-canux/awesome-monitoring](https://github.com/crazy-canux/awesome-monitoring): monitoring tools for operations.
 
 ### Problem solving
 
@@ -759,13 +761,21 @@ Rob Pike, [Go at Google: Language Design in the Service of Software Engineering]
   - Three Rs to do every few hours: rotate secrets automatically, repave servers and applications (redeploy on clean footprint), repair vulnerable.
   - Don’t use exceptions for the control flow.
 
+List of resources:
+
+- 🧰 [meirwah/awesome-incident-response](https://github.com/meirwah/awesome-incident-response): A curated list of tools for incident response
+
 ### Shell
 
-- [Awesome Shell](https://github.com/alebcay/awesome-shell)
+- 🧰 [alebcay/awesome-shell](https://github.com/alebcay/awesome-shell)
 - [Bash Hackers Wiki](http://wiki.bash-hackers.org/)
 - [dylanaraps/pure-bash-bible: a collection of pure bash alternatives to external processes.](https://github.com/dylanaraps/pure-bash-bible)
 - [Master the command line, in one page](https://github.com/jlevy/the-art-of-command-line) **must read**
 - [The Bash Hackers Wiki](https://wiki.bash-hackers.org/) provides a gentler way to learn about bash than its manages.
+
+### System administration
+
+- [kahun/awesome-sysadmin](https://github.com/kahun/awesome-sysadmin): a curated list of amazingly awesome open source sysadmin resources 🧰
 
 ### System architecture
 
@@ -833,6 +843,10 @@ Articles:
 - 🎤 [High Reliability Infrastructure migrations](https://speakerdeck.com/jvns/high-reliability-infrastructure-migrations), Julia Evans.
 
 > Reliability is the one feature every customer users. -- An auth0 SRE.
+
+Resources:
+
+- 🧰 [dastergon/awesome-sre](https://github.com/dastergon/awesome-sre)
 
 ### Technical debt
 
