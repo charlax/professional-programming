@@ -24,7 +24,7 @@
     - [Data formats](#data-formats)
     - [Data science](#data-science)
     - [Debugging](#debugging)
-    - [Design (visual, UX, UI)](#design-visual-ux-ui)
+    - [Design (visual, UX, UI, typography)](#design-visual-ux-ui-typography)
     - [Design (OO modeling, architecture, patterns, anti-patterns, etc.)](#design-oo-modeling-architecture-patterns-anti-patterns-etc)
       - [Design: database schema](#design-database-schema)
       - [Design: patterns](#design-patterns)
@@ -47,6 +47,7 @@
       - [Logging](#logging)
       - [Error/exception handling](#errorexception-handling)
       - [Monitoring](#monitoring)
+    - [Perspective](#perspective)
     - [Problem solving](#problem-solving)
     - [Project management](#project-management)
     - [Programming languages](#programming-languages)
@@ -59,7 +60,7 @@
     - [Refactoring](#refactoring)
     - [Releasing & deploying](#releasing--deploying)
     - [Security](#security)
-    - [Shell](#shell)
+    - [Shell (command line)](#shell-command-line)
     - [System administration](#system-administration)
     - [System architecture](#system-architecture)
       - [Scalability](#scalability)
@@ -72,7 +73,7 @@
     - [Version control (Git)](#version-control-git)
     - [Work ethics, productivity & work/life balance](#work-ethics-productivity--worklife-balance)
     - [Web development](#web-development)
-    - [Writing](#writing)
+    - [Writing (communication)](#writing-communication)
     - [Writing for performance](#writing-for-performance)
   - [Resources & inspiration for presentations](#resources--inspiration-for-presentations)
   - [Concepts](#concepts)
@@ -174,6 +175,7 @@ There are some free books available, including:
 - [mr-mig/every-programmer-should-know: a collection of (mostly) technical things every software developer should know](https://github.com/mr-mig/every-programmer-should-know)
 - [Famous Laws Of Software Development](https://www.timsommer.be/famous-laws-of-software-development/)
 - [The Amazon Builders' Library](https://aws.amazon.com/builders-library/?cards-body.sort-by=item.additionalFields.customSort&cards-body.sort-order=asc)
+- [kdeldycke/awesome-falsehood](https://github.com/kdeldycke/awesome-falsehood): Falsehoods Programmers Believe in
 
 List of axioms:
 
@@ -189,6 +191,8 @@ List of axioms:
   - Practice tells you that things are good or bad; theory tells you why.
   - Not being qualified to solve a problem is no reason not to solve it.
   - If you don't understand a system you're using, you don't control it. If nobody understands the system, the system is in control.
+- [Embedded Rules of Thumb](https://embeddedartistry.com/blog/2018/04/26/embedded-rules-of-thumb/)
+- [50 Ideas That Changed My Life](https://www.perell.com/blog/50-ideas-that-changed-my-life)
 
 ### Courses
 
@@ -257,6 +261,8 @@ Example implementations:
   - Beginner’s mind accepts the fact that absolute knowledge is infinite and thus keeping score is a waste of time.
   - Mastery is simply the accumulation of momentum, not the accumulation of knowledge.
   - Dealing with ego distraction has taught me to love the problem solving process. It’s taught me to love and respect the learning process. As a result I’m more productive. I’m less anxious. I’m a better teammate. I’m a better friend and a better thinker.
+- [Fixed vs. Growth: The Two Basic Mindsets That Shape Our Lives](https://www.brainpickings.org/2014/01/29/carol-dweck-mindset/)
+- [What does a great software engineer look like?](https://fwouts.com/articles/great-software-engineer)
 
 ### Automation
 
@@ -302,6 +308,7 @@ Biases don't only apply to hiring. For instance, the fundamental attribution bia
 ### Code reviews
 
 - [How to do a code review](https://google.github.io/eng-practices/review/reviewer/), Google's engineering practices documentation.
+- [Post-Commit Reviews](https://medium.com/@copyconstruct/post-commit-reviews-b4cc2163ac7a): an interesting idea to increase developer velocity (there are some caveats though).
 
 ### Coding & code quality
 
@@ -318,6 +325,7 @@ Biases don't only apply to hiring. For instance, the fundamental attribution bia
   - Try to always use is, even for plurals (`isEachUserLoggedIn` is better than `areUsersLoggedIn` or `isUsersLoggedIn`)
   - Avoid custom prefixes (`isPaidFor` is better than `wasPaidFor`)
   - Avoid negatives (`isEnabled` is better than `isDisabled`)
+- [How To Write Unmaintainable Code](https://github.com/Droogans/unmaintainable-code/blob/master/README.md)
 
 ### Computer science
 
@@ -344,6 +352,8 @@ Biases don't only apply to hiring. For instance, the fundamental attribution bia
 - [SQL styleguide](http://www.sqlstyle.guide/)
 - [Algorithms Behind Modern Storage Systems](https://queue.acm.org/detail.cfm?id=3220266), ACM Queue
 - [Let's Build a Simple Database](https://cstack.github.io/db_tutorial/)
+- [Readings in Database Systems, 5th Edition](http://www.redbook.io/)
+- [Comparing database types: how database types evolved to meet different needs](https://dataguide.prisma.io/intro/comparing-database-types)
 
 ### Data formats
 
@@ -353,6 +363,7 @@ Biases don't only apply to hiring. For instance, the fundamental attribution bia
 ### Data science
 
 - [A dirty dozen: twelve common metric interpretation pitfalls in online controlled experiments](https://blog.acolyer.org/2017/09/25/a-dirty-dozen-twelve-common-metric-interpretation-pitfalls-in-online-controlled-experiments/)
+- [datastacktv/data-engineer-roadmap](https://github.com/datastacktv/data-engineer-roadmap): roadmap to becoming a data engineer
 
 ### Debugging
 
@@ -361,8 +372,9 @@ Biases don't only apply to hiring. For instance, the fundamental attribution bia
 - [Five Whys](https://en.wikipedia.org/wiki/5_Whys)
 - [The Infinite Hows](http://www.kitchensoap.com/2014/11/14/the-infinite-hows-or-the-dangers-of-the-five-whys/): this provides a strong criticism of the five whys method.
 - [Linux Performance Analysis in 60,000 Milliseconds](http://techblog.netflix.com/2015/11/linux-performance-analysis-in-60s.html)
+- [Post-Mortems at HubSpot: What I Learned From 250 Whys](https://product.hubspot.com/blog/bid/64771/post-mortems-at-hubspot-what-i-learned-from-250-whys)
 
-### Design (visual, UX, UI)
+### Design (visual, UX, UI, typography)
 
 I highly recommend reading [The Non-Designer's Design Book](http://www.amazon.com/gp/product/0133966151/ref=pd_lpo_sbs_dp_ss_1?pf_rd_p=1944687602&pf_rd_s=lpo-top-stripe-1&pf_rd_t=201&pf_rd_i=0321534042&pf_rd_m=ATVPDKIKX0DER&pf_rd_r=1R7MVQP0BCP7GP9VZGYX). This is a pretty short book that will give you some very actionable design advices.
 
@@ -381,6 +393,8 @@ Articles :
   - Recognition Rather Than Recall (recognition = shallow form of retrieval from memory, e.g. a familiar person, recall = deeper retrieval)
   - ”Perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away.” – Antoine de Saint-Exupery
   - Help Users Recognize, Diagnose, And Recover From Errors
+- [Butterick’s Practical Typography](https://practicaltypography.com/)
+- [How to pick more beautiful colors for your data visualizations](https://blog.datawrapper.de/beautifulcolors/)
 
 ### Design (OO modeling, architecture, patterns, anti-patterns, etc.)
 
@@ -407,6 +421,7 @@ Articles:
 - [Inheritance vs. composition](http://learnpythonthehardway.org/book/ex44.html): a concrete example in Python. [Another slightly longer one here](http://python-textbok.readthedocs.io/en/latest/Object_Oriented_Programming.html). [One last one, in Python 3](http://blog.thedigitalcatonline.com/blog/2014/08/20/python-3-oop-part-3-delegation-composition-and-inheritance/#.V7SZ4tB96Rs).
 - [Composition Instead Of Inheritance](http://c2.com/cgi/wiki?CompositionInsteadOfInheritance)
 - [Complexity and Strategy](https://hackernoon.com/complexity-and-strategy-325cd7f59a92): interesting perspective on complexity and flexibility with really good examples (e.g. Google Apps Suite vs. Microsoft Office).
+- [The Architecture of Open Source Applications](https://aosabook.org/en/index.html)
 
 > You can use an eraser on the drafting table or a sledge hammer on the construction site. (Frank Lloyd Wright)
 
@@ -447,8 +462,7 @@ Tools
 
 ### Diversity & inclusion
 
-Check out my [list of management
-resources](https://github.com/charlax/engineering-management).
+Check out my [list of management resources](https://github.com/charlax/engineering-management).
 
 ### Documentation
 
@@ -518,6 +532,7 @@ Dan Milstein, “Let’s plan for a future where we’re all as stupid as we are
 
 - [How Does the Internet Work?](https://web.stanford.edu/class/msande91si/www-spr04/readings/week1/InternetWhitepaper.htm)
 - [How the web works](https://github.com/vasanthk/how-web-works)
+- [Advice to young web developers](https://beesbuzz.biz/blog/2934-Advice-to-young-web-developers)
 
 ### Interviewing
 
@@ -613,6 +628,13 @@ Richard Feynman's Learning Strategy:
   - Logging does not make much sense in monitoring and error tracking. Use better tools instead: error and business monitorings with alerts, versioning, event sourcing.
   - Logging adds significant complexity to your architecture. And it requires more testing. Use architecture patterns that will make logging an explicit part of your contracts
   - Logging is a whole infrastructure subsystem on its own. And quite a complex one. You will have to maintain it or to outsource this job to existing logging services
+- [Lies My Parents Told Me (About Logs)](https://www.honeycomb.io/blog/lies-my-parents-told-me-about-logs/)
+    - Logs are cheap
+    - I can run it better myself
+    - Leveled logging is a great way to separate information
+    - Logs are basically the same as events
+    - A standard logging format is good enough
+- [Logging - OWASP Cheat Sheet Series](https://cheatsheetseries.owasp.org/cheatsheets/Logging_Cheat_Sheet.html)
 
 #### Error/exception handling
 
@@ -623,14 +645,32 @@ Richard Feynman's Learning Strategy:
 - Google, [Site Reliability Engineering, Monitoring Distributed Systems](https://landing.google.com/sre/sre-book/chapters/monitoring-distributed-systems/)
 - PagerDuty, [Monitoring Business Metrics and Refining Outage Response](https://www.pagerduty.com/blog/monitoring-business-metrics/)
 - 🧰 [crazy-canux/awesome-monitoring](https://github.com/crazy-canux/awesome-monitoring): monitoring tools for operations.
+- [Monitoring in the time of Cloud Native](https://medium.com/@copyconstruct/monitoring-in-the-time-of-cloud-native-c87c7a5bfa3e)
+- [How to Monitor the SRE Golden Signals](https://medium.com/faun/how-to-monitor-the-sre-golden-signals-1391cadc7524)
+    - From the Google SRE book: Latency, Traffic, Errors, and Saturation
+    - USE Method (from Brendan Gregg): Utilization, Saturation, and Errors
+    - RED Method (from Tom Wilkie): Rate, Errors, and Duration
+
+### Perspective
+
+- [At 31, I have just weeks to live. Here's what I want to pass on](https://www.theguardian.com/commentisfree/2020/sep/07/terminal-cancer-live-cancer-life-death)
+    - First, the importance of gratitude.
+    - Second, a life, if lived well, is long enough.
+    - Third, it’s important to let yourself be vulnerable and connect to others.
+    - Fourth, do something for others.
+    - Fifth, protect the planet.
 
 ### Problem solving
 
 - [Dealing with Hard Problems](https://artofproblemsolving.com/articles/hard-problems)
+- [Invert, always, invert](https://www.anup.io/2020/07/20/invert-always-invert/)
+    - Define the problem - what is it that you're trying to achieve?
+    - Invert it - what would guarantee the failure to achieve this outcome?
+    - Finally, consider solutions to avoid this failure
 
 ### Project management
 
-See [Project management section on my engineering-management list of resources](https://github.com/charlax/engineering-management#project-management).
+See the [Project management section on my engineering-management list of resources](https://github.com/charlax/engineering-management#project-management).
 
 ### Programming languages
 
@@ -649,8 +689,8 @@ A bit more reading:
 - [Effective Programs - 10 Years of Clojure](https://www.youtube.com/watch?v=2V1FtfBDsLU) 🎞, Rich Hickey. The author of Clojure reflects on his programming experience and explains the rationale behind some of Clojure's key design decisions.
 - [Learn more programming languages, even if you won't use them](https://thorstenball.com/blog/2019/04/09/learn-more-programming-languages/), Thorsten Ball
   - These new perspectives, these ideas and patterns — they linger, they stay with you, even if you end up in another language. And that is powerful enough to keep on learning new languages, because one of the best things that can happen to you when you’re trying to solve a problem is a change of perspective.
-- [Programming Language Checklist](https://famicol.in/language_checklist.html):
-  a fun take on "so you want to build your own language?"
+- [Programming Language Checklist](https://famicol.in/language_checklist.html): a fun take on "so you want to build your own language?"
+- [Static vs. dynamic languages: a literature review](http://danluu.com/empirical-pl/)
 
 > There are only two kinds of languages: the ones people complain about and the ones nobody uses.
 
@@ -670,7 +710,7 @@ JavaScript is such a pervasive language that it's almost required learning.
 
 - [Jargon from the functional programming world](https://github.com/hemanth/functional-programming-jargon)
 - [Goodbye, Object Oriented Programming](https://medium.com/@cscalfani/goodbye-object-oriented-programming-a59cda4c0e53#.39ax09e4k)
-- [Functional Programming & Haskell](https://www.youtube.com/watch?v=LnX3B9oaKzw): some good reasons to learn FP!
+- [Functional Programming & Haskell](https://www.youtube.com/watch?v=LnX3B9oaKzw) 🎞: some good reasons to learn FP!
 - [Functional Programming Fundamentals](https://www.matthewgerstman.com/functional-programming-fundamentals/): short introduction to FP and its advantages.
 - [OO vs FP](https://blog.cleancoder.com/uncle-bob/2014/11/24/FPvsOO.html), Robert C. Martin, The Clean Code Blog. A pretty interesting take on the differences between OOP and FP from an expert in OOP.
   - OO is not about state. Objects are bags of functions, not bags of data.
@@ -695,6 +735,9 @@ JavaScript is such a pervasive language that it's almost required learning.
 
 - [10 modern software over-engineering mistakes](https://medium.com/@rdsubhas/10-modern-software-engineering-mistakes-bc67fbef4fc8#.da6dvzyne)
 - [A good example of over-engineering: the Juicero press](https://blog.bolt.io/heres-why-juicero-s-press-is-so-expensive-6add74594e50) (April 2017)
+- [You Are Not Google](https://blog.bradfieldcs.com/you-are-not-google-84912cf44afb): the UNPHAT method to avoid cargo cult.
+  - Don’t even start considering solutions until you Understand the problem. Your goal should be to “solve” the problem mostly within the problem domain, not the solution domain.
+  - eNumerate multiple candidate solutions. Don’t just start prodding at your favorite!
 
 > “A complex system that works is invariably found to have evolved from a simple system that worked. A complex system designed from scratch never works and cannot be patched up to make it work. You have to start over, beginning with a working simple system.”
 
@@ -716,6 +759,8 @@ Rob Pike, [Go at Google: Language Design in the Service of Software Engineering]
   - Every programmer ever born thinks whatever idea just popped out of their head into their editor is the most generalized, most flexible, most one-size-fits all solution that has ever been conceived.
   - It is three times as difficult to build reusable components as single use components.
   - A reusable component should be tried out in three different applications before it will be sufficiently general to accept into a reuse library.
+- [Refactor vs. Rewrite](https://remesh.blog/refactor-vs-rewrite-7b260e80277a)
+- [Tripping over the potholes in too many libraries](https://blog.carlmjohnson.net/post/2020/avoid-dependencies/)
 
 ### Releasing & deploying
 
@@ -745,20 +790,20 @@ Rob Pike, [Go at Google: Language Design in the Service of Software Engineering]
   - The more tools and code that you add to create elements in a system, the harder it is to replicate an environment encompassing those tools and code.
   - At the core of testing in production is the idea of splitting deployments (of artifacts) from releases (of features).
 - [Testing in Production: the hard parts](https://medium.com/@copyconstruct/testing-in-production-the-hard-parts-3f06cefaf592), Cindy Sridharan
-	- The whole point of [actual] distributed systems engineering is you assume you’re going to fail at some point in time and you design the system in such a way that the damage, at each point is minimized, that recovery is quick, and that the risk is acceptably balanced with cost.
-	- How can you cut the blast radius for a similar event in half?
-		- Differentiate between deployment (0 risk) and release
-		- Build a deploy-observe-release pipeline
-		- Make incremental rollouts the norm (canaries, %-based rollouts, etc.)
-		- Test configuration changes just like you test code
-		- Default to roll back, avoid fixing forward (slow!)
-		- Eliminate gray failures - prefer crashing to degrading in certain cases
-		- Prefer loosely coupled services at the expense of latency or correctness
-		- Use poison tasters (isolate handling of client input)
-		- Implement per-request-class backpressure
-		- Have proper visibility from a client/end-user standpoint (client-side metrics)
-
-
+  - The whole point of [actual] distributed systems engineering is you assume you’re going to fail at some point in time and you design the system in such a way that the damage, at each point is minimized, that recovery is quick, and that the risk is acceptably balanced with cost.
+  - How can you cut the blast radius for a similar event in half?
+    - Differentiate between deployment (0 risk) and release
+    - Build a deploy-observe-release pipeline
+    - Make incremental rollouts the norm (canaries, %-based rollouts, etc.)
+    - Test configuration changes just like you test code
+    - Default to roll back, avoid fixing forward (slow!)
+    - Eliminate gray failures - prefer crashing to degrading in certain cases
+    - Prefer loosely coupled services at the expense of latency or correctness
+    - Use poison tasters (isolate handling of client input)
+    - Implement per-request-class backpressure
+    - Have proper visibility from a client/end-user standpoint (client-side metrics)
+- [Testing in Production, the safe way](https://medium.com/@copyconstruct/testing-in-production-the-safe-way-18ca102d0ef1)
+- [Why We Leverage Multi-tenancy in Uber's Microservice Architecture](https://eng.uber.com/multitenancy-microservice-architecture/)
 
 ### Security
 
@@ -782,13 +827,16 @@ List of resources:
 
 - 🧰 [meirwah/awesome-incident-response](https://github.com/meirwah/awesome-incident-response): A curated list of tools for incident response
 
-### Shell
+### Shell (command line)
 
 - 🧰 [alebcay/awesome-shell](https://github.com/alebcay/awesome-shell)
 - [Bash Hackers Wiki](http://wiki.bash-hackers.org/)
 - [dylanaraps/pure-bash-bible: a collection of pure bash alternatives to external processes.](https://github.com/dylanaraps/pure-bash-bible)
 - [Master the command line, in one page](https://github.com/jlevy/the-art-of-command-line) **must read**
 - [The Bash Hackers Wiki](https://wiki.bash-hackers.org/) provides a gentler way to learn about bash than its manages.
+- [Awk in 20 Minutes](https://ferd.ca/awk-in-20-minutes.html)
+- 🎤 [Linux Productivity Tools](https://www.usenix.org/sites/default/files/conference/protected-files/lisa19_maheshwari.pdf)
+- [jlevy/the-art-of-command-line](https://github.com/jlevy/the-art-of-command-line): Master the command line, in one page
 
 ### System administration
 
@@ -817,6 +865,7 @@ List of resources:
 - [Systems that defy detailed understanding - Made of Bugs](https://blog.nelhage.com/post/systems-that-defy-understanding/)
   - Focus effort on systems-level failure, instead of the individual component failure.
   - Invest in sophisticated observability tools, aiming to increase the number of questions we can ask without deploying custom code
+- [Fallacies of distributed computing](https://en.wikipedia.org/wiki/Fallacies_of_distributed_computing), Wikipedia
 
 #### Scalability
 
@@ -868,6 +917,9 @@ Resources:
 ### Technical debt
 
 - [TechnicalDebt](https://martinfowler.com/bliki/TechnicalDebt.html), Martin Fowler.
+- [Fixing Technical Debt with an Engineering Allocation Framework](https://docs.google.com/presentation/d/16WU1cxG02jnVGQ5byviw3_Q0ILDPZPYtTvU91_210T0/edit#slide=id.p)
+  - You don't need to stop shipping features to fix technical debt
+  - Communicate the business value
 
 ### Testing
 
@@ -896,6 +948,8 @@ Resources:
 - [Software Testing Anti-patterns](http://blog.codepipes.com/testing/software-testing-antipatterns.html), Kostis Kapelonis.
 - [Write tests. Not too many. Mostly integration.](https://blog.kentcdodds.com/write-tests-not-too-many-mostly-integration-5e8c7fff591c) for a contrarian take about unit testing...
 - [Testing is Not for Beginners](https://www.calhoun.io/testing-is-not-for-beginners/): why learning to test is hard. This shouldn't demotivate you though!
+- [Arrange-Act-Assert: A Pattern for Writing Good Tests](https://automationpanda.com/2020/07/07/arrange-act-assert-a-pattern-for-writing-good-tests/)
+- [Test smarter, not harder](https://lukeplant.me.uk/blog/posts/test-smarter-not-harder/)
 
 ### Tools
 
@@ -931,6 +985,7 @@ Resources:
   - Use maker-manager office hours
   - Communication can happen at a quieter asynchronous frequency in the form of thoughtful, written discussions rather than soul-sucking meetings or erratic one-line-at-a-time chat messages
   - Build a team knowledge base to minimize repetitive questions and allow self-onboarding.
+- [Zettelkasten Method](https://zettelkasten.de/posts/overview/)
 
 ### Web development
 
@@ -938,13 +993,16 @@ Resources:
 - [Maintainable CSS](http://maintainablecss.com/)
 - [Front-End Developer Handbook 2019](https://frontendmasters.com/books/front-end-handbook/2019/), Cody Lindley
 - [A Directory of design and front-end resources](http://uigoodies.com/index.html)
+- [Client-Side Architecture Basics](https://khalilstemmler.com/articles/client-side-architecture/introduction/?ck_subscriber_id=887770473)
 
-### Writing
+### Writing (communication)
 
 ➡️ See also my [engineering-management list](https://github.com/charlax/engineering-management#writing)
 
 - [Undervalued Software Engineering Skills: Writing Well](https://blog.pragmaticengineer.com/on-writing-well/)
   - From the HN discussion: "Writing a couple of pages of design docs or an Amazon-style 6 pager or whatever might take a few days of work, but can save weeks or more of wasted implementation time when you realise your system design was flawed or it doesn't address any real user needs."
+- [Sell Yourself Sell Your Work](https://www.solipsys.co.uk/new/SellYourselfSellYourWork.html?te20hn)
+  - If you've done great work, if you've produced superb software or fixed a fault with an aeroplane or investigated a problem, without telling anyone you may as well not have bothered.
 
 ![Write like an Amazonian](./images/amazon_writing_rules.jpeg)
 
@@ -953,6 +1011,11 @@ Resources:
 - [Numbers Everyone Should Know](https://everythingisdata.wordpress.com/2009/10/17/numbers-everyone-should-know/)
 - [Latency numbers every programmer should know](https://gist.github.com/hellerbarde/2843375)
 - [Rob Pike's 5 Rules of Programming](http://users.ece.utexas.edu/~adnan/pike.html)
+    - You can't tell where a program is going to spend its time.
+    - Measure
+    - Fancy algorithms are slow when n is small, and n is usually small.
+    - Fancy algorithms are buggier than simple ones
+    - Data dominates.
 
 ## Resources & inspiration for presentations
 
