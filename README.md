@@ -300,6 +300,7 @@ Biases don't only apply to hiring. For instance, the fundamental attribution bia
   - Read more history.
 - [Why Good Developers are Promoted into Unhappiness](https://robwalling.com/2007/06/27/why-good-developers-are-promoted-into-unhappiness/), Rob Walling. Or why management might not be for you.
 - [A guide to using your career to help solve the world’s most pressing problems](https://80000hours.org/key-ideas/)
+- [What's a senior engineer's job?](https://jvns.ca/blog/senior-engineer/) You need to be more than just an individual contributor.
 
 ### Characters sets
 
