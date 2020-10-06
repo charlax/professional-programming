@@ -3,16 +3,26 @@
 ## Table of Contents
 
 - [An introduction to React](#an-introduction-to-react)
+  - [Recap of the previous session](#recap-of-the-previous-session)
   - [Before getting into React...](#before-getting-into-react)
     - [Manipulating the DOM](#manipulating-the-dom)
-    - [The inspiration for React](#the-inspiration-for-react)
-    - [The shadow DOM](#the-shadow-dom)
   - [Learning React](#learning-react)
+  - [Exercise](#exercise)
   - [Self-assessment](#self-assessment)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 # An introduction to React
+
+## Recap of the previous session
+
+See previous session
+
+- Arrow functions
+- Classes
+- `let` and `const`
+- Object and array destructuring
+- Template literals
 
 ## Before getting into React...
 
@@ -21,13 +31,15 @@
 - https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Manipulating_documents
 - https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction
 
-### The inspiration for React
-
-### The shadow DOM
-
 ## Learning React
 
 Follow the tutorial: https://reactjs.org/docs/hello-world.html
+
+We have chosen this tutorial over the "learn by doing" one because it introduces the concepts behind React. It is very well done and very complete.
+
+## Exercise
+
+Use one of our hiring exercises.
 
 ## Self-assessment
 

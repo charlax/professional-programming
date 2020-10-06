@@ -5,6 +5,7 @@
 - [TypeScript](#typescript)
   - [Differences between TypeScript and JavaScript](#differences-between-typescript-and-javascript)
   - [An introduction to TypeScript's type system](#an-introduction-to-typescripts-type-system)
+  - [Exercises](#exercises)
   - [References](#references)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -14,6 +15,10 @@
 ## Differences between TypeScript and JavaScript
 
 ## An introduction to TypeScript's type system
+
+## Exercises
+
+- [TypeScript Exercises](https://typescript-exercises.github.io/)
 
 ## References
 

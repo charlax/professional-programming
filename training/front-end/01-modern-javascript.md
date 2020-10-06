@@ -747,6 +747,7 @@ Other assessments:
 - [ES2015 / ES6: Basics of modern Javascript](https://www.slideshare.net/WojciechDzikowski/es2015-es6-basics-of-modern-javascript)
 - [JavaScript](https://en.wikipedia.org/wiki/JavaScript), Wikipedia
 - [mbeaudru/modern-js-cheatsheet](https://github.com/mbeaudru/modern-js-cheatsheet)
+- [The vanilla Javascript basics to know before learning React JS - DEV](https://dev.to/tracycss/the-vanilla-javascript-basics-to-know-before-learning-react-js-53aj)
 
 Future changes:
 
