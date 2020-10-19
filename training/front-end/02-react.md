@@ -7,6 +7,7 @@
   - [Before getting into React...](#before-getting-into-react)
     - [Manipulating the DOM](#manipulating-the-dom)
   - [Learning React](#learning-react)
+    - [Using CodeSandbox](#using-codesandbox)
   - [Exercise](#exercise)
   - [Self-assessment](#self-assessment)
 
@@ -36,6 +37,16 @@ See previous session
 Follow the tutorial: https://reactjs.org/docs/hello-world.html
 
 We have chosen this tutorial over the "learn by doing" one because it introduces the concepts behind React. It is very well done and very complete.
+
+### Using CodeSandbox
+
+It is a good exercise to start from a Vanilla JS template and setup
+CodeSandbox.
+
+1. Go to https://codesandbox.io/
+2. Start a Vanilla JS project
+3. Add `react` and `react-dom` dependencies
+4. Add the simplest React app from the tutorial and get it to work!
 
 ## Exercise
 
