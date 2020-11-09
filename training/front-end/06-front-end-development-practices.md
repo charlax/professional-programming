@@ -7,6 +7,7 @@
   - [Code style](#code-style)
   - [Security](#security)
   - [Dependency management: npm or yarn](#dependency-management-npm-or-yarn)
+  - [State management](#state-management)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -25,3 +26,9 @@
 - OWASP
 
 ## Dependency management: npm or yarn
+
+## State management
+
+- Redux
+- useReducer
+- Flux
