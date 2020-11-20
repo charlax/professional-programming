@@ -3,8 +3,6 @@
 ## Table of Contents
 
 - [TypeScript](#typescript)
-  - [Differences between TypeScript and JavaScript](#differences-between-typescript-and-javascript)
-  - [An introduction to TypeScript's type system](#an-introduction-to-typescripts-type-system)
   - [Exercises](#exercises)
   - [References](#references)
 
@@ -12,9 +10,15 @@
 
 # TypeScript
 
-## Differences between TypeScript and JavaScript
+- Intro for JS dev: https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html
+- Intro for OOP dev: https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes-oop.html
+- The handbook: https://www.typescriptlang.org/docs/handbook/intro.html
+- Intro for FP programmers: https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes-func.html
 
-## An introduction to TypeScript's type system
+❓ questions to ask:
+
+- What is the difference between structural and nominal type systems?
+    - TS: structural type system. Relationships between types are determined by the properties they contain.
 
 ## Exercises
 

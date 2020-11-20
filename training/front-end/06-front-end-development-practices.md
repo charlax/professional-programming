@@ -5,19 +5,24 @@
 - [Front-end development practices](#front-end-development-practices)
   - [Goal of this session](#goal-of-this-session)
   - [TypeScript](#typescript)
-  - [Package](#package)
-  - [Testing](#testing)
-  - [Code style](#code-style)
-  - [Security](#security)
-  - [Dependency management: npm or yarn](#dependency-management-npm-or-yarn)
-  - [Components of a complex web app](#components-of-a-complex-web-app)
+  - [Building a professional web app: topics](#building-a-professional-web-app-topics)
+    - [Dependency management: npm or yarn](#dependency-management-npm-or-yarn)
+    - [Testing](#testing)
+    - [Code style](#code-style)
+    - [Security](#security)
     - [State management](#state-management)
+    - [Interaction with the backend](#interaction-with-the-backend)
     - [Error handling](#error-handling)
     - [CSS](#css)
     - [Developer experience](#developer-experience)
-  - [Building and deploying](#building-and-deploying)
-    - [Bundling](#bundling)
-    - [Compiling](#compiling)
+    - [Building and deploying](#building-and-deploying)
+      - [Bundling](#bundling)
+      - [Compiling](#compiling)
+      - [Deploying](#deploying)
+      - [Monitoring](#monitoring)
+    - [Performance](#performance)
+    - [PWA (progressive web apps)](#pwa-progressive-web-apps)
+  - [See also](#see-also)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -31,21 +36,23 @@ We are reaching the end of our journey... Training can't teach you everything - 
 
 See [TypeScript](./03-typescript.md)
 
-## Package
+## Building a professional web app: topics
+
+### Dependency management: npm or yarn
 
 - npm
 - yarn
 
-## Testing
+### Testing
 
 - jest
 
-## Code style
+### Code style
 
 - prettier
 - eslint
 
-## Security
+### Security
 
 - HTTPS
 - CORS
@@ -53,14 +60,15 @@ See [TypeScript](./03-typescript.md)
 - CSP
 - OWASP
 
-## Dependency management: npm or yarn
-
-## Components of a complex web app
-
 ### State management
 
-- Redux (and redux-thunk, redux-saga, redux-observables)
-- useReducer
+- Redux (and redux-thunk, redux-saga, redux-observables). Also: [General | Redux](https://redux.js.org/faq/general)
+- Mobx
+- `useReducer`, `useContext`, `useState`
+
+### Interaction with the backend
+
+- GraphQL and Apollo
 
 ### Error handling
 
@@ -70,6 +78,13 @@ See [TypeScript](./03-typescript.md)
 
 - CSS-in-JS
 - styled-components
+- Emotion
+
+Frameworks:
+
+- Material UI
+- Tailwind CSS
+- CSS-first (no JS components) vs other frameworks
 
 ### Developer experience
 
@@ -77,14 +92,40 @@ See [TypeScript](./03-typescript.md)
 - Debugging with the React extension
 - Performance and profiling
 
-## Building and deploying
+### Building and deploying
 
-### Bundling
+#### Bundling
 
 - webpack
 - parcel
 - rollup
 
-### Compiling
+#### Compiling
 
 - babel
+
+#### Deploying
+
+- SSR vs. CSR vs. SSG
+
+#### Monitoring
+
+- Sentry
+
+### Performance
+
+- Lighthouse
+- Devtools
+
+### PWA (progressive web apps)
+
+- Web Sockets
+- Service Workers
+- Payments
+
+## See also
+
+See references in [README.md](./README.md), in particular:
+
+- [Front-end Developer Handbook 2019 - Learn the entire JavaScript, CSS and HTML development practice!](https://frontendmasters.com/books/front-end-handbook/2019/)
+-
