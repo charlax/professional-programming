@@ -69,6 +69,8 @@ See [TypeScript](./03-typescript.md)
 ### Interaction with the backend
 
 - GraphQL and Apollo
+- redux-saga et al.
+- Hooks for API handling
 
 ### Error handling
 
