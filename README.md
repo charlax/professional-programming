@@ -406,7 +406,7 @@ Here's a list of good books:
 - 📖 [Domain-Driven Design: Tackling Complexity in the Heart of Software](https://www.amazon.com/Domain-Driven-Design-Tackling-Complexity-Software/dp/0321125215), Eric Evans
 - 📖 [Clean Architecture](https://www.goodreads.com/book/show/18043011-clean-architecture), Robert C. Martin. Uncle Bob proposes an architecture that leverages the Single Responsibility Principle to its fullest. A great way to start a new codebase. Also checkout the [clean architecture cheatsheet](cheatsheets/Clean-Architecture-V1.0.pdf).
 
-- 📖 [Game Programming Patterns](https://www.amazon.com/dp/0990582906/ref=cm_sw_em_r_mt_dp_U_9xygFb9M86CXY): a book about design, sequencing, behavioral patterns and much more by Robert Nystrom explained through the medium of game programming. The book is also free to read online [here](https://gameprogrammingpatterns.com/contents.html). 
+- 📖 [Game Programming Patterns](https://www.amazon.com/dp/0990582906/ref=cm_sw_em_r_mt_dp_U_9xygFb9M86CXY): a book about design, sequencing, behavioral patterns and much more by Robert Nystrom explained through the medium of game programming. The book is also free to read online [here](https://gameprogrammingpatterns.com/contents.html).
 
 One of the absolute references on architecture is Martin Fowler: checkout his [Software Architecture Guide](https://martinfowler.com/architecture/).
 
@@ -440,7 +440,7 @@ Articles:
 - [KeystoneInterface](https://martinfowler.com/bliki/KeystoneInterface.html), Martin Fowler.
   - Build all the back-end code, integrate, but don't build the user-interface
 - [101 Design Patterns & Tips for Developers](https://sourcemaking.com/design-patterns-and-tips)
-- [Python Design Patterns: For Sleek And Fashionable Code](https://www.toptal.com/python/python-design-patterns): a pretty simple introduction to common design patterns (Facade, Adapter, Decorator). A more complete list of design patterns implementation in Python on [Github](https://github.com/faif/python-patterns). [Also a book here](http://python-3-patterns-idioms-test.readthedocs.io/en/latest/PatternConcept.html).
+- [Python Design Patterns: For Sleek And Fashionable Code](https://www.toptal.com/python/python-design-patterns): a pretty simple introduction to common design patterns (Facade, Adapter, Decorator). A more complete list of design patterns implementation in Python on [Github](https://github.com/faif/python-patterns).
 - SourceMaking's [Design Patterns](https://sourcemaking.com/design_patterns) seems to be a good web resource too.
 - [Anti-If: The missing patterns](https://code.joejag.com/2016/anti-if-the-missing-patterns.html)
 
