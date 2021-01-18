@@ -22,7 +22,7 @@
     - [Configuration](#configuration)
     - [Databases](#databases)
     - [Data formats](#data-formats)
-    - [Data science](#data-science)
+    - [Data science/data engineering](#data-sciencedata-engineering)
     - [Debugging](#debugging)
     - [Design (visual, UX, UI, typography)](#design-visual-ux-ui-typography)
     - [Design (OO modeling, architecture, patterns, anti-patterns, etc.)](#design-oo-modeling-architecture-patterns-anti-patterns-etc)
@@ -36,12 +36,13 @@
     - [Editors & IDE](#editors--ide)
     - [Engineering management](#engineering-management)
     - [Exercises](#exercises)
+    - [Hardware](#hardware)
     - [Incident response (oncall, alerting, outages, firefighting, postmortem)](#incident-response-oncall-alerting-outages-firefighting-postmortem)
       - [Postmortem](#postmortem)
     - [Internet](#internet)
     - [Interviewing](#interviewing)
     - [Learning & memorizing](#learning--memorizing)
-    - [Low-level](#low-level)
+    - [Low-level, assembly](#low-level-assembly)
     - [Network](#network)
     - [Observability (monitoring, logging, exception handling)](#observability-monitoring-logging-exception-handling)
       - [Logging](#logging)
@@ -65,6 +66,7 @@
     - [System architecture](#system-architecture)
       - [Scalability](#scalability)
       - [Stability](#stability)
+      - [Reliability](#reliability)
       - [Resiliency](#resiliency)
     - [Site Reliability Engineering (SRE)](#site-reliability-engineering-sre)
     - [Technical debt](#technical-debt)
@@ -220,8 +222,10 @@ Example implementations:
 ### API design & development
 
 - [Why you should use links, not keys, to represent relationships in APIs](https://cloud.google.com/blog/products/application-development/api-design-why-you-should-use-links-not-keys-to-represent-relationships-in-apis), Martin Nally, Google
-  - "Using links instead of foreign keys to express relationships in APIs reduces the amount of information a client needs to know to use an API, and reduces the ways in which clients and servers are coupled to each other."
+    - "Using links instead of foreign keys to express relationships in APIs reduces the amount of information a client needs to know to use an API, and reduces the ways in which clients and servers are coupled to each other."
 - [A collection of useful resources for building RESTful HTTP+JSON APIs.](https://github.com/yosriady/api-development-tools)
+- [Microsoft's Rest API guidelines](https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md)
+- [Zalando RESTful API and Event Scheme Guidelines](https://opensource.zalando.com/restful-api-guidelines/)
 
 ### Attitude, habits, mindset
 
@@ -263,6 +267,7 @@ Example implementations:
   - Dealing with ego distraction has taught me to love the problem solving process. It’s taught me to love and respect the learning process. As a result I’m more productive. I’m less anxious. I’m a better teammate. I’m a better friend and a better thinker.
 - [Fixed vs. Growth: The Two Basic Mindsets That Shape Our Lives](https://www.brainpickings.org/2014/01/29/carol-dweck-mindset/)
 - [What does a great software engineer look like?](https://fwouts.com/articles/great-software-engineer)
+- [Good sleep, good learning, good life](https://supermemo.guru/wiki/Good_sleep,_good_learning,_good_life)
 
 ### Automation
 
@@ -310,6 +315,17 @@ Biases don't only apply to hiring. For instance, the fundamental attribution bia
 
 - [How to do a code review](https://google.github.io/eng-practices/review/reviewer/), Google's engineering practices documentation.
 - [Post-Commit Reviews](https://medium.com/@copyconstruct/post-commit-reviews-b4cc2163ac7a): an interesting idea to increase developer velocity (there are some caveats though).
+- [How to Make Your Code Reviewer Fall in Love with You](https://mtlynch.io/code-review-love/)
+    - Review your own code first
+    - Write a clear changelist description
+    - Automate the easy stuff
+    - Answer questions with the code itself
+    - Narrowly scope changes
+    - Separate functional and non-functional changes
+    - Respond graciously to critiques
+    - Artfully solicit missing information
+    - Award all ties to your reviewer
+    - Minimize lag between rounds of review
 
 ### Coding & code quality
 
@@ -360,11 +376,14 @@ Biases don't only apply to hiring. For instance, the fundamental attribution bia
 
 - [Falsehoods Programmers Believe About Phone Numbers](https://github.com/googlei18n/libphonenumber/blob/master/FALSEHOODS.md), Google's `libphonenumber`.
 - [Rules for Autocomplete](http://jeremymikkola.com/posts/2019_03_19_rules_for_autocomplete.html): rough specifications for autocomplete fields
+- [Falsehoods programmers believe about addresses](https://www.mjt.me.uk/posts/falsehoods-programmers-believe-about-addresses/)
 
-### Data science
+### Data science/data engineering
 
 - [A dirty dozen: twelve common metric interpretation pitfalls in online controlled experiments](https://blog.acolyer.org/2017/09/25/a-dirty-dozen-twelve-common-metric-interpretation-pitfalls-in-online-controlled-experiments/)
 - [datastacktv/data-engineer-roadmap](https://github.com/datastacktv/data-engineer-roadmap): roadmap to becoming a data engineer
+- [Awesome Data Engineering Learning Path](https://awesomedataengineering.com/)
+- [Emerging Architectures for Modern Data Infrastructure](https://a16z.com/2020/10/15/the-emerging-architectures-for-modern-data-infrastructure/)
 
 ### Debugging
 
@@ -381,7 +400,6 @@ I highly recommend reading [The Non-Designer's Design Book](http://www.amazon.co
 
 - If you're working on data, Edward Tufte's [The Visual Display of Quantitative Information](http://www.amazon.com/Visual-Display-Quantitative-Information/dp/0961392142/ref=sr_1_1?ie=UTF8&qid=1458046603&sr=8-1&keywords=tufte) is considered a classic.
 - The [Universal Principles of Design](http://www.amazon.com/Universal-Principles-Design-Revised-Updated/dp/1592535879/ref=sr_1_1?ie=UTF8&qid=1458046663&sr=8-1&keywords=universal+principles+of+design) will give you enough vocabulary and concepts to describe design challenges into words.
-- [Microsoft's Rest API guidelines](https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md)
 - [Book recommendations from HackerNews](https://news.ycombinator.com/item?id=12711060)
 
 Articles :
@@ -501,6 +519,11 @@ The best way to learn is to learn by doing.
 - [danistefanovic/build-your-own-x: build your own (insert technology here)](https://github.com/danistefanovic/build-your-own-x)
 - [The elevator programming game](http://play.elevatorsaga.com/)
 - [Challenging projects every programmer should try](http://web.eecs.utk.edu/~azh/blog/challengingprojects.html): text editor, space invaders, compiler (Tiny Basic), mini OS, spreadsheet, video game console emulator.
+- [More challenging projects every programmer should try](https://web.eecs.utk.edu/~azh/blog/morechallengingprojects.html): ray tracer, key-value store web API, web browser, stock trading bot.
+
+### Hardware
+
+- [NandGame](https://nandgame.com/): build a computer from scratch.
 
 ### Incident response (oncall, alerting, outages, firefighting, postmortem)
 
@@ -548,7 +571,9 @@ Note: this is about you as an interviewee, **not** as an interviewer. To check o
 - [Interactive Python coding interview challenges](https://github.com/donnemartin/interactive-coding-challenges)
 - [Tech Interview Handbook](https://yangshun.github.io/tech-interview-handbook/introduction/)
 - [Questions to ask the company during your interview](https://github.com/viraptor/reverse-interview)
-- [A complete computer science study plan to become a software engineer](https://github.com/jwasham/coding-interview-university), jwasham/coding-interview-university
+- [A complete computer science study plan to become a software engineer](https://github.com/jwasham/coding-interview-university)
+- [Interview advice that got me offers from Google, Microsoft, and Stripe](https://www.zainrizvi.io/blog/the-interviewing-advice-no-one-shares/)
+- [The Red Flags on Your Resume](https://danicfilip.com/2020/red-flags-on-your-resume/?ck_subscriber_id=887770473)
 
 See also the exercises section in this document.
 
@@ -592,6 +617,7 @@ Learn how to learn!
   - Quiz yourself
   - Summarize and share with someone else.
   - Connect what you just learned to experiences you previously had.
+- [How To Remember Anything Forever-ish](https://ncase.me/remember/): a comic about learning
 
 Richard Feynman's Learning Strategy:
 
@@ -609,10 +635,11 @@ Richard Feynman's Learning Strategy:
 > "Experience is something you don't get until just after you need it."
 > ― Steven Wright
 
-### Low-level
+### Low-level, assembly
 
 - [Back to Basics](https://www.joelonsoftware.com/2001/12/11/back-to-basics/), Joel Spolsky. Explains why learning low level programming is important.
   - I think that some of the biggest mistakes people make even at the highest architectural levels come from having a weak or broken understanding of a few simple things at the very lowest levels.
+- [What's in a Linux executable?](https://fasterthanli.me/series/making-our-own-executable-packer/part-1)
 
 ### Network
 
@@ -651,6 +678,7 @@ Richard Feynman's Learning Strategy:
     - From the Google SRE book: Latency, Traffic, Errors, and Saturation
     - USE Method (from Brendan Gregg): Utilization, Saturation, and Errors
     - RED Method (from Tom Wilkie): Rate, Errors, and Duration
+- [Simple Anomaly Detection Using Plain SQL](https://hakibenita.com/sql-anomaly-detection)
 
 ### Perspective
 
@@ -730,7 +758,7 @@ JavaScript is such a pervasive language that it's almost required learning.
 ### Programming paradigm
 
 - [Imperative vs Declarative Programming](https://tylermcginnis.com/imperative-vs-declarative-programming/), Tyler McGinnis.
-  - I draw the line between declarative and non-declarative at whether you can trace the code as it runs. Regex is 100% declarative, as it’s untraceable while the pattern is being executed.
+    - I draw the line between declarative and non-declarative at whether you can trace the code as it runs. Regex is 100% declarative, as it’s untraceable while the pattern is being executed.
 
 ### Over-engineering
 
@@ -837,7 +865,10 @@ List of resources:
 - [The Bash Hackers Wiki](https://wiki.bash-hackers.org/) provides a gentler way to learn about bash than its manages.
 - [Awk in 20 Minutes](https://ferd.ca/awk-in-20-minutes.html)
 - 🎤 [Linux Productivity Tools](https://www.usenix.org/sites/default/files/conference/protected-files/lisa19_maheshwari.pdf)
-- [jlevy/the-art-of-command-line](https://github.com/jlevy/the-art-of-command-line): Master the command line, in one page
+- [jlevy/the-art-of-command-line](https://github.com/jlevy/the-art-of-command-line): master the command line, in one page
+- [Minimal safe Bash script template](https://betterdev.blog/minimal-safe-bash-script-template/)
+- [Command Line Interface Guidelines](https://clig.dev/)
+- [The Linux Commands Handbook](https://openbootcamps.com/the-linux-commands-handbook/)
 
 ### System administration
 
@@ -861,12 +892,18 @@ List of resources:
 - 📖 [Building Microservices](https://www.amazon.com/Building-Microservices-Designing-Fine-Grained-Systems/dp/1491950358), Sam Newman (quite complete discussion of microservices)
 - [Designing Data-Intensive Applications](https://www.amazon.com/Designing-Data-Intensive-Applications-Reliable-Maintainable/dp/1449373321)
 - [Monoliths are the future](https://changelog.com/posts/monoliths-are-the-future)
-  - "We’re gonna break it up and somehow find the engineering discipline we never had in the first place."
+    - "We’re gonna break it up and somehow find the engineering discipline we never had in the first place."
 - [Scaling to 100k Users](https://alexpareto.com/scalability/systems/2020/02/03/scaling-100k.html), Alex Pareto. The basics of getting from 1 to 100k users.
-- [Systems that defy detailed understanding - Made of Bugs](https://blog.nelhage.com/post/systems-that-defy-understanding/)
-  - Focus effort on systems-level failure, instead of the individual component failure.
-  - Invest in sophisticated observability tools, aiming to increase the number of questions we can ask without deploying custom code
+- [Systems that defy detailed understanding](https://blog.nelhage.com/post/systems-that-defy-understanding/)
+    - Focus effort on systems-level failure, instead of the individual component failure.
+    - Invest in sophisticated observability tools, aiming to increase the number of questions we can ask without deploying custom code
 - [Fallacies of distributed computing](https://en.wikipedia.org/wiki/Fallacies_of_distributed_computing), Wikipedia
+- [Introducing Domain-Oriented Microservice Architecture](https://eng.uber.com/microservice-architecture/)
+    - Instead of orienting around single microservices, we oriented around collections of related microservices. We call these domains.
+    - In small organizations, the operational benefit likely does not offset the increase in architectural complexity.
+- [The Biggest Thing Amazon Got Right: The Platform](https://gigaom.com/2011/10/12/419-the-biggest-thing-amazon-got-right-the-platform/)
+    - All teams will henceforth expose their data and functionality through service interfaces.
+    - Monitoring and QA are the same thing.
 
 #### Scalability
 
@@ -875,6 +912,16 @@ List of resources:
 #### Stability
 
 - I already mentioned the book Release it! above. There's also a [presentation](http://www.slideshare.net/justindorfman/stability-patterns-presentation) from the author.
+
+#### Reliability
+
+- [How Complex Systems Fail](https://how.complexsystems.fail/)
+    - Catastrophe requires multiple failures – single point failures are not enough.
+    - Complex systems contain changing mixtures of failures latent within them.
+    - Post-accident attribution to a ‘root cause’ is fundamentally wrong.
+    - Hindsight biases post-accident assessments of human performance.
+    - Safety is a characteristic of systems and not of their components
+    - Failure free operations require experience with failure.
 
 #### Resiliency
 
@@ -919,8 +966,12 @@ Resources:
 
 - [TechnicalDebt](https://martinfowler.com/bliki/TechnicalDebt.html), Martin Fowler.
 - [Fixing Technical Debt with an Engineering Allocation Framework](https://docs.google.com/presentation/d/16WU1cxG02jnVGQ5byviw3_Q0ILDPZPYtTvU91_210T0/edit#slide=id.p)
-  - You don't need to stop shipping features to fix technical debt
-  - Communicate the business value
+    - You don't need to stop shipping features to fix technical debt
+    - Communicate the business value
+- [Ur-Technical Debt](https://www.georgefairbanks.com/ieee-software-v32-n4-july-2020-ur-technical-debt)
+    - Today, any code that a developer dislikes is branded as technical debt.
+    - Ward Cunningham invented the debt metaphor to explain to his manager that building iteratively gave them working code faster, much like borrowing money to start a project, but that it was essential to keep paying down the debt, otherwise the interest payments would grind the project to a halt.
+    - Ur-technical debt is generally not detectable by static analysis.
 
 ### Testing
 
@@ -987,6 +1038,13 @@ Resources:
   - Communication can happen at a quieter asynchronous frequency in the form of thoughtful, written discussions rather than soul-sucking meetings or erratic one-line-at-a-time chat messages
   - Build a team knowledge base to minimize repetitive questions and allow self-onboarding.
 - [Zettelkasten Method](https://zettelkasten.de/posts/overview/)
+- [100 Tips for a Better Life](https://www.lesswrong.com/posts/7hFeMWC6Y5eaSixbD/100-tips-for-a-better-life)
+    - Deficiencies do not make you special. The older you get, the more your inability to cook will be a red flag for people.
+    - History remembers those who got to market first. Getting your creation out into the world is more important than getting it perfect.
+    - Discipline is superior to motivation. The former can be trained, the latter is fleeting. You won’t be able to accomplish great things if you’re only relying on motivation.
+    - You do not live in a video game. There are no pop-up warnings if you’re about to do something foolish, or if you’ve been going in the wrong direction for too long. You have to create your own warnings.
+    - Cultivate a reputation for being dependable. Good reputations are valuable because they’re rare (easily destroyed and hard to rebuild). You don’t have to brew the most amazing coffee if your customers know the coffee will always be hot.
+    - Compliment people more. Many people have trouble thinking of themselves as smart, or pretty, or kind, unless told by someone else. You can help them out.
 
 ### Web development
 
@@ -994,16 +1052,17 @@ Resources:
 - [Maintainable CSS](http://maintainablecss.com/)
 - [Front-End Developer Handbook 2019](https://frontendmasters.com/books/front-end-handbook/2019/), Cody Lindley
 - [A Directory of design and front-end resources](http://uigoodies.com/index.html)
-- [Client-Side Architecture Basics](https://khalilstemmler.com/articles/client-side-architecture/introduction/?ck_subscriber_id=887770473)
+- [Client-Side Architecture Basics](https://khalilstemmler.com/articles/client-side-architecture/introduction/)
+- 📖 [codingknite/frontend-development](https://github.com/codingknite/frontend-development): A curated list of resources for Frontend development
 
 ### Writing (communication)
 
 ➡️ See also my [engineering-management list](https://github.com/charlax/engineering-management#writing)
 
 - [Undervalued Software Engineering Skills: Writing Well](https://blog.pragmaticengineer.com/on-writing-well/)
-  - From the HN discussion: "Writing a couple of pages of design docs or an Amazon-style 6 pager or whatever might take a few days of work, but can save weeks or more of wasted implementation time when you realise your system design was flawed or it doesn't address any real user needs."
+    - From the HN discussion: "Writing a couple of pages of design docs or an Amazon-style 6 pager or whatever might take a few days of work, but can save weeks or more of wasted implementation time when you realise your system design was flawed or it doesn't address any real user needs."
 - [Sell Yourself Sell Your Work](https://www.solipsys.co.uk/new/SellYourselfSellYourWork.html?te20hn)
-  - If you've done great work, if you've produced superb software or fixed a fault with an aeroplane or investigated a problem, without telling anyone you may as well not have bothered.
+    - If you've done great work, if you've produced superb software or fixed a fault with an aeroplane or investigated a problem, without telling anyone you may as well not have bothered.
 
 ![Write like an Amazonian](./images/amazon_writing_rules.jpeg)
 
@@ -1024,6 +1083,7 @@ Resources:
 - https://speakerdeck.com/
 - Dilbert
 - Calvin & Hobbes
+- https://twitter.com/_workchronicles
 
 ## Concepts
 
