@@ -748,6 +748,7 @@ Other assessments:
 - [JavaScript](https://en.wikipedia.org/wiki/JavaScript), Wikipedia
 - [mbeaudru/modern-js-cheatsheet](https://github.com/mbeaudru/modern-js-cheatsheet)
 - [The vanilla Javascript basics to know before learning React JS - DEV](https://dev.to/tracycss/the-vanilla-javascript-basics-to-know-before-learning-react-js-53aj)
+- [The Modern JavaScript Tutorial](https://javascript.info/)
 
 Future changes:
 
