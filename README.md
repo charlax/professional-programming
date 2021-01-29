@@ -178,6 +178,9 @@ There are some free books available, including:
 - [Famous Laws Of Software Development](https://www.timsommer.be/famous-laws-of-software-development/)
 - [The Amazon Builders' Library](https://aws.amazon.com/builders-library/?cards-body.sort-by=item.additionalFields.customSort&cards-body.sort-order=asc)
 - [kdeldycke/awesome-falsehood](https://github.com/kdeldycke/awesome-falsehood): Falsehoods Programmers Believe in
+- [hellerve/programming-talks](https://github.com/hellerve/programming-talks)
+- [TechYaks](https://techyaks.com/): list of talks
+- [Talks that changed the way I think about programming](http://www.opowell.com/post/talks-that-changed-the-way-i-think-about-programming/)
 
 List of axioms:
 

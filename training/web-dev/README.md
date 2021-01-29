@@ -21,6 +21,7 @@
       - [Project management](#project-management)
       - [Security](#security)
       - [Version control (git)](#version-control-git)
+    - [Topics specific to Gens de Confiance](#topics-specific-to-gens-de-confiance)
   - [Other lists](#other-lists)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -35,23 +36,24 @@ This training provides an opinionated ramp-up program for web developers.
 
 ## Prerequisites
 
-Not much, just general knowledge about computer and the Internet.
+Not much, just general knowledge about computers and the Internet.
 
 ## Principles
 
-- Focus on the main stuff. A lot of things have to be learnt on the job anyway.
-- For aspiring professionals. Programming is not only about raw knowledge,
+- Focus on the main stuff. A lot of things are learnt on the job anyway.
+- Programming is not only about raw technical knowledge,
   it's also about best practices.
-- Go wide.
+- Go wide and go deep.
 - We learn by doing, so this training includes lots of exercises.
-- A lot of videos are included, since they provide hands-on experiences.
+- A lot of videos are included, since they provide hands-on experiences. You
+  can find a LOT more videos here: [hellerve/programming-talks](https://github.com/hellerve/programming-talks) and [talks that changed the way I think about programming](http://www.opowell.com/post/talks-that-changed-the-way-i-think-about-programming/)
 
 ## Roadmap
 
 1. Start with a programming language.
 2. Do a first pass at the web development components: DB, HTTP API, etc.
 3. Write a full-fledged exercise, get it reviewed.
-4. Go deeper in the topics above.
+4. Go deeper in the topics.
 
 ## Meta: learning about learning
 
@@ -75,17 +77,19 @@ ally!
 A developer's main tool being the programming language, it is important to
 achieve high proficiency in at least one of them.
 
-I'd recommend starting with Python or TypeScript.
-
-For Python, you can have a look at my repo [charlax/python-education](https://github.com/charlax/python-education).
+I'd recommend starting with Python or TypeScript. For Python, you can have a look at my repo [charlax/python-education](https://github.com/charlax/python-education).
 
 To ensure you have good command of the language, you should try out some of
 those exercises:
 
 - [Exercism](https://exercism.io/) (get free code reviews!)
-- [Small Python exercises](https://github.com/charlax/python-education/tree/master/learning-python/exercises)
+- [Small Python exercises from charlax/python-education](https://github.com/charlax/python-education/tree/master/learning-python/exercises)
 - [danistefanovic/build-your-own-x](https://github.com/danistefanovic/build-your-own-x) (for instance: build a [git in Python](https://wyag.thb.lt/))
 - [Other list of exercises](https://github.com/charlax/python-education#exercises)
+
+Watch some videos related to your language:
+
+- 🎞 [Top 10 Must-Watch PyCon Talks](https://realpython.com/must-watch-pycon-talks/)
 
 Learn how to handle:
 
@@ -93,10 +97,12 @@ Learn how to handle:
     - Do exercises
 - Functional programming
     - [Functional Programming Fundamentals](https://www.matthewgerstman.com/tech/functional-programming-fundamentals/)
-- Design in patterns
-    - E.g. [in Python](https://medium.com/@daniel.heller/ten-principles-for-growth-69015e08c35b))
+- Design patterns
+    - E.g. in [Python](https://www.toptal.com/python/python-design-patterns)
+    - [faif/python-patterns](https://github.com/faif/python-patterns)
 - Tests
     - [Why bother writing tests at all?](https://dave.cheney.net/2019/05/14/why-bother-writing-tests-at-all)
+    - 🎞 [Design Patterns in Plain English](https://www.youtube.com/watch?v=NU_1StN5Tkk&ab_channel=ProgrammingwithMosh)
 - Crazy things in languages
     - 🎞 [Wat](https://www.destroyallsoftware.com/talks/wat)
 
@@ -122,6 +128,7 @@ Start your career the right way with this article: [Ten Principles for Growth as
 - Wander in the [Software Architecture Guide](https://martinfowler.com/architecture/)
 - 🎞 [On the Spectrum of Abstraction](https://www.youtube.com/watch?v=mVVNJKv9esE&ab_channel=ReactEurope)
 - 🎞 [Simple Made Easy](https://www.infoq.com/presentations/Simple-Made-Easy/)
+- 🎞 [Zebras All the Way Down](https://youtu.be/fE2KDzZaxvE), Bryan Cantrill
 
 #### Best practices, attitude
 
@@ -153,6 +160,10 @@ Read of the resources listed under [Must-read articles](https://github.com/charl
 - Learn about Docker
     - 🎞 [Containers From Scratch](https://www.youtube.com/watch?v=8fi7uSYlOdc&ab_channel=GOTOConferences)
 
+Videos:
+
+- 🎞 [8 super heroic Linux commands that you probably aren't using](https://www.youtube.com/watch?v=Zuwa8zlfXSY&ab_channel=EngineerMan)
+
 #### Distributed systems
 
 - DDIA
@@ -180,6 +191,13 @@ Checkout this section on [charlax/engineering-management](https://github.com/cha
 
 #### Version control (git)
 
+- [Resources to learn Git](https://try.github.io/)
+- 🎞 [Learn Git In 15 Minutes - YouTube](https://www.youtube.com/watch?v=USjZcfj8yxE&ab_channel=ColtSteele)
+
+### Topics specific to Gens de Confiance
+
+- Learn PHP
+- Learn Symfony
 
 ## Other lists
 
