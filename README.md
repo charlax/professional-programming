@@ -371,6 +371,11 @@ Biases don't only apply to hiring. For instance, the fundamental attribution bia
 - [Let's Build a Simple Database](https://cstack.github.io/db_tutorial/)
 - [Readings in Database Systems, 5th Edition](http://www.redbook.io/)
 - [Comparing database types: how database types evolved to meet different needs](https://dataguide.prisma.io/intro/comparing-database-types)
+- [How does a relational database work](http://coding-geek.com/how-databases-work/)
+
+Exercises:
+
+- [PostgreSQL exercises](https://pgexercises.com/)
 
 ### Data formats
 
@@ -861,11 +866,10 @@ List of resources:
 - 🧰 [alebcay/awesome-shell](https://github.com/alebcay/awesome-shell)
 - [Bash Hackers Wiki](http://wiki.bash-hackers.org/)
 - [dylanaraps/pure-bash-bible: a collection of pure bash alternatives to external processes.](https://github.com/dylanaraps/pure-bash-bible)
-- [Master the command line, in one page](https://github.com/jlevy/the-art-of-command-line) **must read**
 - [The Bash Hackers Wiki](https://wiki.bash-hackers.org/) provides a gentler way to learn about bash than its manages.
 - [Awk in 20 Minutes](https://ferd.ca/awk-in-20-minutes.html)
 - 🎤 [Linux Productivity Tools](https://www.usenix.org/sites/default/files/conference/protected-files/lisa19_maheshwari.pdf)
-- [jlevy/the-art-of-command-line](https://github.com/jlevy/the-art-of-command-line): master the command line, in one page
+- [jlevy/the-art-of-command-line](https://github.com/jlevy/the-art-of-command-line): master the command line, in one page **must read**
 - [Minimal safe Bash script template](https://betterdev.blog/minimal-safe-bash-script-template/)
 - [Command Line Interface Guidelines](https://clig.dev/)
 - [The Linux Commands Handbook](https://openbootcamps.com/the-linux-commands-handbook/)
@@ -890,7 +894,7 @@ List of resources:
 - [Learn how to design large scale systems. Prep for the system design interview](https://github.com/donnemartin/system-design-primer) (Github repo)
 - [Turning the database outside-out with Apache Samza](https://www.confluent.io/blog/turning-the-database-inside-out-with-apache-samza/)
 - 📖 [Building Microservices](https://www.amazon.com/Building-Microservices-Designing-Fine-Grained-Systems/dp/1491950358), Sam Newman (quite complete discussion of microservices)
-- [Designing Data-Intensive Applications](https://www.amazon.com/Designing-Data-Intensive-Applications-Reliable-Maintainable/dp/1449373321)
+- 📖 [Designing Data-Intensive Applications](https://dataintensive.net/)
 - [Monoliths are the future](https://changelog.com/posts/monoliths-are-the-future)
     - "We’re gonna break it up and somehow find the engineering discipline we never had in the first place."
 - [Scaling to 100k Users](https://alexpareto.com/scalability/systems/2020/02/03/scaling-100k.html), Alex Pareto. The basics of getting from 1 to 100k users.
