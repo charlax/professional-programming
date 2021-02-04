@@ -529,6 +529,10 @@ The best way to learn is to learn by doing.
 - [Challenging projects every programmer should try](http://web.eecs.utk.edu/~azh/blog/challengingprojects.html): text editor, space invaders, compiler (Tiny Basic), mini OS, spreadsheet, video game console emulator.
 - [More challenging projects every programmer should try](https://web.eecs.utk.edu/~azh/blog/morechallengingprojects.html): ray tracer, key-value store web API, web browser, stock trading bot.
 
+Practice:
+
+- [CodinGame](https://www.codingame.com/start)
+
 ### Hardware
 
 - [NandGame](https://nandgame.com/): build a computer from scratch.
