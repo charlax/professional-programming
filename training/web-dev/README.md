@@ -4,19 +4,18 @@
 
 - [Learning web development](#learning-web-development)
   - [Goal of this training](#goal-of-this-training)
-  - [Prerequisites](#prerequisites)
   - [Principles](#principles)
+    - [Meta: learning about learning](#meta-learning-about-learning)
   - [Roadmap](#roadmap)
-  - [Meta: learning about learning](#meta-learning-about-learning)
-  - [Topics](#topics)
+  - [Approach](#approach)
     - [Pick a powerful text editor and learn its ins and outs](#pick-a-powerful-text-editor-and-learn-its-ins-and-outs)
-    - [Learn the ins and outs of a programming language](#learn-the-ins-and-outs-of-a-programming-language)
-    - [Learn the topics of web development](#learn-the-topics-of-web-development)
-      - [Architecture](#architecture)
+    - [Learn the ins and outs of one programming language](#learn-the-ins-and-outs-of-one-programming-language)
+  - [Topic-specific materials](#topic-specific-materials)
+      - [Architecture and design patterns](#architecture-and-design-patterns)
       - [Best practices, attitude](#best-practices-attitude)
       - [DB and SQL](#db-and-sql)
       - [Dev environment, command line and Linux](#dev-environment-command-line-and-linux)
-      - [Distributed systems](#distributed-systems)
+      - [Distributed systems and system architecture](#distributed-systems-and-system-architecture)
       - [Network, protocols, HTTP](#network-protocols-http)
       - [Project management](#project-management)
       - [Security](#security)
@@ -34,9 +33,7 @@
 
 This training provides an opinionated ramp-up program for web developers.
 
-## Prerequisites
-
-Not much, just general knowledge about computers and the Internet.
+Prerequisites: not much, just general knowledge about computers and the Internet.
 
 ## Principles
 
@@ -48,18 +45,30 @@ Not much, just general knowledge about computers and the Internet.
 - A lot of videos are included, since they provide hands-on experiences. You
   can find a LOT more videos here: [hellerve/programming-talks](https://github.com/hellerve/programming-talks) and [talks that changed the way I think about programming](http://www.opowell.com/post/talks-that-changed-the-way-i-think-about-programming/)
 
-## Roadmap
+Note: this is just a short selection of stuff listed in
+[charlax/professional-programming](https://github.com/charlax/professional-programming).
 
-1. Start with a programming language.
-2. Do a first pass at the web development components: DB, HTTP API, etc.
-3. Write a full-fledged exercise, get it reviewed.
-4. Go deeper in the topics.
-
-## Meta: learning about learning
+### Meta: learning about learning
 
 Feel free to checkout some of the articles about [Learning and memorizing](https://github.com/charlax/professional-programming#learning--memorizing)
 
-## Topics
+- Create a learning plan with your learning priorities
+- Consider using flashcards (see Anki for instance)
+- Enjoy the learning experience!
+
+## Roadmap
+
+1. Start with a programming language.
+2. Do a first pass at the web development environment (see introductory resources below)
+    - HTTP and web architecture basics
+    - Git
+    - Docker
+    - Command line
+    - Text editor
+3. Write a full-fledged exercise, get it reviewed.
+4. Do the advanced topics
+
+## Approach
 
 ### Pick a powerful text editor and learn its ins and outs
 
@@ -69,10 +78,10 @@ Make sure to spend a lot of time in your text editor, watch tutorials about
 advanced features, install extensions, learn all the main keyboard shortcuts,
 subscribe to mailing lists about it, etc.
 
-You will spend most of your time within your text editor. Turn it into your
-ally!
+You will spend most of your time within your text editor. Turn it into
+a powerful ally!
 
-### Learn the ins and outs of a programming language
+### Learn the ins and outs of one programming language
 
 A developer's main tool being the programming language, it is important to
 achieve high proficiency in at least one of them.
@@ -115,20 +124,16 @@ If you have time, learn more programming languages, starting with some that are
 - Rust
 - Assembly
 
-### Learn the topics of web development
+## Topic-specific materials
 
-Note: this is just a short selection of stuff listed in
-[charlax/professional-programming](https://github.com/charlax/professional-programming).
+#### Architecture and design patterns
 
-Start your career the right way with this article: [Ten Principles for Growth as an Engineer](https://medium.com/@daniel.heller/ten-principles-for-growth-69015e08c35b)
-
-- Create a learning plan with your learning priorities
-- Consider using flashcards (see Anki for instance)
-- Enjoy the learning experience!
-
-#### Architecture
+Introduction:
 
 - Learn about DDD (domain driven design), SOLID, MVC.
+
+Advanced:
+
 - Wander in the [Software Architecture Guide](https://martinfowler.com/architecture/)
 - 🎞 [On the Spectrum of Abstraction](https://www.youtube.com/watch?v=mVVNJKv9esE&ab_channel=ReactEurope)
 - 🎞 [Simple Made Easy](https://www.infoq.com/presentations/Simple-Made-Easy/)
@@ -142,51 +147,73 @@ Read one of those:
   Master](https://pragprog.com/titles/tpp20/): hands-on the most inspiring and useful book I've read about programming.
 - 📖 [Code Complete: A Practical Handbook of Software
   Construction](http://www.amazon.com/Code-Complete-Practical-Handbook-Construction/dp/0735619670): a nice addition to The Pragmatic Programmer, gives you the necessary framework to talk about code.
+- [Ten Principles for Growth as an Engineer](https://medium.com/@daniel.heller/ten-principles-for-growth-69015e08c35b), Dan Heller
 
 Read the resources listed under [Must-read articles](https://github.com/charlax/professional-programming#must-read-articles).
 
 #### DB and SQL
 
+Introduction:
+
 - Learn basic and advanced SQL: joins, indexes, subqueries.
 - Install Postgres and play with it.
 - [Do those postgres exercises](https://pgexercises.com/)
+
+Advanced:
+
 - Learn about ORM
     - 🎞 [Watch this Python introduction to ORMs](https://www.youtube.com/watch?v=P141KRbxVKc&ab_channel=PyCon2014) (with SQLAlchemy)
 
 #### Dev environment, command line and Linux
 
+Introduction:
+
 - [jlevy/the-art-of-command-line](https://github.com/jlevy/the-art-of-command-line): master the command line, in one page
 - [Linux Productivity Tools](https://www.usenix.org/sites/default/files/conference/protected-files/lisa19_maheshwari.pdf)
 - Do shell exercises, for instance on [Exercism](https://exercism.io/tracks/bash), [TLDP](https://tldp.org/LDP/abs/html/exercises.html), [HackerRank](https://www.hackerrank.com/domains/shell).
+- Learn about Docker, follow the [Official Docker Tutorial](https://docs.docker.com/get-started/)
+
+Advanced:
+
 - Install/use some of those tools: https://github.com/jondot/awesome-devenv
 - Write your own dotfiles, taking inspiration from [Awesome Dotfiles](https://github.com/webpro/awesome-dotfiles) (you can
   checkout mines: https://github.com/charlax/dotfiles)
-- Learn about Docker
-    - 🎞 [Containers From Scratch](https://www.youtube.com/watch?v=8fi7uSYlOdc&ab_channel=GOTOConferences)
-
-Videos:
-
 - 🎞 [8 super heroic Linux commands that you probably aren't using](https://www.youtube.com/watch?v=Zuwa8zlfXSY&ab_channel=EngineerMan)
+- 🎞 [Containers From Scratch](https://www.youtube.com/watch?v=8fi7uSYlOdc&ab_channel=GOTOConferences)
 
-#### Distributed systems
+#### Distributed systems and system architecture
+
+Introduction:
+
+- [donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer): learn how to design large-scale systems.
+
+Advanced:
 
 - Consider reading 📖 [Designing Data-Intensive Applications](https://dataintensive.net/).
 - [The Log: What every software engineer should know about real-time data's unifying abstraction](https://engineering.linkedin.com/distributed-systems/log-what-every-software-engineer-should-know-about-real-time-datas-unifying)
-- [donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer): learn how to design large-scale systems.
-    - CAP theorem
-    - Weak/strong/eventual consistency
-    - Fail-over/replication
-    - Load balancer: active-active, active-passive
-    - Horizontal vs vertical scaling
-    - Reverse proxy, load balancer
-    - DB: RDBMS vs. NoSQL, replication, sharding, master-master, denormalization
-    - Cache: client caching in browsers, CDN, HTTP headers, object cache, db cache
-    - Asynchronism: message queues, back pressure
+
+Concepts to look into:
+
+- CAP theorem
+- Weak/strong/eventual consistency
+- Fail-over/replication
+- Load balancer: active-active, active-passive
+- Horizontal vs vertical scaling
+- Reverse proxy, load balancer
+- DB: RDBMS vs. NoSQL, replication, sharding, master-master, denormalization
+- Cache: client caching in browsers, CDN, HTTP headers, object cache, db cache
+- Asynchronism: message queues, back pressure
+- Monitoring and alerting best practices
 
 #### Network, protocols, HTTP
 
+Introduction:
+
 - [How Does the Internet Work?](https://web.stanford.edu/class/msande91si/www-spr04/readings/week1/InternetWhitepaper.htm)
 - [vasanthk/how-web-works](https://github.com/vasanthk/how-web-works): what happens behind the scenes when we type www.google.com in a browser?
+
+Advanced:
+
 - Learn about the basics of TCP and UDP
 - Learn the basics of the HTTP protocol: header, verb, status code, TLS, Rest APIs, etc.
     - 🎞 [Qu'est ce que le HTTP ?](https://grafikart.fr/tutoriels/http-1062), Grafikart
@@ -194,18 +221,29 @@ Videos:
 
 #### Project management
 
+Introduction:
+
 - [Efficient Software Project Management at its Roots](https://blog.pragmaticengineer.com/efficient-software-project-management-at-its-roots/)
 - [How to Lead a Project - as a Software Engineer](https://blog.pragmaticengineer.com/how-to-lead-a-project-in-software-development/)
-- [TechnicalDebt](https://martinfowler.com/bliki/TechnicalDebt.html)
 
-Checkout this section on [charlax/engineering-management](https://github.com/charlax/engineering-management#project-management)
+Advanced:
+
+- [TechnicalDebt](https://martinfowler.com/bliki/TechnicalDebt.html)
+- Checkout this section on [charlax/engineering-management](https://github.com/charlax/engineering-management#project-management)
 
 #### Security
 
+Introduction:
+
 - Learn about the OWASP Top 10
+
+Advanced:
+
 - Consider reading 📖 [Penetration Testing](https://nostarch.com/pentesting).
 
 #### Version control (git)
+
+Introduction:
 
 - [Resources to learn Git](https://try.github.io/)
 - 🎞 [Learn Git In 15 Minutes - YouTube](https://www.youtube.com/watch?v=USjZcfj8yxE&ab_channel=ColtSteele)
@@ -227,3 +265,4 @@ Checkout this section on [charlax/engineering-management](https://github.com/cha
 - [The Missing Semester of Your CS Education](https://missing.csail.mit.edu/) (MIT).
 - [What every computer science major should know](http://matt.might.net/articles/what-cs-majors-should-know/)
 - [Teach Yourself Computer Science](https://teachyourselfcs.com/)
+- https://github.com/charlax/professional-programming
