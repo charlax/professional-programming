@@ -94,7 +94,7 @@ Watch some videos related to your language:
 Learn how to handle:
 
 - Regexes
-    - Do exercises
+    - Do exercises, for instance [RegexOne](https://regexone.com/) or [HackerRank](https://www.hackerrank.com/domains/regex).
 - Functional programming
     - [Functional Programming Fundamentals](https://www.matthewgerstman.com/tech/functional-programming-fundamentals/)
 - Design patterns
@@ -122,9 +122,13 @@ Note: this is just a short selection of stuff listed in
 
 Start your career the right way with this article: [Ten Principles for Growth as an Engineer](https://medium.com/@daniel.heller/ten-principles-for-growth-69015e08c35b)
 
+- Create a learning plan with your learning priorities
+- Consider using flashcards (see Anki for instance)
+- Enjoy the learning experience!
+
 #### Architecture
 
-- Learn about DDD (domain driven design)
+- Learn about DDD (domain driven design), SOLID, MVC.
 - Wander in the [Software Architecture Guide](https://martinfowler.com/architecture/)
 - 🎞 [On the Spectrum of Abstraction](https://www.youtube.com/watch?v=mVVNJKv9esE&ab_channel=ReactEurope)
 - 🎞 [Simple Made Easy](https://www.infoq.com/presentations/Simple-Made-Easy/)
@@ -139,11 +143,11 @@ Read one of those:
 - 📖 [Code Complete: A Practical Handbook of Software
   Construction](http://www.amazon.com/Code-Complete-Practical-Handbook-Construction/dp/0735619670): a nice addition to The Pragmatic Programmer, gives you the necessary framework to talk about code.
 
-Read of the resources listed under [Must-read articles](https://github.com/charlax/professional-programming#must-read-articles).
+Read the resources listed under [Must-read articles](https://github.com/charlax/professional-programming#must-read-articles).
 
 #### DB and SQL
 
-- Learn basic and advanced SQL: joins, indexes, subqueries
+- Learn basic and advanced SQL: joins, indexes, subqueries.
 - Install Postgres and play with it.
 - [Do those postgres exercises](https://pgexercises.com/)
 - Learn about ORM
@@ -153,9 +157,9 @@ Read of the resources listed under [Must-read articles](https://github.com/charl
 
 - [jlevy/the-art-of-command-line](https://github.com/jlevy/the-art-of-command-line): master the command line, in one page
 - [Linux Productivity Tools](https://www.usenix.org/sites/default/files/conference/protected-files/lisa19_maheshwari.pdf)
-- Do shell exercises
+- Do shell exercises, for instance on [Exercism](https://exercism.io/tracks/bash), [TLDP](https://tldp.org/LDP/abs/html/exercises.html), [HackerRank](https://www.hackerrank.com/domains/shell).
 - Install/use some of those tools: https://github.com/jondot/awesome-devenv
-- Write your own dotfiles: https://github.com/webpro/awesome-dotfiles (you
+- Write your own dotfiles, taking inspiration from [Awesome Dotfiles](https://github.com/webpro/awesome-dotfiles) (you can
   checkout mines: https://github.com/charlax/dotfiles)
 - Learn about Docker
     - 🎞 [Containers From Scratch](https://www.youtube.com/watch?v=8fi7uSYlOdc&ab_channel=GOTOConferences)
@@ -166,16 +170,27 @@ Videos:
 
 #### Distributed systems
 
-- DDIA
+- Consider reading 📖 [Designing Data-Intensive Applications](https://dataintensive.net/).
 - [The Log: What every software engineer should know about real-time data's unifying abstraction](https://engineering.linkedin.com/distributed-systems/log-what-every-software-engineer-should-know-about-real-time-datas-unifying)
 - [donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer): learn how to design large-scale systems.
+    - CAP theorem
+    - Weak/strong/eventual consistency
+    - Fail-over/replication
+    - Load balancer: active-active, active-passive
+    - Horizontal vs vertical scaling
+    - Reverse proxy, load balancer
+    - DB: RDBMS vs. NoSQL, replication, sharding, master-master, denormalization
+    - Cache: client caching in browsers, CDN, HTTP headers, object cache, db cache
+    - Asynchronism: message queues, back pressure
 
 #### Network, protocols, HTTP
 
 - [How Does the Internet Work?](https://web.stanford.edu/class/msande91si/www-spr04/readings/week1/InternetWhitepaper.htm)
 - [vasanthk/how-web-works](https://github.com/vasanthk/how-web-works): what happens behind the scenes when we type www.google.com in a browser?
 - Learn about the basics of TCP and UDP
-- Learn the basics of the HTTP protocol: header, verb, status code, TLS, etc.
+- Learn the basics of the HTTP protocol: header, verb, status code, TLS, Rest APIs, etc.
+    - 🎞 [Qu'est ce que le HTTP ?](https://grafikart.fr/tutoriels/http-1062), Grafikart
+- Learn about important web-related protocols: DNS, SMTP, SSH
 
 #### Project management
 
@@ -188,16 +203,24 @@ Checkout this section on [charlax/engineering-management](https://github.com/cha
 #### Security
 
 - Learn about the OWASP Top 10
+- Consider reading 📖 [Penetration Testing](https://nostarch.com/pentesting).
 
 #### Version control (git)
 
 - [Resources to learn Git](https://try.github.io/)
 - 🎞 [Learn Git In 15 Minutes - YouTube](https://www.youtube.com/watch?v=USjZcfj8yxE&ab_channel=ColtSteele)
+- 🎞 [Introduction to Git](https://www.youtube.com/watch?v=ZDR433b0HJY&ab_channel=InfoQ) with Scott Chacon of GitHub
 
 ### Topics specific to Gens de Confiance
 
 - Learn PHP
-- Learn Symfony
+    - 🎞 [Formation Symfony 4 par l'exemple](https://grafikart.fr/formations/symfony-4-pratique), Grafikart
+- Learn Symfony (we recommend the docs + short videos)
+    - Read the [docs](https://symfony.com/doc/current/index.html)
+    - Read the [book](https://symfony.com/doc/current/the-fast-track/en/index.html)
+    - 🎞 [SymfonyCasts](https://symfonycasts.com/) (some videos are behind paywal, but the text is always below)
+    - 🎞 [Deep dive into Symfony 4 internals](https://www.youtube.com/watch?v=pz6VdH4_BSg&ab_channel=fwdays)
+    - 🎞 [SymfonyTv](https://www.youtube.com/c/SymfonyTv/videos)
 
 ## Other lists
 
