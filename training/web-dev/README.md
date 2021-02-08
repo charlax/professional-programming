@@ -11,8 +11,8 @@
     - [Pick a powerful text editor and learn its ins and outs](#pick-a-powerful-text-editor-and-learn-its-ins-and-outs)
     - [Learn the ins and outs of one programming language](#learn-the-ins-and-outs-of-one-programming-language)
   - [Topic-specific materials](#topic-specific-materials)
-      - [Architecture and design patterns](#architecture-and-design-patterns)
       - [Best practices, attitude](#best-practices-attitude)
+      - [Code architecture and design patterns](#code-architecture-and-design-patterns)
       - [DB and SQL](#db-and-sql)
       - [Dev environment, command line and Linux](#dev-environment-command-line-and-linux)
       - [Distributed systems and system architecture](#distributed-systems-and-system-architecture)
@@ -126,19 +126,6 @@ If you have time, learn more programming languages, starting with some that are
 
 ## Topic-specific materials
 
-#### Architecture and design patterns
-
-Introduction:
-
-- Learn about DDD (domain driven design), SOLID, MVC.
-
-Advanced:
-
-- Wander in the [Software Architecture Guide](https://martinfowler.com/architecture/)
-- 🎞 [On the Spectrum of Abstraction](https://www.youtube.com/watch?v=mVVNJKv9esE&ab_channel=ReactEurope)
-- 🎞 [Simple Made Easy](https://www.infoq.com/presentations/Simple-Made-Easy/)
-- 🎞 [Zebras All the Way Down](https://youtu.be/fE2KDzZaxvE), Bryan Cantrill
-
 #### Best practices, attitude
 
 Read one of those:
@@ -150,6 +137,33 @@ Read one of those:
 - [Ten Principles for Growth as an Engineer](https://medium.com/@daniel.heller/ten-principles-for-growth-69015e08c35b), Dan Heller
 
 Read the resources listed under [Must-read articles](https://github.com/charlax/professional-programming#must-read-articles).
+
+#### Code architecture and design patterns
+
+Introduction:
+
+- Learn about OOP basics: inheritance, abstract/concrete, public/private
+- Learn about DDD (domain driven design), SOLID, MVC, Clean Architecture
+- [An introduction to software design patterns](https://www.coengoedegebure.com/introduction-to-software-design-patterns/). All those patterns are not useful in all languages, but they're applied in most software, so it's important to know about them.
+    - Builder
+    - Factory
+    - Singleton
+    - Adapter
+    - Facade
+    - Chain of Responsibility
+    - Command
+    - Observer
+    - State
+    - Strategy
+    - Visitor
+- 🎞 [Design Patterns in Plain English](https://www.youtube.com/watch?v=NU_1StN5Tkk&ab_channel=ProgrammingwithMosh)
+
+Advanced:
+
+- Wander in the [Software Architecture Guide](https://martinfowler.com/architecture/)
+- 🎞 [On the Spectrum of Abstraction](https://www.youtube.com/watch?v=mVVNJKv9esE&ab_channel=ReactEurope)
+- 🎞 [Simple Made Easy](https://www.infoq.com/presentations/Simple-Made-Easy/)
+- 🎞 [Zebras All the Way Down](https://youtu.be/fE2KDzZaxvE), Bryan Cantrill
 
 #### DB and SQL
 
@@ -191,6 +205,7 @@ Advanced:
 
 - Consider reading 📖 [Designing Data-Intensive Applications](https://dataintensive.net/).
 - [The Log: What every software engineer should know about real-time data's unifying abstraction](https://engineering.linkedin.com/distributed-systems/log-what-every-software-engineer-should-know-about-real-time-datas-unifying)
+- 🎞 [Mastering Chaos - A Netflix Guide to Microservices](https://www.youtube.com/watch?v=CZ3wIuvmHeM&ab_channel=InfoQ) (by Netflix)
 
 Concepts to look into:
 
