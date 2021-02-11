@@ -109,9 +109,9 @@ Learn how to handle:
 - Design patterns
     - E.g. in [Python](https://www.toptal.com/python/python-design-patterns)
     - [faif/python-patterns](https://github.com/faif/python-patterns)
+    - 🎞 [Design Patterns in Plain English](https://www.youtube.com/watch?v=NU_1StN5Tkk&ab_channel=ProgrammingwithMosh)
 - Tests
     - [Why bother writing tests at all?](https://dave.cheney.net/2019/05/14/why-bother-writing-tests-at-all)
-    - 🎞 [Design Patterns in Plain English](https://www.youtube.com/watch?v=NU_1StN5Tkk&ab_channel=ProgrammingwithMosh)
 - Crazy things in languages
     - 🎞 [Wat](https://www.destroyallsoftware.com/talks/wat)
 
