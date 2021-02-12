@@ -532,6 +532,7 @@ The best way to learn is to learn by doing.
 Practice:
 
 - [CodinGame](https://www.codingame.com/start)
+- [Codewars](https://www.codewars.com/)
 
 ### Hardware
 
