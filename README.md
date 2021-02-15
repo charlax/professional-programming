@@ -1094,7 +1094,8 @@ Resources:
 - https://twitter.com/devops_borat
 - https://speakerdeck.com/
 - Dilbert
-- Calvin & Hobbes
+- Calvin & Hobbes ([search
+  engine](http://michaelyingling.com/random/calvin_and_hobbes/))
 - https://twitter.com/_workchronicles
 
 ## Concepts
