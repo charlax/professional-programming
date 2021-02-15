@@ -186,6 +186,8 @@ Introduction:
 - [Linux Productivity Tools](https://www.usenix.org/sites/default/files/conference/protected-files/lisa19_maheshwari.pdf)
 - Do shell exercises, for instance on [Exercism](https://exercism.io/tracks/bash), [TLDP](https://tldp.org/LDP/abs/html/exercises.html), [HackerRank](https://www.hackerrank.com/domains/shell).
 - Learn about Docker, follow the [Official Docker Tutorial](https://docs.docker.com/get-started/)
+- Learn about Makefile, follow the [Official introduction to
+  Makefiles](https://www.gnu.org/software/make/manual/html_node/Introduction.html).
 
 Advanced:
 
