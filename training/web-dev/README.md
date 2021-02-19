@@ -62,7 +62,7 @@ Feel free to checkout some of the articles about [Learning and memorizing](https
 2. Do a first pass at the web development environment (see introductory resources below)
     - HTTP and web architecture basics
     - Git
-    - Docker
+    - Docker and `docker-compose`
     - Command line
     - Text editor
 3. Write a full-fledged exercise, get it reviewed.
@@ -183,6 +183,9 @@ Advanced:
 Introduction:
 
 - [jlevy/the-art-of-command-line](https://github.com/jlevy/the-art-of-command-line): master the command line, in one page
+- Check the missing semester:
+    - https://missing.csail.mit.edu/2020/course-shell/
+    - https://missing.csail.mit.edu/2020/shell-tools/
 - [Linux Productivity Tools](https://www.usenix.org/sites/default/files/conference/protected-files/lisa19_maheshwari.pdf)
 - Do shell exercises, for instance on [Exercism](https://exercism.io/tracks/bash), [TLDP](https://tldp.org/LDP/abs/html/exercises.html), [HackerRank](https://www.hackerrank.com/domains/shell).
 - Learn about Docker, follow the [Official Docker Tutorial](https://docs.docker.com/get-started/)
@@ -265,6 +268,13 @@ Introduction:
 - [Resources to learn Git](https://try.github.io/)
 - 🎞 [Learn Git In 15 Minutes - YouTube](https://www.youtube.com/watch?v=USjZcfj8yxE&ab_channel=ColtSteele)
 - 🎞 [Introduction to Git](https://www.youtube.com/watch?v=ZDR433b0HJY&ab_channel=InfoQ) with Scott Chacon of GitHub
+
+Advanced topics:
+
+- `git rebase`
+- `git stash`
+- `git revert`
+- The dangers of `git push --force`
 
 ### Topics specific to Gens de Confiance
 
