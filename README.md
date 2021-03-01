@@ -75,7 +75,7 @@
     - [Version control (Git)](#version-control-git)
     - [Work ethics, productivity & work/life balance](#work-ethics-productivity--worklife-balance)
     - [Web development](#web-development)
-    - [Writing (communication)](#writing-communication)
+    - [Writing (communication, blogging)](#writing-communication-blogging)
     - [Writing for performance](#writing-for-performance)
   - [Resources & inspiration for presentations](#resources--inspiration-for-presentations)
   - [Concepts](#concepts)
@@ -385,6 +385,8 @@ Exercises:
 - [Falsehoods Programmers Believe About Phone Numbers](https://github.com/googlei18n/libphonenumber/blob/master/FALSEHOODS.md), Google's `libphonenumber`.
 - [Rules for Autocomplete](http://jeremymikkola.com/posts/2019_03_19_rules_for_autocomplete.html): rough specifications for autocomplete fields
 - [Falsehoods programmers believe about addresses](https://www.mjt.me.uk/posts/falsehoods-programmers-believe-about-addresses/)
+- [Falsehoods Programmers Believe About Names | Kalzumeus Software](https://www.kalzumeus.com/2010/06/17/falsehoods-programmers-believe-about-names/)
+- [kdeldycke/awesome-falsehood](https://github.com/kdeldycke/awesome-falsehood): falsehoods programmers believe in
 
 ### Data science/data engineering
 
@@ -1067,7 +1069,7 @@ Resources:
 - [Client-Side Architecture Basics](https://khalilstemmler.com/articles/client-side-architecture/introduction/)
 - 📖 [codingknite/frontend-development](https://github.com/codingknite/frontend-development): A curated list of resources for Frontend development
 
-### Writing (communication)
+### Writing (communication, blogging)
 
 ➡️ See also my [engineering-management list](https://github.com/charlax/engineering-management#writing)
 
@@ -1075,6 +1077,12 @@ Resources:
     - From the HN discussion: "Writing a couple of pages of design docs or an Amazon-style 6 pager or whatever might take a few days of work, but can save weeks or more of wasted implementation time when you realise your system design was flawed or it doesn't address any real user needs."
 - [Sell Yourself Sell Your Work](https://www.solipsys.co.uk/new/SellYourselfSellYourWork.html?te20hn)
     - If you've done great work, if you've produced superb software or fixed a fault with an aeroplane or investigated a problem, without telling anyone you may as well not have bothered.
+- [The Writing Well Handbook](https://www.julian.com/guide/write/intro)
+    - Ideas — Identify what to write about
+    - First Drafts — Generate insights on your topic
+    - Rewriting — Rewrite for clarity, intrigue, and succinctness
+    - Style — Rewrite for style and flow
+    - Practicing — Improve as a writer
 
 ![Write like an Amazonian](./images/amazon_writing_rules.jpeg)
 
