@@ -120,7 +120,8 @@ I've found these books incredibly inspiring:
 There are some free books available, including:
 
 - 📖 [Professional software development](http://mixmastamyk.bitbucket.io/pro_soft_dev/): pretty complete and a good companion to this page. The free chapters are mostly focused on software development processes: design, testing, code writing, etc. - and not so much about tech itself.
-- [List of free programming books](https://github.com/vhf/free-programming-books)
+- 🧰 [vhf/free-programming-books](https://github.com/vhf/free-programming-books)
+- 🧰 [EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books/blob/master/books/free-programming-books.md)
 
 ## Must-read articles
 
@@ -271,6 +272,7 @@ Example implementations:
 - [Fixed vs. Growth: The Two Basic Mindsets That Shape Our Lives](https://www.brainpickings.org/2014/01/29/carol-dweck-mindset/)
 - [What does a great software engineer look like?](https://fwouts.com/articles/great-software-engineer)
 - [Good sleep, good learning, good life](https://supermemo.guru/wiki/Good_sleep,_good_learning,_good_life)
+- 🎞 [Steve Jobs: if you don't ask for help, you won't get very far](https://www.youtube.com/watch?v=zkTf0LmDqKI&ab_channel=SiliconValleyHistoricalAssociation)
 
 ### Automation
 
@@ -526,7 +528,8 @@ resources](https://github.com/charlax/engineering-management).
 
 The best way to learn is to learn by doing.
 
-- [danistefanovic/build-your-own-x: build your own (insert technology here)](https://github.com/danistefanovic/build-your-own-x)
+- [danistefanovic/build-your-own-x](https://github.com/danistefanovic/build-your-own-x): build your own (insert technology here)
+  - Richard Feynman: "what I cannot create, I do not understand"
 - [The elevator programming game](http://play.elevatorsaga.com/)
 - [Challenging projects every programmer should try](http://web.eecs.utk.edu/~azh/blog/challengingprojects.html): text editor, space invaders, compiler (Tiny Basic), mini OS, spreadsheet, video game console emulator.
 - [More challenging projects every programmer should try](https://web.eecs.utk.edu/~azh/blog/morechallengingprojects.html): ray tracer, key-value store web API, web browser, stock trading bot.
@@ -886,7 +889,7 @@ List of resources:
 
 ### System administration
 
-- [kahun/awesome-sysadmin](https://github.com/kahun/awesome-sysadmin): a curated list of amazingly awesome open source sysadmin resources 🧰
+- 🧰 [kahun/awesome-sysadmin](https://github.com/kahun/awesome-sysadmin): a curated list of amazingly awesome open source sysadmin resources
 
 ### System architecture
 
@@ -897,11 +900,11 @@ List of resources:
 - [The twelve-factor app](http://12factor.net/)
 - [Scalable Web Architecture and Distributed Systems](http://www.aosabook.org/en/distsys.html)
 - [Introduction to Architecting Systems for Scale](http://lethain.com/introduction-to-architecting-systems-for-scale/)
-- [A Distributed Systems Reading List](http://dancres.github.io/Pages/)
-- [Services Engineering Reading List](https://github.com/mmcgrana/services-engineering)
-- [System Design Cheatsheet](https://gist.github.com/vasanthk/485d1c25737e8e72759f)
+- 🧰 [A Distributed Systems Reading List](http://dancres.github.io/Pages/)
+- 🧰 [Services Engineering Reading List](https://github.com/mmcgrana/services-engineering)
+- 🧰 [System Design Cheatsheet](https://gist.github.com/vasanthk/485d1c25737e8e72759f)
 - [The Log: What every software engineer should know about real-time data's unifying abstraction](https://engineering.linkedin.com/distributed-systems/log-what-every-software-engineer-should-know-about-real-time-datas-unifying): one of those classical articles that everyone should read.
-- [Learn how to design large scale systems. Prep for the system design interview](https://github.com/donnemartin/system-design-primer) (Github repo)
+- 🧰 [donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer): learn how to design large scale systems. Prep for the system design interview.
 - [Turning the database outside-out with Apache Samza](https://www.confluent.io/blog/turning-the-database-inside-out-with-apache-samza/)
 - 📖 [Building Microservices](https://www.amazon.com/Building-Microservices-Designing-Fine-Grained-Systems/dp/1491950358), Sam Newman (quite complete discussion of microservices)
 - 📖 [Designing Data-Intensive Applications](https://dataintensive.net/)
@@ -942,9 +945,11 @@ List of resources:
 - 🎤 [The Walking Dead - A Survival Guide to Resilient Applications](https://speakerdeck.com/daschl/the-walking-dead-a-survival-guide-to-resilient-applications)
 - 🎤 [Defensive Programming & Resilient systems in Real World (TM)](https://speakerdeck.com/tuenti/defensive-programming-and-resilient-systems-in-real-world-tm)
 - 🎤 [Full Stack Fest: Architectural Patterns of Resilient Distributed Systems](https://speakerdeck.com/randommood/full-stack-fest-architectural-patterns-of-resilient-distributed-systems)
-- [Resilience Engineering Notes](http://resiliencepapers.club/): comprehensive list of resources on resilience engineering
+- 🧰 [Resilience engineering papers](https://github.com/lorin/resilience-engineering): comprehensive list of resources on resilience engineering
 
 ### Site Reliability Engineering (SRE)
+
+*Note: this section is only about SRE as a role. Checkout the System Architecture for more content related to reliability.*
 
 Books:
 
