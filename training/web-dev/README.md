@@ -279,13 +279,16 @@ Advanced topics:
 ### Topics specific to Gens de Confiance
 
 - Learn PHP
-    - 🎞 [Formation Symfony 4 par l'exemple](https://grafikart.fr/formations/symfony-4-pratique), Grafikart
+    - [PHP basics](https://www.php.net/manual/en/language.oop5.basic.php)
+    - [Free interactive PHP tutorial](https://www.learn-php.org/) (basics)
 - Learn Symfony (we recommend the docs + short videos)
     - Read the [docs](https://symfony.com/doc/current/index.html)
     - Read the [book](https://symfony.com/doc/current/the-fast-track/en/index.html)
+    - 🎞 [1H pour comprendre le framework Symfony](https://youtu.be/UTusmVpwJXo)
     - 🎞 [SymfonyCasts](https://symfonycasts.com/) (some videos are behind paywal, but the text is always below)
     - 🎞 [Deep dive into Symfony 4 internals](https://www.youtube.com/watch?v=pz6VdH4_BSg&ab_channel=fwdays)
     - 🎞 [SymfonyTv](https://www.youtube.com/c/SymfonyTv/videos)
+    - 🎞 [Formation Symfony 4 par l'exemple](https://grafikart.fr/formations/symfony-4-pratique), Grafikart
 
 ## Other lists
 
