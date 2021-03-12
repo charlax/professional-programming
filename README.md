@@ -94,10 +94,10 @@ This page is not meant to be comprehensive. I am trying to keep it light and not
 
 Items:
 
-- 🧰: list of resources
-- 📖: book
-- 🎞: video/movie extract/movie
-- 🎤: slides/presentation
+- 🧰 : list of resources
+- 📖 : book
+- 🎞 : video/movie extract/movie
+- 🏙 : slides/presentation
 
 ## Contributing to this list
 
@@ -499,7 +499,7 @@ Check out my [list of management resources](https://github.com/charlax/engineeri
 
 - [Documentation-Driven Development](https://gist.github.com/zsup/9434452)
 - [Writing automated tests for your documentation](https://krausefx.com/blog/writing-automated-tests-for-your-documentation): this should be required, IMO. Testing code samples in your documentation ensures they never get outdated.
-- 🎤 [Documentation is king](https://speakerdeck.com/kennethreitz/documentation-is-king), Kenneth Reitz
+- 🏙 [Documentation is king](https://speakerdeck.com/kennethreitz/documentation-is-king), Kenneth Reitz
 - [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 - [Architectural Decision Records](https://adr.github.io/): a way to document architecture decision.
 
@@ -857,7 +857,7 @@ Rob Pike, [Go at Google: Language Design in the Service of Software Engineering]
 - 📖 [Penetration Testing: A Hands-On Introduction to Hacking](https://nostarch.com/pentesting), Georgia Weidman
 - [Penetration Testing Tools Cheat Sheet](https://highon.coffee/blog/penetration-testing-tools-cheat-sheet/#http--https-webserver-enumeration)
 - [A practical guide to securing macOS](https://github.com/drduh/macOS-Security-and-Privacy-Guide)
-- [Web Developer Security Checklist](https://www.powerdown.io/blog/posts/stories/web-developer-security-checklist.html)
+- [Web Application Security Guide/Checklist](https://en.wikibooks.org/wiki/Web_Application_Security_Guide/Checklist)
 - [Reckon you've seen some stupid security things?](https://www.troyhunt.com/reckon-youve-seen-some-stupid-security-things-here-hold-my-beer/): everything _not_ to do.
 - [Checklist of the most important security countermeasures when designing, testing, and releasing your API](https://github.com/shieldfy/API-Security-Checklist)
 - [OWASP Cheat Sheet Series](https://cheatsheetseries.owasp.org/): a series of
@@ -869,6 +869,7 @@ Rob Pike, [Go at Google: Language Design in the Service of Software Engineering]
   - Entities should be consistent at creation, have limited operation, shouldn't be sharing mutable objects.
   - Three Rs to do every few hours: rotate secrets automatically, repave servers and applications (redeploy on clean footprint), repair vulnerable.
   - Don’t use exceptions for the control flow.
+- [OWASP Top Ten Web Application Security Risks](https://owasp.org/www-project-top-ten/)
 
 List of resources:
 
@@ -881,7 +882,7 @@ List of resources:
 - [dylanaraps/pure-bash-bible: a collection of pure bash alternatives to external processes.](https://github.com/dylanaraps/pure-bash-bible)
 - [The Bash Hackers Wiki](https://wiki.bash-hackers.org/) provides a gentler way to learn about bash than its manages.
 - [Awk in 20 Minutes](https://ferd.ca/awk-in-20-minutes.html)
-- 🎤 [Linux Productivity Tools](https://www.usenix.org/sites/default/files/conference/protected-files/lisa19_maheshwari.pdf)
+- 🏙 [Linux Productivity Tools](https://www.usenix.org/sites/default/files/conference/protected-files/lisa19_maheshwari.pdf)
 - [jlevy/the-art-of-command-line](https://github.com/jlevy/the-art-of-command-line): master the command line, in one page **must read**
 - [Minimal safe Bash script template](https://betterdev.blog/minimal-safe-bash-script-template/)
 - [Command Line Interface Guidelines](https://clig.dev/)
@@ -942,9 +943,10 @@ List of resources:
 
 #### Resiliency
 
-- 🎤 [The Walking Dead - A Survival Guide to Resilient Applications](https://speakerdeck.com/daschl/the-walking-dead-a-survival-guide-to-resilient-applications)
-- 🎤 [Defensive Programming & Resilient systems in Real World (TM)](https://speakerdeck.com/tuenti/defensive-programming-and-resilient-systems-in-real-world-tm)
-- 🎤 [Full Stack Fest: Architectural Patterns of Resilient Distributed Systems](https://speakerdeck.com/randommood/full-stack-fest-architectural-patterns-of-resilient-distributed-systems)
+- 🏙 [The Walking Dead - A Survival Guide to Resilient Applications](https://speakerdeck.com/daschl/the-walking-dead-a-survival-guide-to-resilient-applications)
+- 🏙 [Defensive Programming & Resilient systems in Real World (TM)](https://speakerdeck.com/tuenti/defensive-programming-and-resilient-systems-in-real-world-tm)
+- 🏙 [Full Stack Fest: Architectural Patterns of Resilient Distributed Systems](https://speakerdeck.com/randommood/full-stack-fest-architectural-patterns-of-resilient-distributed-systems)
+- 🏙 [The 7 quests of resilient software design](https://www.slideshare.net/ufried/the-7-quests-of-resilient-software-design)
 - 🧰 [Resilience engineering papers](https://github.com/lorin/resilience-engineering): comprehensive list of resources on resilience engineering
 
 ### Site Reliability Engineering (SRE)
@@ -973,7 +975,7 @@ Articles:
   - Things Will Always Break
 - [Meaningful availability](https://blog.acolyer.org/2020/02/26/meaningful-availability/)
   - A good availability metric should be meaningful, proportional, and actionable. By "meaningful" we mean that it should capture what users experience. By "proportional" we mean that a change in the metric should be proportional to the change in user-perceived availability. By "actionable" we mean that the metric should give system owners insight into why availability for a period was low. This paper shows that none of the commonly used metrics satisfy these requirements…
-- 🎤 [High Reliability Infrastructure migrations](https://speakerdeck.com/jvns/high-reliability-infrastructure-migrations), Julia Evans.
+- 🏙 [High Reliability Infrastructure migrations](https://speakerdeck.com/jvns/high-reliability-infrastructure-migrations), Julia Evans.
 
 > Reliability is the one feature every customer users. -- An auth0 SRE.
 
