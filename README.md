@@ -870,6 +870,11 @@ Rob Pike, [Go at Google: Language Design in the Service of Software Engineering]
   - Three Rs to do every few hours: rotate secrets automatically, repave servers and applications (redeploy on clean footprint), repair vulnerable.
   - Don’t use exceptions for the control flow.
 - [OWASP Top Ten Web Application Security Risks](https://owasp.org/www-project-top-ten/)
+- [How to encrypt strings & files in your source code?](https://dev.to/pelock/how-to-encrypt-strings-files-in-your-source-code-25e)
+- [Reverse engineering tools review](https://www.pelock.com/articles/reverse-engineering-tools-review)
+- [Anti reverse engineering. Malware vs Antivirus Software](https://www.pelock.com/articles/anti-reverse-engineering-malware-vs-antivirus-software)
+- [Reverse engineering tools for .NET applications](https://medium.com/@pelock/reverse-engineering-tools-for-net-applications-a28275f185b4)
+- [Code of destruction – complete malware reverse engineering analysis](https://www.pelock.com/articles/code-of-destruction-malware-analysis)
 
 List of resources:
 
