@@ -653,6 +653,18 @@ Richard Feynman's Learning Strategy:
 > "Experience is something you don't get until just after you need it."
 > ― Steven Wright
 
+> Tell me and I forget. Teach me and I remember. Involve me and I learn.
+> – Benjamin Franklin
+
+> Education is the kindling of a flame, not the filling of a vessel.
+> – Socrates
+
+> That which we persist in doing becomes easier for us to do; not that the nature of the thing itself is changed, but that our power to do is increased.
+> – Ralph Waldo Emerson
+
+> A wise man can learn more from a foolish question than a fool can learn from a wise answer.
+> – Bruce Lee
+
 ### Low-level, assembly
 
 - [Back to Basics](https://www.joelonsoftware.com/2001/12/11/back-to-basics/), Joel Spolsky. Explains why learning low level programming is important.
