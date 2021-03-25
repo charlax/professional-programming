@@ -405,6 +405,8 @@ Exercises:
 - [The Infinite Hows](http://www.kitchensoap.com/2014/11/14/the-infinite-hows-or-the-dangers-of-the-five-whys/): this provides a strong criticism of the five whys method.
 - [Linux Performance Analysis in 60,000 Milliseconds](http://techblog.netflix.com/2015/11/linux-performance-analysis-in-60s.html)
 - [Post-Mortems at HubSpot: What I Learned From 250 Whys](https://product.hubspot.com/blog/bid/64771/post-mortems-at-hubspot-what-i-learned-from-250-whys)
+- [Debugging zine](https://jvns.ca/debugging-zine.pdf), Julian Evans
+- [if you understand a bug, you can fix it](https://wizardzines.com/comics/understand-can-fix/)
 
 ### Design (visual, UX, UI, typography)
 
@@ -636,6 +638,8 @@ Learn how to learn!
   - Summarize and share with someone else.
   - Connect what you just learned to experiences you previously had.
 - [How To Remember Anything Forever-ish](https://ncase.me/remember/): a comic about learning
+- [Get better at programming by learning how things work](https://jvns.ca/blog/learn-how-things-work/)
+- [How to teach yourself hard things](https://jvns.ca/blog/2018/09/01/learning-skills-you-can-practice/)
 
 Richard Feynman's Learning Strategy:
 
@@ -886,6 +890,7 @@ Rob Pike, [Go at Google: Language Design in the Service of Software Engineering]
 List of resources:
 
 - 🧰 [meirwah/awesome-incident-response](https://github.com/meirwah/awesome-incident-response): A curated list of tools for incident response
+- 🧰 [Starting Up Security](https://scrty.io/)
 
 ### Shell (command line)
 
@@ -906,21 +911,32 @@ List of resources:
 
 ### System architecture
 
-- [High Scalability](http://highscalability.com/): great blog about system architecture, its weekly review article are packed with numerous insights and interesting technology reviews. Checkout the [all-times favorites](http://highscalability.com/all-time-favorites/).
-- [6 Rules of thumb to build blazing fast web server applications](http://loige.co/6-rules-of-thumb-to-build-blazing-fast-web-applications/)
-- [Deep Lessons From Google And EBay On Building Ecosystems Of Microservices](http://highscalability.com/blog/2015/12/1/deep-lessons-from-google-and-ebay-on-building-ecosystems-of.html)
-- [Service oriented architecture: scaling the Uber engineering codebase as we grow](https://eng.uber.com/soa/)
-- [The twelve-factor app](http://12factor.net/)
-- [Scalable Web Architecture and Distributed Systems](http://www.aosabook.org/en/distsys.html)
-- [Introduction to Architecting Systems for Scale](http://lethain.com/introduction-to-architecting-systems-for-scale/)
+Reading lists:
+
+- 🧰 [donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer): learn how to design large scale systems. Prep for the system design interview.
 - 🧰 [A Distributed Systems Reading List](http://dancres.github.io/Pages/)
 - 🧰 [Services Engineering Reading List](https://github.com/mmcgrana/services-engineering)
 - 🧰 [System Design Cheatsheet](https://gist.github.com/vasanthk/485d1c25737e8e72759f)
-- [The Log: What every software engineer should know about real-time data's unifying abstraction](https://engineering.linkedin.com/distributed-systems/log-what-every-software-engineer-should-know-about-real-time-datas-unifying): one of those classical articles that everyone should read.
-- 🧰 [donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer): learn how to design large scale systems. Prep for the system design interview.
-- [Turning the database outside-out with Apache Samza](https://www.confluent.io/blog/turning-the-database-inside-out-with-apache-samza/)
+
+Blogs:
+
+- [High Scalability](http://highscalability.com/): great blog about system architecture, its weekly review article are packed with numerous insights and interesting technology reviews. Checkout the [all-times favorites](http://highscalability.com/all-time-favorites/).
+
+Books:
+
 - 📖 [Building Microservices](https://www.amazon.com/Building-Microservices-Designing-Fine-Grained-Systems/dp/1491950358), Sam Newman (quite complete discussion of microservices)
 - 📖 [Designing Data-Intensive Applications](https://dataintensive.net/)
+
+Articles:
+
+- [6 Rules of thumb to build blazing fast web server applications](http://loige.co/6-rules-of-thumb-to-build-blazing-fast-web-applications/)
+- [Deep lessons from Google And EBay on building ecosystems of microservices](http://highscalability.com/blog/2015/12/1/deep-lessons-from-google-and-ebay-on-building-ecosystems-of.html)
+- [Service oriented architecture: scaling the Uber engineering codebase as we grow](https://eng.uber.com/soa/)
+- [The twelve-factor app](http://12factor.net/)
+- [Scalable web architecture and distributed systems](http://www.aosabook.org/en/distsys.html)
+- [Introduction to architecting systems for scale](http://lethain.com/introduction-to-architecting-systems-for-scale/)
+- [The Log: What every software engineer should know about real-time data's unifying abstraction](https://engineering.linkedin.com/distributed-systems/log-what-every-software-engineer-should-know-about-real-time-datas-unifying): one of those classical articles that everyone should read.
+- [Turning the database outside-out with Apache Samza](https://www.confluent.io/blog/turning-the-database-inside-out-with-apache-samza/)
 - [Monoliths are the future](https://changelog.com/posts/monoliths-are-the-future)
     - "We’re gonna break it up and somehow find the engineering discipline we never had in the first place."
 - [Scaling to 100k Users](https://alexpareto.com/scalability/systems/2020/02/03/scaling-100k.html), Alex Pareto. The basics of getting from 1 to 100k users.
@@ -928,10 +944,10 @@ List of resources:
     - Focus effort on systems-level failure, instead of the individual component failure.
     - Invest in sophisticated observability tools, aiming to increase the number of questions we can ask without deploying custom code
 - [Fallacies of distributed computing](https://en.wikipedia.org/wiki/Fallacies_of_distributed_computing), Wikipedia
-- [Introducing Domain-Oriented Microservice Architecture](https://eng.uber.com/microservice-architecture/)
+- [Introducing domain-oriented microservice architecture](https://eng.uber.com/microservice-architecture/), Uber
     - Instead of orienting around single microservices, we oriented around collections of related microservices. We call these domains.
     - In small organizations, the operational benefit likely does not offset the increase in architectural complexity.
-- [The Biggest Thing Amazon Got Right: The Platform](https://gigaom.com/2011/10/12/419-the-biggest-thing-amazon-got-right-the-platform/)
+- [The biggest thing amazon got right: the platform](https://gigaom.com/2011/10/12/419-the-biggest-thing-amazon-got-right-the-platform/)
     - All teams will henceforth expose their data and functionality through service interfaces.
     - Monitoring and QA are the same thing.
 
