@@ -231,6 +231,8 @@ Example implementations:
 - [Microsoft's Rest API guidelines](https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md)
 - [Zalando RESTful API and Event Scheme Guidelines](https://opensource.zalando.com/restful-api-guidelines/)
 - [Best practices for REST API design](https://stackoverflow.blog/2020/03/02/best-practices-for-rest-api-design/), Stack Overflow Blog
+- 📖 [Undisturbed REST: a guide to designing the perfect API](https://www.mulesoft.com/sites/default/files/resource-assets/ebook-UndisturbedREST_v1.pdf): very complete book about RESTful API design.
+- [Architectural Styles and the Design of Network-based Software Architectures](https://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm), Roy Fielding (the inventor of REST)
 
 ### Attitude, habits, mindset
 
