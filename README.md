@@ -277,7 +277,7 @@ Example implementations:
 - [Good sleep, good learning, good life](https://supermemo.guru/wiki/Good_sleep,_good_learning,_good_life)
 - 🎞 [Steve Jobs: if you don't ask for help, you won't get very far](https://www.youtube.com/watch?v=zkTf0LmDqKI&ab_channel=SiliconValleyHistoricalAssociation)
 
-> Imposter syndrome is underrated: a lot of talk goes into overcoming imposter syndrome. I say embrace self-skepticism and doubt yourself every day. In a fast-moving industry where lots of your knowledge expires every year, even the most junior people around you constantly cook up skills you don't have; you stay competitive by applying with the determination (and even fear) or the novice. The upside of this treadmill is that every engineer is on it: just because you're an imposter doesn't mean that other people are more deserving than you, because they're imposters too. You should advocate for yourself, take risks, pat yourself on the back when things go well, and, as you start to build a track record of solving problems, trust your skills and adaptability. Just make no mistake: you're only as good as the last problem you solve.
+> Imposter syndrome is underrated: a lot of talk goes into overcoming imposter syndrome. I say embrace self-skepticism and doubt yourself every day. In a fast-moving industry where lots of your knowledge expires every year, even the most junior people around you constantly cook up skills you don't have; you stay competitive by applying with the determination (and even fear) of the novice. The upside of this treadmill is that every engineer is on it: just because you're an imposter doesn't mean that other people are more deserving than you, because they're imposters too. You should advocate for yourself, take risks, pat yourself on the back when things go well, and, as you start to build a track record of solving problems, trust your skills and adaptability. Just make no mistake: you're only as good as the last problem you solve.
 
 Dan Heller, Building a Career in Software
 
@@ -444,7 +444,6 @@ Here's a list of good books:
 - 📖 [Patterns of Enterprise Application Architecture](http://www.amazon.com/dp/0321127420/?tag=stackoverfl08-20): learn about how database are used in real world applications. Mike Bayer's SQLAlchemy has been heavily influenced by this book.
 - 📖 [Domain-Driven Design: Tackling Complexity in the Heart of Software](https://www.amazon.com/Domain-Driven-Design-Tackling-Complexity-Software/dp/0321125215), Eric Evans
 - 📖 [Clean Architecture](https://www.goodreads.com/book/show/18043011-clean-architecture), Robert C. Martin. Uncle Bob proposes an architecture that leverages the Single Responsibility Principle to its fullest. A great way to start a new codebase. Also checkout the [clean architecture cheatsheet](cheatsheets/Clean-Architecture-V1.0.pdf).
-
 - 📖 [Game Programming Patterns](https://www.amazon.com/dp/0990582906/ref=cm_sw_em_r_mt_dp_U_9xygFb9M86CXY): a book about design, sequencing, behavioral patterns and much more by Robert Nystrom explained through the medium of game programming. The book is also free to read online [here](https://gameprogrammingpatterns.com/contents.html).
 
 One of the absolute references on architecture is Martin Fowler: checkout his [Software Architecture Guide](https://martinfowler.com/architecture/).
@@ -681,6 +680,7 @@ Richard Feynman's Learning Strategy:
 - [Back to Basics](https://www.joelonsoftware.com/2001/12/11/back-to-basics/), Joel Spolsky. Explains why learning low level programming is important.
   - I think that some of the biggest mistakes people make even at the highest architectural levels come from having a weak or broken understanding of a few simple things at the very lowest levels.
 - [What's in a Linux executable?](https://fasterthanli.me/series/making-our-own-executable-packer/part-1)
+- 📖 [The Elements of Computing Systems](https://www.nand2tetris.org/book): building a modern computer from first principles (nand2tetris).
 
 ### Network
 
@@ -896,7 +896,7 @@ Rob Pike, [Go at Google: Language Design in the Service of Software Engineering]
 
 List of resources:
 
-- 🧰 [meirwah/awesome-incident-response](https://github.com/meirwah/awesome-incident-response): A curated list of tools for incident response
+- 🧰 [meirwah/awesome-incident-response](https://github.com/meirwah/awesome-incident-response): a curated list of tools for incident response
 - 🧰 [Starting Up Security](https://scrty.io/)
 
 ### Shell (command line)
@@ -1109,7 +1109,7 @@ Resources:
 - [Front-End Developer Handbook 2019](https://frontendmasters.com/books/front-end-handbook/2019/), Cody Lindley
 - [A Directory of design and front-end resources](http://uigoodies.com/index.html)
 - [Client-Side Architecture Basics](https://khalilstemmler.com/articles/client-side-architecture/introduction/)
-- 📖 [codingknite/frontend-development](https://github.com/codingknite/frontend-development): A curated list of resources for Frontend development
+- 🧰 [codingknite/frontend-development](https://github.com/codingknite/frontend-development): a list of resources for frontend development
 
 ### Writing (communication, blogging)
 
@@ -1144,22 +1144,21 @@ Resources:
 - https://twitter.com/devops_borat
 - https://speakerdeck.com/
 - Dilbert
-- Calvin & Hobbes ([search
-  engine](http://michaelyingling.com/random/calvin_and_hobbes/))
+- Calvin & Hobbes ([search engine](http://michaelyingling.com/random/calvin_and_hobbes/))
 - https://twitter.com/_workchronicles
 
 ## Concepts
 
 [Glossary](glossary.md)
 
-- [DDD](https://en.wikipedia.org/wiki/Domain-driven_design)
-- [TDD](https://en.wikipedia.org/wiki/Test-driven_development)
 - [BDD](https://en.wikipedia.org/wiki/Behavior-driven_development)
 - [CAP theorem](https://en.wikipedia.org/wiki/CAP_theorem)
-- [OOP](https://en.wikipedia.org/wiki/Object-oriented_programming)
-- [YAGNI](https://en.wikipedia.org/wiki/You_aren%27t_gonna_need_it)
+- [DDD](https://en.wikipedia.org/wiki/Domain-driven_design)
 - [DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself)
-- [KISS](https://en.wikipedia.org/wiki/KISS_principle)
-- [SOLID](<https://en.wikipedia.org/wiki/SOLID_(object-oriented_design)>)
 - [GRASP](<https://en.wikipedia.org/wiki/GRASP_(object-oriented_design)>)
+- [KISS](https://en.wikipedia.org/wiki/KISS_principle)
 - [Make it run, make it right, make it fast](http://c2.com/cgi/wiki?MakeItWorkMakeItRightMakeItFast)
+- [OOP](https://en.wikipedia.org/wiki/Object-oriented_programming)
+- [SOLID](<https://en.wikipedia.org/wiki/SOLID_(object-oriented_design)>)
+- [TDD](https://en.wikipedia.org/wiki/Test-driven_development)
+- [YAGNI](https://en.wikipedia.org/wiki/You_aren%27t_gonna_need_it)
