@@ -98,6 +98,7 @@ Items:
 - 📖 : book
 - 🎞 : video/movie extract/movie
 - 🏙 : slides/presentation
+- ⭐️ : must-read
 
 ## Contributing to this list
 
@@ -834,15 +835,21 @@ Rob Pike, [Go at Google: Language Design in the Service of Software Engineering]
 
 ### Releasing & deploying
 
-- [How We Release So Frequently](http://engineering.skybettingandgaming.com/2016/02/02/how-we-release-so-frequently/)
+- [How we release so frequently](http://engineering.skybettingandgaming.com/2016/02/02/how-we-release-so-frequently/)
 - [How to deploy software](https://zachholman.com/posts/deploying-software), Zach Holman
 - [BlueGreenDeployment](http://martinfowler.com/bliki/BlueGreenDeployment.html), Martin Fowler
 - [Move fast and break nothing](https://zachholman.com/talk/move-fast-break-nothing/), Zach Holman
-- [Flipping out](http://code.flickr.net/2009/12/02/flipping-out/), flickr. One of the first articles about feature flags.
+- 🏙 [Move fast and don't break things](https://docs.google.com/presentation/d/15gNk21rjer3xo-b1ZqyQVGebOp_aPvHU3YH7YnOMxtE/edit#slide=id.g437663ce1_53_591), Google
+
+Checklists:
+
 - [Production Readiness Checklist](https://gruntwork.io/devops-checklist/), Gruntwork
 - [Checklist: what had to be done before deploying microservices to production](https://habr.com/en/post/438186/)
-- [Things end users care about but programmers
-  don't](https://instadeq.com/blog/posts/things-end-users-care-about-but-programmers-dont/): includes colors, formatting, themes, integrations, UX, compatibility, operations.
+- [Things end users care about but programmers don't](https://instadeq.com/blog/posts/things-end-users-care-about-but-programmers-dont/): includes colors, formatting, themes, integrations, UX, compatibility, operations.
+
+Feature flags:
+
+- [Flipping out](http://code.flickr.net/2009/12/02/flipping-out/), Flickr. One of the first articles about feature flags.
 - [Feature Flags, Toggles, Controls](https://featureflags.io/), a website documenting feature flags, from Launch Darkly.
 - [Feature Toggles (aka Feature Flags)](https://martinfowler.com/articles/feature-toggles.html), Pete Hodgson, martinFowler.com. Comprehensive article on the topic.
   - Deliver new functionality to users rapidly but safely
@@ -854,6 +861,10 @@ Rob Pike, [Go at Google: Language Design in the Service of Software Engineering]
   - Long-lived toggles vs transient toggles
   - Savvy teams view their Feature Toggles as inventory which comes with a carrying cost, and work to keep that inventory as low as possible.
 - [Feature Flags Best Practices: Release Management](https://launchdarkly.com/blog/release-management-flags-best-practices/), LaunchDarkly
+
+Testing in production:
+
+- [Why We Leverage Multi-tenancy in Uber's Microservice Architecture](https://eng.uber.com/multitenancy-microservice-architecture/)
 - [Developing in Production](https://tersesystems.com/blog/2020/01/22/developing-in-production/)
   - Complex systems have emergent behavior, producing epiphenomenon that only appears with sufficient scale.
   - Wood's theorem: As the complexity of a system increases, the accuracy of any single agent’s own model of that system decreases rapidly.
@@ -873,7 +884,6 @@ Rob Pike, [Go at Google: Language Design in the Service of Software Engineering]
     - Implement per-request-class backpressure
     - Have proper visibility from a client/end-user standpoint (client-side metrics)
 - [Testing in Production, the safe way](https://medium.com/@copyconstruct/testing-in-production-the-safe-way-18ca102d0ef1)
-- [Why We Leverage Multi-tenancy in Uber's Microservice Architecture](https://eng.uber.com/multitenancy-microservice-architecture/)
 
 ### Security
 
@@ -1031,6 +1041,10 @@ Resources:
 
 ### Testing
 
+- ⭐️ [Testing strategies in a microservices architecture](http://martinfowler.com/articles/microservice-testing/) (Martin Fowler) is an awesome resources explaining how to test a service properly.
+
+Why test:
+
 - [Why bother writing tests at all?](https://dave.cheney.net/2019/05/14/why-bother-writing-tests-at-all), Dave Cheney. A good intro to the topic.
   - Even if you don’t, someone will test your software
   - The majority of testing should be performed by development teams
@@ -1038,26 +1052,29 @@ Resources:
   - Tests are the critical component that ensure you can always ship your master branch
   - Tests lock in behaviour
   - Tests give you confidence to change someone else’s code
-- [Testing Strategies in a Microservices Architecture](http://martinfowler.com/articles/microservice-testing/) (Martin Fowler) is an awesome resources explaining how to test a service properly.
-- [The Practical Test
-  Pyramid](https://martinfowler.com/articles/practical-test-pyramid.html)
-  (also on Martin Fowler's blog).
+
+How to test:
+
+- [A quick puzzle to test your problem solving](http://www.nytimes.com/interactive/2015/07/03/upshot/a-quick-puzzle-to-test-your-problem-solving.html?_r=0)... and a great way to learn about confirmation bias and why you're mostly writing positive test cases.
+- [Testing is not for beginners](https://www.calhoun.io/testing-is-not-for-beginners/): why learning to test is hard. This shouldn't demotivate you though!
+- [Arrange-act-assert: a pattern for writing good tests](https://automationpanda.com/2020/07/07/arrange-act-assert-a-pattern-for-writing-good-tests/)
+- [Test smarter, not harder](https://lukeplant.me.uk/blog/posts/test-smarter-not-harder/)
+
+Test pyramid:
+
+- [The test pyramid](http://martinfowler.com/bliki/TestPyramid.html), Martin Fowler
+- [Eradicating non-determinism in tests](http://www.martinfowler.com/articles/nonDeterminism.html), Martin Fowler
+- [The practical test pyramid](https://martinfowler.com/articles/practical-test-pyramid.html), MartinFowler.com
   - Be clear about the different types of tests that you want to write. Agree on the naming in your team and find consensus on the scope of each type of test.
   - Every single test in your test suite is additional baggage and doesn't come for free.
   - Test code is as important as production code.
-- [A Quick Puzzle to Test Your Problem Solving](http://www.nytimes.com/interactive/2015/07/03/upshot/a-quick-puzzle-to-test-your-problem-solving.html?_r=0)... and a great way to learn about confirmation bias and why you're mostly writing positive test cases.
-- [The test pyramid](http://martinfowler.com/bliki/TestPyramid.html), Martin
-  Fowler
-- [Just Say No to More End-to-End Tests](https://testing.googleblog.com/2015/04/just-say-no-to-more-end-to-end-tests.html)
-- [End-To-End Testing Considered Harmful](https://dzone.com/articles/end-to-end-testing-considered-harmful)
-- [Move fast and don't break things](https://docs.google.com/presentation/d/15gNk21rjer3xo-b1ZqyQVGebOp_aPvHU3YH7YnOMxtE/edit#slide=id.g437663ce1_53_591) (presentation)
-- [Eradicating Non-Determinism in Tests](http://www.martinfowler.com/articles/nonDeterminism.html), Martin Fowler
-- ["I get paid for code that works, not for tests"](https://istacee.wordpress.com/2013/09/18/kent-beck-i-get-paid-for-code-that-works-not-for-tests/)
-- [Software Testing Anti-patterns](http://blog.codepipes.com/testing/software-testing-antipatterns.html), Kostis Kapelonis.
-- [Write tests. Not too many. Mostly integration.](https://blog.kentcdodds.com/write-tests-not-too-many-mostly-integration-5e8c7fff591c) for a contrarian take about unit testing...
-- [Testing is Not for Beginners](https://www.calhoun.io/testing-is-not-for-beginners/): why learning to test is hard. This shouldn't demotivate you though!
-- [Arrange-Act-Assert: A Pattern for Writing Good Tests](https://automationpanda.com/2020/07/07/arrange-act-assert-a-pattern-for-writing-good-tests/)
-- [Test smarter, not harder](https://lukeplant.me.uk/blog/posts/test-smarter-not-harder/)
+- [Software testing anti-patterns](http://blog.codepipes.com/testing/software-testing-antipatterns.html), Kostis Kapelonis.
+- [Write tests. Not too many. Mostly integration.](https://blog.kentcdodds.com/write-tests-not-too-many-mostly-integration-5e8c7fff591c) for a contrarian take about unit testing
+
+End-to-end tests:
+
+- [Just say no to more end-to-end tests](https://testing.googleblog.com/2015/04/just-say-no-to-more-end-to-end-tests.html), Google Testing Blog
+- [End-to-end testing considered harmful](https://dzone.com/articles/end-to-end-testing-considered-harmful), DZone
 
 ### Tools
 
