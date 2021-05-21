@@ -14,6 +14,7 @@
     - [Attitude, habits, mindset](#attitude-habits-mindset)
     - [Automation](#automation)
     - [Biases](#biases)
+    - [Cache](#cache)
     - [Career growth](#career-growth)
     - [Characters sets](#characters-sets)
     - [Code reviews](#code-reviews)
@@ -291,6 +292,11 @@ Dan Heller, Building a Career in Software
 Biases don't only apply to hiring. For instance, the fundamental attribution bias also applies when criticizing somebody's code written a long time ago, in a totally different context.
 
 - [Cognitive bias cheat sheet](https://betterhumans.coach.me/cognitive-bias-cheat-sheet-55a472476b18#.6temb6hyg). #hiring
+
+### Cache
+
+- [Caching explained](https://cachingexplained.com/)
+- [Caching challenges and strategies](https://aws.amazon.com/builders-library/caching-challenges-and-strategies/), Amazon Builders Library
 
 ### Career growth
 
