@@ -512,6 +512,9 @@ Check out my [list of management resources](https://github.com/charlax/engineeri
 - [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 - [Architectural Decision Records](https://adr.github.io/): a way to document architecture decision.
 
+> The palest ink is more reliable than the most powerful memory.
+> -- Chinese proverb
+
 ### Dotfiles
 
 - 🧰 [Awesome dotfiles](https://github.com/webpro/awesome-dotfiles): lots of great dotfiles.
@@ -1086,6 +1089,7 @@ End-to-end tests:
 - [Git Cheat Sheet](https://github.com/arslanbilal/git-cheat-sheet)
 - [git-tips](https://github.com/git-tips/tips)
 - [Git from the inside out](https://codewords.recurse.com/issues/two/git-from-the-inside-out)
+- [Oh Shit, Git!?!](https://ohshitgit.com/)
 
 ### Work ethics, productivity & work/life balance
 
