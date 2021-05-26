@@ -19,7 +19,7 @@
     - [Characters sets](#characters-sets)
     - [Code reviews](#code-reviews)
     - [Coding & code quality](#coding--code-quality)
-    - [Computer science](#computer-science)
+    - [Compilers](#compilers)
     - [Configuration](#configuration)
     - [Databases](#databases)
     - [Data formats](#data-formats)
@@ -35,9 +35,11 @@
     - [Documentation](#documentation)
     - [Dotfiles](#dotfiles)
     - [Editors & IDE](#editors--ide)
+    - [Email](#email)
     - [Engineering management](#engineering-management)
     - [Exercises](#exercises)
     - [Hardware](#hardware)
+    - [HTTP](#http)
     - [Incident response (oncall, alerting, outages, firefighting, postmortem)](#incident-response-oncall-alerting-outages-firefighting-postmortem)
       - [Postmortem](#postmortem)
     - [Internet](#internet)
@@ -63,6 +65,7 @@
     - [Releasing & deploying](#releasing--deploying)
     - [Security](#security)
     - [Shell (command line)](#shell-command-line)
+    - [SQL](#sql)
     - [System administration](#system-administration)
     - [System architecture](#system-architecture)
       - [Scalability](#scalability)
@@ -184,6 +187,7 @@ There are some free books available, including:
 - [hellerve/programming-talks](https://github.com/hellerve/programming-talks)
 - [TechYaks](https://techyaks.com/): list of talks
 - [Talks that changed the way I think about programming](http://www.opowell.com/post/talks-that-changed-the-way-i-think-about-programming/)
+- [What every computer science major should know](http://matt.might.net/articles/what-cs-majors-should-know/)
 
 List of axioms:
 
@@ -207,6 +211,8 @@ List of axioms:
 - [Google Tech Dev Guide](https://techdevguide.withgoogle.com/)
 - [The Missing Semester of Your CS Education](https://missing.csail.mit.edu/), MIT. Includes lectures about the shell, editors, data wrangling, git, debugging and profiling, meta programming, security and cryptography.
 - [Mathematics for the adventurous self-learner](https://www.neilwithdata.com/mathematics-self-learner), Neil Sainsbury
+- [jwasham/coding-interview-university](https://github.com/jwasham/coding-interview-university): a complete computer science study plan to become a software engineer.
+- [Teach Yourself Computer Science](https://teachyourselfcs.com/): an opinionated set of the best CS resources.
 
 ## Topics
 
@@ -215,6 +221,10 @@ List of axioms:
 - Read the [CLRS](https://mitpress.mit.edu/books/introduction-algorithms). You can watch and download the course on [OCW](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-introduction-to-algorithms-sma-5503-fall-2005/) - there are newer courses as well.
 - Or [The Algorithm Design Manual](https://www.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1849967202?ie=UTF8&qid=1297127794&ref_=sr_1_1&sr=8-1)
 - Try out some algorithms on [Project Euler](https://projecteuler.net/)
+
+Other resources:
+
+- [Algorithms](http://jeffe.cs.illinois.edu/teaching/algorithms/), Jeff Erickson
 
 Let's be honest: algorithms can be a pretty dry topic. [This quora question](https://www.quora.com/Is-there-a-book-that-teaches-algorithms-data-structures-and-other-computer-science-basics-in-a-fun-way) lists some funnier learning alternative, including:
 
@@ -278,6 +288,13 @@ Example implementations:
 - [What does a great software engineer look like?](https://fwouts.com/articles/great-software-engineer)
 - [Good sleep, good learning, good life](https://supermemo.guru/wiki/Good_sleep,_good_learning,_good_life)
 - 🎞 [Steve Jobs: if you don't ask for help, you won't get very far](https://www.youtube.com/watch?v=zkTf0LmDqKI&ab_channel=SiliconValleyHistoricalAssociation)
+- [Programming quotes](https://www.ronaldsvilcins.com/2020/12/10/programming-quotes/)
+- [Be Kind](https://boz.com/articles/be-kind)
+  - Being kind is fundamentally about taking responsibility for your impact on the people around you.
+  - It requires you be mindful of their feelings and considerate of the way your presence affects them.
+- [Warren Buffett Says This 1 Simple Habit Separates Successful People From Everyone Else](https://www.inc.com/marcel-schwantes/warren-buffett-says-this-is-1-simple-habit-that-separates-successful-people-from-everyone-else.html)
+  - The difference between successful people and really successful people is that really successful people say no to almost everything.
+- [How to get lucky?](https://jjude.com/luck)
 
 > Imposter syndrome is underrated: a lot of talk goes into overcoming imposter syndrome. I say embrace self-skepticism and doubt yourself every day. In a fast-moving industry where lots of your knowledge expires every year, even the most junior people around you constantly cook up skills you don't have; you stay competitive by applying with the determination (and even fear) of the novice. The upside of this treadmill is that every engineer is on it: just because you're an imposter doesn't mean that other people are more deserving than you, because they're imposters too. You should advocate for yourself, take risks, pat yourself on the back when things go well, and, as you start to build a track record of solving problems, trust your skills and adaptability. Just make no mistake: you're only as good as the last problem you solve.
 
@@ -325,6 +342,9 @@ Biases don't only apply to hiring. For instance, the fundamental attribution bia
 - [Why Good Developers are Promoted into Unhappiness](https://robwalling.com/2007/06/27/why-good-developers-are-promoted-into-unhappiness/), Rob Walling. Or why management might not be for you.
 - [A guide to using your career to help solve the world’s most pressing problems](https://80000hours.org/key-ideas/)
 - [What's a senior engineer's job?](https://jvns.ca/blog/senior-engineer/) You need to be more than just an individual contributor.
+- [From Coding Bootcamp Graduate to Building Distributed Databases](https://medium.com/swlh/from-coding-bootcamp-graduate-to-building-distributed-databases-29acbb723d8)
+  - Read Books (and papers), not Blog Posts
+  - Take responsibility for your career trajectory
 
 ### Characters sets
 
@@ -345,6 +365,7 @@ Biases don't only apply to hiring. For instance, the fundamental attribution bia
     - Artfully solicit missing information
     - Award all ties to your reviewer
     - Minimize lag between rounds of review
+- [How to Do Code Reviews Like a Human](https://mtlynch.io/human-code-reviews-1/)
 
 ### Coding & code quality
 
@@ -362,11 +383,12 @@ Biases don't only apply to hiring. For instance, the fundamental attribution bia
   - Avoid custom prefixes (`isPaidFor` is better than `wasPaidFor`)
   - Avoid negatives (`isEnabled` is better than `isDisabled`)
 - [How To Write Unmaintainable Code](https://github.com/Droogans/unmaintainable-code/blob/master/README.md)
+- [kettanaito/naming-cheatsheet](https://github.com/kettanaito/naming-cheatsheet): : comprehensive language-agnostic guidelines on variables naming. Home of the A/HC/LC pattern.
 
-### Computer science
+### Compilers
 
-- [What every computer science major should know](http://matt.might.net/articles/what-cs-majors-should-know/)
-- [Teach Yourself Computer Science](https://teachyourselfcs.com/): an opinionated set of the best CS resources.
+- [The Compiler Writer Resource Page](https://c9x.me/compile/bib/)
+- [kanaka/mal](https://github.com/kanaka/mal): mal - Make a Lisp
 
 ### Configuration
 
@@ -380,12 +402,13 @@ Biases don't only apply to hiring. For instance, the fundamental attribution bia
 
 ### Databases
 
+See also the SQL section.
+
 - [A plain english introduction to CAP Theorem](http://ksat.me/a-plain-english-introduction-to-cap-theorem)
 - [NOSQL Patterns](http://horicky.blogspot.nl/2009/11/nosql-patterns.html)
 - [NoSQL Databases: a Survey and Decision Guidance](https://medium.baqend.com/nosql-databases-a-survey-and-decision-guidance-ea7823a822d#.9fe79qr90)
 - [Safe Operations For High Volume PostgreSQL](https://www.braintreepayments.com/blog/safe-operations-for-high-volume-postgresql/) (this is for PostgreSQL but works great for other DBs as well).
 - [Zero downtime database migrations](https://blog.rainforestqa.com/2014-06-27-zero-downtime-database-migrations/) (code examples are using Rails but this works great for any programming language)
-- [SQL styleguide](http://www.sqlstyle.guide/)
 - [Algorithms Behind Modern Storage Systems](https://queue.acm.org/detail.cfm?id=3220266), ACM Queue
 - [Let's Build a Simple Database](https://cstack.github.io/db_tutorial/)
 - [Readings in Database Systems, 5th Edition](http://www.redbook.io/)
@@ -410,6 +433,11 @@ Exercises:
 - [datastacktv/data-engineer-roadmap](https://github.com/datastacktv/data-engineer-roadmap): roadmap to becoming a data engineer
 - [Awesome Data Engineering Learning Path](https://awesomedataengineering.com/)
 - [Emerging Architectures for Modern Data Infrastructure](https://a16z.com/2020/10/15/the-emerging-architectures-for-modern-data-infrastructure/)
+- [How to Move Beyond a Monolithic Data Lake to a Distributed Data Mesh](https://martinfowler.com/articles/data-monolith-to-mesh.html)
+  - Data platforms based on the data lake architecture have common failure modes that lead to unfulfilled promises at scale.
+  - We need to consider domains as the first class concern, apply platform thinking to create self-serve data infrastructure, and treat data as a product.
+- [MLOps](https://madewithml.com/courses/mlops/)
+- [Uber's Big Data Platform: 100+ Petabytes with Minute Latency](https://eng.uber.com/uber-big-data-platform/)
 
 ### Debugging
 
@@ -468,6 +496,9 @@ Articles:
 - [Composition Instead Of Inheritance](http://c2.com/cgi/wiki?CompositionInsteadOfInheritance)
 - [Complexity and Strategy](https://hackernoon.com/complexity-and-strategy-325cd7f59a92): interesting perspective on complexity and flexibility with really good examples (e.g. Google Apps Suite vs. Microsoft Office).
 - [The Architecture of Open Source Applications](https://aosabook.org/en/index.html)
+- [The Robustness Principle Reconsidered](https://cacm.acm.org/magazines/2011/8/114933-the-robustness-principle-reconsidered/fulltext)
+  - Jon Postel: "Be conservative in what you do, be liberal in what you accept from others." (RFC 793)
+  - Two general problem areas are impacted by the Robustness Principle: orderly interoperability and security.
 
 > You can use an eraser on the drafting table or a sledge hammer on the construction site. (Frank Lloyd Wright)
 
@@ -505,6 +536,15 @@ Tools
 - [tmux: terminal multiplexer](http://tmux.github.io/)
 - [htop: an interactive process viewer for Linux](http://hisham.hm/htop/)
 - [htop explained](https://peteris.rocks/blog/htop/)
+- [socat](https://copyconstruct.medium.com/socat-29453e9fc8a6)
+- [Visual guide to SSH tunnels](https://robotmoon.com/ssh-tunnels/)
+
+Article about tools:
+
+- [The return of fancy tools](https://macwright.com/2021/03/16/return-of-fancy-tools.html)
+  - Simple tools make you think a little more
+  - Drucker: "I’m not writing it down to remember it later, I’m writing it down to remember it now."
+  - Frictionless note-taking produces notes, but it doesn't produce memory.
 
 ### Diversity & inclusion
 
@@ -517,6 +557,7 @@ Check out my [list of management resources](https://github.com/charlax/engineeri
 - 🏙 [Documentation is king](https://speakerdeck.com/kennethreitz/documentation-is-king), Kenneth Reitz
 - [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 - [Architectural Decision Records](https://adr.github.io/): a way to document architecture decision.
+- [The documentation system](https://documentation.divio.com/)
 
 > The palest ink is more reliable than the most powerful memory.
 > -- Chinese proverb
@@ -536,6 +577,10 @@ Articles
 - 🧰 [vim-awesome](http://vimawesome.com/)
 - Bram Moolenaar (Vim author), [Seven habits of effective text editing](http://www.moolenaar.net/habits.html) ([presentation](http://www.moolenaar.net/habits_2007.pdf)). This is about Vim but it contains good lessons about why investing time in learning how to be productive with your text editors pays off.
 - [VScode](https://code.visualstudio.com/) is one of the most popular text editors as of writing. [Visual Studio Code Can Do That?](https://www.smashingmagazine.com/2018/01/visual-studio-code/), Smashing Magazine.
+
+### Email
+
+- [Email explained from first principles](https://explained-from-first-principles.com/email/#json-meta-application-protocol)
 
 ### Engineering management
 
@@ -560,6 +605,11 @@ Practice:
 ### Hardware
 
 - [NandGame](https://nandgame.com/): build a computer from scratch.
+
+### HTTP
+
+- [Choosing an HTTP Status Code — Stop Making It Hard](https://www.codetinkerer.com/2015/12/04/choosing-an-http-status-code.html)
+- [HTTPWTF](https://httptoolkit.tech/blog/http-wtf/)
 
 ### Incident response (oncall, alerting, outages, firefighting, postmortem)
 
@@ -656,6 +706,8 @@ Learn how to learn!
 - [How To Remember Anything Forever-ish](https://ncase.me/remember/): a comic about learning
 - [Get better at programming by learning how things work](https://jvns.ca/blog/learn-how-things-work/)
 - [How to teach yourself hard things](https://jvns.ca/blog/2018/09/01/learning-skills-you-can-practice/)
+- [Building Your Own Personal Learning Curriculum](https://www.smashingmagazine.com/2021/02/building-personal-learning-curriculum/)
+- [The Complete Guide to Effective Reading](https://maartenvandoorn.nl/reading-guide/)
 
 Richard Feynman's Learning Strategy:
 
@@ -758,6 +810,7 @@ I would recommend learning:
 
 - JavaScript and maybe another interpreted language (Python, Ruby, etc.). Interpreted languages are useful for quick one-off automation scripts, and fastest to write for interviews. JavaScript is ubiquitous.
 - A compiled language (Java, C, C++...).
+  - [Learn c in Y Minutes](https://learnxinyminutes.com/docs/c/)
 - A more recent language to see where the industry is going (as of writing, Go, Swift, Rust, Elixir...).
 - A language that has first-class support for functional programming (Haskell, Scala, Clojure...).
 
@@ -870,6 +923,8 @@ Feature flags:
   - Long-lived toggles vs transient toggles
   - Savvy teams view their Feature Toggles as inventory which comes with a carrying cost, and work to keep that inventory as low as possible.
 - [Feature Flags Best Practices: Release Management](https://launchdarkly.com/blog/release-management-flags-best-practices/), LaunchDarkly
+- [How we ship code faster and safer with feature flags](https://github.blog/2021-04-27-ship-code-faster-safer-feature-flags/), Github.
+- [Flipr: Making Changes Quickly and Safely at Scale](https://eng.uber.com/flipr/), Uber
 
 Testing in production:
 
@@ -902,8 +957,8 @@ Testing in production:
 - [Web Application Security Guide/Checklist](https://en.wikibooks.org/wiki/Web_Application_Security_Guide/Checklist)
 - [Reckon you've seen some stupid security things?](https://www.troyhunt.com/reckon-youve-seen-some-stupid-security-things-here-hold-my-beer/): everything _not_ to do.
 - [Checklist of the most important security countermeasures when designing, testing, and releasing your API](https://github.com/shieldfy/API-Security-Checklist)
-- [OWASP Cheat Sheet Series](https://cheatsheetseries.owasp.org/): a series of
-  cheat sheets about various security topics.
+- [OWASP Cheat Sheet Series](https://cheatsheetseries.owasp.org/): a series of cheat sheets about various security topics.
+  - [Docker Security](https://cheatsheetseries.owasp.org/cheatsheets/Docker_Security_Cheat_Sheet.html)
 - [Secure by Design](https://henrikwarne.com/2020/03/22/secure-by-design/), a book review by Henrik Warne.
   - There is a big overlap between secure code and good software design
   - Every domain value should instead be represented by a domain primitive.
@@ -930,6 +985,13 @@ List of resources:
 - [Minimal safe Bash script template](https://betterdev.blog/minimal-safe-bash-script-template/)
 - [Command Line Interface Guidelines](https://clig.dev/)
 - [The Linux Commands Handbook](https://openbootcamps.com/the-linux-commands-handbook/)
+
+### SQL
+
+- [SQL styleguide](http://www.sqlstyle.guide/)
+- [Best practices for writing SQL queries](https://www.metabase.com/learn/building-analytics/sql-templates/sql-best-practices)
+- [Practical SQL for Data Analysis](https://hakibenita.com/sql-for-data-analysis)
+- [Reasons why SELECT * is bad for SQL performance](https://tanelpoder.com/posts/reasons-why-select-star-is-bad-for-sql-performance/)
 
 ### System administration
 
@@ -976,6 +1038,11 @@ Articles:
 - [The biggest thing amazon got right: the platform](https://gigaom.com/2011/10/12/419-the-biggest-thing-amazon-got-right-the-platform/)
     - All teams will henceforth expose their data and functionality through service interfaces.
     - Monitoring and QA are the same thing.
+- [Building Services at Airbnb, part 3](https://medium.com/airbnb-engineering/building-services-at-airbnb-part-3-ac6d4972fc2d)
+  - Resilience is a Requirement, Not a Feature
+- [Building Services at Airbnb, part 4](https://medium.com/airbnb-engineering/building-services-at-airbnb-part-4-23c95e428064)
+  - Building Schema Based Testing Infrastructure for service development
+- [Best Practices for Building a Microservice Architecture](https://www.vinaysahni.com/best-practices-for-building-a-microservice-architecture#correlation-ids)
 
 #### Scalability
 
@@ -984,6 +1051,7 @@ Articles:
 #### Stability
 
 - I already mentioned the book Release it! above. There's also a [presentation](http://www.slideshare.net/justindorfman/stability-patterns-presentation) from the author.
+- [Service Recovery: Rolling Back vs. Forward Fixing](https://www.linkedin.com/pulse/service-recovery-rolling-back-vs-forward-fixing-mohamed-el-geish/)
 
 #### Reliability
 
@@ -1036,6 +1104,7 @@ Articles:
 Resources:
 
 - 🧰 [dastergon/awesome-sre](https://github.com/dastergon/awesome-sre)
+- [upgundecha/howtheysre](https://github.com/upgundecha/howtheysre): a curated collection of publicly available resources on SRE at technology and tech-savvy organizations
 
 ### Technical debt
 
@@ -1089,6 +1158,7 @@ End-to-end tests:
 
 - [DevDocs API Documentation](https://devdocs.io/): a repository for multiple API docs (see also [Dash for macOS](https://kapeli.com/dash)).
 - [DevChecklist](https://devchecklists.com/): a collaborative space for sharing checklists that help ensure software quality
+- 🧰 [Free for developers](https://free-for.dev/#/): list of free tiers for developments tools and services
 
 ### Version control (Git)
 
@@ -1152,6 +1222,11 @@ End-to-end tests:
     - Rewriting — Rewrite for clarity, intrigue, and succinctness
     - Style — Rewrite for style and flow
     - Practicing — Improve as a writer
+- [Write Simply](http://paulgraham.com/simply.html), Paul Graham
+- [Writing is Thinking: Learning to Write with Confidence](https://blog.stephsmith.io/learning-to-write-with-confidence/)
+- [It's time to start writing](https://alexnixon.github.io/2019/12/10/writing.html) explains why Jeff Bezos banned PowerPoint at Amazon.
+  - The reason writing a good 4 page memo is harder than "writing" a 20 page powerpoint is because the narrative structure of a good memo forces better thought and better understanding of what's more important than what, and how things are related.
+  - Powerpoint-style presentations somehow give permission to gloss over ideas, flatten out any sense of relative importance, and ignore the interconnectedness of ideas.
 
 ![Write like an Amazonian](./images/amazon_writing_rules.jpeg)
 
