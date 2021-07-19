@@ -69,7 +69,6 @@
     - [System administration](#system-administration)
     - [System architecture](#system-architecture)
       - [Scalability](#scalability)
-      - [Stability](#stability)
       - [Reliability](#reliability)
       - [Resiliency](#resiliency)
     - [Site Reliability Engineering (SRE)](#site-reliability-engineering-sre)
@@ -117,8 +116,7 @@ I've found these books incredibly inspiring:
 - 📖 [Code Complete: A Practical Handbook of Software
   Construction](http://www.amazon.com/Code-Complete-Practical-Handbook-Construction/dp/0735619670): a nice addition to The Pragmatic Programmer, gives you the necessary framework to talk about code.
 - 📖 [Release It!](https://smile.amazon.com/Release-Design-Deploy-Production-Ready-Software/dp/1680502395): this books goes beyond code and gives you best practices for building production-ready software. It will give you about 3 years worth of real-world experience.
-- 📖 [Scalability Rules: 50 Principles for Scaling Web
-  Sites](https://smile.amazon.com/Scalability-Rules-Principles-Scaling-Sites/dp/013443160X)
+- 📖 [Scalability Rules: 50 Principles for Scaling Web Sites](https://smile.amazon.com/Scalability-Rules-Principles-Scaling-Sites/dp/013443160X)
 - 📖 [The Linux Programming Interface: A Linux and UNIX System Programming Handbook](http://www.amazon.com/The-Linux-Programming-Interface-Handbook/dp/1593272200): outside of teaching you almost everything you need to know about Linux, this book will give you insights into how software evolves, and the value of having simple & elegant interfaces.
 - 📖 [Structure and interpretation of Computer Programs](https://web.mit.edu/alexmv/6.037/sicp.pdf) (free): One of the most influential textbooks in Computer Science (written and used at MIT), SICP has been influential in CS education. [Byte](<https://en.wikipedia.org/wiki/Byte_(magazine)>) recommended SICP "for professional programmers who are really interested in their profession".
 
@@ -299,6 +297,8 @@ Example implementations:
 > Imposter syndrome is underrated: a lot of talk goes into overcoming imposter syndrome. I say embrace self-skepticism and doubt yourself every day. In a fast-moving industry where lots of your knowledge expires every year, even the most junior people around you constantly cook up skills you don't have; you stay competitive by applying with the determination (and even fear) of the novice. The upside of this treadmill is that every engineer is on it: just because you're an imposter doesn't mean that other people are more deserving than you, because they're imposters too. You should advocate for yourself, take risks, pat yourself on the back when things go well, and, as you start to build a track record of solving problems, trust your skills and adaptability. Just make no mistake: you're only as good as the last problem you solve.
 
 Dan Heller, Building a Career in Software
+
+> I had learned already never to empty the well of my writing, but always to stop when there was still something there in the deep part of the well, and let it refill at night from the springs that fed it. -- Ernest Hemingway
 
 ### Automation
 
@@ -1028,7 +1028,6 @@ Articles:
 - [Deep lessons from Google And EBay on building ecosystems of microservices](http://highscalability.com/blog/2015/12/1/deep-lessons-from-google-and-ebay-on-building-ecosystems-of.html)
 - [Service oriented architecture: scaling the Uber engineering codebase as we grow](https://eng.uber.com/soa/)
 - [The twelve-factor app](http://12factor.net/)
-- [Scalable web architecture and distributed systems](http://www.aosabook.org/en/distsys.html)
 - [Introduction to architecting systems for scale](http://lethain.com/introduction-to-architecting-systems-for-scale/)
 - [The Log: What every software engineer should know about real-time data's unifying abstraction](https://engineering.linkedin.com/distributed-systems/log-what-every-software-engineer-should-know-about-real-time-datas-unifying): one of those classical articles that everyone should read.
 - [Turning the database outside-out with Apache Samza](https://www.confluent.io/blog/turning-the-database-inside-out-with-apache-samza/)
@@ -1053,15 +1052,13 @@ Articles:
 
 #### Scalability
 
-- I already mentioned the book Scalability rules above, but there's also a [presentation](http://www.slideshare.net/cyrilwang/scalability-rules) about it.
-
-#### Stability
-
-- I already mentioned the book Release it! above. There's also a [presentation](http://www.slideshare.net/justindorfman/stability-patterns-presentation) from the author.
-- [Service Recovery: Rolling Back vs. Forward Fixing](https://www.linkedin.com/pulse/service-recovery-rolling-back-vs-forward-fixing-mohamed-el-geish/)
+- [Scalable web architecture and distributed systems](http://www.aosabook.org/en/distsys.html)
+- 📖 [Scalability Rules: 50 Principles for Scaling Web Sites](https://smile.amazon.com/Scalability-Rules-Principles-Scaling-Sites/dp/013443160X) ([presentation](http://www.slideshare.net/cyrilwang/scalability-rules))
 
 #### Reliability
 
+- I already mentioned the book Release it! above. There's also a [presentation](http://www.slideshare.net/justindorfman/stability-patterns-presentation) from the author.
+- [Service Recovery: Rolling Back vs. Forward Fixing](https://www.linkedin.com/pulse/service-recovery-rolling-back-vs-forward-fixing-mohamed-el-geish/)
 - [How Complex Systems Fail](https://how.complexsystems.fail/)
     - Catastrophe requires multiple failures – single point failures are not enough.
     - Complex systems contain changing mixtures of failures latent within them.
