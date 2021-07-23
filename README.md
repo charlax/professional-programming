@@ -59,6 +59,7 @@
       - [JavaScript](#javascript)
       - [Functional programming](#functional-programming)
     - [Programming paradigm](#programming-paradigm)
+    - [Operating system](#operating-system)
     - [Over-engineering](#over-engineering)
     - [Reading](#reading)
     - [Refactoring](#refactoring)
@@ -506,6 +507,7 @@ Articles:
 - [The Robustness Principle Reconsidered](https://cacm.acm.org/magazines/2011/8/114933-the-robustness-principle-reconsidered/fulltext)
   - Jon Postel: "Be conservative in what you do, be liberal in what you accept from others." (RFC 793)
   - Two general problem areas are impacted by the Robustness Principle: orderly interoperability and security.
+- [Basics of the Unix Philosophy](http://catb.org/esr/writings/taoup/html/ch01s06.html#id2877610), Eric S Raymond
 
 > You can use an eraser on the drafting table or a sledge hammer on the construction site. (Frank Lloyd Wright)
 
@@ -870,6 +872,15 @@ JavaScript is such a pervasive language that it's almost required learning.
 
 - [Imperative vs Declarative Programming](https://tylermcginnis.com/imperative-vs-declarative-programming/), Tyler McGinnis.
     - I draw the line between declarative and non-declarative at whether you can trace the code as it runs. Regex is 100% declarative, as it’s untraceable while the pattern is being executed.
+
+### Operating system
+
+- 📖 [The Linux Programming Interface: A Linux and UNIX System Programming Handbook](http://www.amazon.com/The-Linux-Programming-Interface-Handbook/dp/1593272200): already mentioned above.
+- 📖 [Modern Operating Systems](https://www.amazon.com/dp/013359162X/), Andrew Tanenbaum, Herbert Bos (not read)
+- 📖 [Operating Systems: Three Easy Pieces](https://pages.cs.wisc.edu/~remzi/OSTEP/) (free book, not read)
+- 📖 [Linux Kernel Development](https://www.amazon.com/Linux-Kernel-Development-Robert-Love/dp/0672329468), Robert Love. A very complete introduction to developing within the Linux Kernel.
+- [The 10 Operating System Concepts Software Developers Need to Remember](https://jameskle.com/writes/operating-systems)
+- Play with xv6 on [MIT 6.828](https://pdos.csail.mit.edu/6.828/2016/schedule.html)
 
 ### Over-engineering
 
