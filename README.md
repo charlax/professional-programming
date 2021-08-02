@@ -82,6 +82,7 @@
     - [Writing (communication, blogging)](#writing-communication-blogging)
     - [Writing for performance](#writing-for-performance)
   - [Resources & inspiration for presentations](#resources--inspiration-for-presentations)
+  - [Keeping up-to-date](#keeping-up-to-date)
   - [Concepts](#concepts)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -100,7 +101,7 @@ Items:
 
 - 🧰 : list of resources
 - 📖 : book
-- 🎞 : video/movie extract/movie
+- 🎞 : video/movie extract/movie/talk
 - 🏙 : slides/presentation
 - ⭐️ : must-read
 
@@ -486,7 +487,7 @@ Here's a list of good books:
 - 📖 [Design Patterns: Elements of Reusable Object-Oriented Software](http://www.amazon.com/dp/0201633612/): dubbed "the gang of four", this is almost a required reading for any developer. A lot of those are a bit overkill for Python (because everything is an object, and dynamic typing), but the main idea (composition is better than inheritance) definitely is a good philosophy.
 - 📖 [Patterns of Enterprise Application Architecture](http://www.amazon.com/dp/0321127420/?tag=stackoverfl08-20): learn about how database are used in real world applications. Mike Bayer's SQLAlchemy has been heavily influenced by this book.
 - 📖 [Domain-Driven Design: Tackling Complexity in the Heart of Software](https://www.amazon.com/Domain-Driven-Design-Tackling-Complexity-Software/dp/0321125215), Eric Evans
-- 📖 [Clean Architecture](https://www.goodreads.com/book/show/18043011-clean-architecture), Robert C. Martin. Uncle Bob proposes an architecture that leverages the Single Responsibility Principle to its fullest. A great way to start a new codebase. Also checkout the [clean architecture cheatsheet](cheatsheets/Clean-Architecture-V1.0.pdf).
+- 📖 [Clean Architecture](https://www.goodreads.com/book/show/18043011-clean-architecture), Robert C. Martin. Uncle Bob proposes an architecture that leverages the Single Responsibility Principle to its fullest. A great way to start a new codebase. Also checkout the [clean architecture cheatsheet](cheatsheets/Clean-Architecture-V1.0.pdf) and [this article](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html).
 - 📖 [Game Programming Patterns](https://www.amazon.com/dp/0990582906/ref=cm_sw_em_r_mt_dp_U_9xygFb9M86CXY): a book about design, sequencing, behavioral patterns and much more by Robert Nystrom explained through the medium of game programming. The book is also free to read online [here](https://gameprogrammingpatterns.com/contents.html).
 
 One of the absolute references on architecture is Martin Fowler: checkout his [Software Architecture Guide](https://martinfowler.com/architecture/).
@@ -808,6 +809,8 @@ Richard Feynman's Learning Strategy:
     - Define the problem - what is it that you're trying to achieve?
     - Invert it - what would guarantee the failure to achieve this outcome?
     - Finally, consider solutions to avoid this failure
+- 🎞 [Hammock Driven Development](https://www.youtube.com/watch?v=f84n5oFoZBc&ab_channel=ClojureTV), Rick Hickey
+  - A classic talk on problem solving.
 
 ### Project management
 
@@ -1036,7 +1039,6 @@ Books:
 Articles:
 
 - [6 Rules of thumb to build blazing fast web server applications](http://loige.co/6-rules-of-thumb-to-build-blazing-fast-web-applications/)
-- [Deep lessons from Google And EBay on building ecosystems of microservices](http://highscalability.com/blog/2015/12/1/deep-lessons-from-google-and-ebay-on-building-ecosystems-of.html)
 - [Service oriented architecture: scaling the Uber engineering codebase as we grow](https://eng.uber.com/soa/)
 - [The twelve-factor app](http://12factor.net/)
 - [Introduction to architecting systems for scale](http://lethain.com/introduction-to-architecting-systems-for-scale/)
@@ -1049,9 +1051,6 @@ Articles:
     - Focus effort on systems-level failure, instead of the individual component failure.
     - Invest in sophisticated observability tools, aiming to increase the number of questions we can ask without deploying custom code
 - [Fallacies of distributed computing](https://en.wikipedia.org/wiki/Fallacies_of_distributed_computing), Wikipedia
-- [Introducing domain-oriented microservice architecture](https://eng.uber.com/microservice-architecture/), Uber
-    - Instead of orienting around single microservices, we oriented around collections of related microservices. We call these domains.
-    - In small organizations, the operational benefit likely does not offset the increase in architectural complexity.
 - [The biggest thing amazon got right: the platform](https://gigaom.com/2011/10/12/419-the-biggest-thing-amazon-got-right-the-platform/)
     - All teams will henceforth expose their data and functionality through service interfaces.
     - Monitoring and QA are the same thing.
@@ -1059,7 +1058,16 @@ Articles:
   - Resilience is a Requirement, Not a Feature
 - [Building Services at Airbnb, part 4](https://medium.com/airbnb-engineering/building-services-at-airbnb-part-4-23c95e428064)
   - Building Schema Based Testing Infrastructure for service development
+
+Microservices/splitting a monolith:
+
+- [Deep lessons from Google And EBay on building ecosystems of microservices](http://highscalability.com/blog/2015/12/1/deep-lessons-from-google-and-ebay-on-building-ecosystems-of.html)
+- [Introducing domain-oriented microservice architecture](https://eng.uber.com/microservice-architecture/), Uber
+    - Instead of orienting around single microservices, we oriented around collections of related microservices. We call these domains.
+    - In small organizations, the operational benefit likely does not offset the increase in architectural complexity.
 - [Best Practices for Building a Microservice Architecture](https://www.vinaysahni.com/best-practices-for-building-a-microservice-architecture#correlation-ids)
+- 🏙 [Avoid Building a Distributed Monolith](https://speakerdeck.com/felipead/avoid-building-a-distributed-monolith)
+- 🏙 [Breaking down the monolith](https://speakerdeck.com/slashdotpeter/breaking-down-the-monolith-devone)
 
 #### Scalability
 
@@ -1263,6 +1271,24 @@ End-to-end tests:
 - Dilbert
 - Calvin & Hobbes ([search engine](http://michaelyingling.com/random/calvin_and_hobbes/))
 - https://twitter.com/_workchronicles
+
+## Keeping up-to-date
+
+Website and RSS feeds (I use [Feedly](http://feedly.com/)):
+
+- [Hacker News](https://news.ycombinator.com/) ⭐️
+- [VentureBeat](https://venturebeat.com/)
+
+Security:
+
+- [Schneier on Security](https://www.schneier.com/)
+- [Krebs on Security](https://krebsonsecurity.com/)
+- [The Hacker News](https://thehackernews.com/)
+
+Newsletters:
+
+- [Bytes](https://bytes.dev/) (JavaScript)
+- [PyCoders](https://pycoders.com/) (Python)
 
 ## Concepts
 
