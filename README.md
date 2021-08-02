@@ -1044,14 +1044,12 @@ Articles:
 - [Introduction to architecting systems for scale](http://lethain.com/introduction-to-architecting-systems-for-scale/)
 - [The Log: What every software engineer should know about real-time data's unifying abstraction](https://engineering.linkedin.com/distributed-systems/log-what-every-software-engineer-should-know-about-real-time-datas-unifying): one of those classical articles that everyone should read.
 - [Turning the database outside-out with Apache Samza](https://www.confluent.io/blog/turning-the-database-inside-out-with-apache-samza/)
-- [Monoliths are the future](https://changelog.com/posts/monoliths-are-the-future)
-    - "We’re gonna break it up and somehow find the engineering discipline we never had in the first place."
 - [Scaling to 100k Users](https://alexpareto.com/scalability/systems/2020/02/03/scaling-100k.html), Alex Pareto. The basics of getting from 1 to 100k users.
 - [Systems that defy detailed understanding](https://blog.nelhage.com/post/systems-that-defy-understanding/)
     - Focus effort on systems-level failure, instead of the individual component failure.
     - Invest in sophisticated observability tools, aiming to increase the number of questions we can ask without deploying custom code
 - [Fallacies of distributed computing](https://en.wikipedia.org/wiki/Fallacies_of_distributed_computing), Wikipedia
-- [The biggest thing amazon got right: the platform](https://gigaom.com/2011/10/12/419-the-biggest-thing-amazon-got-right-the-platform/)
+- [The biggest thing Amazon got right: the platform](https://gigaom.com/2011/10/12/419-the-biggest-thing-amazon-got-right-the-platform/)
     - All teams will henceforth expose their data and functionality through service interfaces.
     - Monitoring and QA are the same thing.
 - [Building Services at Airbnb, part 3](https://medium.com/airbnb-engineering/building-services-at-airbnb-part-3-ac6d4972fc2d)
@@ -1068,6 +1066,8 @@ Microservices/splitting a monolith:
 - [Best Practices for Building a Microservice Architecture](https://www.vinaysahni.com/best-practices-for-building-a-microservice-architecture#correlation-ids)
 - 🏙 [Avoid Building a Distributed Monolith](https://speakerdeck.com/felipead/avoid-building-a-distributed-monolith)
 - 🏙 [Breaking down the monolith](https://speakerdeck.com/slashdotpeter/breaking-down-the-monolith-devone)
+- [Monoliths are the future](https://changelog.com/posts/monoliths-are-the-future)
+    - "We’re gonna break it up and somehow find the engineering discipline we never had in the first place."
 
 #### Scalability
 
@@ -1278,6 +1278,7 @@ Website and RSS feeds (I use [Feedly](http://feedly.com/)):
 
 - [Hacker News](https://news.ycombinator.com/) ⭐️
 - [VentureBeat](https://venturebeat.com/)
+- [High Scalability](http://highscalability.com/): see [above](#system-architecture)
 
 Security:
 
