@@ -347,6 +347,17 @@ Biases don't only apply to hiring. For instance, the fundamental attribution bia
 - [From Coding Bootcamp Graduate to Building Distributed Databases](https://medium.com/swlh/from-coding-bootcamp-graduate-to-building-distributed-databases-29acbb723d8)
   - Read Books (and papers), not Blog Posts
   - Take responsibility for your career trajectory
+- 🏙 [The Well Rounded Engineer](https://speakerdeck.com/swanandp/the-well-rounded-engineer) includes lots of great book recommendations.
+  - Paradigm polyglot (learn different languages & paradigms)
+  - Database polyglot
+  - Protocol polyglot (preferably TCP/IP and HTTP)
+  - Proficiency with build tooling, packaging and distribution
+  - Debugging, observability
+  - Deployment, infra and devops
+  - Software architecture and scaling
+  - Ability to write toy compilers, interpreters and parsers
+  - Ability to write toy games
+  - Ability to understand algorithmic analysis
 
 ### Characters sets
 
@@ -980,6 +991,7 @@ Testing in production:
 - [Checklist of the most important security countermeasures when designing, testing, and releasing your API](https://github.com/shieldfy/API-Security-Checklist)
 - [OWASP Cheat Sheet Series](https://cheatsheetseries.owasp.org/): a series of cheat sheets about various security topics.
   - [Docker Security](https://cheatsheetseries.owasp.org/cheatsheets/Docker_Security_Cheat_Sheet.html)
+  - [How to improve your Docker containers security](https://blog.gitguardian.com/how-to-improve-your-docker-containers-security-cheat-sheet/)
 - [Secure by Design](https://henrikwarne.com/2020/03/22/secure-by-design/), a book review by Henrik Warne.
   - There is a big overlap between secure code and good software design
   - Every domain value should instead be represented by a domain primitive.
