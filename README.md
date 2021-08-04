@@ -244,6 +244,7 @@ Example implementations:
 - [Zalando RESTful API and Event Scheme Guidelines](https://opensource.zalando.com/restful-api-guidelines/)
 - [Best practices for REST API design](https://stackoverflow.blog/2020/03/02/best-practices-for-rest-api-design/), Stack Overflow Blog
 - 📖 [Undisturbed REST: a guide to designing the perfect API](https://www.mulesoft.com/sites/default/files/resource-assets/ebook-UndisturbedREST_v1.pdf): very complete book about RESTful API design.
+- Google's [API Design Guide](https://cloud.google.com/apis/design/): a general guide to design networked API.
 - [Architectural Styles and the Design of Network-based Software Architectures](https://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm), Roy Fielding (the inventor of REST)
 
 ### Attitude, habits, mindset
@@ -507,7 +508,6 @@ Articles:
 
 - O'Reilly's [How to make mistakes in Python](http://www.oreilly.com/programming/free/files/how-to-make-mistakes-in-python.pdf)
 - [Education of a Programmer](https://hackernoon.com/education-of-a-programmer-aaecf2d35312): a developer's thoughts after 35 years in the industry. There's a particularly good section about design & complexity (see "the end to end argument", "layering and componentization").
-- Google's [API Design Guide](https://cloud.google.com/apis/design/): a general guide to design networked API.
 - [Domain-driven design](https://en.wikipedia.org/wiki/Domain-driven_design), Wikipedia.
 - [On the Spectrum of Abstraction](https://www.youtube.com/watch?v=mVVNJKv9esE) 🎞, Cheng Lou
 - [The “Bug-O” Notation](https://overreacted.io/the-bug-o-notation/), Dan Abramov
@@ -1201,6 +1201,7 @@ End-to-end tests:
 - [git-tips](https://github.com/git-tips/tips)
 - [Git from the inside out](https://codewords.recurse.com/issues/two/git-from-the-inside-out)
 - [Oh Shit, Git!?!](https://ohshitgit.com/)
+- [Git Merge vs. Rebase: What’s the Diff?](https://hackernoon.com/git-merge-vs-rebase-whats-the-diff-76413c117333)
 
 ### Work ethics, productivity & work/life balance
 
@@ -1311,6 +1312,7 @@ Newsletters:
 - [CAP theorem](https://en.wikipedia.org/wiki/CAP_theorem)
 - [DDD](https://en.wikipedia.org/wiki/Domain-driven_design)
 - [DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself)
+- [EAV](https://en.wikipedia.org/wiki/Entity%E2%80%93attribute%E2%80%93value_model)
 - [GRASP](<https://en.wikipedia.org/wiki/GRASP_(object-oriented_design)>)
 - [KISS](https://en.wikipedia.org/wiki/KISS_principle)
 - [Make it run, make it right, make it fast](http://c2.com/cgi/wiki?MakeItWorkMakeItRightMakeItFast)
