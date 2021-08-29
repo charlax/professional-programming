@@ -367,6 +367,12 @@ Biases don't only apply to hiring. For instance, the fundamental attribution bia
   - Ability to write toy compilers, interpreters and parsers
   - Ability to write toy games
   - Ability to understand algorithmic analysis
+- [Some career advice](https://lethain.com/career-advice/), Will Larson.
+  - Advice you get is someone’s attempt to synthesize their experiences, not an accurate statement about how the world works.
+  - Build a reservoir of prestige.
+  - Some folks are so good at something that they end up being irreplaceable in their current role, which causes them to get stuck in their role even if they’re a good candidate for more interesting ones.
+  - Great relationships will follow you everywhere you go. Bad ones too.
+  - Early in your career, try to work at as many different kinds of companies and in different product vertical as you can.
 
 ### Characters sets
 
@@ -603,9 +609,13 @@ Articles
 ### Editors & IDE
 
 - [Sublime Text essential plugins and resources](https://github.com/dreikanter/sublime-bookmarks)
-- 🧰 [vim-awesome](http://vimawesome.com/)
 - Bram Moolenaar (Vim author), [Seven habits of effective text editing](http://www.moolenaar.net/habits.html) ([presentation](http://www.moolenaar.net/habits_2007.pdf)). This is about Vim but it contains good lessons about why investing time in learning how to be productive with your text editors pays off.
 - [VScode](https://code.visualstudio.com/) is one of the most popular text editors as of writing. [Visual Studio Code Can Do That?](https://www.smashingmagazine.com/2018/01/visual-studio-code/), Smashing Magazine.
+
+About Vim specifically:
+
+- 🧰 [vim-awesome](http://vimawesome.com/)
+- [A Vim Guide for Advanced Users](https://thevaluable.dev/vim-advanced/)
 
 ### Email
 
@@ -736,7 +746,6 @@ Learn how to learn!
 - [Get better at programming by learning how things work](https://jvns.ca/blog/learn-how-things-work/)
 - [How to teach yourself hard things](https://jvns.ca/blog/2018/09/01/learning-skills-you-can-practice/)
 - [Building Your Own Personal Learning Curriculum](https://www.smashingmagazine.com/2021/02/building-personal-learning-curriculum/)
-- [The Complete Guide to Effective Reading](https://maartenvandoorn.nl/reading-guide/)
 
 Richard Feynman's Learning Strategy:
 
@@ -925,6 +934,8 @@ Rob Pike, [Go at Google: Language Design in the Service of Software Engineering]
 
 - [Papers we love](https://github.com/papers-we-love/papers-we-love): papers from the computer science community to read and discuss. Can be a good source of inspiration of solving your design problems.
 - [The morning paper](https://blog.acolyer.org/): one CS research paper explained every morning.
+- [The Complete Guide to Effective Reading](https://maartenvandoorn.nl/reading-guide/)
+- [The benefits of note-taking by hand](https://www.bbc.com/worklife/article/20200910-the-benefits-of-note-taking-by-hand)
 
 ### Refactoring
 
@@ -1008,6 +1019,7 @@ Testing in production:
   - Three Rs to do every few hours: rotate secrets automatically, repave servers and applications (redeploy on clean footprint), repair vulnerable.
   - Don’t use exceptions for the control flow.
 - [OWASP Top Ten Web Application Security Risks](https://owasp.org/www-project-top-ten/)
+- [ukncsc/zero-trust-architecture: Principles to help you design and deploy a zero trust architecture](https://github.com/ukncsc/zero-trust-architecture)
 
 List of resources:
 
