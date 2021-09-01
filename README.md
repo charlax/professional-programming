@@ -615,7 +615,17 @@ Articles
 About Vim specifically:
 
 - 🧰 [vim-awesome](http://vimawesome.com/)
-- [A Vim Guide for Advanced Users](https://thevaluable.dev/vim-advanced/)
+- ⭐️ [Is Vim Really Not For You? A Beginner Guide](https://thevaluable.dev/vim-beginner/)
+  - The first part of a series of 6 articles with lots of detailed and pratical tips for using Vim efficiently.
+  - [A Vim Guide for Advanced Users](https://thevaluable.dev/vim-advanced/): this one goes into more advanced shortcuts and commands.
+- 📖 [Learning the vi and Vim Editors](https://www.oreilly.com/library/view/learning-the-vi/9780596529833/)
+- 📖 [Practical Vim](https://pragprog.com/titles/dnvim2/practical-vim-second-edition/), Drew Neil
+- [Learn Vimscript the Hard Way](https://learnvimscriptthehardway.stevelosh.com/)
+- [VimGolf](https://www.vimgolf.com/): nice challenges to learn Vim
+- [Vim anti-patterns](https://blog.sanctum.geek.nz/vim-anti-patterns/)
+- [Learn Vim For the Last Time: A Tutorial and Primer](https://danielmiessler.com/study/vim/)
+
+Feel free to check my [vim configuration](https://github.com/charlax/dotfiles/tree/master/vim) and my [vim cheatsheet](https://github.com/charlax/dotfiles/tree/master/vim).
 
 ### Email
 
