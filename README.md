@@ -593,6 +593,7 @@ Check out my [list of management resources](https://github.com/charlax/engineeri
 - [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 - [Architectural Decision Records](https://adr.github.io/): a way to document architecture decision.
 - [The documentation system](https://documentation.divio.com/)
+- [Checklist for checklists](https://www1.nyc.gov/assets/doh/downloads/pdf/em/gawande_checklist.pdf)
 
 > The palest ink is more reliable than the most powerful memory.
 > -- Chinese proverb
@@ -1029,7 +1030,16 @@ Testing in production:
   - Three Rs to do every few hours: rotate secrets automatically, repave servers and applications (redeploy on clean footprint), repair vulnerable.
   - Don’t use exceptions for the control flow.
 - [OWASP Top Ten Web Application Security Risks](https://owasp.org/www-project-top-ten/)
+  - [How to start an AppSec program with the OWASP Top 10](https://owasp.org/Top10/A00_2021-How_to_start_an_AppSec_program_with_the_OWASP_Top_10/)
 - [ukncsc/zero-trust-architecture: Principles to help you design and deploy a zero trust architecture](https://github.com/ukncsc/zero-trust-architecture)
+- 🏙 [Minimum Viable Security](https://speakerdeck.com/jacobian/minimum-viable-security-wharton-web-conference-2015)
+- [The Open Software Assurance Maturity Model](https://www.opensamm.org/)
+
+Training for developers:
+
+- [Hacksplaining](https://www.hacksplaining.com/)
+- [Codebashing](https://free.codebashing.com/)
+- [OWASP Security Knowledge Framework](https://owasp.org/www-project-security-knowledge-framework/)
 
 List of resources:
 
