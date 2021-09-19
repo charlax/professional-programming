@@ -537,6 +537,10 @@ Articles:
 
 > You can use an eraser on the drafting table or a sledge hammer on the construction site. (Frank Lloyd Wright)
 
+Resources:
+
+- 🧰 [Design Principles](https://principles.design/)
+
 #### Design: database schema
 
 - [A humble guide to database schema design](https://www.mikealche.com/software-development/a-humble-guide-to-database-schema-design), Mike Alche
