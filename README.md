@@ -32,6 +32,7 @@
       - [Design: simplicity](#design-simplicity)
     - [Dev environment & tools](#dev-environment--tools)
     - [Diversity & inclusion](#diversity--inclusion)
+    - [Docker](#docker)
     - [Documentation](#documentation)
     - [Dotfiles](#dotfiles)
     - [Editors & IDE](#editors--ide)
@@ -40,6 +41,7 @@
     - [Exercises](#exercises)
     - [Hardware](#hardware)
     - [HTTP](#http)
+    - [Humor](#humor)
     - [Incident response (oncall, alerting, outages, firefighting, postmortem)](#incident-response-oncall-alerting-outages-firefighting-postmortem)
       - [Postmortem](#postmortem)
     - [Internet](#internet)
@@ -589,6 +591,34 @@ Article about tools:
 
 Check out my [list of management resources](https://github.com/charlax/engineering-management).
 
+### Docker
+
+See also the Python-specific section in [charlax/python-education](https://github.com/charlax/python-education#deployment).
+
+- [Best Practices Around Production Ready Web Apps with Docker Compose](https://nickjanetakis.com/blog/best-practices-around-production-ready-web-apps-with-docker-compose)
+  - Avoiding 2 Compose Files for Dev and Prod with an Override File
+  - Reducing Service Duplication with Aliases and Anchors
+  - Defining your `HEALTHCHECK` in Docker Compose not your Dockerfile
+  - Making the most of environment variables
+  - Using Multi-stage builds to optimize image size
+  - Running your container as a non-root user
+- [Docker Best Practices for Python Developers](https://testdriven.io/blog/docker-best-practices/)
+  - Use multi-stage builds
+  - Pay close attention to the order of your Dockerfile commands to leverage layer caching
+  - Smaller Docker images are more modular and secure (watch out for Alpine though)
+  - Minimize the number of layers (`RUN`, `COPY`, `ADD`)
+  - Use unprivileged containers
+  - Prefer `COPY` over `ADD`
+  - Cache python packages to the docker host
+  - Prefer array over string syntax
+  - Understand the difference between `ENTRYPOINT` and `CMD`
+  - Include a `HEALTHCHECK` instruction
+  - Whenever possible, avoid using the `latest` tag.
+  - Don't store secrets in images
+  - Use a `.dockerignore` file (include `**/.git`, etc.)
+  - Lint and Scan Your Dockerfiles and Images (e.g. with `hadolint`)
+  - Log to stdout or stderr
+
 ### Documentation
 
 - [Documentation-Driven Development](https://gist.github.com/zsup/9434452)
@@ -620,6 +650,7 @@ Articles
 About Vim specifically:
 
 - 🧰 [vim-awesome](http://vimawesome.com/)
+- 🎞 [Vimcasts](http://vimcasts.org/)
 - ⭐️ [Is Vim Really Not For You? A Beginner Guide](https://thevaluable.dev/vim-beginner/)
   - The first part of a series of 6 articles with lots of detailed and pratical tips for using Vim efficiently.
   - [A Vim Guide for Advanced Users](https://thevaluable.dev/vim-advanced/): this one goes into more advanced shortcuts and commands.
@@ -629,6 +660,7 @@ About Vim specifically:
 - [VimGolf](https://www.vimgolf.com/): nice challenges to learn Vim
 - [Vim anti-patterns](https://blog.sanctum.geek.nz/vim-anti-patterns/)
 - [Learn Vim For the Last Time: A Tutorial and Primer](https://danielmiessler.com/study/vim/)
+- [Vim Cheat Sheet & Quick Reference](https://quickref.me/vim)
 
 Feel free to check my [vim configuration](https://github.com/charlax/dotfiles/tree/master/vim) and my [vim cheatsheet](https://github.com/charlax/dotfiles/tree/master/vim).
 
@@ -664,6 +696,13 @@ Practice:
 
 - [Choosing an HTTP Status Code — Stop Making It Hard](https://www.codetinkerer.com/2015/12/04/choosing-an-http-status-code.html)
 - [HTTPWTF](https://httptoolkit.tech/blog/http-wtf/)
+
+### Humor
+
+- [The Jeff Dean Facts](https://www.informatika.bg/jeffdean)
+  - Compilers don't warn Jeff Dean. Jeff Dean warns compilers.
+  - Unsatisfied with constant time, Jeff Dean created the world's first `O(1/N)` algorithm.
+  - Jeff Dean mines bitcoins. In his head.
 
 ### Incident response (oncall, alerting, outages, firefighting, postmortem)
 
@@ -1278,6 +1317,8 @@ End-to-end tests:
     - You do not live in a video game. There are no pop-up warnings if you’re about to do something foolish, or if you’ve been going in the wrong direction for too long. You have to create your own warnings.
     - Cultivate a reputation for being dependable. Good reputations are valuable because they’re rare (easily destroyed and hard to rebuild). You don’t have to brew the most amazing coffee if your customers know the coffee will always be hot.
     - Compliment people more. Many people have trouble thinking of themselves as smart, or pretty, or kind, unless told by someone else. You can help them out.
+
+> "Do what you love until you love to Do" I often think about the “Read what you love until you love to read” comment from @naval, and this is a good generalization. My experience has been that it is easier to educate a Do-er than to motivate the educated; you have to believe you can Do before you embark on an effort. – John Carmack
 
 ### Web development
 
