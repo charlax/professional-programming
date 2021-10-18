@@ -800,6 +800,10 @@ Learn how to learn!
 - [Get better at programming by learning how things work](https://jvns.ca/blog/learn-how-things-work/)
 - [How to teach yourself hard things](https://jvns.ca/blog/2018/09/01/learning-skills-you-can-practice/)
 - [Building Your Own Personal Learning Curriculum](https://www.smashingmagazine.com/2021/02/building-personal-learning-curriculum/)
+- [Always do Extra](http://www.bennorthrop.com/Essays/2021/always-do-extra.php)
+  - Extra is finishing those two screens, but then researching a new library for form validation that might reduce the boilerplate code.
+  - Extra must be balanced against Normal Work.
+  - Extra must be aligned with your Normal Work.
 
 Richard Feynman's Learning Strategy:
 
