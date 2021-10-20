@@ -753,6 +753,7 @@ Note: this is about you as an interviewee, **not** as an interviewer. To check o
 - [A complete computer science study plan to become a software engineer](https://github.com/jwasham/coding-interview-university)
 - [Interview advice that got me offers from Google, Microsoft, and Stripe](https://www.zainrizvi.io/blog/the-interviewing-advice-no-one-shares/)
 - [The Red Flags on Your Resume](https://danicfilip.com/2020/red-flags-on-your-resume/?ck_subscriber_id=887770473)
+- [A framework for grading your performance on programming interview problems](https://docs.google.com/spreadsheets/d/1gy9cmPwNhZvola7kqnfY3DElk7PYrz2ARpaCODTp8Go/htmlview?pru=AAABfLx5bfQ*dDBm6wJC2BsJGIrDvJfFQw)
 
 See also the exercises section in this document.
 
@@ -1354,6 +1355,9 @@ End-to-end tests:
   - Powerpoint-style presentations somehow give permission to gloss over ideas, flatten out any sense of relative importance, and ignore the interconnectedness of ideas.
 
 ![Write like an Amazonian](./images/amazon_writing_rules.jpeg)
+
+> If you’re overthinking, write. If you’re underthinking, read.
+> – @AlexAndBooks_
 
 ### Writing for performance
 
