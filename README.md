@@ -128,7 +128,7 @@ There are some free books available, including:
 
 - 📖 [Professional software development](http://mixmastamyk.bitbucket.io/pro_soft_dev/): pretty complete and a good companion to this page. The free chapters are mostly focused on software development processes: design, testing, code writing, etc. - and not so much about tech itself.
 - 🧰 [vhf/free-programming-books](https://github.com/vhf/free-programming-books)
-- 🧰 [EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books/blob/master/books/free-programming-books.md)
+- 🧰 [EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books)
 
 ## Must-read articles
 
@@ -522,7 +522,7 @@ One of the absolute references on architecture is Martin Fowler: checkout his [S
 
 Articles:
 
-- O'Reilly's [How to make mistakes in Python](http://www.oreilly.com/programming/free/files/how-to-make-mistakes-in-python.pdf)
+- O'Reilly's [How to make mistakes in Python](https://www.oreilly.com/library/view/how-to-make/9781492048275/)
 - [Education of a Programmer](https://hackernoon.com/education-of-a-programmer-aaecf2d35312): a developer's thoughts after 35 years in the industry. There's a particularly good section about design & complexity (see "the end to end argument", "layering and componentization").
 - [Domain-driven design](https://en.wikipedia.org/wiki/Domain-driven_design), Wikipedia.
 - [On the Spectrum of Abstraction](https://www.youtube.com/watch?v=mVVNJKv9esE) 🎞, Cheng Lou
@@ -1058,6 +1058,7 @@ Testing in production:
     - Implement per-request-class backpressure
     - Have proper visibility from a client/end-user standpoint (client-side metrics)
 - [Testing in Production, the safe way](https://medium.com/@copyconstruct/testing-in-production-the-safe-way-18ca102d0ef1)
+- [Brief guide to unit testing](https://logit.io/blog/post/unit-testing-best-practices-common-questions-answered)
 
 ### Security
 
@@ -1235,7 +1236,7 @@ Resources:
 - [Fixing Technical Debt with an Engineering Allocation Framework](https://docs.google.com/presentation/d/16WU1cxG02jnVGQ5byviw3_Q0ILDPZPYtTvU91_210T0/edit#slide=id.p)
     - You don't need to stop shipping features to fix technical debt
     - Communicate the business value
-- [Ur-Technical Debt](https://www.georgefairbanks.com/ieee-software-v32-n4-july-2020-ur-technical-debt)
+- [Ur-Technical Debt](https://www.georgefairbanks.com/ieee-software-v37-n4-july-2020-ur-technical-debt)
     - Today, any code that a developer dislikes is branded as technical debt.
     - Ward Cunningham invented the debt metaphor to explain to his manager that building iteratively gave them working code faster, much like borrowing money to start a project, but that it was essential to keep paying down the debt, otherwise the interest payments would grind the project to a halt.
     - Ur-technical debt is generally not detectable by static analysis.
