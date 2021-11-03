@@ -1012,6 +1012,7 @@ Rob Pike, [Go at Google: Language Design in the Service of Software Engineering]
 - [BlueGreenDeployment](http://martinfowler.com/bliki/BlueGreenDeployment.html), Martin Fowler
 - [Move fast and break nothing](https://zachholman.com/talk/move-fast-break-nothing/), Zach Holman
 - 🏙 [Move fast and don't break things](https://docs.google.com/presentation/d/15gNk21rjer3xo-b1ZqyQVGebOp_aPvHU3YH7YnOMxtE/edit#slide=id.g437663ce1_53_591), Google
+- [Semantic Versioning](https://semver.org/)
 
 Checklists:
 
@@ -1290,6 +1291,7 @@ End-to-end tests:
 - [Git from the inside out](https://codewords.recurse.com/issues/two/git-from-the-inside-out)
 - [Oh Shit, Git!?!](https://ohshitgit.com/)
 - [Git Merge vs. Rebase: What’s the Diff?](https://hackernoon.com/git-merge-vs-rebase-whats-the-diff-76413c117333)
+- [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
 
 ### Work ethics, productivity & work/life balance
 
