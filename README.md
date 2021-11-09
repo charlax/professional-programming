@@ -1290,8 +1290,11 @@ End-to-end tests:
 - [git-tips](https://github.com/git-tips/tips)
 - [Git from the inside out](https://codewords.recurse.com/issues/two/git-from-the-inside-out)
 - [Oh Shit, Git!?!](https://ohshitgit.com/)
-- [Git Merge vs. Rebase: What’s the Diff?](https://hackernoon.com/git-merge-vs-rebase-whats-the-diff-76413c117333)
 - [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
+- [Git Merge vs. Rebase: What’s the Diff?](https://hackernoon.com/git-merge-vs-rebase-whats-the-diff-76413c117333)
+- 🏙[Story-telling with Git rebase](https://speakerdeck.com/aemeredith/story-telling-with-git-rebase)
+- 🏙[Git Rebase vs. Merge](https://speakerdeck.com/mrfoto/git-rebase-vs-merge)
+- 🏙[10 Git Anti Patterns You Should be Aware of](https://speakerdeck.com/lemiorhan/10-git-anti-patterns-you-should-be-aware-of)
 
 ### Work ethics, productivity & work/life balance
 
