@@ -494,6 +494,7 @@ I highly recommend reading [The Non-Designer's Design Book](http://www.amazon.co
 - If you're working on data, Edward Tufte's [The Visual Display of Quantitative Information](http://www.amazon.com/Visual-Display-Quantitative-Information/dp/0961392142/ref=sr_1_1?ie=UTF8&qid=1458046603&sr=8-1&keywords=tufte) is considered a classic.
 - The [Universal Principles of Design](http://www.amazon.com/Universal-Principles-Design-Revised-Updated/dp/1592535879/ref=sr_1_1?ie=UTF8&qid=1458046663&sr=8-1&keywords=universal+principles+of+design) will give you enough vocabulary and concepts to describe design challenges into words.
 - [Book recommendations from HackerNews](https://news.ycombinator.com/item?id=12711060)
+- 🏙[Design for Non-Designers](https://speakerdeck.com/tracymakes/design-for-non-designers-beyond-tellerand-dusseldorf-2018)
 
 Articles :
 
