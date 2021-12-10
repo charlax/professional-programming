@@ -880,6 +880,7 @@ Richard Feynman's Learning Strategy:
     - USE Method (from Brendan Gregg): Utilization, Saturation, and Errors
     - RED Method (from Tom Wilkie): Rate, Errors, and Duration
 - [Simple Anomaly Detection Using Plain SQL](https://hakibenita.com/sql-anomaly-detection)
+- [Squadcast- End to end incident management platform](https://squadcast.com)
 
 ### Perspective
 
