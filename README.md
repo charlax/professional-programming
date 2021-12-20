@@ -580,6 +580,7 @@ Tools
 - [htop explained](https://peteris.rocks/blog/htop/)
 - [socat](https://copyconstruct.medium.com/socat-29453e9fc8a6)
 - [Visual guide to SSH tunnels](https://robotmoon.com/ssh-tunnels/)
+- [casey/just](https://github.com/casey/just/): a command runner written in Rust (claims to be better than Makefile)
 
 Article about tools:
 
