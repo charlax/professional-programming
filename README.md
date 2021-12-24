@@ -306,6 +306,9 @@ More specific topics:
 - [Warren Buffett Says This 1 Simple Habit Separates Successful People From Everyone Else](https://www.inc.com/marcel-schwantes/warren-buffett-says-this-is-1-simple-habit-that-separates-successful-people-from-everyone-else.html)
   - The difference between successful people and really successful people is that really successful people say no to almost everything.
 - [How to get lucky?](https://jjude.com/luck)
+- [Programmers should stop celebrating incompetence](https://world.hey.com/dhh/programmers-should-stop-celebrating-incompetence-de1a4725), DHH
+  - The magic of programming is largely just things you don't know yet.
+  - It's not fine to think you shouldn't be on some paths towards mastery, if you intend to make programming your career.
 
 > Imposter syndrome is underrated: a lot of talk goes into overcoming imposter syndrome. I say embrace self-skepticism and doubt yourself every day. In a fast-moving industry where lots of your knowledge expires every year, even the most junior people around you constantly cook up skills you don't have; you stay competitive by applying with the determination (and even fear) of the novice. The upside of this treadmill is that every engineer is on it: just because you're an imposter doesn't mean that other people are more deserving than you, because they're imposters too. You should advocate for yourself, take risks, pat yourself on the back when things go well, and, as you start to build a track record of solving problems, trust your skills and adaptability. Just make no mistake: you're only as good as the last problem you solve.
 
@@ -1109,6 +1112,7 @@ List of resources:
 - [Minimal safe Bash script template](https://betterdev.blog/minimal-safe-bash-script-template/)
 - [Command Line Interface Guidelines](https://clig.dev/)
 - [The Linux Commands Handbook](https://openbootcamps.com/the-linux-commands-handbook/)
+- [How to write idempotent Bash scripts](https://arslan.io/2019/07/03/how-to-write-idempotent-bash-scripts/)
 
 ### SQL
 
