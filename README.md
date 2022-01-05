@@ -399,6 +399,12 @@ Biases don't only apply to hiring. For instance, the fundamental attribution bia
     - Award all ties to your reviewer
     - Minimize lag between rounds of review
 - [How to Do Code Reviews Like a Human](https://mtlynch.io/human-code-reviews-1/)
+- [Ask HN: How do you review code?](https://news.ycombinator.com/item?id=11416746): great discussion on HackerNews, full of interesting ideas.
+- [Maslow's pyramid of code reviews](http://www.dein.fr/2015-02-18-maslows-pyramid-of-code-review.html)
+- [Code review in remote teams](https://web.hypothes.is/blog/code-review-in-remote-teams/): very complete set of rules.
+- [No code reviews by default](https://www.raycast.com/blog/no-code-reviews-by-default/)
+  - Responsibility over convention
+
 
 ### Coding & code quality
 
