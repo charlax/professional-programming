@@ -740,7 +740,32 @@ Practice:
 - [A list of postmortems on Github](https://github.com/danluu/post-mortems)
 - Google's SRE book, [Postmortem chapter](https://landing.google.com/sre/workbook/chapters/postmortem-culture/) is excellent and includes many examples.
 
-Dan Milstein, “Let’s plan for a future where we’re all as stupid as we are today.”
+> "Let’s plan for a future where we’re all as stupid as we are today."
+>
+> – Dan Milstein
+
+Example outline for a postmortem:
+
+- Executive Summary
+  - Impact
+  - Root cause
+- Impact
+  - Number of impacted users
+  - Lost revenue
+  - Duration
+  - Team impact
+- Timeline
+  - Detection
+  - Resolution
+- Root cause analysis
+  - E.g. with 5 whys method
+- Lessons learned
+  - Things that went well
+  - Things that went poorly
+- Action items (include direct links to task tracking tool)
+  - Tasks to improve prevention (including training)
+  - Tasks to improve detection (including monitoring and alerting)
+  - Tasks to improve mitigation (including emergency response)
 
 ### Internet
 
