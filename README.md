@@ -1048,7 +1048,13 @@ Rob Pike, [Go at Google: Language Design in the Service of Software Engineering]
 - [BlueGreenDeployment](http://martinfowler.com/bliki/BlueGreenDeployment.html), Martin Fowler
 - [Move fast and break nothing](https://zachholman.com/talk/move-fast-break-nothing/), Zach Holman
 - 🏙 [Move fast and don't break things](https://docs.google.com/presentation/d/15gNk21rjer3xo-b1ZqyQVGebOp_aPvHU3YH7YnOMxtE/edit#slide=id.g437663ce1_53_591), Google
+
+Versioning:
+
 - [Semantic Versioning](https://semver.org/)
+- [Calendar Versioning — CalVer](https://calver.org/)
+- [Semantic Versioning Will Not Save You](https://hynek.me/articles/semver-will-not-save-you/)
+- [Version numbers: how to use them? · Tech articles by Bernát Gábor](https://bernat.tech/posts/version-numbers/)
 
 Checklists:
 
