@@ -39,6 +39,7 @@
     - [Email](#email)
     - [Engineering management](#engineering-management)
     - [Exercises](#exercises)
+    - [Functional programming (FP)](#functional-programming-fp)
     - [Hardware](#hardware)
     - [HTTP](#http)
     - [Humor](#humor)
@@ -59,7 +60,6 @@
     - [Programming languages](#programming-languages)
       - [Python](#python)
       - [JavaScript](#javascript)
-      - [Functional programming](#functional-programming)
     - [Programming paradigm](#programming-paradigm)
     - [Operating system](#operating-system)
     - [Over-engineering](#over-engineering)
@@ -699,6 +699,27 @@ Practice:
 - [CodinGame](https://www.codingame.com/start)
 - [Codewars](https://www.codewars.com/)
 
+### Functional programming (FP)
+
+- [Jargon from the functional programming world](https://github.com/hemanth/functional-programming-jargon)
+- [Goodbye, Object Oriented Programming](https://medium.com/@cscalfani/goodbye-object-oriented-programming-a59cda4c0e53#.39ax09e4k)
+- [Functional Programming & Haskell](https://www.youtube.com/watch?v=LnX3B9oaKzw) 🎞: some good reasons to learn FP!
+- [Functional Programming Fundamentals](https://www.matthewgerstman.com/functional-programming-fundamentals/): short introduction to FP and its advantages.
+- [OO vs FP](https://blog.cleancoder.com/uncle-bob/2014/11/24/FPvsOO.html), Robert C. Martin, The Clean Code Blog. A pretty interesting take on the differences between OOP and FP from an expert in OOP.
+  - OO is not about state. Objects are bags of functions, not bags of data.
+  - Functional Programs, like OO Programs, are composed of functions that operate on data.
+  - FP imposes discipline upon assignment.
+  - OO imposes discipline on function pointers.
+  - The principles of software design still apply, regardless of your programming style. The fact that you’ve decided to use a language that doesn’t have an assignment operator does not mean that you can ignore the Single Responsibility Principle.
+- [Parse, don’t validate](https://lexi-lambda.github.io/blog/2019/11/05/parse-don-t-validate/)
+  - Use a data structure that makes illegal states unrepresentable
+  - Push the burden of proof upward as far as possible, but no further
+  - Let your datatypes inform your code, don’t let your code control your datatypes
+  - Don’t be afraid to parse data in multiple passes
+  - Avoid denormalized representations of data, especially if it’s mutable
+  - Use abstract datatypes to make validators “look like” parsers
+- 🏙 [Functional Programming](https://speakerdeck.com/igstan/functional-programming)
+
 ### Hardware
 
 - [NandGame](https://nandgame.com/): build a computer from scratch.
@@ -973,26 +994,6 @@ For Python feel free to checkout my [professional Python education repository](h
 JavaScript is such a pervasive language that it's almost required learning.
 
 - [mbeaudru/modern-js-cheatsheet](https://github.com/mbeaudru/modern-js-cheatsheet): cheatsheet for the JavaScript knowledge you will frequently encounter in modern projects.
-
-#### Functional programming
-
-- [Jargon from the functional programming world](https://github.com/hemanth/functional-programming-jargon)
-- [Goodbye, Object Oriented Programming](https://medium.com/@cscalfani/goodbye-object-oriented-programming-a59cda4c0e53#.39ax09e4k)
-- [Functional Programming & Haskell](https://www.youtube.com/watch?v=LnX3B9oaKzw) 🎞: some good reasons to learn FP!
-- [Functional Programming Fundamentals](https://www.matthewgerstman.com/functional-programming-fundamentals/): short introduction to FP and its advantages.
-- [OO vs FP](https://blog.cleancoder.com/uncle-bob/2014/11/24/FPvsOO.html), Robert C. Martin, The Clean Code Blog. A pretty interesting take on the differences between OOP and FP from an expert in OOP.
-  - OO is not about state. Objects are bags of functions, not bags of data.
-  - Functional Programs, like OO Programs, are composed of functions that operate on data.
-  - FP imposes discipline upon assignment.
-  - OO imposes discipline on function pointers.
-  - The principles of software design still apply, regardless of your programming style. The fact that you’ve decided to use a language that doesn’t have an assignment operator does not mean that you can ignore the Single Responsibility Principle.
-- [Parse, don’t validate](https://lexi-lambda.github.io/blog/2019/11/05/parse-don-t-validate/)
-  - Use a data structure that makes illegal states unrepresentable
-  - Push the burden of proof upward as far as possible, but no further
-  - Let your datatypes inform your code, don’t let your code control your datatypes
-  - Don’t be afraid to parse data in multiple passes
-  - Avoid denormalized representations of data, especially if it’s mutable
-  - Use abstract datatypes to make validators “look like” parsers
 
 ### Programming paradigm
 
