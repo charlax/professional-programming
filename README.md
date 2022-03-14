@@ -494,7 +494,8 @@ NoSQL:
 - [Linux Performance Analysis in 60,000 Milliseconds](http://techblog.netflix.com/2015/11/linux-performance-analysis-in-60s.html)
 - [Post-Mortems at HubSpot: What I Learned From 250 Whys](https://product.hubspot.com/blog/bid/64771/post-mortems-at-hubspot-what-i-learned-from-250-whys)
 - [Debugging zine](https://jvns.ca/debugging-zine.pdf), Julian Evans
-- [if you understand a bug, you can fix it](https://wizardzines.com/comics/understand-can-fix/)
+- [If you understand a bug, you can fix it](https://wizardzines.com/comics/understand-can-fix/)
+- [The Thirty Minute Rule](https://daniel.feldroy.com/posts/thirty-minute-rule): if anyone gets stuck on something for more than 30 minutes, they should ask for help
 
 ### Design (visual, UX, UI, typography)
 
