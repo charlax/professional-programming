@@ -496,6 +496,7 @@ NoSQL:
 - [Debugging zine](https://jvns.ca/debugging-zine.pdf), Julian Evans
 - [If you understand a bug, you can fix it](https://wizardzines.com/comics/understand-can-fix/)
 - [The Thirty Minute Rule](https://daniel.feldroy.com/posts/thirty-minute-rule): if anyone gets stuck on something for more than 30 minutes, they should ask for help
+- [How to create a Minimal, Reproducible Example ](https://stackoverflow.com/help/minimal-reproducible-example), Stack Overflow
 
 ### Design (visual, UX, UI, typography)
 
