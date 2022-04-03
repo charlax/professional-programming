@@ -1160,6 +1160,7 @@ List of resources:
 - [Best practices for writing SQL queries](https://www.metabase.com/learn/building-analytics/sql-templates/sql-best-practices)
 - [Practical SQL for Data Analysis](https://hakibenita.com/sql-for-data-analysis)
 - [Reasons why SELECT * is bad for SQL performance](https://tanelpoder.com/posts/reasons-why-select-star-is-bad-for-sql-performance/)
+- [Animate SQL](https://animatesql.com/)
 
 ### System administration
 
