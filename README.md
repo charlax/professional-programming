@@ -12,6 +12,7 @@
     - [Algorithm and data structures](#algorithm-and-data-structures)
     - [API design & development](#api-design--development)
     - [Attitude, habits, mindset](#attitude-habits-mindset)
+  - [Authentication/authorization](#authenticationauthorization)
     - [Automation](#automation)
     - [Biases](#biases)
     - [Cache](#cache)
@@ -315,6 +316,10 @@ More specific topics:
 Dan Heller, Building a Career in Software
 
 > I had learned already never to empty the well of my writing, but always to stop when there was still something there in the deep part of the well, and let it refill at night from the springs that fed it. -- Ernest Hemingway
+
+## Authentication/authorization
+
+- [Authorization in a microservices world](https://www.alexanderlolis.com/authorization-in-a-microservices-world)
 
 ### Automation
 
