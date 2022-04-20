@@ -12,12 +12,13 @@
     - [Algorithm and data structures](#algorithm-and-data-structures)
     - [API design & development](#api-design--development)
     - [Attitude, habits, mindset](#attitude-habits-mindset)
-  - [Authentication/authorization](#authenticationauthorization)
+    - [Authentication/authorization](#authenticationauthorization)
     - [Automation](#automation)
     - [Biases](#biases)
     - [Cache](#cache)
     - [Career growth](#career-growth)
     - [Characters sets](#characters-sets)
+    - [Clouds](#clouds)
     - [Code reviews](#code-reviews)
     - [Coding & code quality](#coding--code-quality)
     - [Compilers](#compilers)
@@ -66,6 +67,7 @@
     - [Over-engineering](#over-engineering)
     - [Reading](#reading)
     - [Refactoring](#refactoring)
+    - [Regex](#regex)
     - [Releasing & deploying](#releasing--deploying)
     - [Security](#security)
     - [Shell (command line)](#shell-command-line)
@@ -233,6 +235,7 @@ Let's be honest: algorithms can be a pretty dry topic. [This quora question](htt
 
 - [Grokking Algorithms](https://www.amazon.com/dp/1617292230/ref=cm_sw_su_dp)
 - [Essential Algorithms](https://www.amazon.com/Essential-Algorithms-Practical-Approach-Computer/dp/1118612108?ie=UTF8&*Version*=1&*entries*=0)
+- [Data Structure Visualization](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html)
 
 Example implementations:
 
@@ -257,6 +260,8 @@ More specific topics:
 
 - [Why you should use links, not keys, to represent relationships in APIs](https://cloud.google.com/blog/products/application-development/api-design-why-you-should-use-links-not-keys-to-represent-relationships-in-apis), Martin Nally, Google
     - "Using links instead of foreign keys to express relationships in APIs reduces the amount of information a client needs to know to use an API, and reduces the ways in which clients and servers are coupled to each other."
+- [Give me /events, not webhooks](https://blog.sequin.io/events-not-webhooks/)
+  - Events can unlock much-needed webhook features, like allowing your webhook consumers to replay or reset the position of their webhook subscription.
 
 ### Attitude, habits, mindset
 
@@ -317,7 +322,7 @@ Dan Heller, Building a Career in Software
 
 > I had learned already never to empty the well of my writing, but always to stop when there was still something there in the deep part of the well, and let it refill at night from the springs that fed it. -- Ernest Hemingway
 
-## Authentication/authorization
+### Authentication/authorization
 
 - [Authorization in a microservices world](https://www.alexanderlolis.com/authorization-in-a-microservices-world)
 
@@ -387,6 +392,10 @@ Biases don't only apply to hiring. For instance, the fundamental attribution bia
 ### Characters sets
 
 - [The Absolute Minimum Every Software Developer Absolutely, Positively Must Know About Unicode and Character Sets (No Excuses!)](http://www.joelonsoftware.com/articles/Unicode.html)
+
+### Clouds
+
+- [open-guides/og-aws](https://github.com/open-guides/og-aws): a practical guide to AWS
 
 ### Code reviews
 
@@ -553,6 +562,7 @@ Articles:
   - Jon Postel: "Be conservative in what you do, be liberal in what you accept from others." (RFC 793)
   - Two general problem areas are impacted by the Robustness Principle: orderly interoperability and security.
 - [Basics of the Unix Philosophy](http://catb.org/esr/writings/taoup/html/ch01s06.html#id2877610), Eric S Raymond
+- [Eight Habits of Expert Software Designers: An Illustrated Guide](https://thereader.mitpress.mit.edu/habits-of-expert-software-designers/)
 
 > You can use an eraser on the drafting table or a sledge hammer on the construction site. (Frank Lloyd Wright)
 
@@ -646,6 +656,7 @@ See also the Python-specific section in [charlax/python-education](https://githu
 - [Architectural Decision Records](https://adr.github.io/): a way to document architecture decision.
 - [The documentation system](https://documentation.divio.com/)
 - [Checklist for checklists](https://www1.nyc.gov/assets/doh/downloads/pdf/em/gawande_checklist.pdf)
+- [Best practices for writing code comments](https://stackoverflow.blog/2021/12/23/best-practices-for-writing-code-comments/)
 
 > The palest ink is more reliable than the most powerful memory.
 > -- Chinese proverb
@@ -664,6 +675,7 @@ Articles
 - [Sublime Text essential plugins and resources](https://github.com/dreikanter/sublime-bookmarks)
 - Bram Moolenaar (Vim author), [Seven habits of effective text editing](http://www.moolenaar.net/habits.html) ([presentation](http://www.moolenaar.net/habits_2007.pdf)). This is about Vim but it contains good lessons about why investing time in learning how to be productive with your text editors pays off.
 - [VScode](https://code.visualstudio.com/) is one of the most popular text editors as of writing. [Visual Studio Code Can Do That?](https://www.smashingmagazine.com/2018/01/visual-studio-code/), Smashing Magazine.
+- [Coding with Character](https://realdougwilson.com/writing/coding-with-character)
 
 About Vim specifically:
 
@@ -904,6 +916,7 @@ Richard Feynman's Learning Strategy:
   - I think that some of the biggest mistakes people make even at the highest architectural levels come from having a weak or broken understanding of a few simple things at the very lowest levels.
 - [What's in a Linux executable?](https://fasterthanli.me/series/making-our-own-executable-packer/part-1)
 - 📖 [The Elements of Computing Systems](https://www.nand2tetris.org/book): building a modern computer from first principles (nand2tetris).
+- [Old pattern powering modern tech](https://softwarebits.substack.com/p/old-pattern-powering-modern-tech?s=r)
 
 ### Network
 
@@ -1049,6 +1062,10 @@ Rob Pike, [Go at Google: Language Design in the Service of Software Engineering]
 - [Refactor vs. Rewrite](https://remesh.blog/refactor-vs-rewrite-7b260e80277a)
 - [Tripping over the potholes in too many libraries](https://blog.carlmjohnson.net/post/2020/avoid-dependencies/)
 
+### Regex
+
+- [The Best Regex Trick](http://rexegg.com/regex-best-trick.html)
+
 ### Releasing & deploying
 
 - [How we release so frequently](http://engineering.skybettingandgaming.com/2016/02/02/how-we-release-so-frequently/)
@@ -1133,6 +1150,8 @@ Testing in production:
 - [ukncsc/zero-trust-architecture: Principles to help you design and deploy a zero trust architecture](https://github.com/ukncsc/zero-trust-architecture)
 - 🏙 [Minimum Viable Security](https://speakerdeck.com/jacobian/minimum-viable-security-wharton-web-conference-2015)
 - [The Open Software Assurance Maturity Model](https://www.opensamm.org/)
+- [Security by Obscurity is Underrated](https://utkusen.com/blog/security-by-obscurity-is-underrated)
+- [Don’t Wanna Pay Ransom Gangs? Test Your Backups](https://krebsonsecurity.com/2021/07/dont-wanna-pay-ransom-gangs-test-your-backups/), Krebs on Security
 
 Training for developers:
 
@@ -1426,6 +1445,7 @@ More specific topics:
 - [It's time to start writing](https://alexnixon.github.io/2019/12/10/writing.html) explains why Jeff Bezos banned PowerPoint at Amazon.
   - The reason writing a good 4 page memo is harder than "writing" a 20 page powerpoint is because the narrative structure of a good memo forces better thought and better understanding of what's more important than what, and how things are related.
   - Powerpoint-style presentations somehow give permission to gloss over ideas, flatten out any sense of relative importance, and ignore the interconnectedness of ideas.
+- [Programming and Writing](http://antirez.com/news/135), Antirez
 
 ![Write like an Amazonian](./images/amazon_writing_rules.jpeg)
 
