@@ -69,6 +69,7 @@
     - [Refactoring](#refactoring)
     - [Regex](#regex)
     - [Releasing & deploying](#releasing--deploying)
+    - [Search](#search)
     - [Security](#security)
     - [Shell (command line)](#shell-command-line)
     - [SQL](#sql)
@@ -193,6 +194,7 @@ There are some free books available, including:
 - [TechYaks](https://techyaks.com/): list of talks
 - [Talks that changed the way I think about programming](http://www.opowell.com/post/talks-that-changed-the-way-i-think-about-programming/)
 - [What every computer science major should know](http://matt.might.net/articles/what-cs-majors-should-know/)
+- [kamranahmedse/developer-roadmap](https://github.com/kamranahmedse/developer-roadmap)
 
 List of axioms:
 
@@ -210,6 +212,8 @@ List of axioms:
   - If you don't understand a system you're using, you don't control it. If nobody understands the system, the system is in control.
 - [Embedded Rules of Thumb](https://embeddedartistry.com/blog/2018/04/26/embedded-rules-of-thumb/)
 - [50 Ideas That Changed My Life](https://www.perell.com/blog/50-ideas-that-changed-my-life)
+- [Reflections on 10,000 Hours of Programming](https://matt-rickard.com/reflections-on-10-000-hours-of-programming/)
+- [20 Things I've Learned in my 20 Years as a Software Engineer](https://www.simplethread.com/20-things-ive-learned-in-my-20-years-as-a-software-engineer/)
 
 ### Courses
 
@@ -388,6 +392,7 @@ Biases don't only apply to hiring. For instance, the fundamental attribution bia
   - Some folks are so good at something that they end up being irreplaceable in their current role, which causes them to get stuck in their role even if they’re a good candidate for more interesting ones.
   - Great relationships will follow you everywhere you go. Bad ones too.
   - Early in your career, try to work at as many different kinds of companies and in different product vertical as you can.
+- [Evil tip: avoid "easy" things](http://yosefk.com/blog/evil-tip-avoid-easy-things.html)
 
 ### Characters sets
 
@@ -657,6 +662,11 @@ See also the Python-specific section in [charlax/python-education](https://githu
 - [The documentation system](https://documentation.divio.com/)
 - [Checklist for checklists](https://www1.nyc.gov/assets/doh/downloads/pdf/em/gawande_checklist.pdf)
 - [Best practices for writing code comments](https://stackoverflow.blog/2021/12/23/best-practices-for-writing-code-comments/)
+- [Always be quitting](https://jmmv.dev/2021/04/always-be-quitting.html)
+  - Document your knowledge
+  - Train your replacement
+  - Delegate
+  - By being disposable, you free yourself to work on high-impact projects.
 
 > The palest ink is more reliable than the most powerful memory.
 > -- Chinese proverb
@@ -712,6 +722,8 @@ The best way to learn is to learn by doing.
 - [The elevator programming game](http://play.elevatorsaga.com/)
 - [Challenging projects every programmer should try](http://web.eecs.utk.edu/~azh/blog/challengingprojects.html): text editor, space invaders, compiler (Tiny Basic), mini OS, spreadsheet, video game console emulator.
 - [More challenging projects every programmer should try](https://web.eecs.utk.edu/~azh/blog/morechallengingprojects.html): ray tracer, key-value store web API, web browser, stock trading bot.
+- [Let’s Build a Regex Engine](https://kean.blog/post/lets-build-regex)
+- [Write a time-series database engine from scratch](https://nakabonne.dev/posts/write-tsdb-from-scratch/)
 
 Practice:
 
@@ -738,10 +750,12 @@ Practice:
   - Avoid denormalized representations of data, especially if it’s mutable
   - Use abstract datatypes to make validators “look like” parsers
 - 🏙 [Functional Programming](https://speakerdeck.com/igstan/functional-programming)
+- [Monads in 15 minutes](https://nikgrozev.com/2013/12/10/monads-in-15-minutes/)
 
 ### Hardware
 
 - [NandGame](https://nandgame.com/): build a computer from scratch.
+- [What Every Programmer Should Know About SSDs](http://databasearchitects.blogspot.com/2021/06/what-every-programmer-should-know-about.html)
 
 ### HTTP
 
@@ -772,6 +786,7 @@ Practice:
   - The Curse of Knowledge is a cognitive bias that occurs when someone is communicating with others and unknowingly assumes the level of knowledge of the people they are communicating with.
   - Make your content easy to glance over.
   - If a script is longer than a single line, treat it like code, and check it into a repository to be source control and potentially tested.
+- [Incident Review and Postmortem Best Practices](https://newsletter.pragmaticengineer.com/p/incident-review-best-practices?s=r), Gergely Orosz
 
 #### Postmortem
 
@@ -830,6 +845,8 @@ Note: this is about you as an interviewee, **not** as an interviewer. To check o
 - [Interview advice that got me offers from Google, Microsoft, and Stripe](https://www.zainrizvi.io/blog/the-interviewing-advice-no-one-shares/)
 - [The Red Flags on Your Resume](https://danicfilip.com/2020/red-flags-on-your-resume/?ck_subscriber_id=887770473)
 - [A framework for grading your performance on programming interview problems](https://docs.google.com/spreadsheets/d/1gy9cmPwNhZvola7kqnfY3DElk7PYrz2ARpaCODTp8Go/htmlview?pru=AAABfLx5bfQ*dDBm6wJC2BsJGIrDvJfFQw)
+- [Preparing for the Systems Design and Coding Interview](https://blog.pragmaticengineer.com/preparing-for-the-systems-design-and-coding-interviews/), Gergely Orosz
+- [What I Learned from Doing 60+ Technical Interviews in 30 Days](https://meekg33k.dev/what-i-learned-from-doing-60-technical-interviews-in-30-days)
 
 See also the exercises section in this document.
 
@@ -881,6 +898,15 @@ Learn how to learn!
   - Extra is finishing those two screens, but then researching a new library for form validation that might reduce the boilerplate code.
   - Extra must be balanced against Normal Work.
   - Extra must be aligned with your Normal Work.
+- [Against 3X Speed](https://perell.com/essay/against-3x-speed/)
+  - Lectures are most effective when they’re only a component of the classroom experience
+  - Learning is about spaced repetition, not binge-reading books
+- [The Problems with Deliberate Practice](https://commoncog.com/blog/the-problems-with-deliberate-practice/)
+
+About Zettelkasten and PKM (personal knowledge management):
+
+- [Zettelkasten Method](https://zettelkasten.de/posts/overview/)
+- [How to build a second brain as a software developer](https://aseemthakar.com/how-to-build-a-second-brain-as-a-software-developer/)
 
 Richard Feynman's Learning Strategy:
 
@@ -956,6 +982,7 @@ Richard Feynman's Learning Strategy:
     - USE Method (from Brendan Gregg): Utilization, Saturation, and Errors
     - RED Method (from Tom Wilkie): Rate, Errors, and Duration
 - [Simple Anomaly Detection Using Plain SQL](https://hakibenita.com/sql-anomaly-detection)
+- [How percentile approximation works (and why it's more useful than averages)](https://www.timescale.com/blog/how-percentile-approximation-works-and-why-its-more-useful-than-averages/)
 
 ### Perspective
 
@@ -1000,6 +1027,7 @@ A bit more reading:
   - These new perspectives, these ideas and patterns — they linger, they stay with you, even if you end up in another language. And that is powerful enough to keep on learning new languages, because one of the best things that can happen to you when you’re trying to solve a problem is a change of perspective.
 - [Programming Language Checklist](https://famicol.in/language_checklist.html): a fun take on "so you want to build your own language?"
 - [Static vs. dynamic languages: a literature review](http://danluu.com/empirical-pl/)
+- [Polyglot Programming and the Benefits of Mastering Several Languages](https://www.stxnext.com/blog/polyglot-programming/)
 
 > There are only two kinds of languages: the ones people complain about and the ones nobody uses.
 
@@ -1052,6 +1080,7 @@ Rob Pike, [Go at Google: Language Design in the Service of Software Engineering]
 - [The morning paper](https://blog.acolyer.org/): one CS research paper explained every morning.
 - [The Complete Guide to Effective Reading](https://maartenvandoorn.nl/reading-guide/)
 - [The benefits of note-taking by hand](https://www.bbc.com/worklife/article/20200910-the-benefits-of-note-taking-by-hand)
+- [The Art of Reading More Effectively and Efficiently](https://aliabdaal.com/read-more-effectively/)
 
 ### Refactoring
 
@@ -1127,6 +1156,10 @@ Testing in production:
     - Have proper visibility from a client/end-user standpoint (client-side metrics)
 - [Testing in Production, the safe way](https://medium.com/@copyconstruct/testing-in-production-the-safe-way-18ca102d0ef1)
 
+### Search
+
+- [What every software engineer should know about search](https://scribe.rip/p/what-every-software-engineer-should-know-about-search-27d1df99f80d)
+
 ### Security
 
 - 📖 [Penetration Testing: A Hands-On Introduction to Hacking](https://nostarch.com/pentesting), Georgia Weidman
@@ -1158,6 +1191,8 @@ Training for developers:
 - [Hacksplaining](https://www.hacksplaining.com/)
 - [Codebashing](https://free.codebashing.com/)
 - [OWASP Security Knowledge Framework](https://owasp.org/www-project-security-knowledge-framework/)
+- [PagerDuty Security Training](https://sudo.pagerduty.com/for_engineers/)
+- [Gruyere: Web Application Exploits and Defenses](https://google-gruyere.appspot.com/part1)
 
 List of resources:
 
@@ -1177,6 +1212,7 @@ List of resources:
 - [Command Line Interface Guidelines](https://clig.dev/)
 - [The Linux Commands Handbook](https://openbootcamps.com/the-linux-commands-handbook/)
 - [How to write idempotent Bash scripts](https://arslan.io/2019/07/03/how-to-write-idempotent-bash-scripts/)
+- [Learn bash by playing an adventure](https://gitlab.com/slackermedia/bashcrawl)
 
 ### SQL
 
@@ -1231,6 +1267,7 @@ Articles:
 
 Microservices/splitting a monolith:
 
+- [Don’t start with microservices in production – monoliths are your friend](https://arnoldgalovics.com/microservices-in-production/)
 - [Deep lessons from Google And EBay on building ecosystems of microservices](http://highscalability.com/blog/2015/12/1/deep-lessons-from-google-and-ebay-on-building-ecosystems-of.html)
 - [Introducing domain-oriented microservice architecture](https://eng.uber.com/microservice-architecture/), Uber
     - Instead of orienting around single microservices, we oriented around collections of related microservices. We call these domains.
@@ -1344,6 +1381,7 @@ Test pyramid:
 - [Software testing anti-patterns](http://blog.codepipes.com/testing/software-testing-antipatterns.html), Kostis Kapelonis.
 - [Write tests. Not too many. Mostly integration.](https://blog.kentcdodds.com/write-tests-not-too-many-mostly-integration-5e8c7fff591c) for a contrarian take about unit testing
 - 🎞 [Unit test 2, Integration test: 0](https://www.youtube.com/watch?v=Oj8bfBlwHAg&ab_channel=PercyRicardoAnticonaMasabel)
+- [Testing in the Twenties](https://www.tbray.org/ongoing/When/202x/2021/05/15/Testing-in-2021)
 
 End-to-end tests:
 
@@ -1406,7 +1444,6 @@ More specific topics:
   - Use maker-manager office hours
   - Communication can happen at a quieter asynchronous frequency in the form of thoughtful, written discussions rather than soul-sucking meetings or erratic one-line-at-a-time chat messages
   - Build a team knowledge base to minimize repetitive questions and allow self-onboarding.
-- [Zettelkasten Method](https://zettelkasten.de/posts/overview/)
 - [100 Tips for a Better Life](https://www.lesswrong.com/posts/7hFeMWC6Y5eaSixbD/100-tips-for-a-better-life)
     - Deficiencies do not make you special. The older you get, the more your inability to cook will be a red flag for people.
     - History remembers those who got to market first. Getting your creation out into the world is more important than getting it perfect.
@@ -1414,6 +1451,10 @@ More specific topics:
     - You do not live in a video game. There are no pop-up warnings if you’re about to do something foolish, or if you’ve been going in the wrong direction for too long. You have to create your own warnings.
     - Cultivate a reputation for being dependable. Good reputations are valuable because they’re rare (easily destroyed and hard to rebuild). You don’t have to brew the most amazing coffee if your customers know the coffee will always be hot.
     - Compliment people more. Many people have trouble thinking of themselves as smart, or pretty, or kind, unless told by someone else. You can help them out.
+- 🏙 [2011 GTD Getting Things Done](https://speakerdeck.com/krunchtime/2011-getting-things-done)
+- [Build tools around workflows, not workflows around tools](https://thesephist.com/posts/tools/)
+- [Rethinking Best Practices](https://willgallego.com/2021/08/14/rethinking-best-practices/)
+- [The Cult of Done Manifesto](https://medium.com/@bre/the-cult-of-done-manifesto-724ca1c2ff13)
 
 > "Do what you love until you love to Do" I often think about the “Read what you love until you love to read” comment from @naval, and this is a good generalization. My experience has been that it is easier to educate a Do-er than to motivate the educated; you have to believe you can Do before you embark on an effort. – John Carmack
 
@@ -1425,6 +1466,7 @@ More specific topics:
 - [A Directory of design and front-end resources](http://uigoodies.com/index.html)
 - [Client-Side Architecture Basics](https://khalilstemmler.com/articles/client-side-architecture/introduction/)
 - 🧰 [codingknite/frontend-development](https://github.com/codingknite/frontend-development): a list of resources for frontend development
+- [136 facts every web dev should know](https://www.baldurbjarnason.com/2021/100-things-every-web-developer-should-know/)
 
 ### Writing (communication, blogging)
 

@@ -9,6 +9,7 @@
   - [Curriculum](#curriculum)
   - [Roadmap: to go further](#roadmap-to-go-further)
   - [Inspiration](#inspiration)
+  - [Other resources](#other-resources)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -55,3 +56,7 @@ Image from https://github.com/kamranahmedse/developer-roadmap
 
 - [Front-end Developer Handbook 2019 - Learn the entire JavaScript, CSS and HTML development practice!](https://frontendmasters.com/books/front-end-handbook/2019/)
 - [grab/front-end-guide: 📚 Study guide and introduction to the modern front end stack.](https://github.com/grab/front-end-guide)
+
+## Other resources
+
+- [leonardomso/33-js-concepts](https://github.com/leonardomso/33-js-concepts): 33 JavaScript concepts every developer should know.
