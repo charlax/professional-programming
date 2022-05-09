@@ -724,6 +724,7 @@ The best way to learn is to learn by doing.
 - [More challenging projects every programmer should try](https://web.eecs.utk.edu/~azh/blog/morechallengingprojects.html): ray tracer, key-value store web API, web browser, stock trading bot.
 - [Let’s Build a Regex Engine](https://kean.blog/post/lets-build-regex)
 - [Write a time-series database engine from scratch](https://nakabonne.dev/posts/write-tsdb-from-scratch/)
+- [7 GUIs to build to learn fundamental UI programming skills](https://eugenkiss.github.io/7guis/tasks/)
 
 Practice:
 
