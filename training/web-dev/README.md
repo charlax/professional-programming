@@ -20,7 +20,6 @@
       - [Project management](#project-management)
       - [Security](#security)
       - [Version control (git)](#version-control-git)
-    - [Topics specific to Gens de Confiance](#topics-specific-to-gens-de-confiance)
   - [Other lists](#other-lists)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -276,23 +275,10 @@ Advanced topics:
 - `git revert`
 - The dangers of `git push --force`
 
-### Topics specific to Gens de Confiance
-
-- Learn PHP
-    - [PHP basics](https://www.php.net/manual/en/language.oop5.basic.php)
-    - [Free interactive PHP tutorial](https://www.learn-php.org/) (basics)
-- Learn Symfony (we recommend the docs + short videos)
-    - Read the [docs](https://symfony.com/doc/current/index.html)
-    - Read the [book](https://symfony.com/doc/current/the-fast-track/en/index.html)
-    - 🎞 [1H pour comprendre le framework Symfony](https://youtu.be/UTusmVpwJXo)
-    - 🎞 [SymfonyCasts](https://symfonycasts.com/) (some videos are behind paywal, but the text is always below)
-    - 🎞 [Deep dive into Symfony 4 internals](https://www.youtube.com/watch?v=pz6VdH4_BSg&ab_channel=fwdays)
-    - 🎞 [SymfonyTv](https://www.youtube.com/c/SymfonyTv/videos)
-    - 🎞 [Formation Symfony 4 par l'exemple](https://grafikart.fr/formations/symfony-4-pratique), Grafikart
-
 ## Other lists
 
 - [The Missing Semester of Your CS Education](https://missing.csail.mit.edu/) (MIT).
 - [What every computer science major should know](http://matt.might.net/articles/what-cs-majors-should-know/)
 - [Teach Yourself Computer Science](https://teachyourselfcs.com/)
 - https://github.com/charlax/professional-programming
+- [microsoft/Web-Dev-For-Beginners](https://github.com/microsoft/Web-Dev-For-Beginners): 24 Lessons, 12 Weeks, Get Started as a Web Developer
