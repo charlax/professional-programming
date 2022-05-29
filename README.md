@@ -393,6 +393,7 @@ Biases don't only apply to hiring. For instance, the fundamental attribution bia
   - Great relationships will follow you everywhere you go. Bad ones too.
   - Early in your career, try to work at as many different kinds of companies and in different product vertical as you can.
 - [Evil tip: avoid "easy" things](http://yosefk.com/blog/evil-tip-avoid-easy-things.html)
+- [The Ultimate Code Kata](https://blog.codinghorror.com/the-ultimate-code-kata/)
 
 ### Characters sets
 
