@@ -1469,6 +1469,7 @@ More specific topics:
 - [Client-Side Architecture Basics](https://khalilstemmler.com/articles/client-side-architecture/introduction/)
 - 🧰 [codingknite/frontend-development](https://github.com/codingknite/frontend-development): a list of resources for frontend development
 - [136 facts every web dev should know](https://www.baldurbjarnason.com/2021/100-things-every-web-developer-should-know/)
+- [Checklist - The A11Y Project](https://www.a11yproject.com/checklist/) for accessibility
 
 ### Writing (communication, blogging)
 

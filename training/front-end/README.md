@@ -60,3 +60,4 @@ Image from https://github.com/kamranahmedse/developer-roadmap
 ## Other resources
 
 - [leonardomso/33-js-concepts](https://github.com/leonardomso/33-js-concepts): 33 JavaScript concepts every developer should know.
+- [The Modern JavaScript Tutorial](https://javascript.info/)
