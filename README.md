@@ -1395,6 +1395,7 @@ End-to-end tests:
 - [DevDocs API Documentation](https://devdocs.io/): a repository for multiple API docs (see also [Dash for macOS](https://kapeli.com/dash)).
 - [DevChecklist](https://devchecklists.com/): a collaborative space for sharing checklists that help ensure software quality
 - 🧰 [Free for developers](https://free-for.dev/#/): list of free tiers for developments tools and services
+- [Choose Boring Technology](https://boringtechnology.club/)
 
 ### Version control (Git)
 
