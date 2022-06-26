@@ -1396,6 +1396,7 @@ End-to-end tests:
 - [DevChecklist](https://devchecklists.com/): a collaborative space for sharing checklists that help ensure software quality
 - 🧰 [Free for developers](https://free-for.dev/#/): list of free tiers for developments tools and services
 - [Choose Boring Technology](https://boringtechnology.club/)
+- [Ask HN: Best dev tool pitches of all time?](https://news.ycombinator.com/item?id=31782200)
 
 ### Version control (Git)
 
@@ -1492,6 +1493,7 @@ More specific topics:
   - The reason writing a good 4 page memo is harder than "writing" a 20 page powerpoint is because the narrative structure of a good memo forces better thought and better understanding of what's more important than what, and how things are related.
   - Powerpoint-style presentations somehow give permission to gloss over ideas, flatten out any sense of relative importance, and ignore the interconnectedness of ideas.
 - [Programming and Writing](http://antirez.com/news/135), Antirez
+- [Writing one sentence per line](https://sive.rs/1s)
 
 ![Write like an Amazonian](./images/amazon_writing_rules.jpeg)
 
