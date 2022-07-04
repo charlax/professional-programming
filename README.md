@@ -465,6 +465,7 @@ Biases don't only apply to hiring. For instance, the fundamental attribution bia
 See also the SQL section.
 
 - [A plain English introduction to CAP Theorem](http://ksat.me/a-plain-english-introduction-to-cap-theorem)
+- [PACELC theorem](https://en.wikipedia.org/wiki/PACELC_theorem): "in case of network partitioning (P) in a distributed computer system, one has to choose between availability (A) and consistency (C) (as per the CAP theorem), but else (E), even when the system is running normally in the absence of partitions, one has to choose between latency (L) and consistency (C)."
 - [Safe Operations For High Volume PostgreSQL](https://www.braintreepayments.com/blog/safe-operations-for-high-volume-postgresql/) (this is for PostgreSQL but works great for other DBs as well).
 - [Zero downtime database migrations](https://blog.rainforestqa.com/2014-06-27-zero-downtime-database-migrations/) (code examples are using Rails but this works great for any programming language)
 - [Algorithms Behind Modern Storage Systems](https://queue.acm.org/detail.cfm?id=3220266), ACM Queue
@@ -709,6 +710,7 @@ Feel free to check my [vim configuration](https://github.com/charlax/dotfiles/tr
 ### Email
 
 - [Email explained from first principles](https://explained-from-first-principles.com/email/#json-meta-application-protocol)
+- 🏙 [Transactional Email Best Practices](https://speakerdeck.com/wildbit/transactional-email-best-practices)
 
 ### Engineering management
 
@@ -754,6 +756,7 @@ Practice:
   - Use abstract datatypes to make validators “look like” parsers
 - 🏙 [Functional Programming](https://speakerdeck.com/igstan/functional-programming)
 - [Monads in 15 minutes](https://nikgrozev.com/2013/12/10/monads-in-15-minutes/)
+- [hemanth/functional-programming-jargon](https://github.com/hemanth/functional-programming-jargon): jargon from the functional programming world in simple terms
 
 ### Hardware
 
@@ -1495,6 +1498,7 @@ More specific topics:
   - Powerpoint-style presentations somehow give permission to gloss over ideas, flatten out any sense of relative importance, and ignore the interconnectedness of ideas.
 - [Programming and Writing](http://antirez.com/news/135), Antirez
 - [Writing one sentence per line](https://sive.rs/1s)
+- [Ask HN: How to level up your technical writing?](https://news.ycombinator.com/item?id=31859040). Lots of great resources.
 
 ![Write like an Amazonian](./images/amazon_writing_rules.jpeg)
 
@@ -1554,4 +1558,5 @@ Newsletters:
 - [OOP](https://en.wikipedia.org/wiki/Object-oriented_programming)
 - [SOLID](<https://en.wikipedia.org/wiki/SOLID_(object-oriented_design)>)
 - [TDD](https://en.wikipedia.org/wiki/Test-driven_development)
+= [Two Generals' Problem](https://en.wikipedia.org/wiki/Two_Generals%27_Problem)
 - [YAGNI](https://en.wikipedia.org/wiki/You_aren%27t_gonna_need_it)
