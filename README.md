@@ -473,6 +473,7 @@ See also the SQL section.
 - [Readings in Database Systems, 5th Edition](http://www.redbook.io/)
 - [Comparing database types: how database types evolved to meet different needs](https://dataguide.prisma.io/intro/comparing-database-types)
 - [How does a relational database work](http://coding-geek.com/how-databases-work/)
+- [Use the index, Luke](https://use-the-index-luke.com/)
 
 Exercises:
 
