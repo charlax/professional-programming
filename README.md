@@ -195,6 +195,7 @@ There are some free books available, including:
 - [Talks that changed the way I think about programming](http://www.opowell.com/post/talks-that-changed-the-way-i-think-about-programming/)
 - [What every computer science major should know](http://matt.might.net/articles/what-cs-majors-should-know/)
 - [kamranahmedse/developer-roadmap](https://github.com/kamranahmedse/developer-roadmap)
+- [mtdvio/every-programmer-should-know](https://github.com/mtdvio/every-programmer-should-know): a collection of (mostly) technical things every software developer should know about
 
 List of axioms:
 
@@ -735,6 +736,7 @@ Practice:
 
 - [CodinGame](https://www.codingame.com/start)
 - [Codewars](https://www.codewars.com/)
+- [Exercism](https://exercism.org/)
 
 ### Functional programming (FP)
 
