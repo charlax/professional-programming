@@ -95,6 +95,8 @@
 
 # Professional Programming - about this list
 
+[⬆️ Back to the top](#table-of-contents)
+
 > Give me six hours to chop down a tree and I will spend the first four sharpening the axe. (Abraham Lincoln)
 
 A collection of full-stack resources for programmers.
@@ -113,9 +115,13 @@ Items:
 
 ## Contributing to this list
 
+[⬆️ Back to the top](#table-of-contents)
+
 Feel free to open a PR to contribute! I will not be adding everything: as stated above, I am trying to keep the list concise.
 
 ## Must-read books
+
+[⬆️ Back to the top](#table-of-contents)
 
 I've found these books incredibly inspiring:
 
@@ -135,6 +141,8 @@ There are some free books available, including:
 - 🧰 [EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books/blob/master/books/free-programming-books.md)
 
 ## Must-read articles
+
+[⬆️ Back to the top](#table-of-contents)
 
 - [Practical Advice for New Software Engineers](http://product.hubspot.com/blog/practical-advice-for-new-software-engineers)
 - [On Being A Senior Engineer](http://www.kitchensoap.com/2012/10/25/on-being-a-senior-engineer/)
@@ -185,6 +193,8 @@ There are some free books available, including:
 
 ## Other general material and list of resources
 
+[⬆️ Back to the top](#table-of-contents)
+
 - [The Imposter's Handbook](https://bigmachine.io/products/the-imposters-handbook) - \$30. From the author: "Don't have a CS Degree? Neither do I - That's why I wrote this book."
 - [mr-mig/every-programmer-should-know: a collection of (mostly) technical things every software developer should know](https://github.com/mr-mig/every-programmer-should-know)
 - [Famous Laws Of Software Development](https://www.timsommer.be/famous-laws-of-software-development/)
@@ -218,6 +228,8 @@ List of axioms:
 
 ### Courses
 
+[⬆️ Back to the top](#table-of-contents)
+
 - [Google Tech Dev Guide](https://techdevguide.withgoogle.com/)
 - [The Missing Semester of Your CS Education](https://missing.csail.mit.edu/), MIT. Includes lectures about the shell, editors, data wrangling, git, debugging and profiling, meta programming, security and cryptography.
 - [Mathematics for the adventurous self-learner](https://www.neilwithdata.com/mathematics-self-learner), Neil Sainsbury
@@ -227,6 +239,8 @@ List of axioms:
 ## Topics
 
 ### Algorithm and data structures
+
+[⬆️ Back to the top](#table-of-contents)
 
 - Read the [CLRS](https://mitpress.mit.edu/books/introduction-algorithms). You can watch and download the course on [OCW](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-introduction-to-algorithms-sma-5503-fall-2005/) - there are newer courses as well.
 - Or [The Algorithm Design Manual](https://www.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1849967202?ie=UTF8&qid=1297127794&ref_=sr_1_1&sr=8-1)
@@ -247,6 +261,8 @@ Example implementations:
 - [trekhleb/javascript-algorithms: Algorithms and data structures implemented in JavaScript](https://github.com/trekhleb/javascript-algorithms)
 
 ### API design & development
+
+[⬆️ Back to the top](#table-of-contents)
 
 General REST content:
 
@@ -269,6 +285,8 @@ More specific topics:
   - Events can unlock much-needed webhook features, like allowing your webhook consumers to replay or reset the position of their webhook subscription.
 
 ### Attitude, habits, mindset
+
+[⬆️ Back to the top](#table-of-contents)
 
 - [Mastering Programming](https://www.prod.facebook.com/notes/kent-beck/mastering-programming/1184427814923414#), Kent Beck.
 - [The traits of a proficient programmer](https://www.oreilly.com/ideas/the-traits-of-a-proficient-programmer)
@@ -330,13 +348,19 @@ Dan Heller, Building a Career in Software
 
 ### Authentication/authorization
 
+[⬆️ Back to the top](#table-of-contents)
+
 - [Authorization in a microservices world](https://www.alexanderlolis.com/authorization-in-a-microservices-world)
 
 ### Automation
 
+[⬆️ Back to the top](#table-of-contents)
+
 - [Automation Should Be Like Iron Man, Not Ultron](http://queue.acm.org/detail.cfm?id=2841313)
 
 ### Biases
+
+[⬆️ Back to the top](#table-of-contents)
 
 Biases don't only apply to hiring. For instance, the fundamental attribution bias also applies when criticizing somebody's code written a long time ago, in a totally different context.
 
@@ -344,10 +368,14 @@ Biases don't only apply to hiring. For instance, the fundamental attribution bia
 
 ### Cache
 
+[⬆️ Back to the top](#table-of-contents)
+
 - [Caching explained](https://cachingexplained.com/)
 - [Caching challenges and strategies](https://aws.amazon.com/builders-library/caching-challenges-and-strategies/), Amazon Builders Library
 
 ### Career growth
+
+[⬆️ Back to the top](#table-of-contents)
 
 - [The Conjoined Triangles of Senior-Level Development](http://frontside.io/blog/2016/07/07/the-conjoined-triangles-of-senior-level-development.html) looks into how to define a senior engineer.
 - [Ten Principles for Growth as an Engineer](https://medium.com/@daniel.heller/ten-principles-for-growth-69015e08c35b), Dan Heller.
@@ -399,13 +427,19 @@ Biases don't only apply to hiring. For instance, the fundamental attribution bia
 
 ### Characters sets
 
+[⬆️ Back to the top](#table-of-contents)
+
 - [The Absolute Minimum Every Software Developer Absolutely, Positively Must Know About Unicode and Character Sets (No Excuses!)](http://www.joelonsoftware.com/articles/Unicode.html)
 
 ### Clouds
 
+[⬆️ Back to the top](#table-of-contents)
+
 - [open-guides/og-aws](https://github.com/open-guides/og-aws): a practical guide to AWS
 
 ### Code reviews
+
+[⬆️ Back to the top](#table-of-contents)
 
 - [How to do a code review](https://google.github.io/eng-practices/review/reviewer/), Google's engineering practices documentation.
 - [Post-Commit Reviews](https://medium.com/@copyconstruct/post-commit-reviews-b4cc2163ac7a): an interesting idea to increase developer velocity (there are some caveats though).
@@ -430,6 +464,8 @@ Biases don't only apply to hiring. For instance, the fundamental attribution bia
 
 ### Coding & code quality
 
+[⬆️ Back to the top](#table-of-contents)
+
 - [Write code that is easy to delete, not easy to extend](http://programmingisterrible.com/post/139222674273/write-code-that-is-easy-to-delete-not-easy-to)
 - [The Ten Commandments of Egoless Programming](http://blog.codinghorror.com/the-ten-commandments-of-egoless-programming/)
 - 📖 [Clean Code: A Handbook of Agile Software Craftsmanship](https://www.goodreads.com/book/show/3735293-clean-code), Robert C. Martin. Describes numerous useful best practices. A bit long. There's also a [clean code cheatsheet](cheatsheets/Clean-Code-V2.4.pdf).
@@ -448,10 +484,14 @@ Biases don't only apply to hiring. For instance, the fundamental attribution bia
 
 ### Compilers
 
+[⬆️ Back to the top](#table-of-contents)
+
 - [The Compiler Writer Resource Page](https://c9x.me/compile/bib/)
 - [kanaka/mal](https://github.com/kanaka/mal): mal - Make a Lisp
 
 ### Configuration
+
+[⬆️ Back to the top](#table-of-contents)
 
 - [The downsides of JSON for config files](https://arp242.net/weblog/JSON_as_configuration_files-_please_dont.html), Martin Tournoij.
   - Can't add comments
@@ -462,6 +502,8 @@ Biases don't only apply to hiring. For instance, the fundamental attribution bia
   - Use a real programming language
 
 ### Databases
+
+[⬆️ Back to the top](#table-of-contents)
 
 See also the SQL section.
 
@@ -491,6 +533,8 @@ NoSQL:
 
 ### Data formats
 
+[⬆️ Back to the top](#table-of-contents)
+
 - [Falsehoods Programmers Believe About Phone Numbers](https://github.com/googlei18n/libphonenumber/blob/master/FALSEHOODS.md), Google's `libphonenumber`.
 - [Rules for Autocomplete](http://jeremymikkola.com/posts/2019_03_19_rules_for_autocomplete.html): rough specifications for autocomplete fields
 - [Falsehoods programmers believe about addresses](https://www.mjt.me.uk/posts/falsehoods-programmers-believe-about-addresses/)
@@ -498,6 +542,8 @@ NoSQL:
 - [kdeldycke/awesome-falsehood](https://github.com/kdeldycke/awesome-falsehood): falsehoods programmers believe in
 
 ### Data science/data engineering
+
+[⬆️ Back to the top](#table-of-contents)
 
 - [A dirty dozen: twelve common metric interpretation pitfalls in online controlled experiments](https://blog.acolyer.org/2017/09/25/a-dirty-dozen-twelve-common-metric-interpretation-pitfalls-in-online-controlled-experiments/)
 - [datastacktv/data-engineer-roadmap](https://github.com/datastacktv/data-engineer-roadmap): roadmap to becoming a data engineer
@@ -511,6 +557,8 @@ NoSQL:
 
 ### Debugging
 
+[⬆️ Back to the top](#table-of-contents)
+
 - [Rubber Duck Problem Solving](http://blog.codinghorror.com/rubber-duck-problem-solving/)
 - [Rubber Ducking](http://c2.com/cgi/wiki?RubberDucking)
 - [Five Whys](https://en.wikipedia.org/wiki/5_Whys)
@@ -523,6 +571,8 @@ NoSQL:
 - [How to create a Minimal, Reproducible Example ](https://stackoverflow.com/help/minimal-reproducible-example), Stack Overflow
 
 ### Design (visual, UX, UI, typography)
+
+[⬆️ Back to the top](#table-of-contents)
 
 I highly recommend reading [The Non-Designer's Design Book](http://www.amazon.com/gp/product/0133966151/ref=pd_lpo_sbs_dp_ss_1?pf_rd_p=1944687602&pf_rd_s=lpo-top-stripe-1&pf_rd_t=201&pf_rd_i=0321534042&pf_rd_m=ATVPDKIKX0DER&pf_rd_r=1R7MVQP0BCP7GP9VZGYX). This is a pretty short book that will give you some very actionable design advices.
 
@@ -545,6 +595,8 @@ Articles :
 - [How to pick more beautiful colors for your data visualizations](https://blog.datawrapper.de/beautifulcolors/)
 
 ### Design (OO modeling, architecture, patterns, anti-patterns, etc.)
+
+[⬆️ Back to the top](#table-of-contents)
 
 Here's a list of good books:
 
@@ -582,6 +634,8 @@ Resources:
 
 #### Design: database schema
 
+[⬆️ Back to the top](#table-of-contents)
+
 - [A humble guide to database schema design](https://www.mikealche.com/software-development/a-humble-guide-to-database-schema-design), Mike Alche
   - Use at least third normal form
   - Create a last line of defense with constraints
@@ -590,6 +644,8 @@ Resources:
   - Establish conventions for table and field names.
 
 #### Design: patterns
+
+[⬆️ Back to the top](#table-of-contents)
 
 - [KeystoneInterface](https://martinfowler.com/bliki/KeystoneInterface.html), Martin Fowler.
   - Build all the back-end code, integrate, but don't build the user-interface
@@ -603,6 +659,8 @@ Resources:
 - [Simple Made Easy](https://www.infoq.com/presentations/Simple-Made-Easy) 🎞, Rich Hickey. This is an incredibly inspiring talk redefining simplicity, ease and complexity, and showing that solutions that look easy may actually harm your design.
 
 ### Dev environment & tools
+
+[⬆️ Back to the top](#table-of-contents)
 
 - 🧰 [Awesome Dev Env](https://github.com/jondot/awesome-devenv)
 
@@ -627,9 +685,13 @@ Article about tools:
 
 ### Diversity & inclusion
 
+[⬆️ Back to the top](#table-of-contents)
+
 Check out my [list of management resources](https://github.com/charlax/engineering-management).
 
 ### Docker
+
+[⬆️ Back to the top](#table-of-contents)
 
 See also the Python-specific section in [charlax/python-education](https://github.com/charlax/python-education#deployment).
 
@@ -659,6 +721,8 @@ See also the Python-specific section in [charlax/python-education](https://githu
 
 ### Documentation
 
+[⬆️ Back to the top](#table-of-contents)
+
 - [Documentation-Driven Development](https://gist.github.com/zsup/9434452)
 - [Writing automated tests for your documentation](https://krausefx.com/blog/writing-automated-tests-for-your-documentation): this should be required, IMO. Testing code samples in your documentation ensures they never get outdated.
 - 🏙 [Documentation is king](https://speakerdeck.com/kennethreitz/documentation-is-king), Kenneth Reitz
@@ -678,6 +742,8 @@ See also the Python-specific section in [charlax/python-education](https://githu
 
 ### Dotfiles
 
+[⬆️ Back to the top](#table-of-contents)
+
 - 🧰 [Awesome dotfiles](https://github.com/webpro/awesome-dotfiles): lots of great dotfiles.
 - [My dotfiles](https://github.com/charlax/dotfiles)
 
@@ -686,6 +752,8 @@ Articles
 - [Setting Up a Mac Dev Machine From Zero to Hero With Dotfiles](http://code.tutsplus.com/tutorials/setting-up-a-mac-dev-machine-from-zero-to-hero-with-dotfiles--net-35449)
 
 ### Editors & IDE
+
+[⬆️ Back to the top](#table-of-contents)
 
 - [Sublime Text essential plugins and resources](https://github.com/dreikanter/sublime-bookmarks)
 - Bram Moolenaar (Vim author), [Seven habits of effective text editing](http://www.moolenaar.net/habits.html) ([presentation](http://www.moolenaar.net/habits_2007.pdf)). This is about Vim but it contains good lessons about why investing time in learning how to be productive with your text editors pays off.
@@ -711,15 +779,21 @@ Feel free to check my [vim configuration](https://github.com/charlax/dotfiles/tr
 
 ### Email
 
+[⬆️ Back to the top](#table-of-contents)
+
 - [Email explained from first principles](https://explained-from-first-principles.com/email/#json-meta-application-protocol)
 - 🏙 [Transactional Email Best Practices](https://speakerdeck.com/wildbit/transactional-email-best-practices)
 
 ### Engineering management
 
+[⬆️ Back to the top](#table-of-contents)
+
 Checkout my [list of management
 resources](https://github.com/charlax/engineering-management).
 
 ### Exercises
+
+[⬆️ Back to the top](#table-of-contents)
 
 The best way to learn is to learn by doing.
 
@@ -739,6 +813,8 @@ Practice:
 - [Exercism](https://exercism.org/)
 
 ### Functional programming (FP)
+
+[⬆️ Back to the top](#table-of-contents)
 
 - [Jargon from the functional programming world](https://github.com/hemanth/functional-programming-jargon)
 - [Goodbye, Object Oriented Programming](https://medium.com/@cscalfani/goodbye-object-oriented-programming-a59cda4c0e53#.39ax09e4k)
@@ -763,15 +839,21 @@ Practice:
 
 ### Hardware
 
+[⬆️ Back to the top](#table-of-contents)
+
 - [NandGame](https://nandgame.com/): build a computer from scratch.
 - [What Every Programmer Should Know About SSDs](http://databasearchitects.blogspot.com/2021/06/what-every-programmer-should-know-about.html)
 
 ### HTTP
 
+[⬆️ Back to the top](#table-of-contents)
+
 - [Choosing an HTTP Status Code — Stop Making It Hard](https://www.codetinkerer.com/2015/12/04/choosing-an-http-status-code.html)
 - [HTTPWTF](https://httptoolkit.tech/blog/http-wtf/)
 
 ### Humor
+
+[⬆️ Back to the top](#table-of-contents)
 
 - [The Jeff Dean Facts](https://www.informatika.bg/jeffdean)
   - Compilers don't warn Jeff Dean. Jeff Dean warns compilers.
@@ -779,6 +861,8 @@ Practice:
   - Jeff Dean mines bitcoins. In his head.
 
 ### Incident response (oncall, alerting, outages, firefighting, postmortem)
+
+[⬆️ Back to the top](#table-of-contents)
 
 - [Incident Response at Heroku](https://blog.heroku.com/archives/2014/5/9/incident-response-at-heroku)
 - [My Philosophy On Alerting](https://linuxczar.net/sysadmin/philosophy-on-alerting/)
@@ -798,6 +882,8 @@ Practice:
 - [Incident Review and Postmortem Best Practices](https://newsletter.pragmaticengineer.com/p/incident-review-best-practices?s=r), Gergely Orosz
 
 #### Postmortem
+
+[⬆️ Back to the top](#table-of-contents)
 
 - A great example of a [postmortem from Gitlab (01/31/2017)](https://about.gitlab.com/2017/02/01/gitlab-dot-com-database-incident/) for an outage during which an engineer's action caused the irremediable loss of 6 hours of data.
 - [Blameless PostMortems and a Just Culture](https://codeascraft.com/2012/05/22/blameless-postmortems/)
@@ -833,11 +919,15 @@ Example outline for a postmortem:
 
 ### Internet
 
+[⬆️ Back to the top](#table-of-contents)
+
 - [How Does the Internet Work?](https://web.stanford.edu/class/msande91si/www-spr04/readings/week1/InternetWhitepaper.htm)
 - [How the web works](https://github.com/vasanthk/how-web-works)
 - [Advice to young web developers](https://beesbuzz.biz/blog/2934-Advice-to-young-web-developers)
 
 ### Interviewing
+
+[⬆️ Back to the top](#table-of-contents)
 
 Note: this is about you as an interviewee, **not** as an interviewer. To check out my list of resources for interviewers, go to my [engineering-management repository](https://github.com/charlax/engineering-management#hiring-interviews).
 
@@ -860,6 +950,8 @@ Note: this is about you as an interviewee, **not** as an interviewer. To check o
 See also the exercises section in this document.
 
 ### Learning & memorizing
+
+[⬆️ Back to the top](#table-of-contents)
 
 Learn how to learn!
 
@@ -947,6 +1039,8 @@ Richard Feynman's Learning Strategy:
 
 ### Low-level, assembly
 
+[⬆️ Back to the top](#table-of-contents)
+
 - [Back to Basics](https://www.joelonsoftware.com/2001/12/11/back-to-basics/), Joel Spolsky. Explains why learning low level programming is important.
   - I think that some of the biggest mistakes people make even at the highest architectural levels come from having a weak or broken understanding of a few simple things at the very lowest levels.
 - [What's in a Linux executable?](https://fasterthanli.me/series/making-our-own-executable-packer/part-1)
@@ -955,6 +1049,8 @@ Richard Feynman's Learning Strategy:
 
 ### Network
 
+[⬆️ Back to the top](#table-of-contents)
+
 - [The Great Confusion About URIs](https://benbernardblog.com/the-great-confusion-about-uris/)
   - A URI is a string of characters that identifies a resource. Its syntax is `<scheme>:<authority><path>?<query>#<fragment>`, where only `<scheme>` and `<path>` are mandatory. URL and URN are URIs.
   - A URL is a string of characters that identifies a resource located on a computer network. Its syntax depends on its scheme. E.g. `mailto:billg@microsoft.com`.
@@ -962,7 +1058,11 @@ Richard Feynman's Learning Strategy:
 
 ### Observability (monitoring, logging, exception handling)
 
+[⬆️ Back to the top](#table-of-contents)
+
 #### Logging
+
+[⬆️ Back to the top](#table-of-contents)
 
 - [Do not log](https://sobolevn.me/2020/03/do-not-log) dwells on some logging antipatterns.
   - Logging does not make much sense in monitoring and error tracking. Use better tools instead: error and business monitorings with alerts, versioning, event sourcing.
@@ -978,9 +1078,13 @@ Richard Feynman's Learning Strategy:
 
 #### Error/exception handling
 
+[⬆️ Back to the top](#table-of-contents)
+
 - [Error handling antipatterns](./antipatterns/error-handling-antipatterns.md) in my this repo.
 
 #### Monitoring
+
+[⬆️ Back to the top](#table-of-contents)
 
 - Google, [Site Reliability Engineering, Monitoring Distributed Systems](https://landing.google.com/sre/sre-book/chapters/monitoring-distributed-systems/)
 - PagerDuty, [Monitoring Business Metrics and Refining Outage Response](https://www.pagerduty.com/blog/monitoring-business-metrics/)
@@ -995,6 +1099,8 @@ Richard Feynman's Learning Strategy:
 
 ### Perspective
 
+[⬆️ Back to the top](#table-of-contents)
+
 - [At 31, I have just weeks to live. Here's what I want to pass on](https://www.theguardian.com/commentisfree/2020/sep/07/terminal-cancer-live-cancer-life-death)
     - First, the importance of gratitude.
     - Second, a life, if lived well, is long enough.
@@ -1003,6 +1109,8 @@ Richard Feynman's Learning Strategy:
     - Fifth, protect the planet.
 
 ### Problem solving
+
+[⬆️ Back to the top](#table-of-contents)
 
 - [Dealing with Hard Problems](https://artofproblemsolving.com/articles/hard-problems)
 - [Invert, always, invert](https://www.anup.io/2020/07/20/invert-always-invert/)
@@ -1014,9 +1122,13 @@ Richard Feynman's Learning Strategy:
 
 ### Project management
 
+[⬆️ Back to the top](#table-of-contents)
+
 See the [Project management section on my engineering-management list of resources](https://github.com/charlax/engineering-management#project-management).
 
 ### Programming languages
+
+[⬆️ Back to the top](#table-of-contents)
 
 I would recommend learning:
 
@@ -1044,9 +1156,13 @@ A bit more reading:
 
 #### Python
 
+[⬆️ Back to the top](#table-of-contents)
+
 For Python feel free to checkout my [professional Python education repository](https://github.com/charlax/python-education).
 
 #### JavaScript
+
+[⬆️ Back to the top](#table-of-contents)
 
 JavaScript is such a pervasive language that it's almost required learning.
 
@@ -1054,10 +1170,14 @@ JavaScript is such a pervasive language that it's almost required learning.
 
 ### Programming paradigm
 
+[⬆️ Back to the top](#table-of-contents)
+
 - [Imperative vs Declarative Programming](https://tylermcginnis.com/imperative-vs-declarative-programming/), Tyler McGinnis.
     - I draw the line between declarative and non-declarative at whether you can trace the code as it runs. Regex is 100% declarative, as it’s untraceable while the pattern is being executed.
 
 ### Operating system
+
+[⬆️ Back to the top](#table-of-contents)
 
 - 📖 [The Linux Programming Interface: A Linux and UNIX System Programming Handbook](http://www.amazon.com/The-Linux-Programming-Interface-Handbook/dp/1593272200): already mentioned above.
 - 📖 [Modern Operating Systems](https://www.amazon.com/dp/013359162X/), Andrew Tanenbaum, Herbert Bos (not read)
@@ -1067,6 +1187,8 @@ JavaScript is such a pervasive language that it's almost required learning.
 - Play with xv6 on [MIT 6.828](https://pdos.csail.mit.edu/6.828/2016/schedule.html)
 
 ### Over-engineering
+
+[⬆️ Back to the top](#table-of-contents)
 
 - [10 modern software over-engineering mistakes](https://medium.com/@rdsubhas/10-modern-software-engineering-mistakes-bc67fbef4fc8#.da6dvzyne)
 - [A good example of over-engineering: the Juicero press](https://blog.bolt.io/heres-why-juicero-s-press-is-so-expensive-6add74594e50) (April 2017)
@@ -1085,6 +1207,8 @@ Rob Pike, [Go at Google: Language Design in the Service of Software Engineering]
 
 ### Reading
 
+[⬆️ Back to the top](#table-of-contents)
+
 - [Papers we love](https://github.com/papers-we-love/papers-we-love): papers from the computer science community to read and discuss. Can be a good source of inspiration of solving your design problems.
 - [The morning paper](https://blog.acolyer.org/): one CS research paper explained every morning.
 - [The Complete Guide to Effective Reading](https://maartenvandoorn.nl/reading-guide/)
@@ -1092,6 +1216,8 @@ Rob Pike, [Go at Google: Language Design in the Service of Software Engineering]
 - [The Art of Reading More Effectively and Efficiently](https://aliabdaal.com/read-more-effectively/)
 
 ### Refactoring
+
+[⬆️ Back to the top](#table-of-contents)
 
 - [The Rule of Three](https://blog.codinghorror.com/rule-of-three/), Coding Horror
   - Every programmer ever born thinks whatever idea just popped out of their head into their editor is the most generalized, most flexible, most one-size-fits all solution that has ever been conceived.
@@ -1102,9 +1228,13 @@ Rob Pike, [Go at Google: Language Design in the Service of Software Engineering]
 
 ### Regex
 
+[⬆️ Back to the top](#table-of-contents)
+
 - [The Best Regex Trick](http://rexegg.com/regex-best-trick.html)
 
 ### Releasing & deploying
+
+[⬆️ Back to the top](#table-of-contents)
 
 - [How we release so frequently](http://engineering.skybettingandgaming.com/2016/02/02/how-we-release-so-frequently/)
 - [How to deploy software](https://zachholman.com/posts/deploying-software), Zach Holman
@@ -1167,9 +1297,13 @@ Testing in production:
 
 ### Search
 
+[⬆️ Back to the top](#table-of-contents)
+
 - [What every software engineer should know about search](https://scribe.rip/p/what-every-software-engineer-should-know-about-search-27d1df99f80d)
 
 ### Security
+
+[⬆️ Back to the top](#table-of-contents)
 
 - 📖 [Penetration Testing: A Hands-On Introduction to Hacking](https://nostarch.com/pentesting), Georgia Weidman
 - [Penetration Testing Tools Cheat Sheet](https://highon.coffee/blog/penetration-testing-tools-cheat-sheet/#http--https-webserver-enumeration)
@@ -1210,6 +1344,8 @@ List of resources:
 
 ### Shell (command line)
 
+[⬆️ Back to the top](#table-of-contents)
+
 - 🧰 [alebcay/awesome-shell](https://github.com/alebcay/awesome-shell)
 - [Bash Hackers Wiki](http://wiki.bash-hackers.org/)
 - [dylanaraps/pure-bash-bible: a collection of pure bash alternatives to external processes.](https://github.com/dylanaraps/pure-bash-bible)
@@ -1225,6 +1361,8 @@ List of resources:
 
 ### SQL
 
+[⬆️ Back to the top](#table-of-contents)
+
 - [SQL styleguide](http://www.sqlstyle.guide/)
 - [Best practices for writing SQL queries](https://www.metabase.com/learn/building-analytics/sql-templates/sql-best-practices)
 - [Practical SQL for Data Analysis](https://hakibenita.com/sql-for-data-analysis)
@@ -1233,9 +1371,13 @@ List of resources:
 
 ### System administration
 
+[⬆️ Back to the top](#table-of-contents)
+
 - 🧰 [kahun/awesome-sysadmin](https://github.com/kahun/awesome-sysadmin): a curated list of amazingly awesome open source sysadmin resources
 
 ### System architecture
+
+[⬆️ Back to the top](#table-of-contents)
 
 Reading lists:
 
@@ -1289,10 +1431,14 @@ Microservices/splitting a monolith:
 
 #### Scalability
 
+[⬆️ Back to the top](#table-of-contents)
+
 - [Scalable web architecture and distributed systems](http://www.aosabook.org/en/distsys.html)
 - 📖 [Scalability Rules: 50 Principles for Scaling Web Sites](https://smile.amazon.com/Scalability-Rules-Principles-Scaling-Sites/dp/013443160X) ([presentation](http://www.slideshare.net/cyrilwang/scalability-rules))
 
 #### Reliability
+
+[⬆️ Back to the top](#table-of-contents)
 
 - I already mentioned the book Release it! above. There's also a [presentation](http://www.slideshare.net/justindorfman/stability-patterns-presentation) from the author.
 - [Service Recovery: Rolling Back vs. Forward Fixing](https://www.linkedin.com/pulse/service-recovery-rolling-back-vs-forward-fixing-mohamed-el-geish/)
@@ -1306,6 +1452,8 @@ Microservices/splitting a monolith:
 
 #### Resiliency
 
+[⬆️ Back to the top](#table-of-contents)
+
 - 🏙 [The Walking Dead - A Survival Guide to Resilient Applications](https://speakerdeck.com/daschl/the-walking-dead-a-survival-guide-to-resilient-applications)
 - 🏙 [Defensive Programming & Resilient systems in Real World (TM)](https://speakerdeck.com/tuenti/defensive-programming-and-resilient-systems-in-real-world-tm)
 - 🏙 [Full Stack Fest: Architectural Patterns of Resilient Distributed Systems](https://speakerdeck.com/randommood/full-stack-fest-architectural-patterns-of-resilient-distributed-systems)
@@ -1313,6 +1461,8 @@ Microservices/splitting a monolith:
 - 🧰 [Resilience engineering papers](https://github.com/lorin/resilience-engineering): comprehensive list of resources on resilience engineering
 
 ### Site Reliability Engineering (SRE)
+
+[⬆️ Back to the top](#table-of-contents)
 
 *Note: this section is only about SRE as a role. Checkout the System Architecture for more content related to reliability.*
 
@@ -1349,6 +1499,8 @@ Resources:
 
 ### Technical debt
 
+[⬆️ Back to the top](#table-of-contents)
+
 - [TechnicalDebt](https://martinfowler.com/bliki/TechnicalDebt.html), Martin Fowler.
 - [Fixing Technical Debt with an Engineering Allocation Framework](https://docs.google.com/presentation/d/16WU1cxG02jnVGQ5byviw3_Q0ILDPZPYtTvU91_210T0/edit#slide=id.p)
     - You don't need to stop shipping features to fix technical debt
@@ -1359,6 +1511,8 @@ Resources:
     - Ur-technical debt is generally not detectable by static analysis.
 
 ### Testing
+
+[⬆️ Back to the top](#table-of-contents)
 
 - ⭐️ [Testing strategies in a microservices architecture](http://martinfowler.com/articles/microservice-testing/) (Martin Fowler) is an awesome resources explaining how to test a service properly.
 
@@ -1399,6 +1553,8 @@ End-to-end tests:
 
 ### Tools
 
+[⬆️ Back to the top](#table-of-contents)
+
 - [DevDocs API Documentation](https://devdocs.io/): a repository for multiple API docs (see also [Dash for macOS](https://kapeli.com/dash)).
 - [DevChecklist](https://devchecklists.com/): a collaborative space for sharing checklists that help ensure software quality
 - 🧰 [Free for developers](https://free-for.dev/#/): list of free tiers for developments tools and services
@@ -1433,6 +1589,8 @@ More specific topics:
 - [Fix conflicts only once with git rerere](https://medium.com/@porteneuve/fix-conflicts-only-once-with-git-rerere-7d116b2cec67)
 
 ### Work ethics, productivity & work/life balance
+
+[⬆️ Back to the top](#table-of-contents)
 
 - [Your non-linear problem of 90% utilization](https://blog.asmartbear.com/utilization.html), Jason Cohen: why constantly running at 90% utilization is actually counter-productive.
 - [Evidence-based advice on how to be successful in any jobs](https://80000hours.org/career-guide/how-to-be-successful/): most self-help advices are not research-based. The ones listed in this article are.
@@ -1471,6 +1629,8 @@ More specific topics:
 
 ### Web development
 
+[⬆️ Back to the top](#table-of-contents)
+
 - [grab/front-end-guide](https://github.com/grab/front-end-guide): a study guide and introduction to the modern front end stack.
 - [Maintainable CSS](http://maintainablecss.com/)
 - [Front-End Developer Handbook 2019](https://frontendmasters.com/books/front-end-handbook/2019/), Cody Lindley
@@ -1481,6 +1641,8 @@ More specific topics:
 - [Checklist - The A11Y Project](https://www.a11yproject.com/checklist/) for accessibility
 
 ### Writing (communication, blogging)
+
+[⬆️ Back to the top](#table-of-contents)
 
 ➡️ See also my [engineering-management list](https://github.com/charlax/engineering-management#writing)
 
@@ -1510,6 +1672,8 @@ More specific topics:
 
 ### Writing for performance
 
+[⬆️ Back to the top](#table-of-contents)
+
 - [Numbers Everyone Should Know](https://everythingisdata.wordpress.com/2009/10/17/numbers-everyone-should-know/)
 - [Latency numbers every programmer should know](https://gist.github.com/hellerbarde/2843375)
 - [Rob Pike's 5 Rules of Programming](http://users.ece.utexas.edu/~adnan/pike.html)
@@ -1521,6 +1685,8 @@ More specific topics:
 
 ## Resources & inspiration for presentations
 
+[⬆️ Back to the top](#table-of-contents)
+
 - https://twitter.com/devops_borat
 - https://speakerdeck.com/
 - Dilbert
@@ -1528,6 +1694,8 @@ More specific topics:
 - https://twitter.com/_workchronicles
 
 ## Keeping up-to-date
+
+[⬆️ Back to the top](#table-of-contents)
 
 Website and RSS feeds (I use [Feedly](http://feedly.com/)):
 
@@ -1547,6 +1715,8 @@ Newsletters:
 - [PyCoders](https://pycoders.com/) (Python)
 
 ## Concepts
+
+[⬆️ Back to the top](#table-of-contents)
 
 [Glossary](glossary.md)
 
