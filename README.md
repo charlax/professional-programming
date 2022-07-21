@@ -740,7 +740,6 @@ Practice:
 
 ### Functional programming (FP)
 
-- [Jargon from the functional programming world](https://github.com/hemanth/functional-programming-jargon)
 - [Goodbye, Object Oriented Programming](https://medium.com/@cscalfani/goodbye-object-oriented-programming-a59cda4c0e53#.39ax09e4k)
 - [Functional Programming & Haskell](https://www.youtube.com/watch?v=LnX3B9oaKzw) 🎞: some good reasons to learn FP!
 - [Functional Programming Fundamentals](https://www.matthewgerstman.com/functional-programming-fundamentals/): short introduction to FP and its advantages.
@@ -1211,7 +1210,6 @@ List of resources:
 ### Shell (command line)
 
 - 🧰 [alebcay/awesome-shell](https://github.com/alebcay/awesome-shell)
-- [Bash Hackers Wiki](http://wiki.bash-hackers.org/)
 - [dylanaraps/pure-bash-bible: a collection of pure bash alternatives to external processes.](https://github.com/dylanaraps/pure-bash-bible)
 - [The Bash Hackers Wiki](https://wiki.bash-hackers.org/) provides a gentler way to learn about bash than its manages.
 - [Awk in 20 Minutes](https://ferd.ca/awk-in-20-minutes.html)
