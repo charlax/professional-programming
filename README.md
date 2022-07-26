@@ -723,7 +723,7 @@ resources](https://github.com/charlax/engineering-management).
 
 The best way to learn is to learn by doing.
 
-- [danistefanovic/build-your-own-x](https://github.com/danistefanovic/build-your-own-x): build your own (insert technology here)
+- [build-your-own-x](https://github.com/codecrafters-io/build-your-own-x): compilation of well-written, step-by-step guides for re-creating our favorite technologies from scratch
   - Richard Feynman: "what I cannot create, I do not understand"
 - [The elevator programming game](http://play.elevatorsaga.com/)
 - [Challenging projects every programmer should try](http://web.eecs.utk.edu/~azh/blog/challengingprojects.html): text editor, space invaders, compiler (Tiny Basic), mini OS, spreadsheet, video game console emulator.
