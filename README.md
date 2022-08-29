@@ -558,7 +558,7 @@ One of the absolute references on architecture is Martin Fowler: checkout his [S
 
 Articles:
 
-- O'Reilly's [How to make mistakes in Python](http://www.oreilly.com/programming/free/files/how-to-make-mistakes-in-python.pdf)
+- O'Reilly's [How to make mistakes in Python](https://www.oreilly.com/content/how-to-make-mistakes-in-python/)
 - [Education of a Programmer](https://hackernoon.com/education-of-a-programmer-aaecf2d35312): a developer's thoughts after 35 years in the industry. There's a particularly good section about design & complexity (see "the end to end argument", "layering and componentization").
 - [Domain-driven design](https://en.wikipedia.org/wiki/Domain-driven_design), Wikipedia.
 - [On the Spectrum of Abstraction](https://www.youtube.com/watch?v=mVVNJKv9esE) 🎞, Cheng Lou
