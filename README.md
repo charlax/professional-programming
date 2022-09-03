@@ -544,6 +544,10 @@ Articles :
 - [Butterick’s Practical Typography](https://practicaltypography.com/)
 - [How to pick more beautiful colors for your data visualizations](https://blog.datawrapper.de/beautifulcolors/)
 
+Resources:
+
+- 🧰 [bradtraversy/design-resources-for-developers](https://github.com/bradtraversy/design-resources-for-developers): design and UI resources from stock photos, web templates, CSS frameworks, UI libraries, tools...
+
 ### Design (OO modeling, architecture, patterns, anti-patterns, etc.)
 
 Here's a list of good books:
