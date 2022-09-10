@@ -123,6 +123,7 @@ I've found these books incredibly inspiring:
   Master](https://pragprog.com/titles/tpp20/): hands-on the most inspiring and useful book I've read about programming.
 - 📖 [Code Complete: A Practical Handbook of Software
   Construction](http://www.amazon.com/Code-Complete-Practical-Handbook-Construction/dp/0735619670): a nice addition to The Pragmatic Programmer, gives you the necessary framework to talk about code.
+  - 📖 [Introduction to Algorithms, 3rd Edition (The MIT Press)](https://www.amazon.com/Introduction-Algorithms-3rd-MIT-Press/dp/0262033844): This is the definitive textbook on algorithms, and something no Computer Science student or researcher should ever be without.
 - 📖 [Release It!](https://smile.amazon.com/Release-Design-Deploy-Production-Ready-Software/dp/1680502395): this books goes beyond code and gives you best practices for building production-ready software. It will give you about 3 years worth of real-world experience.
 - 📖 [Scalability Rules: 50 Principles for Scaling Web Sites](https://smile.amazon.com/Scalability-Rules-Principles-Scaling-Sites/dp/013443160X)
 - 📖 [The Linux Programming Interface: A Linux and UNIX System Programming Handbook](http://www.amazon.com/The-Linux-Programming-Interface-Handbook/dp/1593272200): outside of teaching you almost everything you need to know about Linux, this book will give you insights into how software evolves, and the value of having simple & elegant interfaces.
