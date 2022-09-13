@@ -14,6 +14,7 @@
     - [Attitude, habits, mindset](#attitude-habits-mindset)
     - [Authentication/authorization](#authenticationauthorization)
     - [Automation](#automation)
+    - [Beyond software engineering & random](#beyond-software-engineering--random)
     - [Biases](#biases)
     - [Cache](#cache)
     - [Career growth](#career-growth)
@@ -49,6 +50,7 @@
       - [Postmortem](#postmortem)
     - [Internet](#internet)
     - [Interviewing](#interviewing)
+    - [Kubernetes](#kubernetes)
     - [Learning & memorizing](#learning--memorizing)
     - [Low-level, assembly](#low-level-assembly)
     - [Math](#math)
@@ -57,6 +59,10 @@
       - [Logging](#logging)
       - [Error/exception handling](#errorexception-handling)
       - [Monitoring](#monitoring)
+    - [Operating system](#operating-system)
+    - [Over-engineering](#over-engineering)
+    - [Performance](#performance)
+    - [Personal productivity](#personal-productivity)
     - [Perspective](#perspective)
     - [Problem solving](#problem-solving)
     - [Project management](#project-management)
@@ -64,8 +70,6 @@
       - [Python](#python)
       - [JavaScript](#javascript)
     - [Programming paradigm](#programming-paradigm)
-    - [Operating system](#operating-system)
-    - [Over-engineering](#over-engineering)
     - [Reading](#reading)
     - [Refactoring](#refactoring)
     - [Regex](#regex)
@@ -245,7 +249,8 @@ Let's be honest: algorithms can be a pretty dry topic. [This quora question](htt
 
 Example implementations:
 
-- [trekhleb/javascript-algorithms: Algorithms and data structures implemented in JavaScript](https://github.com/trekhleb/javascript-algorithms)
+- [trekhleb/javascript-algorithms](https://github.com/trekhleb/javascript-algorithms): algorithms and data structures implemented in JavaScript
+- [The Algorithms](https://the-algorithms.com/)
 
 ### API design & development
 
@@ -321,6 +326,7 @@ More specific topics:
 - [Programmers should stop celebrating incompetence](https://world.hey.com/dhh/programmers-should-stop-celebrating-incompetence-de1a4725), DHH
   - The magic of programming is largely just things you don't know yet.
   - It's not fine to think you shouldn't be on some paths towards mastery, if you intend to make programming your career.
+- [There’s no speed limit](https://sive.rs/kimo)
 
 > Imposter syndrome is underrated: a lot of talk goes into overcoming imposter syndrome. I say embrace self-skepticism and doubt yourself every day. In a fast-moving industry where lots of your knowledge expires every year, even the most junior people around you constantly cook up skills you don't have; you stay competitive by applying with the determination (and even fear) of the novice. The upside of this treadmill is that every engineer is on it: just because you're an imposter doesn't mean that other people are more deserving than you, because they're imposters too. You should advocate for yourself, take risks, pat yourself on the back when things go well, and, as you start to build a track record of solving problems, trust your skills and adaptability. Just make no mistake: you're only as good as the last problem you solve.
 
@@ -336,6 +342,10 @@ Dan Heller, Building a Career in Software
 ### Automation
 
 - [Automation Should Be Like Iron Man, Not Ultron](http://queue.acm.org/detail.cfm?id=2841313)
+
+### Beyond software engineering & random
+
+- [Why Software Engineers like Woodworking](https://www.zainrizvi.io/blog/why-software-engineers-like-woodworking/)
 
 ### Biases
 
@@ -397,6 +407,12 @@ Biases don't only apply to hiring. For instance, the fundamental attribution bia
   - Early in your career, try to work at as many different kinds of companies and in different product vertical as you can.
 - [Evil tip: avoid "easy" things](http://yosefk.com/blog/evil-tip-avoid-easy-things.html)
 - [The Ultimate Code Kata](https://blog.codinghorror.com/the-ultimate-code-kata/)
+- [Traits of a senior software engineer](https://sergiomartins8.hashnode.dev/why-is-a-senior-engineer-senior): impact, perception, visibility, influence, mentoring
+- [Software Engineering - The Soft Parts](https://addyosmani.com/blog/software-engineering-soft-parts/)
+  - Think critically and formulate well-reasoned arguments
+  - Master the fundamentals
+  - Focus on the user and all else will follow
+  - Learn how to learn
 
 ### Characters sets
 
@@ -423,7 +439,8 @@ Biases don't only apply to hiring. For instance, the fundamental attribution bia
     - Minimize lag between rounds of review
 - [How to Do Code Reviews Like a Human](https://mtlynch.io/human-code-reviews-1/)
 - [Ask HN: How do you review code?](https://news.ycombinator.com/item?id=11416746): great discussion on HackerNews, full of interesting ideas.
-- [Maslow's pyramid of code reviews](http://www.dein.fr/2015-02-18-maslows-pyramid-of-code-review.html)
+- [Maslow's pyramid of code reviews](https://www.dein.fr/posts/2015-02-18-maslows-pyramid-of-code-review)
+  - Another one on the same topic: [The Code Review Pyramid](https://www.morling.dev/blog/the-code-review-pyramid/)
 - [Code review in remote teams](https://web.hypothes.is/blog/code-review-in-remote-teams/): very complete set of rules.
 - [No code reviews by default](https://www.raycast.com/blog/no-code-reviews-by-default/)
   - Responsibility over convention
@@ -446,6 +463,7 @@ Biases don't only apply to hiring. For instance, the fundamental attribution bia
   - Avoid negatives (`isEnabled` is better than `isDisabled`)
 - [How To Write Unmaintainable Code](https://github.com/Droogans/unmaintainable-code/blob/master/README.md)
 - [kettanaito/naming-cheatsheet](https://github.com/kettanaito/naming-cheatsheet): : comprehensive language-agnostic guidelines on variables naming. Home of the A/HC/LC pattern.
+- 🧰 [Quality Engineering Guides](https://qeunit.com/guides/)
 
 ### Compilers
 
@@ -489,14 +507,16 @@ NoSQL:
   - [Read Consistency](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/HowItWorks.ReadConsistency.html)
   - [From SQL to NoSQL](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/SQLtoNoSQL.html)
   - [NoSQL Design for DynamoDB](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/bp-general-nosql-design.html)
+- [Redis Explained](https://architecturenotes.co/redis/)
 
 ### Data formats
 
 - [Falsehoods Programmers Believe About Phone Numbers](https://github.com/googlei18n/libphonenumber/blob/master/FALSEHOODS.md), Google's `libphonenumber`.
 - [Rules for Autocomplete](http://jeremymikkola.com/posts/2019_03_19_rules_for_autocomplete.html): rough specifications for autocomplete fields
 - [Falsehoods programmers believe about addresses](https://www.mjt.me.uk/posts/falsehoods-programmers-believe-about-addresses/)
-- [Falsehoods Programmers Believe About Names | Kalzumeus Software](https://www.kalzumeus.com/2010/06/17/falsehoods-programmers-believe-about-names/)
+- [Falsehoods Programmers Believe About Names](https://www.kalzumeus.com/2010/06/17/falsehoods-programmers-believe-about-names/)
 - [kdeldycke/awesome-falsehood](https://github.com/kdeldycke/awesome-falsehood): falsehoods programmers believe in
+- [Understanding UUIDs, ULIDs and String Representations](https://sudhir.io/uuids-ulids)
 
 ### Data science/data engineering
 
@@ -622,6 +642,7 @@ Tools
 - [socat](https://copyconstruct.medium.com/socat-29453e9fc8a6)
 - [Visual guide to SSH tunnels](https://robotmoon.com/ssh-tunnels/)
 - [casey/just](https://github.com/casey/just/): a command runner written in Rust (claims to be better than Makefile)
+- [Gazr](https://gazr.io/): an opinionated way to define your `Makefile`
 
 Article about tools:
 
@@ -661,6 +682,7 @@ See also the Python-specific section in [charlax/python-education](https://githu
   - Use a `.dockerignore` file (include `**/.git`, etc.)
   - Lint and Scan Your Dockerfiles and Images (e.g. with `hadolint`)
   - Log to stdout or stderr
+- [Docker Containers Security](https://tbhaxor.com/docker-containers-security/)
 
 ### Documentation
 
@@ -677,6 +699,7 @@ See also the Python-specific section in [charlax/python-education](https://githu
   - Train your replacement
   - Delegate
   - By being disposable, you free yourself to work on high-impact projects.
+- [Write documentation first. Then build.](https://reproof.app/blog/document-first-then-build)
 
 > The palest ink is more reliable than the most powerful memory.
 > -- Chinese proverb
@@ -694,7 +717,8 @@ Articles
 
 - [Sublime Text essential plugins and resources](https://github.com/dreikanter/sublime-bookmarks)
 - Bram Moolenaar (Vim author), [Seven habits of effective text editing](http://www.moolenaar.net/habits.html) ([presentation](http://www.moolenaar.net/habits_2007.pdf)). This is about Vim but it contains good lessons about why investing time in learning how to be productive with your text editors pays off.
-- [VScode](https://code.visualstudio.com/) is one of the most popular text editors as of writing. [Visual Studio Code Can Do That?](https://www.smashingmagazine.com/2018/01/visual-studio-code/), Smashing Magazine.
+- [VScode](https://code.visualstudio.com/) is one of the most popular text editors as of writing.
+  - [Visual Studio Code Can Do That?](https://www.smashingmagazine.com/2018/01/visual-studio-code/), Smashing Magazine.
 - [Coding with Character](https://realdougwilson.com/writing/coding-with-character)
 
 About Vim specifically:
@@ -702,8 +726,8 @@ About Vim specifically:
 - 🧰 [vim-awesome](http://vimawesome.com/)
 - 🎞 [Vimcasts](http://vimcasts.org/)
 - ⭐️ [Is Vim Really Not For You? A Beginner Guide](https://thevaluable.dev/vim-beginner/)
-  - The first part of a series of 6 articles with lots of detailed and pratical tips for using Vim efficiently.
-  - [A Vim Guide for Advanced Users](https://thevaluable.dev/vim-advanced/): this one goes into more advanced shortcuts and commands.
+  - The first part of a series of 6 articles with lots of detailed and practical tips for using Vim efficiently.
+  - [A Vim Guide for Advanced Users](https://thevaluable.dev/vim-advanced/): more advanced shortcuts and commands
 - 📖 [Learning the vi and Vim Editors](https://www.oreilly.com/library/view/learning-the-vi/9780596529833/)
 - 📖 [Practical Vim](https://pragprog.com/titles/dnvim2/practical-vim-second-edition/), Drew Neil
 - [Learn Vimscript the Hard Way](https://learnvimscriptthehardway.stevelosh.com/)
@@ -711,6 +735,7 @@ About Vim specifically:
 - [Vim anti-patterns](https://blog.sanctum.geek.nz/vim-anti-patterns/)
 - [Learn Vim For the Last Time: A Tutorial and Primer](https://danielmiessler.com/study/vim/)
 - [Vim Cheat Sheet & Quick Reference](https://quickref.me/vim)
+- [History and effective use of Vim](https://begriffs.com/posts/2019-07-19-history-use-vim.html)
 
 Feel free to check my [vim configuration](https://github.com/charlax/dotfiles/tree/master/vim) and my [vim cheatsheet](https://github.com/charlax/dotfiles/tree/master/vim).
 
@@ -774,6 +799,7 @@ Practice:
 
 - [Choosing an HTTP Status Code — Stop Making It Hard](https://www.codetinkerer.com/2015/12/04/choosing-an-http-status-code.html)
 - [HTTPWTF](https://httptoolkit.tech/blog/http-wtf/)
+- [10 Surprising Things You Didn't Know About HTTP](https://webdevguild.com/blog/10-things-http/)
 
 ### Humor
 
@@ -781,6 +807,7 @@ Practice:
   - Compilers don't warn Jeff Dean. Jeff Dean warns compilers.
   - Unsatisfied with constant time, Jeff Dean created the world's first `O(1/N)` algorithm.
   - Jeff Dean mines bitcoins. In his head.
+- [The Daily WTF: Curious Perversions in Information Technology](https://thedailywtf.com/)
 
 ### Incident response (oncall, alerting, outages, firefighting, postmortem)
 
@@ -860,8 +887,13 @@ Note: this is about you as an interviewee, **not** as an interviewer. To check o
 - [A framework for grading your performance on programming interview problems](https://docs.google.com/spreadsheets/d/1gy9cmPwNhZvola7kqnfY3DElk7PYrz2ARpaCODTp8Go/htmlview?pru=AAABfLx5bfQ*dDBm6wJC2BsJGIrDvJfFQw)
 - [Preparing for the Systems Design and Coding Interview](https://blog.pragmaticengineer.com/preparing-for-the-systems-design-and-coding-interviews/), Gergely Orosz
 - [What I Learned from Doing 60+ Technical Interviews in 30 Days](https://meekg33k.dev/what-i-learned-from-doing-60-technical-interviews-in-30-days)
+- [Twipped/InterviewThis](https://github.com/Twipped/InterviewThis): questions to ask prospective employers
 
 See also the exercises section in this document.
+
+### Kubernetes
+
+- [OWASP/www-project-kubernetes-top-ten](https://github.com/OWASP/www-project-kubernetes-top-ten)
 
 ### Learning & memorizing
 
@@ -915,6 +947,15 @@ Learn how to learn!
   - Lectures are most effective when they’re only a component of the classroom experience
   - Learning is about spaced repetition, not binge-reading books
 - [The Problems with Deliberate Practice](https://commoncog.com/blog/the-problems-with-deliberate-practice/)
+- [Why Tacit Knowledge is More Important Than Deliberate Practice](https://commoncog.com/tacit-knowledge-is-a-real-thing/)
+- [In Praise of Memorization](http://www.pearlleff.com/in-praise-of-memorization)
+  - You can't reason accurately without knowledge
+  - Memorizing organized your knowledge
+  - It stays with you
+- [Celebrate tiny learning milestones](https://jvns.ca/blog/2022/03/13/celebrate-tiny-learning-milestones/), Julia Evans.
+  - Keep a brag document
+  - You can do a lot "by accident"
+  - Fixing a bug can be milestone
 
 About Zettelkasten and PKM (personal knowledge management):
 
@@ -1001,14 +1042,58 @@ Richard Feynman's Learning Strategy:
 - [Simple Anomaly Detection Using Plain SQL](https://hakibenita.com/sql-anomaly-detection)
 - [How percentile approximation works (and why it's more useful than averages)](https://www.timescale.com/blog/how-percentile-approximation-works-and-why-its-more-useful-than-averages/)
 
+### Operating system
+
+- 📖 [The Linux Programming Interface: A Linux and UNIX System Programming Handbook](http://www.amazon.com/The-Linux-Programming-Interface-Handbook/dp/1593272200): already mentioned above.
+- 📖 [Modern Operating Systems](https://www.amazon.com/dp/013359162X/), Andrew Tanenbaum, Herbert Bos (not read)
+- 📖 [Operating Systems: Three Easy Pieces](https://pages.cs.wisc.edu/~remzi/OSTEP/) (free book, not read)
+- 📖 [Linux Kernel Development](https://www.amazon.com/Linux-Kernel-Development-Robert-Love/dp/0672329468), Robert Love. A very complete introduction to developing within the Linux Kernel.
+- [The 10 Operating System Concepts Software Developers Need to Remember](https://jameskle.com/writes/operating-systems)
+- Play with xv6 on [MIT 6.828](https://pdos.csail.mit.edu/6.828/2016/schedule.html)
+
+### Over-engineering
+
+- [10 modern software over-engineering mistakes](https://medium.com/@rdsubhas/10-modern-software-engineering-mistakes-bc67fbef4fc8#.da6dvzyne)
+- [A good example of over-engineering: the Juicero press](https://blog.bolt.io/heres-why-juicero-s-press-is-so-expensive-6add74594e50) (April 2017)
+- [You Are Not Google](https://blog.bradfieldcs.com/you-are-not-google-84912cf44afb): the UNPHAT method to avoid cargo cult.
+  - Don’t even start considering solutions until you Understand the problem. Your goal should be to “solve” the problem mostly within the problem domain, not the solution domain.
+  - eNumerate multiple candidate solutions. Don’t just start prodding at your favorite!
+- [Overthinking](https://kerkour.com/overthinking)
+  - 1st poison: education.
+  - 2nd poison: marketing.
+  - 3rd poison: ego
+  - Solution: Stop trying to connect all the dots ahead of time. Embrace uncertainty and start doing.
+
+> “A complex system that works is invariably found to have evolved from a simple system that worked. A complex system designed from scratch never works and cannot be patched up to make it work. You have to start over, beginning with a working simple system.”
+
+— John Gall, General systemantics, an essay on how systems work, and especially how they fail..., 1975 (this quote is sometime referred as "Galls' law")
+
+> "Software engineering is what happens to programming when you add time and other programmers."
+
+— Rob Pike, [Go at Google: Language Design in the Service of Software Engineering](https://talks.golang.org/2012/splash.article)
+
+> You can’t connect the dots looking forward; you can only connect them looking backwards. So you have to trust that the dots will somehow connect in your future. You have to trust in something — your gut, destiny, life, karma, whatever. This approach has never let me down, and it has made all the difference in my life.
+
+— Steve Jobs
+
+### Performance
+
+- [Performance comparison: counting words in Python, Go, C++, C, AWK, Forth, and Rust](https://benhoyt.com/writings/count-words/): a great way to learn about measuring performance.
+
+### Personal productivity
+
+Check out this section on my [list of management resources, "Personal productivity"](https://github.com/charlax/engineering-management/#personal-productivity).
+
 ### Perspective
 
 - [At 31, I have just weeks to live. Here's what I want to pass on](https://www.theguardian.com/commentisfree/2020/sep/07/terminal-cancer-live-cancer-life-death)
-    - First, the importance of gratitude.
-    - Second, a life, if lived well, is long enough.
-    - Third, it’s important to let yourself be vulnerable and connect to others.
-    - Fourth, do something for others.
-    - Fifth, protect the planet.
+  - First, the importance of gratitude.
+  - Second, a life, if lived well, is long enough.
+  - Third, it’s important to let yourself be vulnerable and connect to others.
+  - Fourth, do something for others.
+  - Fifth, protect the planet.
+- [Life Is Not Short](https://dkb.show/post/life-is-not-short)
+  - "The most surprising thing is that you wouldn’t let anyone steal your property, but you consistently let people steal your time, which is infinitely more valuable." — Seneca
 
 ### Problem solving
 
@@ -1045,6 +1130,8 @@ A bit more reading:
 - [Programming Language Checklist](https://famicol.in/language_checklist.html): a fun take on "so you want to build your own language?"
 - [Static vs. dynamic languages: a literature review](http://danluu.com/empirical-pl/)
 - [Polyglot Programming and the Benefits of Mastering Several Languages](https://www.stxnext.com/blog/polyglot-programming/)
+- [It's not what programming languages do, it's what they shepherd you to](https://nibblestew.blogspot.com/2020/03/its-not-what-programming-languages-do.html)
+- [Ask HN: What do you code when learning a new language/framework?](https://news.ycombinator.com/item?id=32092943)
 
 > There are only two kinds of languages: the ones people complain about and the ones nobody uses.
 
@@ -1065,32 +1152,6 @@ JavaScript is such a pervasive language that it's almost required learning.
 - [Imperative vs Declarative Programming](https://tylermcginnis.com/imperative-vs-declarative-programming/), Tyler McGinnis.
     - I draw the line between declarative and non-declarative at whether you can trace the code as it runs. Regex is 100% declarative, as it’s untraceable while the pattern is being executed.
 
-### Operating system
-
-- 📖 [The Linux Programming Interface: A Linux and UNIX System Programming Handbook](http://www.amazon.com/The-Linux-Programming-Interface-Handbook/dp/1593272200): already mentioned above.
-- 📖 [Modern Operating Systems](https://www.amazon.com/dp/013359162X/), Andrew Tanenbaum, Herbert Bos (not read)
-- 📖 [Operating Systems: Three Easy Pieces](https://pages.cs.wisc.edu/~remzi/OSTEP/) (free book, not read)
-- 📖 [Linux Kernel Development](https://www.amazon.com/Linux-Kernel-Development-Robert-Love/dp/0672329468), Robert Love. A very complete introduction to developing within the Linux Kernel.
-- [The 10 Operating System Concepts Software Developers Need to Remember](https://jameskle.com/writes/operating-systems)
-- Play with xv6 on [MIT 6.828](https://pdos.csail.mit.edu/6.828/2016/schedule.html)
-
-### Over-engineering
-
-- [10 modern software over-engineering mistakes](https://medium.com/@rdsubhas/10-modern-software-engineering-mistakes-bc67fbef4fc8#.da6dvzyne)
-- [A good example of over-engineering: the Juicero press](https://blog.bolt.io/heres-why-juicero-s-press-is-so-expensive-6add74594e50) (April 2017)
-- [You Are Not Google](https://blog.bradfieldcs.com/you-are-not-google-84912cf44afb): the UNPHAT method to avoid cargo cult.
-  - Don’t even start considering solutions until you Understand the problem. Your goal should be to “solve” the problem mostly within the problem domain, not the solution domain.
-  - eNumerate multiple candidate solutions. Don’t just start prodding at your favorite!
-
-> “A complex system that works is invariably found to have evolved from a simple system that worked. A complex system designed from scratch never works and cannot be patched up to make it work. You have to start over, beginning with a working simple system.”
-
-John Gall, General systemantics, an essay on how systems work, and especially how they fail..., 1975 (this quote is sometime referred as "Galls' law")
-
-> "Software engineering is what happens to programming
-> when you add time and other programmers."
-
-Rob Pike, [Go at Google: Language Design in the Service of Software Engineering](https://talks.golang.org/2012/splash.article)
-
 ### Reading
 
 - [Papers we love](https://github.com/papers-we-love/papers-we-love): papers from the computer science community to read and discuss. Can be a good source of inspiration of solving your design problems.
@@ -1098,6 +1159,7 @@ Rob Pike, [Go at Google: Language Design in the Service of Software Engineering]
 - [The Complete Guide to Effective Reading](https://maartenvandoorn.nl/reading-guide/)
 - [The benefits of note-taking by hand](https://www.bbc.com/worklife/article/20200910-the-benefits-of-note-taking-by-hand)
 - [The Art of Reading More Effectively and Efficiently](https://aliabdaal.com/read-more-effectively/)
+- [You should be reading academic computer science papers](https://stackoverflow.blog/2022/04/07/you-should-be-reading-academic-computer-science-papers/), Stack Overflow Blog
 
 ### Refactoring
 
@@ -1119,13 +1181,14 @@ Rob Pike, [Go at Google: Language Design in the Service of Software Engineering]
 - [BlueGreenDeployment](http://martinfowler.com/bliki/BlueGreenDeployment.html), Martin Fowler
 - [Move fast and break nothing](https://zachholman.com/talk/move-fast-break-nothing/), Zach Holman
 - 🏙 [Move fast and don't break things](https://docs.google.com/presentation/d/15gNk21rjer3xo-b1ZqyQVGebOp_aPvHU3YH7YnOMxtE/edit#slide=id.g437663ce1_53_591), Google
+- [Shipping to Production](https://blog.pragmaticengineer.com/shipping-to-production/), The Pragmatic Programmer
 
 Versioning:
 
-- [Semantic Versioning](https://semver.org/)
-- [Calendar Versioning — CalVer](https://calver.org/)
+- [SemVer - Semantic Versioning](https://semver.org/)
+- [CalVer - Calendar Versioning](https://calver.org/)
 - [Semantic Versioning Will Not Save You](https://hynek.me/articles/semver-will-not-save-you/)
-- [Version numbers: how to use them? · Tech articles by Bernát Gábor](https://bernat.tech/posts/version-numbers/)
+- [Version numbers: how to use them?](https://bernat.tech/posts/version-numbers/)
 
 Checklists:
 
@@ -1201,7 +1264,10 @@ Testing in production:
 - 🏙 [Minimum Viable Security](https://speakerdeck.com/jacobian/minimum-viable-security-wharton-web-conference-2015)
 - [The Open Software Assurance Maturity Model](https://www.opensamm.org/)
 - [Security by Obscurity is Underrated](https://utkusen.com/blog/security-by-obscurity-is-underrated)
-- [Don’t Wanna Pay Ransom Gangs? Test Your Backups](https://krebsonsecurity.com/2021/07/dont-wanna-pay-ransom-gangs-test-your-backups/), Krebs on Security
+- [Don't Wanna Pay Ransom Gangs? Test Your Backups](https://krebsonsecurity.com/2021/07/dont-wanna-pay-ransom-gangs-test-your-backups/), Krebs on Security
+- [The Beginner’s Guide to Passwords](https://medium.com/peerio/how-to-build-a-billion-dollar-password-3d92568d9277#67c2)
+- [Learnings from 5 years of tech startup code audits](https://kenkantzer.com/learnings-from-5-years-of-tech-startup-code-audits/)
+- [API Tokens: A Tedious Survey](https://fly.io/blog/api-tokens-a-tedious-survey/): don't use JWT.
 
 Training for developers:
 
@@ -1213,13 +1279,14 @@ Training for developers:
 
 List of resources:
 
-- 🧰 [meirwah/awesome-incident-response](https://github.com/meirwah/awesome-incident-response): a curated list of tools for incident response
+- 🧰 [meirwah/awesome-incident-response](https://github.com/meirwah/awesome-incident-response): tools for incident response
 - 🧰 [Starting Up Security](https://scrty.io/)
+- 🧰 [decalage2/awesome-security-hardening](https://github.com/decalage2/awesome-security-hardening): security hardening guides, tools and other resources
 
 ### Shell (command line)
 
 - 🧰 [alebcay/awesome-shell](https://github.com/alebcay/awesome-shell)
-- [dylanaraps/pure-bash-bible: a collection of pure bash alternatives to external processes.](https://github.com/dylanaraps/pure-bash-bible)
+- 🧰 [dylanaraps/pure-bash-bible](https://github.com/dylanaraps/pure-bash-bible): pure bash alternatives to external processes.
 - [The Bash Hackers Wiki](https://wiki.bash-hackers.org/) provides a gentler way to learn about bash than its manages.
 - [Awk in 20 Minutes](https://ferd.ca/awk-in-20-minutes.html)
 - 🏙 [Linux Productivity Tools](https://www.usenix.org/sites/default/files/conference/protected-files/lisa19_maheshwari.pdf)
@@ -1229,6 +1296,8 @@ List of resources:
 - [The Linux Commands Handbook](https://openbootcamps.com/the-linux-commands-handbook/)
 - [How to write idempotent Bash scripts](https://arslan.io/2019/07/03/how-to-write-idempotent-bash-scripts/)
 - [Learn bash by playing an adventure](https://gitlab.com/slackermedia/bashcrawl)
+- [Effective Shell](https://effective-shell.com/)
+- [Computing from the Command Line](https://learnbyexample.github.io/cli-computing/preface.html)
 
 ### SQL
 
@@ -1293,6 +1362,7 @@ Microservices/splitting a monolith:
 - 🏙 [Breaking down the monolith](https://speakerdeck.com/slashdotpeter/breaking-down-the-monolith-devone)
 - [Monoliths are the future](https://changelog.com/posts/monoliths-are-the-future)
     - "We’re gonna break it up and somehow find the engineering discipline we never had in the first place."
+- [12 Ways to Prepare your Monolith Before Transitioning to Microservices](https://semaphoreci.com/blog/monolith-microservices)
 
 #### Scalability
 
@@ -1310,6 +1380,7 @@ Microservices/splitting a monolith:
     - Hindsight biases post-accident assessments of human performance.
     - Safety is a characteristic of systems and not of their components
     - Failure free operations require experience with failure.
+- 🧰 [Testing Distributed Systems](https://asatarin.github.io/testing-distributed-systems/)
 
 #### Resiliency
 
@@ -1346,6 +1417,7 @@ Articles:
 - [Meaningful availability](https://blog.acolyer.org/2020/02/26/meaningful-availability/)
   - A good availability metric should be meaningful, proportional, and actionable. By "meaningful" we mean that it should capture what users experience. By "proportional" we mean that a change in the metric should be proportional to the change in user-perceived availability. By "actionable" we mean that the metric should give system owners insight into why availability for a period was low. This paper shows that none of the commonly used metrics satisfy these requirements…
 - 🏙 [High Reliability Infrastructure migrations](https://speakerdeck.com/jvns/high-reliability-infrastructure-migrations), Julia Evans.
+- 🏙 [The Paradox of Alerts](https://speakerdeck.com/charity/the-paradox-of-alerts): why deleting 90% of your paging alerts can make your systems better, and how to craft an on-call rotation that engineers are happy to join.
 
 > Reliability is the one feature every customer users. -- An auth0 SRE.
 
@@ -1438,6 +1510,8 @@ More specific topics:
 - 🏙 [10 Git Anti Patterns You Should be Aware of](https://speakerdeck.com/lemiorhan/10-git-anti-patterns-you-should-be-aware-of)
 - [Learn Git Branching](https://learngitbranching.js.org/): an interactive game
 - [Fix conflicts only once with git rerere](https://medium.com/@porteneuve/fix-conflicts-only-once-with-git-rerere-7d116b2cec67)
+- [Monorepo Explained](https://monorepo.tools/)
+- [How to Write a Git Commit Message](https://cbea.ms/git-commit/)
 
 ### Work ethics, productivity & work/life balance
 
@@ -1509,6 +1583,8 @@ More specific topics:
 - [Programming and Writing](http://antirez.com/news/135), Antirez
 - [Writing one sentence per line](https://sive.rs/1s)
 - [Ask HN: How to level up your technical writing?](https://news.ycombinator.com/item?id=31859040). Lots of great resources.
+- [Patterns in confusing explanations](https://jvns.ca/blog/confusing-explanations/), Julia Evans
+- [Technical Writing for Developers](https://css-tricks.com/technical-writing-for-developers/)
 
 ![Write like an Amazonian](./images/amazon_writing_rules.jpeg)
 
