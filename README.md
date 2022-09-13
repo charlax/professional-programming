@@ -51,6 +51,7 @@
     - [Interviewing](#interviewing)
     - [Learning & memorizing](#learning--memorizing)
     - [Low-level, assembly](#low-level-assembly)
+    - [Math](#math)
     - [Network](#network)
     - [Observability (monitoring, logging, exception handling)](#observability-monitoring-logging-exception-handling)
       - [Logging](#logging)
@@ -955,6 +956,10 @@ Richard Feynman's Learning Strategy:
 - [What's in a Linux executable?](https://fasterthanli.me/series/making-our-own-executable-packer/part-1)
 - 📖 [The Elements of Computing Systems](https://www.nand2tetris.org/book): building a modern computer from first principles (nand2tetris).
 - [Old pattern powering modern tech](https://softwarebits.substack.com/p/old-pattern-powering-modern-tech?s=r)
+
+### Math
+
+- 🏙 [Statistics for Hackers](https://speakerdeck.com/jakevdp/statistics-for-hackers)
 
 ### Network
 
