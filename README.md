@@ -91,7 +91,6 @@
     - [Work ethics, productivity & work/life balance](#work-ethics-productivity--worklife-balance)
     - [Web development](#web-development)
     - [Writing (communication, blogging)](#writing-communication-blogging)
-    - [Writing for performance](#writing-for-performance)
   - [Resources & inspiration for presentations](#resources--inspiration-for-presentations)
   - [Keeping up-to-date](#keeping-up-to-date)
   - [Concepts](#concepts)
@@ -1078,6 +1077,14 @@ Richard Feynman's Learning Strategy:
 
 ### Performance
 
+- [Numbers Everyone Should Know](https://everythingisdata.wordpress.com/2009/10/17/numbers-everyone-should-know/)
+- [Latency numbers every programmer should know](https://gist.github.com/hellerbarde/2843375)
+- [Rob Pike's 5 Rules of Programming](http://users.ece.utexas.edu/~adnan/pike.html)
+    - You can't tell where a program is going to spend its time.
+    - Measure
+    - Fancy algorithms are slow when n is small, and n is usually small.
+    - Fancy algorithms are buggier than simple ones
+    - Data dominates.
 - [Performance comparison: counting words in Python, Go, C++, C, AWK, Forth, and Rust](https://benhoyt.com/writings/count-words/): a great way to learn about measuring performance.
 
 ### Personal productivity
@@ -1590,17 +1597,6 @@ More specific topics:
 
 > If you’re overthinking, write. If you’re underthinking, read.
 > – @AlexAndBooks_
-
-### Writing for performance
-
-- [Numbers Everyone Should Know](https://everythingisdata.wordpress.com/2009/10/17/numbers-everyone-should-know/)
-- [Latency numbers every programmer should know](https://gist.github.com/hellerbarde/2843375)
-- [Rob Pike's 5 Rules of Programming](http://users.ece.utexas.edu/~adnan/pike.html)
-    - You can't tell where a program is going to spend its time.
-    - Measure
-    - Fancy algorithms are slow when n is small, and n is usually small.
-    - Fancy algorithms are buggier than simple ones
-    - Data dominates.
 
 ## Resources & inspiration for presentations
 
