@@ -1167,6 +1167,12 @@ JavaScript is such a pervasive language that it's almost required learning.
 - [The benefits of note-taking by hand](https://www.bbc.com/worklife/article/20200910-the-benefits-of-note-taking-by-hand)
 - [The Art of Reading More Effectively and Efficiently](https://aliabdaal.com/read-more-effectively/)
 - [You should be reading academic computer science papers](https://stackoverflow.blog/2022/04/07/you-should-be-reading-academic-computer-science-papers/), Stack Overflow Blog
+- [How to Remember What You Read](https://fs.blog/remember-books/)
+  - Take notes
+  - Stay focused
+  - Mark up the book
+  - Make mental links
+  - Quit books
 
 ### Refactoring
 
