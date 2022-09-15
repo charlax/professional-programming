@@ -989,6 +989,12 @@ Richard Feynman's Learning Strategy:
 > A wise man can learn more from a foolish question than a fool can learn from a wise answer.
 > – Bruce Lee
 
+> A lecture has been well described as the process whereby the notes of the teacher become the notes of the student without passing through the mind of either.
+> — Mortimer Adler
+
+> Fools learn from experience. I prefer to learn from the experience of others.
+> — Bismark
+
 ### Low-level, assembly
 
 - [Back to Basics](https://www.joelonsoftware.com/2001/12/11/back-to-basics/), Joel Spolsky. Explains why learning low level programming is important.
@@ -1158,6 +1164,7 @@ JavaScript is such a pervasive language that it's almost required learning.
 
 - [Imperative vs Declarative Programming](https://tylermcginnis.com/imperative-vs-declarative-programming/), Tyler McGinnis.
     - I draw the line between declarative and non-declarative at whether you can trace the code as it runs. Regex is 100% declarative, as it’s untraceable while the pattern is being executed.
+- 🎞 [Imperative vs Declarative Programming](https://www.youtube.com/watch?v=E7Fbf7R3x6I&ab_channel=uidotdev)
 
 ### Reading
 
@@ -1507,6 +1514,7 @@ Learning Git, courses and books:
 - [Git Immersion](https://gitimmersion.com/)
 - [A Visual Git Reference](http://marklodato.github.io/visual-git-guide/index-en.html) (a bit more advanced)
 - [Think Like (a) Git](http://think-like-a-git.net/)
+- [Git's database internals I: packed object store](https://github.blog/2022-08-29-gits-database-internals-i-packed-object-store/): an insightful deep dive from Github
 
 Cheat sheets:
 
