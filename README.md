@@ -52,6 +52,7 @@
     - [Interviewing](#interviewing)
     - [Kubernetes](#kubernetes)
     - [Learning & memorizing](#learning--memorizing)
+    - [Linux (system management)](#linux-system-management)
     - [Low-level, assembly](#low-level-assembly)
     - [Math](#math)
     - [Network](#network)
@@ -245,6 +246,7 @@ Let's be honest: algorithms can be a pretty dry topic. [This quora question](htt
 - [Grokking Algorithms](https://www.amazon.com/dp/1617292230/ref=cm_sw_su_dp)
 - [Essential Algorithms](https://www.amazon.com/Essential-Algorithms-Practical-Approach-Computer/dp/1118612108?ie=UTF8&*Version*=1&*entries*=0)
 - [Data Structure Visualization](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html)
+- 🎞 [15 Sorting Algorithms in 6 Minutes](https://www.youtube.com/watch?v=kPRA0W1kECg&ab_channel=TimoBingmann)
 
 Example implementations:
 
@@ -994,6 +996,10 @@ Richard Feynman's Learning Strategy:
 
 > Fools learn from experience. I prefer to learn from the experience of others.
 > — Bismark
+
+### Linux (system management)
+
+- [Welcome to Linux command line for you and me!](https://lym.readthedocs.io/en/latest/index.html)
 
 ### Low-level, assembly
 
