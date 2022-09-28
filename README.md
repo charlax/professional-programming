@@ -71,6 +71,7 @@
     - [Programming languages](#programming-languages)
       - [Python](#python)
       - [JavaScript](#javascript)
+      - [Garbage collection](#garbage-collection)
     - [Programming paradigm](#programming-paradigm)
     - [Reading](#reading)
     - [Refactoring](#refactoring)
@@ -1170,6 +1171,10 @@ For Python feel free to checkout my [professional Python education repository](h
 JavaScript is such a pervasive language that it's almost required learning.
 
 - [mbeaudru/modern-js-cheatsheet](https://github.com/mbeaudru/modern-js-cheatsheet): cheatsheet for the JavaScript knowledge you will frequently encounter in modern projects.
+
+#### Garbage collection
+
+- [A Guide to the Go Garbage Collector](https://go.dev/doc/gc-guide): a very insightful guide about Go's GC
 
 ### Programming paradigm
 
