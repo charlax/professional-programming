@@ -52,6 +52,7 @@
     - [Interviewing](#interviewing)
     - [Kubernetes](#kubernetes)
     - [Learning & memorizing](#learning--memorizing)
+    - [Licenses (legal)](#licenses-legal)
     - [Linux (system management)](#linux-system-management)
     - [Low-level, assembly](#low-level-assembly)
     - [Math](#math)
@@ -996,6 +997,10 @@ Richard Feynman's Learning Strategy:
 
 > Fools learn from experience. I prefer to learn from the experience of others.
 > — Bismark
+
+### Licenses (legal)
+
+- [Software Licenses in Plain English](https://tldrlegal.com/)
 
 ### Linux (system management)
 
