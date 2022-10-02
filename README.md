@@ -545,6 +545,12 @@ NoSQL:
 - [If you understand a bug, you can fix it](https://wizardzines.com/comics/understand-can-fix/)
 - [The Thirty Minute Rule](https://daniel.feldroy.com/posts/thirty-minute-rule): if anyone gets stuck on something for more than 30 minutes, they should ask for help
 - [How to create a Minimal, Reproducible Example ](https://stackoverflow.com/help/minimal-reproducible-example), Stack Overflow
+- [Some ways to get better at debugging](https://jvns.ca/blog/2022/08/30/a-way-to-categorize-debugging-skills/), Julia Evans
+  - Learn the codebase
+  - Learn the system (e.g., HTTP stack, database transactions)
+  - Learn your tools (e.g., `strace`, `tcpdump`)
+  - Learn strategies (e.g., writing code to reproduce, adding logging, taking a break)
+  - Get experience: according to a study, "experts simply formed more correct hypotheses and were more efficient at finding the fault."
 
 ### Design (visual, UX, UI, typography)
 
