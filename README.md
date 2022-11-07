@@ -1178,6 +1178,7 @@ For Python feel free to checkout my [professional Python education repository](h
 JavaScript is such a pervasive language that it's almost required learning.
 
 - [mbeaudru/modern-js-cheatsheet](https://github.com/mbeaudru/modern-js-cheatsheet): cheatsheet for the JavaScript knowledge you will frequently encounter in modern projects.
+- [javascript-tutorial](https://github.com/javascript-tutorial): comprehensive JavaScript guide with simple but detailed explanantions. Available in several languages.
 
 #### Garbage collection
 
