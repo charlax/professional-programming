@@ -829,6 +829,7 @@ Practice:
   - Include cause-based information in symptom-based pages or on dashboards, but avoid alerting directly on causes.
   - The further up your serving stack you go, the more distinct problems you catch in a single rule. But don’t go so far you can’t sufficiently distinguish what’s going on.
   - If you want a quiet oncall rotation, it’s imperative to have a system for dealing with things that need timely response, but are not imminently critical.
+  - This classical article has now become a [chapter](https://sre.google/sre-book/monitoring-distributed-systems/) in Google's SRE book.
 - The Google SRE book's [chapter about oncall](https://landing.google.com/sre/workbook/chapters/on-call/)
 - [Writing Runbook Documentation When You’re An SRE](https://www.transposit.com/blog/2020.01.30-writing-runbook-documentation-when-youre-an-sre/)
   - Playbooks “reduce stress, the mean time to repair (MTTR), and the risk of human error.”
