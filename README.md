@@ -338,6 +338,9 @@ Dan Heller, Building a Career in Software
 > I had learned already never to empty the well of my writing, but always to stop when there was still something there in the deep part of the well, and let it refill at night from the springs that fed it. -- Ernest Hemingway
 - [The Grug Brained Developer](https://grugbrain.dev): habits of self-aware programmer. Like Tao of Programming, different style.
 
+> Good judgment comes from experience.
+> Experience comes from bad judgment.
+
 ### Authentication/authorization
 
 - [Authorization in a microservices world](https://www.alexanderlolis.com/authorization-in-a-microservices-world)
