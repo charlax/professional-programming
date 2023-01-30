@@ -1072,7 +1072,11 @@ Richard Feynman's Learning Strategy:
 
 #### Error/exception handling
 
-- [Error handling antipatterns](./antipatterns/error-handling-antipatterns.md) in my this repo.
+- [Error handling antipatterns](./antipatterns/error-handling-antipatterns.md) in this repo.
+- [Writing Helpful Error Messages](https://developers.google.com/tech-writing/error-messages), Google Developers' course on Technical Writing
+  - Explain the problem
+  - Explain the solution
+  - Write clearly
 
 #### Monitoring
 
