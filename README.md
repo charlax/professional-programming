@@ -1652,6 +1652,19 @@ More specific topics:
 - [Patterns in confusing explanations](https://jvns.ca/blog/confusing-explanations/), Julia Evans
 - [Technical Writing for Developers](https://css-tricks.com/technical-writing-for-developers/)
 
+Guides & classes about technical writing:
+
+- [Documentation Guide — Write the Docs](https://www.writethedocs.org/guide/)
+  - Principles
+  - Style guides
+  - Docs as code
+  - Markup languages
+  - Tools
+- [Technical Writing One introduction](https://developers.google.com/tech-writing/one), Google
+  - Grammar
+  - Active voice
+  - Clear & short sentences
+
 ![Write like an Amazonian](./images/amazon_writing_rules.jpeg)
 
 > If you’re overthinking, write. If you’re underthinking, read.
