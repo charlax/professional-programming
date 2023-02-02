@@ -914,11 +914,19 @@ Note: this is about you as an interviewee, **not** as an interviewer. To check o
 - [Questions to ask the company during your interview](https://github.com/viraptor/reverse-interview)
 - [A complete computer science study plan to become a software engineer](https://github.com/jwasham/coding-interview-university)
 - [Interview advice that got me offers from Google, Microsoft, and Stripe](https://www.zainrizvi.io/blog/the-interviewing-advice-no-one-shares/)
-- [The Red Flags on Your Resume](https://danicfilip.com/2020/red-flags-on-your-resume/?ck_subscriber_id=887770473)
 - [A framework for grading your performance on programming interview problems](https://docs.google.com/spreadsheets/d/1gy9cmPwNhZvola7kqnfY3DElk7PYrz2ARpaCODTp8Go/htmlview?pru=AAABfLx5bfQ*dDBm6wJC2BsJGIrDvJfFQw)
 - [Preparing for the Systems Design and Coding Interview](https://blog.pragmaticengineer.com/preparing-for-the-systems-design-and-coding-interviews/), Gergely Orosz
 - [What I Learned from Doing 60+ Technical Interviews in 30 Days](https://meekg33k.dev/what-i-learned-from-doing-60-technical-interviews-in-30-days)
 - [Twipped/InterviewThis](https://github.com/Twipped/InterviewThis): questions to ask prospective employers
+
+Résumé:
+
+- [The Red Flags on Your Resume](https://danicfilip.com/2020/red-flags-on-your-resume/?ck_subscriber_id=887770473)
+- [What we look for in a resume](https://huyenchip.com/2023/01/24/what-we-look-for-in-a-candidate.html)
+  - We look for demonstrated expertise, not keywords
+  - We look for people who get things done
+  - We look for unique perspectives
+  - We care about impact, not meaningless metrics
 
 See also the exercises section in this document.
 
@@ -1337,6 +1345,7 @@ Testing in production:
 - [The Beginner’s Guide to Passwords](https://medium.com/peerio/how-to-build-a-billion-dollar-password-3d92568d9277#67c2)
 - [Learnings from 5 years of tech startup code audits](https://kenkantzer.com/learnings-from-5-years-of-tech-startup-code-audits/)
 - [API Tokens: A Tedious Survey](https://fly.io/blog/api-tokens-a-tedious-survey/): don't use JWT.
+- [The Six Dumbest Ideas in Computer Security](http://ranum.com/security/computer_security/editorials/dumb/index.html)
 
 Training for developers:
 
