@@ -230,6 +230,7 @@ List of axioms:
 - [Mathematics for the adventurous self-learner](https://www.neilwithdata.com/mathematics-self-learner), Neil Sainsbury
 - [jwasham/coding-interview-university](https://github.com/jwasham/coding-interview-university): a complete computer science study plan to become a software engineer.
 - [Teach Yourself Computer Science](https://teachyourselfcs.com/): an opinionated set of the best CS resources.
+- [ossu/computer-science](https://github.com/ossu/computer-science): free self-taught education in Computer Science!
 
 ## Topics
 
