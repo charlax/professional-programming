@@ -18,6 +18,7 @@
     - [Biases](#biases)
     - [Cache](#cache)
     - [Career growth](#career-growth)
+      - [Getting to Staff Eng](#getting-to-staff-eng)
     - [Characters sets](#characters-sets)
     - [Clouds](#clouds)
     - [Code reviews](#code-reviews)
@@ -97,6 +98,7 @@
   - [Resources & inspiration for presentations](#resources--inspiration-for-presentations)
   - [Keeping up-to-date](#keeping-up-to-date)
   - [Concepts](#concepts)
+  - [My other lists](#my-other-lists)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -776,8 +778,7 @@ Feel free to check my [vim configuration](https://github.com/charlax/dotfiles/tr
 
 ### Engineering management
 
-Checkout my [list of management
-resources](https://github.com/charlax/engineering-management).
+Checkout my [list of management resources](https://github.com/charlax/engineering-management).
 
 ### Exercises
 
@@ -1728,3 +1729,10 @@ Newsletters:
 - [TDD](https://en.wikipedia.org/wiki/Test-driven_development)
 = [Two Generals' Problem](https://en.wikipedia.org/wiki/Two_Generals%27_Problem)
 - [YAGNI](https://en.wikipedia.org/wiki/You_aren%27t_gonna_need_it)
+
+## My other lists
+
+- [engineering-management](https://github.com/charlax/engineering-management/)
+- [entrepreneurship-resources](https://github.com/charlax/entrepreneurship-resources)
+- [professional-programming](https://github.com/charlax/professional-programming)
+- [python-education](https://github.com/charlax/python-education)
