@@ -65,6 +65,7 @@
     - [Operating system](#operating-system)
     - [Over-engineering](#over-engineering)
     - [Performance](#performance)
+    - [Personal knowledge management](#personal-knowledge-management)
     - [Personal productivity](#personal-productivity)
     - [Perspective](#perspective)
     - [Problem solving](#problem-solving)
@@ -998,10 +999,7 @@ Learn how to learn!
   - You can do a lot "by accident"
   - Fixing a bug can be milestone
 
-About Zettelkasten and PKM (personal knowledge management):
-
-- [Zettelkasten Method](https://zettelkasten.de/posts/overview/)
-- [How to build a second brain as a software developer](https://aseemthakar.com/how-to-build-a-second-brain-as-a-software-developer/)
+About Zettelkasten and PKM (personal knowledge management): see [Personal knowledge management](#personal-knowledge-management)
 
 Richard Feynman's Learning Strategy:
 
@@ -1052,6 +1050,7 @@ Richard Feynman's Learning Strategy:
 - [What's in a Linux executable?](https://fasterthanli.me/series/making-our-own-executable-packer/part-1)
 - 📖 [The Elements of Computing Systems](https://www.nand2tetris.org/book): building a modern computer from first principles (nand2tetris).
 - [Old pattern powering modern tech](https://softwarebits.substack.com/p/old-pattern-powering-modern-tech?s=r)
+- [Demystifying bitwise operations, a gentle C tutorial](https://www.andreinc.net/2023/02/01/demystifying-bitwise-ops)
 
 ### Math
 
@@ -1146,6 +1145,16 @@ Richard Feynman's Learning Strategy:
     - Fancy algorithms are buggier than simple ones
     - Data dominates.
 - [Performance comparison: counting words in Python, Go, C++, C, AWK, Forth, and Rust](https://benhoyt.com/writings/count-words/): a great way to learn about measuring performance.
+
+### Personal knowledge management
+
+
+- [Zettelkasten Method](https://zettelkasten.de/posts/overview/)
+- [How to build a second brain as a software developer](https://aseemthakar.com/how-to-build-a-second-brain-as-a-software-developer/)
+- [Notes Against Note-Taking Systems](https://sashachapin.substack.com/p/notes-against-note-taking-systems)
+  - An interesting contrarian take!
+  - I am waiting for any evidence that our most provocative thinkers and writers are those who rely on elaborate, systematic note-taking systems.
+  - I am seeing evidence that people taught knowledge management for its own sake produce unexciting work.
 
 ### Personal productivity
 
