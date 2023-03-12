@@ -65,7 +65,7 @@
     - [Operating system](#operating-system)
     - [Over-engineering](#over-engineering)
     - [Performance](#performance)
-    - [Personal knowledge management](#personal-knowledge-management)
+    - [Personal knowledge management (PKM)](#personal-knowledge-management-pkm)
     - [Personal productivity](#personal-productivity)
     - [Perspective](#perspective)
     - [Problem solving](#problem-solving)
@@ -206,6 +206,7 @@ There are some free books available, including:
 - [What every computer science major should know](http://matt.might.net/articles/what-cs-majors-should-know/)
 - [kamranahmedse/developer-roadmap](https://github.com/kamranahmedse/developer-roadmap)
 - [mtdvio/every-programmer-should-know](https://github.com/mtdvio/every-programmer-should-know): a collection of (mostly) technical things every software developer should know about
+- [Mike Acton’s Expectations of Professional Software Engineers](https://adamj.eu/tech/2022/06/17/mike-actons-expectations-of-professional-software-engineers/)
 
 List of axioms:
 
@@ -423,6 +424,7 @@ Biases don't only apply to hiring. For instance, the fundamental attribution bia
   - Master the fundamentals
   - Focus on the user and all else will follow
   - Learn how to learn
+- [How To Own Your Growth As A Software Engineer](https://jes.al/2022/07/how-to-own-your-growth-as-a-software-engineer/)
 
 #### Getting to Staff Eng
 
@@ -575,6 +577,8 @@ NoSQL:
   - Learn your tools (e.g., `strace`, `tcpdump`)
   - Learn strategies (e.g., writing code to reproduce, adding logging, taking a break)
   - Get experience: according to a study, "experts simply formed more correct hypotheses and were more efficient at finding the fault."
+- [What exactly is the 'Saff Squeeze' method of finding a bug?](https://stackoverflow.com/questions/23865274/what-exactly-is-the-saff-squeeze-method-of-finding-a-bug)
+  - A systematic technique for deleting both test code and non-test code from a failing test until the test and code are small enough to understand.
 
 ### Design (visual, UX, UI, typography)
 
@@ -1121,6 +1125,9 @@ Richard Feynman's Learning Strategy:
   - 2nd poison: marketing.
   - 3rd poison: ego
   - Solution: Stop trying to connect all the dots ahead of time. Embrace uncertainty and start doing.
+- [Don’t Let Architecture Astronauts Scare You](https://www.joelonsoftware.com/2001/04/21/dont-let-architecture-astronauts-scare-you/), Joel
+  - Sometimes smart thinkers just don’t know when to stop, and they create these absurd, all-encompassing, high-level pictures of the universe that are all good and fine, but don’t actually mean anything at all.
+  - Your typical architecture astronaut will take a fact like “Napster is a peer-to-peer service for downloading music” and ignore everything but the architecture, thinking it’s interesting because it’s peer to peer, completely missing the point that it’s interesting because you can type the name of a song and listen to it right away.
 
 > “A complex system that works is invariably found to have evolved from a simple system that worked. A complex system designed from scratch never works and cannot be patched up to make it work. You have to start over, beginning with a working simple system.”
 
@@ -1146,8 +1153,7 @@ Richard Feynman's Learning Strategy:
     - Data dominates.
 - [Performance comparison: counting words in Python, Go, C++, C, AWK, Forth, and Rust](https://benhoyt.com/writings/count-words/): a great way to learn about measuring performance.
 
-### Personal knowledge management
-
+### Personal knowledge management (PKM)
 
 - [Zettelkasten Method](https://zettelkasten.de/posts/overview/)
 - [How to build a second brain as a software developer](https://aseemthakar.com/how-to-build-a-second-brain-as-a-software-developer/)
@@ -1155,6 +1161,7 @@ Richard Feynman's Learning Strategy:
   - An interesting contrarian take!
   - I am waiting for any evidence that our most provocative thinkers and writers are those who rely on elaborate, systematic note-taking systems.
   - I am seeing evidence that people taught knowledge management for its own sake produce unexciting work.
+- [MaggieAppleton/digital-gardeners](https://github.com/MaggieAppleton/digital-gardeners)
 
 ### Personal productivity
 
