@@ -366,7 +366,6 @@ Biases don't only apply to hiring. For instance, the fundamental attribution bia
 
 ### Cache
 
-- [Caching explained](https://cachingexplained.com/)
 - [Caching challenges and strategies](https://aws.amazon.com/builders-library/caching-challenges-and-strategies/), Amazon Builders Library
 
 ### Career growth
