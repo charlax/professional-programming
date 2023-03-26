@@ -1002,6 +1002,13 @@ Learn how to learn!
   - You can do a lot "by accident"
   - Fixing a bug can be milestone
 
+About flashcards:
+
+- [Augmenting Long-term Memory](http://augmentingcognition.com/ltm.html)
+- [How to write good prompts: using spaced repetition to create understanding](https://andymatuschak.org/prompts/) - also includes lots of insightful research papers.
+- [Effective learning: Twenty rules of formulating knowledge](https://www.supermemo.com/en/blog/twenty-rules-of-formulating-knowledge)
+- [Rules for Designing Precise Anki Cards](https://controlaltbackspace.org/precise/)
+
 About Zettelkasten and PKM (personal knowledge management): see [Personal knowledge management](#personal-knowledge-management)
 
 Richard Feynman's Learning Strategy:
