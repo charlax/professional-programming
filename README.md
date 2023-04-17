@@ -848,6 +848,8 @@ Practice:
 ### Incident response (oncall, alerting, outages, firefighting, postmortem)
 
 - [Incident Response at Heroku](https://blog.heroku.com/archives/2014/5/9/incident-response-at-heroku)
+  - Described the Incident Commander role, inspired by natural disaster incident response.
+  - Also in presentation: [Incident Response Patterns: What we have learned at PagerDuty - Speaker Deck](https://speakerdeck.com/arupchak/incident-response-patterns-what-we-have-learned-at-pagerduty)
 - [My Philosophy On Alerting](https://linuxczar.net/sysadmin/philosophy-on-alerting/)
   - Pages should be urgent, important, actionable, and real.
   - Err on the side of removing noisy alerts – over-monitoring is a harder problem to solve than under-monitoring.
@@ -864,6 +866,9 @@ Practice:
   - Make your content easy to glance over.
   - If a script is longer than a single line, treat it like code, and check it into a repository to be source control and potentially tested.
 - [Incident Review and Postmortem Best Practices](https://newsletter.pragmaticengineer.com/p/incident-review-best-practices?s=r), Gergely Orosz
+- [Computer Security Incident Handling Guide](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-61r2.pdf), NIST
+- [Incident Management Resources](https://resources.sei.cmu.edu/library/asset-view.cfm?assetID=505044), Carnegie Mellon University
+- [Sterile flight deck rule](https://en.wikipedia.org/wiki/Sterile_flight_deck_rule), Wikipedia
 
 #### Postmortem
 
@@ -1008,6 +1013,7 @@ About flashcards:
 - [How to write good prompts: using spaced repetition to create understanding](https://andymatuschak.org/prompts/) - also includes lots of insightful research papers.
 - [Effective learning: Twenty rules of formulating knowledge](https://www.supermemo.com/en/blog/twenty-rules-of-formulating-knowledge)
 - [Rules for Designing Precise Anki Cards](https://controlaltbackspace.org/precise/)
+- Fernando Borretti, [Effective Spaced Repetition](https://borretti.me/article/effective-spaced-repetition)
 
 About Zettelkasten and PKM (personal knowledge management): see [Personal knowledge management](#personal-knowledge-management)
 
@@ -1419,6 +1425,7 @@ Reading lists:
 
 - 🧰 [donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer): learn how to design large scale systems. Prep for the system design interview.
 - 🧰 [A Distributed Systems Reading List](http://dancres.github.io/Pages/)
+- 🧰 [Foundational distributed systems papers](http://muratbuffalo.blogspot.com/2021/02/foundational-distributed-systems-papers.html)
 - 🧰 [Services Engineering Reading List](https://github.com/mmcgrana/services-engineering)
 - 🧰 [System Design Cheatsheet](https://gist.github.com/vasanthk/485d1c25737e8e72759f)
 
