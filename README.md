@@ -796,6 +796,7 @@ The best way to learn is to learn by doing.
 - [Let’s Build a Regex Engine](https://kean.blog/post/lets-build-regex)
 - [Write a time-series database engine from scratch](https://nakabonne.dev/posts/write-tsdb-from-scratch/)
 - [7 GUIs to build to learn fundamental UI programming skills](https://eugenkiss.github.io/7guis/tasks/)
+- [A list of programming playgrounds](https://jvns.ca/blog/2023/04/17/a-list-of-programming-playgrounds/), Julia Evans
 
 Practice:
 
@@ -1414,6 +1415,7 @@ List of resources:
 - [Practical SQL for Data Analysis](https://hakibenita.com/sql-for-data-analysis)
 - [Reasons why SELECT * is bad for SQL performance](https://tanelpoder.com/posts/reasons-why-select-star-is-bad-for-sql-performance/)
 - [Animate SQL](https://animatesql.com/)
+- [Lost at SQL](https://lost-at-sql.therobinlord.com/), an SQL learning game
 
 ### System administration
 
