@@ -1073,6 +1073,7 @@ Richard Feynman's Learning Strategy:
 - 📖 [The Elements of Computing Systems](https://www.nand2tetris.org/book): building a modern computer from first principles (nand2tetris).
 - [Old pattern powering modern tech](https://softwarebits.substack.com/p/old-pattern-powering-modern-tech?s=r)
 - [Demystifying bitwise operations, a gentle C tutorial](https://www.andreinc.net/2023/02/01/demystifying-bitwise-ops)
+- [Understanding the Power of Bitwise Operators. No math needed](https://www.deusinmachina.net/p/understanding-the-power-of-bitwise)
 
 ### Math
 
@@ -1084,6 +1085,7 @@ Richard Feynman's Learning Strategy:
   - A URI is a string of characters that identifies a resource. Its syntax is `<scheme>:<authority><path>?<query>#<fragment>`, where only `<scheme>` and `<path>` are mandatory. URL and URN are URIs.
   - A URL is a string of characters that identifies a resource located on a computer network. Its syntax depends on its scheme. E.g. `mailto:billg@microsoft.com`.
   - A URN is a string of characters that uniquely identifies a resource. Its syntax is `urn:<namespace identifier>:<namespace specific string>`. E.g. `urn:isbn:9780062301239`
+- [Everything you need to know about DNS](https://www.nslookup.io/learning/)
 
 ### Observability (monitoring, logging, exception handling)
 
