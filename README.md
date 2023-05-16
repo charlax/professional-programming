@@ -80,6 +80,10 @@
     - [Refactoring](#refactoring)
     - [Regex](#regex)
     - [Releasing & deploying](#releasing--deploying)
+      - [Versioning](#versioning)
+      - [Checklists](#checklists)
+      - [Feature flags](#feature-flags)
+      - [Testing in production](#testing-in-production)
     - [Search](#search)
     - [Security](#security)
     - [Shell (command line)](#shell-command-line)
@@ -1298,20 +1302,20 @@ JavaScript is such a pervasive language that it's almost required learning.
 - 🏙 [Move fast and don't break things](https://docs.google.com/presentation/d/15gNk21rjer3xo-b1ZqyQVGebOp_aPvHU3YH7YnOMxtE/edit#slide=id.g437663ce1_53_591), Google
 - [Shipping to Production](https://blog.pragmaticengineer.com/shipping-to-production/), The Pragmatic Programmer
 
-Versioning:
+#### Versioning
 
 - [SemVer - Semantic Versioning](https://semver.org/)
 - [CalVer - Calendar Versioning](https://calver.org/)
 - [Semantic Versioning Will Not Save You](https://hynek.me/articles/semver-will-not-save-you/)
 - [Version numbers: how to use them?](https://bernat.tech/posts/version-numbers/)
 
-Checklists:
+#### Checklists
 
 - [Production Readiness Checklist](https://gruntwork.io/devops-checklist/), Gruntwork
 - [Checklist: what had to be done before deploying microservices to production](https://habr.com/en/post/438186/)
 - [Things end users care about but programmers don't](https://instadeq.com/blog/posts/things-end-users-care-about-but-programmers-dont/): includes colors, formatting, themes, integrations, UX, compatibility, operations.
 
-Feature flags:
+#### Feature flags
 
 - [Flipping out](http://code.flickr.net/2009/12/02/flipping-out/), Flickr. One of the first articles about feature flags.
 - [Feature Flags, Toggles, Controls](https://featureflags.io/), a website documenting feature flags, from Launch Darkly.
@@ -1328,7 +1332,7 @@ Feature flags:
 - [How we ship code faster and safer with feature flags](https://github.blog/2021-04-27-ship-code-faster-safer-feature-flags/), Github.
 - [Flipr: Making Changes Quickly and Safely at Scale](https://eng.uber.com/flipr/), Uber
 
-Testing in production:
+#### Testing in production
 
 - [Why We Leverage Multi-tenancy in Uber's Microservice Architecture](https://eng.uber.com/multitenancy-microservice-architecture/)
 - [Developing in Production](https://tersesystems.com/blog/2020/01/22/developing-in-production/)
