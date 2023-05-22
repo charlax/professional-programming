@@ -248,6 +248,7 @@ List of axioms:
 - Read the [CLRS](https://mitpress.mit.edu/books/introduction-algorithms). You can watch and download the course on [OCW](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-introduction-to-algorithms-sma-5503-fall-2005/) - there are newer courses as well.
 - Or [The Algorithm Design Manual](https://www.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1849967202?ie=UTF8&qid=1297127794&ref_=sr_1_1&sr=8-1)
 - Try out some algorithms on [Project Euler](https://projecteuler.net/)
+- [CS 61B Spring 2023](https://sp23.datastructur.es/)
 
 Other resources:
 
@@ -1078,6 +1079,7 @@ Richard Feynman's Learning Strategy:
 - [Old pattern powering modern tech](https://softwarebits.substack.com/p/old-pattern-powering-modern-tech?s=r)
 - [Demystifying bitwise operations, a gentle C tutorial](https://www.andreinc.net/2023/02/01/demystifying-bitwise-ops)
 - [Understanding the Power of Bitwise Operators. No math needed](https://www.deusinmachina.net/p/understanding-the-power-of-bitwise)
+- [Memory Allocation](https://samwho.dev/memory-allocation/) (an interactive article)
 
 ### Math
 
@@ -1279,6 +1281,12 @@ JavaScript is such a pervasive language that it's almost required learning.
   - Mark up the book
   - Make mental links
   - Quit books
+- [Writing summaries is more important than reading more books](https://www.andreasfragner.com/writing/writing-summaries)
+  - In 1-2 sentences, what is the book about as a whole?
+  - What are the 3-4 central questions it tries to answer?
+  - Summarize the answers in one paragraph each.
+  - What are the most important things you have learned personally?
+  - There was an interesting contrarian take in the [Hacker News thread](https://news.ycombinator.com/item?id=36011599): "Once I relaxed and decided, 'If the stuff in this book is good enough, my brain will keep it FOR me' both my satisfaction AND utility of books increased dramatically."
 
 ### Refactoring
 
