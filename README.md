@@ -1413,6 +1413,7 @@ List of resources:
 
 ### Shell (command line)
 
+- [The case for bash](https://www.neversaw.us/2021/04/02/the-case-for-bash/)
 - 🧰 [alebcay/awesome-shell](https://github.com/alebcay/awesome-shell)
 - 🧰 [dylanaraps/pure-bash-bible](https://github.com/dylanaraps/pure-bash-bible): pure bash alternatives to external processes.
 - [The Bash Hackers Wiki](https://wiki.bash-hackers.org/) provides a gentler way to learn about bash than its manages.
