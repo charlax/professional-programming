@@ -97,6 +97,7 @@
     - [Technical debt](#technical-debt)
     - [Testing](#testing)
     - [Tools](#tools)
+    - [Type system](#type-system)
     - [Version control (Git)](#version-control-git)
     - [Work ethics, productivity & work/life balance](#work-ethics-productivity--worklife-balance)
     - [Web development](#web-development)
@@ -1502,6 +1503,9 @@ Microservices/splitting a monolith:
 
 #### Reliability
 
+> Quality is a snapshot at the start of life and reliability is a motion picture of the day-by-day operation.
+> – [NIST](https://www.itl.nist.gov/div898/handbook/apr/section1/apr111.htm)
+
 - I already mentioned the book Release it! above. There's also a [presentation](http://www.slideshare.net/justindorfman/stability-patterns-presentation) from the author.
 - [Service Recovery: Rolling Back vs. Forward Fixing](https://www.linkedin.com/pulse/service-recovery-rolling-back-vs-forward-fixing-mohamed-el-geish/)
 - [How Complex Systems Fail](https://how.complexsystems.fail/)
@@ -1614,6 +1618,13 @@ End-to-end tests:
 - 🧰 [Free for developers](https://free-for.dev/#/): list of free tiers for developments tools and services
 - [Choose Boring Technology](https://boringtechnology.club/)
 - [Ask HN: Best dev tool pitches of all time?](https://news.ycombinator.com/item?id=31782200)
+
+> The future life expectancy of some non-perishable things, like a technology or an idea, is proportional to their current age
+> — Lindy’s Law
+
+### Type system
+
+- [Counterexamples in Type Systems](https://counterexamples.org/intro.html): a library of runtime issues that weren't caught by the type system
 
 ### Version control (Git)
 
