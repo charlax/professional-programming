@@ -783,6 +783,7 @@ About Vim specifically:
 - [Learn Vim For the Last Time: A Tutorial and Primer](https://danielmiessler.com/study/vim/)
 - [Vim Cheat Sheet & Quick Reference](https://quickref.me/vim)
 - [History and effective use of Vim](https://begriffs.com/posts/2019-07-19-history-use-vim.html)
+- [Moving Blazingly Fast With The Core Vim Motions](https://www.barbarianmeetscoding.com/boost-your-coding-fu-with-vscode-and-vim/moving-blazingly-fast-with-the-core-vim-motions/)
 
 Feel free to check my [vim configuration](https://github.com/charlax/dotfiles/tree/master/vim) and my [vim cheatsheet](https://github.com/charlax/dotfiles/tree/master/vim).
 
