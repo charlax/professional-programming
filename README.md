@@ -57,18 +57,20 @@
     - [Licenses (legal)](#licenses-legal)
     - [Linux (system management)](#linux-system-management)
     - [Low-level, assembly](#low-level-assembly)
+    - [Machine learning/AI](#machine-learningai)
     - [Math](#math)
     - [Network](#network)
     - [Observability (monitoring, logging, exception handling)](#observability-monitoring-logging-exception-handling)
       - [Logging](#logging)
       - [Error/exception handling](#errorexception-handling)
       - [Monitoring](#monitoring)
-    - [Operating system](#operating-system)
+    - [Operating system (OS)](#operating-system-os)
     - [Over-engineering](#over-engineering)
     - [Performance](#performance)
     - [Personal knowledge management (PKM)](#personal-knowledge-management-pkm)
     - [Personal productivity](#personal-productivity)
     - [Perspective](#perspective)
+    - [Privacy](#privacy)
     - [Problem solving](#problem-solving)
     - [Project management](#project-management)
     - [Programming languages](#programming-languages)
@@ -198,6 +200,12 @@ There are some free books available, including:
   - Software projects rarely fail because they are too small; they fail because they get too big.
   - Beware of bureaucratic goals masquerading as problem statements. If our end goal is to make citizens’ lives better, we need to explicitly acknowledge the things that are making their lives worse.
   - Building software is not about avoiding failure; it is about strategically failing as fast as possible to get the information you need to build something good.
+- [How to be a -10x Engineer](https://taylor.town/-10x)
+    - Nullify the output of 10 engineers.
+    - Hold 10 engineers hostage in a technical discussion.
+    - Waste 10 weeks of wages on cloud costs.
+    - Waste 400 hours of engineering on bad architecture.
+    - Incur 400 hours of bug triage.
 
 ## Other general material and list of resources
 
@@ -1027,6 +1035,7 @@ About flashcards:
 - [Effective learning: Twenty rules of formulating knowledge](https://www.supermemo.com/en/blog/twenty-rules-of-formulating-knowledge)
 - [Rules for Designing Precise Anki Cards](https://controlaltbackspace.org/precise/)
 - Fernando Borretti, [Effective Spaced Repetition](https://borretti.me/article/effective-spaced-repetition)
+- [Anki-fy Your Life](https://abouttolearn.substack.com/p/anki-fy-your-life) gets into why it makes sense to invest in your memory.
 
 About Zettelkasten and PKM (personal knowledge management): see [Personal knowledge management](#personal-knowledge-management)
 
@@ -1083,6 +1092,10 @@ Richard Feynman's Learning Strategy:
 - [Understanding the Power of Bitwise Operators. No math needed](https://www.deusinmachina.net/p/understanding-the-power-of-bitwise)
 - [Memory Allocation](https://samwho.dev/memory-allocation/) (an interactive article)
 
+### Machine learning/AI
+
+- [Transformers from Scratch](https://e2eml.school/transformers.html)
+
 ### Math
 
 - 🏙 [Statistics for Hackers](https://speakerdeck.com/jakevdp/statistics-for-hackers)
@@ -1094,6 +1107,7 @@ Richard Feynman's Learning Strategy:
   - A URL is a string of characters that identifies a resource located on a computer network. Its syntax depends on its scheme. E.g. `mailto:billg@microsoft.com`.
   - A URN is a string of characters that uniquely identifies a resource. Its syntax is `urn:<namespace identifier>:<namespace specific string>`. E.g. `urn:isbn:9780062301239`
 - [Everything you need to know about DNS](https://www.nslookup.io/learning/)
+- [Load Balancing](https://samwho.dev/load-balancing/): a visual exploration of load balancing algos
 
 ### Observability (monitoring, logging, exception handling)
 
@@ -1132,7 +1146,7 @@ Richard Feynman's Learning Strategy:
 - [Simple Anomaly Detection Using Plain SQL](https://hakibenita.com/sql-anomaly-detection)
 - [How percentile approximation works (and why it's more useful than averages)](https://www.timescale.com/blog/how-percentile-approximation-works-and-why-its-more-useful-than-averages/)
 
-### Operating system
+### Operating system (OS)
 
 - 📖 [The Linux Programming Interface: A Linux and UNIX System Programming Handbook](http://www.amazon.com/The-Linux-Programming-Interface-Handbook/dp/1593272200): already mentioned above.
 - 📖 [Modern Operating Systems](https://www.amazon.com/dp/013359162X/), Andrew Tanenbaum, Herbert Bos (not read)
@@ -1140,6 +1154,7 @@ Richard Feynman's Learning Strategy:
 - 📖 [Linux Kernel Development](https://www.amazon.com/Linux-Kernel-Development-Robert-Love/dp/0672329468), Robert Love. A very complete introduction to developing within the Linux Kernel.
 - [The 10 Operating System Concepts Software Developers Need to Remember](https://jameskle.com/writes/operating-systems)
 - Play with xv6 on [MIT 6.828](https://pdos.csail.mit.edu/6.828/2016/schedule.html)
+- [macOS Internals](https://gist.github.com/kconner/cff08fe3e0bb857ea33b47d965b3e19f)
 
 ### Over-engineering
 
@@ -1180,6 +1195,7 @@ Richard Feynman's Learning Strategy:
     - Fancy algorithms are buggier than simple ones
     - Data dominates.
 - [Performance comparison: counting words in Python, Go, C++, C, AWK, Forth, and Rust](https://benhoyt.com/writings/count-words/): a great way to learn about measuring performance.
+- [The Mathematical Hacker](https://www.evanmiller.org/mathematical-hacker.html)
 
 ### Personal knowledge management (PKM)
 
@@ -1190,6 +1206,7 @@ Richard Feynman's Learning Strategy:
   - I am waiting for any evidence that our most provocative thinkers and writers are those who rely on elaborate, systematic note-taking systems.
   - I am seeing evidence that people taught knowledge management for its own sake produce unexciting work.
 - [MaggieAppleton/digital-gardeners](https://github.com/MaggieAppleton/digital-gardeners)
+- [Notes apps are where ideas go to die. And that’s good.](https://www.reproof.app/blog/notes-apps-help-us-forget)
 
 ### Personal productivity
 
@@ -1205,6 +1222,10 @@ Check out this section on my [list of management resources, "Personal productivi
   - Fifth, protect the planet.
 - [Life Is Not Short](https://dkb.show/post/life-is-not-short)
   - "The most surprising thing is that you wouldn’t let anyone steal your property, but you consistently let people steal your time, which is infinitely more valuable." — Seneca
+
+### Privacy
+
+- [Privacy Enhancing Technologies: An Introduction for Technologists](https://martinfowler.com/articles/intro-pet.html), Katharine Jarmul, MartinFowler.com
 
 ### Problem solving
 
@@ -1243,6 +1264,7 @@ A bit more reading:
 - [Polyglot Programming and the Benefits of Mastering Several Languages](https://www.stxnext.com/blog/polyglot-programming/)
 - [It's not what programming languages do, it's what they shepherd you to](https://nibblestew.blogspot.com/2020/03/its-not-what-programming-languages-do.html)
 - [Ask HN: What do you code when learning a new language/framework?](https://news.ycombinator.com/item?id=32092943)
+- [The seven programming ur-languages](https://madhadron.com/programming/seven_ur_languages.html): ALGOL, Lisp, ML, Self, Forth, APL, Prolog
 
 > There are only two kinds of languages: the ones people complain about and the ones nobody uses.
 
@@ -1696,6 +1718,7 @@ Check out this section on my [list of management resources, "Personal productivi
 - [Ask HN: How to level up your technical writing?](https://news.ycombinator.com/item?id=31859040). Lots of great resources.
 - [Patterns in confusing explanations](https://jvns.ca/blog/confusing-explanations/), Julia Evans
 - [Technical Writing for Developers](https://css-tricks.com/technical-writing-for-developers/)
+- [Some blogging myths](https://jvns.ca/blog/2023/06/05/some-blogging-myths/), Julia Evans
 
 Guides & classes about technical writing:
 
