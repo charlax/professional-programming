@@ -44,6 +44,7 @@
     - [Email](#email)
     - [Engineering management](#engineering-management)
     - [Exercises](#exercises)
+    - [Experimentation](#experimentation)
     - [Functional programming (FP)](#functional-programming-fp)
     - [Hardware](#hardware)
     - [HTTP](#http)
@@ -269,6 +270,7 @@ Let's be honest: algorithms can be a pretty dry topic. [This quora question](htt
 - [Essential Algorithms](https://www.amazon.com/Essential-Algorithms-Practical-Approach-Computer/dp/1118612108?ie=UTF8&*Version*=1&*entries*=0)
 - [Data Structure Visualization](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html)
 - 🎞 [15 Sorting Algorithms in 6 Minutes](https://www.youtube.com/watch?v=kPRA0W1kECg&ab_channel=TimoBingmann)
+- [Hashing](https://samwho.dev/hashing/)
 
 Example implementations:
 
@@ -823,6 +825,10 @@ Practice:
 - [CodinGame](https://www.codingame.com/start)
 - [Codewars](https://www.codewars.com/)
 - [Exercism](https://exercism.org/)
+
+### Experimentation
+
+- [8 annoying A/B testing mistakes every engineer should know](https://posthog.com/blog/ab-testing-mistakes)
 
 ### Functional programming (FP)
 
@@ -1547,6 +1553,7 @@ Microservices/splitting a monolith:
 - 🏙 [Full Stack Fest: Architectural Patterns of Resilient Distributed Systems](https://speakerdeck.com/randommood/full-stack-fest-architectural-patterns-of-resilient-distributed-systems)
 - 🏙 [The 7 quests of resilient software design](https://www.slideshare.net/ufried/the-7-quests-of-resilient-software-design)
 - 🧰 [Resilience engineering papers](https://github.com/lorin/resilience-engineering): comprehensive list of resources on resilience engineering
+- [MTTR is more important than MTBF (for most types of F)](https://www.kitchensoap.com/2010/11/07/mttr-mtbf-for-most-types-of-f/) (also as a [presentation](https://www.slideshare.net/jallspaw/dev-and-ops-collaboration-and-awareness-at-etsy-and-flickr))
 
 ### Site Reliability Engineering (SRE)
 
