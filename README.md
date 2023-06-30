@@ -46,6 +46,7 @@
     - [Exercises](#exercises)
     - [Experimentation](#experimentation)
     - [Functional programming (FP)](#functional-programming-fp)
+    - [Graphics](#graphics)
     - [Hardware](#hardware)
     - [HTTP](#http)
     - [Humor](#humor)
@@ -852,6 +853,10 @@ Practice:
 - [Monads in 15 minutes](https://nikgrozev.com/2013/12/10/monads-in-15-minutes/)
 - [hemanth/functional-programming-jargon](https://github.com/hemanth/functional-programming-jargon): jargon from the functional programming world in simple terms
 
+### Graphics
+
+- [Text Rendering Hates You](https://faultlore.com/blah/text-hates-you/)
+
 ### Hardware
 
 - [NandGame](https://nandgame.com/): build a computer from scratch.
@@ -1510,6 +1515,7 @@ Articles:
   - Resilience is a Requirement, Not a Feature
 - [Building Services at Airbnb, part 4](https://medium.com/airbnb-engineering/building-services-at-airbnb-part-4-23c95e428064)
   - Building Schema Based Testing Infrastructure for service development
+- [Patterns of Distributed Systems](https://martinfowler.com/articles/patterns-of-distributed-systems/), MartinFowler.com
 
 Microservices/splitting a monolith:
 
