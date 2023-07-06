@@ -1485,6 +1485,7 @@ Reading lists:
 - 🧰 [Foundational distributed systems papers](http://muratbuffalo.blogspot.com/2021/02/foundational-distributed-systems-papers.html)
 - 🧰 [Services Engineering Reading List](https://github.com/mmcgrana/services-engineering)
 - 🧰 [System Design Cheatsheet](https://gist.github.com/vasanthk/485d1c25737e8e72759f)
+- [karanpratapsingh/system-design](https://github.com/karanpratapsingh/system-design): learn how to design systems at scale and prepare for system design interviews
 
 Blogs:
 
@@ -1654,6 +1655,7 @@ End-to-end tests:
 - 🧰 [Free for developers](https://free-for.dev/#/): list of free tiers for developments tools and services
 - [Choose Boring Technology](https://boringtechnology.club/)
 - [Ask HN: Best dev tool pitches of all time?](https://news.ycombinator.com/item?id=31782200)
+- [A list of /uses pages detailing developer setups, gear, software and configs](https://uses.tech/)
 
 > The future life expectancy of some non-perishable things, like a technology or an idea, is proportional to their current age
 > — Lindy’s Law
