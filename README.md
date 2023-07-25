@@ -7,11 +7,15 @@
   - [Must-read books](#must-read-books)
   - [Must-read articles](#must-read-articles)
   - [Other general material and list of resources](#other-general-material-and-list-of-resources)
+    - [Books](#books)
+    - [Articles](#articles)
+    - [Axioms](#axioms)
     - [Courses](#courses)
   - [Topics](#topics)
     - [Algorithm and data structures](#algorithm-and-data-structures)
     - [API design & development](#api-design--development)
     - [Attitude, habits, mindset](#attitude-habits-mindset)
+      - [Procrastination](#procrastination)
     - [Authentication/authorization](#authenticationauthorization)
     - [Automation](#automation)
     - [Beyond software engineering & random](#beyond-software-engineering--random)
@@ -24,6 +28,7 @@
     - [Clouds](#clouds)
     - [Code reviews](#code-reviews)
     - [Coding & code quality](#coding--code-quality)
+    - [Communication](#communication)
     - [Compilers](#compilers)
     - [Configuration](#configuration)
     - [Databases](#databases)
@@ -58,6 +63,7 @@
     - [Learning & memorizing](#learning--memorizing)
     - [Licenses (legal)](#licenses-legal)
     - [Linux (system management)](#linux-system-management)
+    - [Low-code/no-code](#low-codeno-code)
     - [Low-level, assembly](#low-level-assembly)
     - [Machine learning/AI](#machine-learningai)
     - [Math](#math)
@@ -130,6 +136,7 @@ Items:
 - 🎞 : video/movie extract/movie/talk
 - 🏙 : slides/presentation
 - ⭐️ : must-read
+- 📃 : paper
 
 ## Contributing to this list
 
@@ -211,10 +218,17 @@ There are some free books available, including:
 
 ## Other general material and list of resources
 
+### Books
+
 - [The Imposter's Handbook](https://bigmachine.io/products/the-imposters-handbook) - \$30. From the author: "Don't have a CS Degree? Neither do I - That's why I wrote this book."
+- [The Computer Science Book](https://thecomputersciencebook.com/book/)
+
+### Articles
+
 - [mr-mig/every-programmer-should-know: a collection of (mostly) technical things every software developer should know](https://github.com/mr-mig/every-programmer-should-know)
 - [Famous Laws Of Software Development](https://www.timsommer.be/famous-laws-of-software-development/)
 - [The Amazon Builders' Library](https://aws.amazon.com/builders-library/?cards-body.sort-by=item.additionalFields.customSort&cards-body.sort-order=asc)
+  - There is a list of the best articles in this [Twitter Thread](https://twitter.com/g_bonfiglio/status/1673650452846505985)
 - [kdeldycke/awesome-falsehood](https://github.com/kdeldycke/awesome-falsehood): Falsehoods Programmers Believe in
 - [hellerve/programming-talks](https://github.com/hellerve/programming-talks)
 - [TechYaks](https://techyaks.com/): list of talks
@@ -223,8 +237,18 @@ There are some free books available, including:
 - [kamranahmedse/developer-roadmap](https://github.com/kamranahmedse/developer-roadmap)
 - [mtdvio/every-programmer-should-know](https://github.com/mtdvio/every-programmer-should-know): a collection of (mostly) technical things every software developer should know about
 - [Mike Acton’s Expectations of Professional Software Engineers](https://adamj.eu/tech/2022/06/17/mike-actons-expectations-of-professional-software-engineers/)
+- [Things they didn't teach you about Software Engineering](https://vadimkravcenko.com/shorts/things-they-didnt-teach-you/)
+  - Domain knowledge is more important than your coding skills
+  - Code is secondary. Business value is first.
+  - You work with uncertainty most of the time
+- [We overestimate our short-term ability, but underestimate our long-term ability.](https://paavandesign.com/blog/ostaulta/)
+  - Specialisation is for insects.
+- [Want an unfair advantage in your tech career? Consume content meant for other roles](https://matthewgrohman.substack.com/p/want-an-unfair-advantage-in-your)
+  - Cross-functional understanding is critical in modern tech companies
+  - Helps to avoid underestimating the importance and difficulty other roles
+  - Helps you to be strategic in your interaction with people in that role
 
-List of axioms:
+### Axioms
 
 - [Precepts - Urbit](https://urbit.org/blog/precepts/)
   - Data is better than code.
@@ -272,6 +296,7 @@ Let's be honest: algorithms can be a pretty dry topic. [This quora question](htt
 - [Data Structure Visualization](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html)
 - 🎞 [15 Sorting Algorithms in 6 Minutes](https://www.youtube.com/watch?v=kPRA0W1kECg&ab_channel=TimoBingmann)
 - [Hashing](https://samwho.dev/hashing/)
+- [Visualizing Algorithms](https://bost.ocks.org/mike/algorithms/)
 
 Example implementations:
 
@@ -292,6 +317,8 @@ Example guidelines:
 - [Microsoft's Rest API guidelines](https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md)
 - [Zalando RESTful API and Event Scheme Guidelines](https://opensource.zalando.com/restful-api-guidelines/)
 - [Google's API Design Guide](https://cloud.google.com/apis/design/): a general guide to design networked API.
+- [AIP-1: AIP Purpose and Guidelines](https://google.aip.dev/1)
+  - AIP stands for API Improvement Proposal, which is a design document providing high-level, concise documentation for API development.
 
 More specific topics:
 
@@ -353,6 +380,8 @@ More specific topics:
   - The magic of programming is largely just things you don't know yet.
   - It's not fine to think you shouldn't be on some paths towards mastery, if you intend to make programming your career.
 - [There’s no speed limit](https://sive.rs/kimo)
+- [Don't Wait for Motivation, Act for Momentum](https://salman.io/blog/momentum-motivation/)
+  - Start with a tiny task. Then ride its momentum.
 
 > Imposter syndrome is underrated: a lot of talk goes into overcoming imposter syndrome. I say embrace self-skepticism and doubt yourself every day. In a fast-moving industry where lots of your knowledge expires every year, even the most junior people around you constantly cook up skills you don't have; you stay competitive by applying with the determination (and even fear) of the novice. The upside of this treadmill is that every engineer is on it: just because you're an imposter doesn't mean that other people are more deserving than you, because they're imposters too. You should advocate for yourself, take risks, pat yourself on the back when things go well, and, as you start to build a track record of solving problems, trust your skills and adaptability. Just make no mistake: you're only as good as the last problem you solve.
 
@@ -364,9 +393,24 @@ Dan Heller, Building a Career in Software
 > Good judgment comes from experience.
 > Experience comes from bad judgment.
 
+#### Procrastination
+
+- [News is bad for you – and giving up reading it will make you happier](https://www.theguardian.com/media/2013/apr/12/news-is-bad-rolf-dobelli), The Guardian
+  - News misleads
+  - News is irrelevant
+  - News has no explanatory power
+  - News is toxic to your body
+  - News increases cognitive errors
+  - News inhibits thinking
+  - News works like a drug
+  - News wastes time
+  - News makes us passive
+  - News kills creativity
+
 ### Authentication/authorization
 
 - [Authorization in a microservices world](https://www.alexanderlolis.com/authorization-in-a-microservices-world)
+- [Authorization Logic: Rules are hard because they evolve over time](https://www.osohq.com/post/rules-are-hard-logic-for-authorization)
 
 ### Automation
 
@@ -446,6 +490,12 @@ Biases don't only apply to hiring. For instance, the fundamental attribution bia
   - Focus on the user and all else will follow
   - Learn how to learn
 - [How To Own Your Growth As A Software Engineer](https://jes.al/2022/07/how-to-own-your-growth-as-a-software-engineer/)
+- [The Forty-Year Programmer](https://codefol.io/posts/the-forty-year-programmer/)
+  - The Better You Get, the Less You Look Like Everybody Else
+  - You Learn Deep Principles by Doing the Basics
+  - Look to Other Fields, Learn From Other Fields
+  - Be Careful About Productivity Tips
+- [Senior Engineers are Living in the Future](https://www.zerobanana.com/essays/living-in-the-future/)
 
 #### Getting to Staff Eng
 
@@ -515,6 +565,13 @@ Biases don't only apply to hiring. For instance, the fundamental attribution bia
 - [kettanaito/naming-cheatsheet](https://github.com/kettanaito/naming-cheatsheet): : comprehensive language-agnostic guidelines on variables naming. Home of the A/HC/LC pattern.
 - 🧰 [Quality Engineering Guides](https://qeunit.com/guides/)
 
+### Communication
+
+See also the Writing section
+
+- [How to communicate effectively as a developer](https://www.karlsutt.com/articles/communicating-effectively-as-a-developer/)
+  - Lots of concrete advice and examples for short, medium and long-form writing
+
 ### Compilers
 
 - [The Compiler Writer Resource Page](https://c9x.me/compile/bib/)
@@ -544,6 +601,7 @@ See also the SQL section.
 - [Comparing database types: how database types evolved to meet different needs](https://dataguide.prisma.io/intro/comparing-database-types)
 - [How does a relational database work](http://coding-geek.com/how-databases-work/)
 - [Use the index, Luke](https://use-the-index-luke.com/)
+- [Course introduction — MySQL for Developers](https://planetscale.com/learn/courses/mysql-for-developers/introduction/course-introduction), PlanetScale
 
 Exercises:
 
@@ -579,6 +637,7 @@ NoSQL:
   - We need to consider domains as the first class concern, apply platform thinking to create self-serve data infrastructure, and treat data as a product.
 - [MLOps](https://madewithml.com/courses/mlops/)
 - [Uber's Big Data Platform: 100+ Petabytes with Minute Latency](https://eng.uber.com/uber-big-data-platform/)
+- [SQL should be the default choice for data transformation logic](https://www.robinlinacre.com/recommend_sql/)
 
 ### Debugging
 
@@ -600,6 +659,7 @@ NoSQL:
   - Get experience: according to a study, "experts simply formed more correct hypotheses and were more efficient at finding the fault."
 - [What exactly is the 'Saff Squeeze' method of finding a bug?](https://stackoverflow.com/questions/23865274/what-exactly-is-the-saff-squeeze-method-of-finding-a-bug)
   - A systematic technique for deleting both test code and non-test code from a failing test until the test and code are small enough to understand.
+- [tcpdump is amazing](https://jvns.ca/blog/2016/03/16/tcpdump-is-amazing/), Julia Evans
 
 ### Design (visual, UX, UI, typography)
 
@@ -622,6 +682,8 @@ Articles :
   - Help Users Recognize, Diagnose, And Recover From Errors
 - [Butterick’s Practical Typography](https://practicaltypography.com/)
 - [How to pick more beautiful colors for your data visualizations](https://blog.datawrapper.de/beautifulcolors/)
+- [Typography for Lawyers](https://typographyforlawyers.com/)
+- [Visual design rules you can safely follow every time](https://anthonyhobday.com/sideprojects/saferules/)
 
 Resources:
 
@@ -758,6 +820,9 @@ See also the Python-specific section in [charlax/python-education](https://githu
   - Delegate
   - By being disposable, you free yourself to work on high-impact projects.
 - [Write documentation first. Then build.](https://reproof.app/blog/document-first-then-build)
+- [Diátaxis](https://diataxis.fr/): a systematic approach to technical documentation authoring
+  - There are four modes: tutorials, how-to guides, technical reference and explanation
+  - The docs goes into a lot of details about each model.
 
 > The palest ink is more reliable than the most powerful memory.
 > -- Chinese proverb
@@ -797,6 +862,10 @@ About Vim specifically:
 - [Moving Blazingly Fast With The Core Vim Motions](https://www.barbarianmeetscoding.com/boost-your-coding-fu-with-vscode-and-vim/moving-blazingly-fast-with-the-core-vim-motions/)
 
 Feel free to check my [vim configuration](https://github.com/charlax/dotfiles/tree/master/vim) and my [vim cheatsheet](https://github.com/charlax/dotfiles/tree/master/vim).
+
+Other editors:
+
+- [Use GNU Emacs](https://www2.lib.uchicago.edu/keith/emacs/)
 
 ### Email
 
@@ -852,6 +921,7 @@ Practice:
 - 🏙 [Functional Programming](https://speakerdeck.com/igstan/functional-programming)
 - [Monads in 15 minutes](https://nikgrozev.com/2013/12/10/monads-in-15-minutes/)
 - [hemanth/functional-programming-jargon](https://github.com/hemanth/functional-programming-jargon): jargon from the functional programming world in simple terms
+- [The definitive guide to learning functional programming](https://forum.exercism.org/t/the-definitive-guide-to-learning-functional-programming/3254), Exercism
 
 ### Graphics
 
@@ -961,6 +1031,7 @@ Note: this is about you as an interviewee, **not** as an interviewer. To check o
 - [Preparing for the Systems Design and Coding Interview](https://blog.pragmaticengineer.com/preparing-for-the-systems-design-and-coding-interviews/), Gergely Orosz
 - [What I Learned from Doing 60+ Technical Interviews in 30 Days](https://meekg33k.dev/what-i-learned-from-doing-60-technical-interviews-in-30-days)
 - [Twipped/InterviewThis](https://github.com/Twipped/InterviewThis): questions to ask prospective employers
+- [System Design Interview Guide for Senior Engineers](https://interviewing.io/guides/system-design-interview), interviewing.io
 
 Résumé:
 
@@ -970,6 +1041,7 @@ Résumé:
   - We look for people who get things done
   - We look for unique perspectives
   - We care about impact, not meaningless metrics
+- [Why you shouldn’t list certifications on LinkedIn](https://interviewing.io/blog/why-you-shouldnt-list-certifications-on-linkedIn)
 
 See also the exercises section in this document.
 
@@ -1038,6 +1110,7 @@ Learn how to learn!
   - Keep a brag document
   - You can do a lot "by accident"
   - Fixing a bug can be milestone
+- [Why writing by hand is still the best way to retain information](https://stackoverflow.blog/2022/11/23/why-writing-by-hand-is-still-the-best-way-to-retain-information/), StackOverflow
 
 About flashcards:
 
@@ -1092,6 +1165,10 @@ Richard Feynman's Learning Strategy:
 
 - [Welcome to Linux command line for you and me!](https://lym.readthedocs.io/en/latest/index.html)
 
+### Low-code/no-code
+
+- [How Levels.fyi scaled to millions of users with Google Sheets as a backend](https://www.levels.fyi/blog/scaling-to-millions-with-google-sheets.html)
+
 ### Low-level, assembly
 
 - [Back to Basics](https://www.joelonsoftware.com/2001/12/11/back-to-basics/), Joel Spolsky. Explains why learning low level programming is important.
@@ -1102,6 +1179,7 @@ Richard Feynman's Learning Strategy:
 - [Demystifying bitwise operations, a gentle C tutorial](https://www.andreinc.net/2023/02/01/demystifying-bitwise-ops)
 - [Understanding the Power of Bitwise Operators. No math needed](https://www.deusinmachina.net/p/understanding-the-power-of-bitwise)
 - [Memory Allocation](https://samwho.dev/memory-allocation/) (an interactive article)
+- [Why does 0.1 + 0.2 = 0.30000000000000004?](https://jvns.ca/blog/2023/02/08/why-does-0-1-plus-0-2-equal-0-30000000000000004/), Julia Evans (about floating point)
 
 ### Machine learning/AI
 
@@ -1135,6 +1213,7 @@ Richard Feynman's Learning Strategy:
     - Logs are basically the same as events
     - A standard logging format is good enough
 - [Logging - OWASP Cheat Sheet Series](https://cheatsheetseries.owasp.org/cheatsheets/Logging_Cheat_Sheet.html)
+- [The Audit Log Wall of Shame](https://audit-logs.tax/): list of vendors that don’t prioritize high-quality, widely-available audit logs for security and operations teams.
 
 #### Error/exception handling
 
@@ -1280,6 +1359,10 @@ A bit more reading:
 > There are only two kinds of languages: the ones people complain about and the ones nobody uses.
 
 -- Bjarne Stroustrup (C++ creator)
+
+List of resources:
+
+- [Great Works in Programming Languages](https://www.cis.upenn.edu/~bcpierce/courses/670Fall04/GreatWorksInPL.shtml)
 
 #### Python
 
@@ -1471,6 +1554,7 @@ List of resources:
 - [Reasons why SELECT * is bad for SQL performance](https://tanelpoder.com/posts/reasons-why-select-star-is-bad-for-sql-performance/)
 - [Animate SQL](https://animatesql.com/)
 - [Lost at SQL](https://lost-at-sql.therobinlord.com/), an SQL learning game
+- [Joins 13 Ways](https://justinjaffray.com/joins-13-ways/?a=b)
 
 ### System administration
 
@@ -1517,6 +1601,7 @@ Articles:
 - [Building Services at Airbnb, part 4](https://medium.com/airbnb-engineering/building-services-at-airbnb-part-4-23c95e428064)
   - Building Schema Based Testing Infrastructure for service development
 - [Patterns of Distributed Systems](https://martinfowler.com/articles/patterns-of-distributed-systems/), MartinFowler.com
+- [ConwaysLaw](https://martinfowler.com/bliki/ConwaysLaw.html), MartinFowler.com (regarding organization, check out my [engineering-management](https://github.com/charlax/engineering-management/) list.
 
 Microservices/splitting a monolith:
 
@@ -1588,8 +1673,11 @@ Articles:
   - Things Will Always Break
 - [Meaningful availability](https://blog.acolyer.org/2020/02/26/meaningful-availability/)
   - A good availability metric should be meaningful, proportional, and actionable. By "meaningful" we mean that it should capture what users experience. By "proportional" we mean that a change in the metric should be proportional to the change in user-perceived availability. By "actionable" we mean that the metric should give system owners insight into why availability for a period was low. This paper shows that none of the commonly used metrics satisfy these requirements…
+- 📃 [Meaningful Availability](https://www.usenix.org/conference/nsdi20/presentation/hauer) paper.
+  - This paper presents and evaluates a novel availability metric: windowed user-uptime
 - 🏙 [High Reliability Infrastructure migrations](https://speakerdeck.com/jvns/high-reliability-infrastructure-migrations), Julia Evans.
 - 🏙 [The Paradox of Alerts](https://speakerdeck.com/charity/the-paradox-of-alerts): why deleting 90% of your paging alerts can make your systems better, and how to craft an on-call rotation that engineers are happy to join.
+- [Appendix F: Personal Observations on the Reliability of the Shuttle](https://www.refsmmat.com/files/reflections.pdf), Richard Feynman
 
 > Reliability is the one feature every customer users. -- An auth0 SRE.
 
@@ -1693,6 +1781,7 @@ More specific topics:
 - [Fix conflicts only once with git rerere](https://medium.com/@porteneuve/fix-conflicts-only-once-with-git-rerere-7d116b2cec67)
 - [Monorepo Explained](https://monorepo.tools/)
 - [How to Write a Git Commit Message](https://cbea.ms/git-commit/)
+- [git-worktree](https://git-scm.com/docs/git-worktree): manage multiple working trees attached to the same repository.
 
 ### Work ethics, productivity & work/life balance
 
@@ -1734,6 +1823,13 @@ Check out this section on my [list of management resources, "Personal productivi
 - [Patterns in confusing explanations](https://jvns.ca/blog/confusing-explanations/), Julia Evans
 - [Technical Writing for Developers](https://css-tricks.com/technical-writing-for-developers/)
 - [Some blogging myths](https://jvns.ca/blog/2023/06/05/some-blogging-myths/), Julia Evans
+- [George Orwell's Six Rules for Writing](https://infusion.media/blog/george-orwells-six-rules-for-writing/)
+  - Never use a metaphor, simile, or other figure of speech which you are used to seeing in print.
+  - Never use a long word where a short one will do.
+  - If it is possible to cut a word out, always cut it out.
+  - Never use the passive where you can use the active.
+  - Never use a foreign phrase, a scientific word, or a jargon word if you can think of an everyday English equivalent.
+  - Break any of these rules sooner than say anything outright barbarous.
 
 Guides & classes about technical writing:
 
@@ -1779,6 +1875,10 @@ Newsletters:
 
 - [Bytes](https://bytes.dev/) (JavaScript)
 - [PyCoders](https://pycoders.com/) (Python)
+
+Blogs:
+
+- [kilimchoi/engineering-blogs](https://github.com/kilimchoi/engineering-blogs)
 
 ## Concepts
 
