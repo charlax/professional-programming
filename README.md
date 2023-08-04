@@ -1048,6 +1048,7 @@ See also the exercises section in this document.
 ### Kubernetes
 
 - [OWASP/www-project-kubernetes-top-ten](https://github.com/OWASP/www-project-kubernetes-top-ten)
+- [Kubernetes Tutorial for Beginners: Basic Concepts](https://spacelift.io/blog/kubernetes-tutorial)
 
 ### Learning & memorizing
 
