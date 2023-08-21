@@ -1546,6 +1546,7 @@ List of resources:
 - [Learn bash by playing an adventure](https://gitlab.com/slackermedia/bashcrawl)
 - [Effective Shell](https://effective-shell.com/)
 - [Computing from the Command Line](https://learnbyexample.github.io/cli-computing/preface.html)
+- [What helps people get comfortable on the command line?](https://jvns.ca/blog/2023/08/08/what-helps-people-get-comfortable-on-the-command-line-/), Julia Evans
 
 ### SQL
 
