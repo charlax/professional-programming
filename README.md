@@ -1164,6 +1164,7 @@ Richard Feynman's Learning Strategy:
 ### Linux (system management)
 
 - [Welcome to Linux command line for you and me!](https://lym.readthedocs.io/en/latest/index.html)
+- [Linux Performance](https://www.brendangregg.com/linuxperf.html), Brendan Gregg
 
 ### Low-code/no-code
 
@@ -1557,6 +1558,7 @@ List of resources:
 - [Animate SQL](https://animatesql.com/)
 - [Lost at SQL](https://lost-at-sql.therobinlord.com/), an SQL learning game
 - [Joins 13 Ways](https://justinjaffray.com/joins-13-ways/?a=b)
+- [spandanb/learndb-py](https://github.com/spandanb/learndb-py): learn database internals by implementing it from scratch.
 
 ### System administration
 
