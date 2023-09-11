@@ -303,6 +303,10 @@ Example implementations:
 - [trekhleb/javascript-algorithms](https://github.com/trekhleb/javascript-algorithms): algorithms and data structures implemented in JavaScript
 - [The Algorithms](https://the-algorithms.com/)
 
+Algorithms in distributed systems:
+
+- [Raft Consensus Algorithm](https://raft.github.io/)
+
 ### API design & development
 
 General REST content:
@@ -602,6 +606,7 @@ See also the SQL section.
 - [How does a relational database work](http://coding-geek.com/how-databases-work/)
 - [Use the index, Luke](https://use-the-index-luke.com/)
 - [Course introduction — MySQL for Developers](https://planetscale.com/learn/courses/mysql-for-developers/introduction/course-introduction), PlanetScale
+- [How Query Engines Work](https://howqueryengineswork.com/00-introduction.html)
 
 Exercises:
 
@@ -1802,6 +1807,7 @@ Check out this section on my [list of management resources, "Personal productivi
 - 🧰 [codingknite/frontend-development](https://github.com/codingknite/frontend-development): a list of resources for frontend development
 - [136 facts every web dev should know](https://www.baldurbjarnason.com/2021/100-things-every-web-developer-should-know/)
 - [Checklist - The A11Y Project](https://www.a11yproject.com/checklist/) for accessibility
+- [DevTools Tips](https://devtoolstips.org/)
 
 ### Writing (communication, blogging)
 
