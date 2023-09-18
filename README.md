@@ -433,6 +433,7 @@ Biases don't only apply to hiring. For instance, the fundamental attribution bia
 ### Business
 
 - [Payments 101 for a Developer](https://github.com/juspay/hyperswitch/wiki/Payments-101-for-a-Developer)
+- [The 4 biggest problems with homemade billing systems](https://www.getlago.com/blog/the-4-biggest-problems-with-homemade-billing-systems)
 
 ### Cache
 
