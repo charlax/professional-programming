@@ -3,6 +3,7 @@
 ## Table of Contents
 
 - [Professional Programming - about this list](#professional-programming---about-this-list)
+  - [Principles](#principles)
   - [Contributing to this list](#contributing-to-this-list)
   - [Must-read books](#must-read-books)
   - [Must-read articles](#must-read-articles)
@@ -127,7 +128,11 @@ A collection of full-stack resources for programmers.
 
 The goal of this page is to make you a more proficient developer. You'll find only resources that I've found truly inspiring, or that have become timeless classics.
 
-This page is not meant to be comprehensive. I am trying to keep it light and not too overwhelming. The selection of articles is opinionated.
+## Principles
+
+- This page is not meant to be comprehensive. I am trying to keep it light and not too overwhelming.
+- The selection of articles is opinionated.
+- I don't necessarily agree with or endorse every single line that is written in every single one of those resources. The same applies to their authors: I don't endorse everything each of those authors has said and will ever say.
 
 Items:
 
@@ -140,16 +145,16 @@ Items:
 
 ## Contributing to this list
 
-Feel free to open a PR to contribute! I will not be adding everything: as stated above, I am trying to keep the list concise.
+Feel free to open a PR to contribute!
+
+I will not be adding everything: as stated above, I am trying to keep the list concise.
 
 ## Must-read books
 
 I've found these books incredibly inspiring:
 
-- 📖 [The Pragmatic Programmer: From Journeyman to
-  Master](https://pragprog.com/titles/tpp20/): hands-on the most inspiring and useful book I've read about programming.
-- 📖 [Code Complete: A Practical Handbook of Software
-  Construction](http://www.amazon.com/Code-Complete-Practical-Handbook-Construction/dp/0735619670): a nice addition to The Pragmatic Programmer, gives you the necessary framework to talk about code.
+- 📖 [The Pragmatic Programmer: From Journeyman to Master](https://pragprog.com/titles/tpp20/): hands-on the most inspiring and useful book I've read about programming.
+- 📖 [Code Complete: A Practical Handbook of Software Construction](http://www.amazon.com/Code-Complete-Practical-Handbook-Construction/dp/0735619670): a nice addition to The Pragmatic Programmer, gives you the necessary framework to talk about code.
 - 📖 [Release It!](https://smile.amazon.com/Release-Design-Deploy-Production-Ready-Software/dp/1680502395): this books goes beyond code and gives you best practices for building production-ready software. It will give you about 3 years worth of real-world experience.
 - 📖 [Scalability Rules: 50 Principles for Scaling Web Sites](https://smile.amazon.com/Scalability-Rules-Principles-Scaling-Sites/dp/013443160X)
 - 📖 [The Linux Programming Interface: A Linux and UNIX System Programming Handbook](http://www.amazon.com/The-Linux-Programming-Interface-Handbook/dp/1593272200): outside of teaching you almost everything you need to know about Linux, this book will give you insights into how software evolves, and the value of having simple & elegant interfaces.
@@ -188,8 +193,23 @@ There are some free books available, including:
   - Pay attention on how people react to you
   - Beware of micro-aggressions
   - Keep a list of "Things I Don't Know"
-- [Signs that you're a good programmer](http://www.yacoset.com/Home/signs-that-you-re-a-good-programmer)
-- [Signs that you're a bad programmer](http://www.yacoset.com/Home/signs-that-you-re-a-bad-programmer)
+- [Signs that you're a good programmer](https://skatgame.net/mburo//courses/350/signs-that-you-re-a-good-programmer.html) (not everything is here is great - some of the points are counterproductive)
+  - The instinct to experiment first
+  - Emotional detachment from code and design
+  - Eager to fix what isn't broken
+  - Fascinated by the incomprehensible
+  - Compelled to teach
+  - Incorruptible patience
+  - A destructive pursuit of perfection
+  - Encyclopedic grasp of the platform
+  - Thinks In Code
+  - When In Rome, Does As Romans Do
+  - Creates their own tools
+  - Indifferent to Hierarchy
+  - Excited by failure
+  - Indifferent to circumstances
+  - Substitutes impulse for commitment
+  - Driven by experiences
 - [7 absolute truths I unlearned as junior developer](https://monicalent.com/blog/2019/06/03/absolute-truths-unlearned-as-junior-developer/)
   - Early in your career, you can learn 10x more in a supportive team in 1 year, than coding on your own
   - Every company has problems, every company has technical debt.
