@@ -406,6 +406,12 @@ More specific topics:
 - [There’s no speed limit](https://sive.rs/kimo)
 - [Don't Wait for Motivation, Act for Momentum](https://salman.io/blog/momentum-motivation/)
   - Start with a tiny task. Then ride its momentum.
+- [The Most Important Coding Habits](https://puppycoding.com/2023/07/22/healthy-coding-habits/)
+  - The Most Important Coding Habits
+  - Daily stretches
+  - Take regular breaks
+  - Don’t code late at night
+  - Improve your coding environment
 
 > Imposter syndrome is underrated: a lot of talk goes into overcoming imposter syndrome. I say embrace self-skepticism and doubt yourself every day. In a fast-moving industry where lots of your knowledge expires every year, even the most junior people around you constantly cook up skills you don't have; you stay competitive by applying with the determination (and even fear) of the novice. The upside of this treadmill is that every engineer is on it: just because you're an imposter doesn't mean that other people are more deserving than you, because they're imposters too. You should advocate for yourself, take risks, pat yourself on the back when things go well, and, as you start to build a track record of solving problems, trust your skills and adaptability. Just make no mistake: you're only as good as the last problem you solve.
 
@@ -720,6 +726,7 @@ Resources:
 Here's a list of good books:
 
 - 📖 [Design Patterns: Elements of Reusable Object-Oriented Software](http://www.amazon.com/dp/0201633612/): dubbed "the gang of four", this is almost a required reading for any developer. A lot of those are a bit overkill for Python (because everything is an object, and dynamic typing), but the main idea (composition is better than inheritance) definitely is a good philosophy.
+  - And their nefarious nemesis [Resign Patterns](http://nishitalab.org/user/paulo/files/resign-patterns.txt)
 - 📖 [Patterns of Enterprise Application Architecture](http://www.amazon.com/dp/0321127420/?tag=stackoverfl08-20): learn about how database are used in real world applications. Mike Bayer's SQLAlchemy has been heavily influenced by this book.
 - 📖 [Domain-Driven Design: Tackling Complexity in the Heart of Software](https://www.amazon.com/Domain-Driven-Design-Tackling-Complexity-Software/dp/0321125215), Eric Evans
 - 📖 [Clean Architecture](https://www.goodreads.com/book/show/18043011-clean-architecture), Robert C. Martin. Uncle Bob proposes an architecture that leverages the Single Responsibility Principle to its fullest. A great way to start a new codebase. Also checkout the [clean architecture cheatsheet](cheatsheets/Clean-Architecture-V1.0.pdf) and [this article](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html).
@@ -1384,6 +1391,7 @@ A bit more reading:
 - [It's not what programming languages do, it's what they shepherd you to](https://nibblestew.blogspot.com/2020/03/its-not-what-programming-languages-do.html)
 - [Ask HN: What do you code when learning a new language/framework?](https://news.ycombinator.com/item?id=32092943)
 - [The seven programming ur-languages](https://madhadron.com/programming/seven_ur_languages.html): ALGOL, Lisp, ML, Self, Forth, APL, Prolog
+- [Lua: The Little Language That Could](https://matt.blwt.io/post/lua-the-little-language-that-could/)
 
 > There are only two kinds of languages: the ones people complain about and the ones nobody uses.
 
