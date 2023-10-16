@@ -1145,6 +1145,7 @@ Learn how to learn!
   - You can do a lot "by accident"
   - Fixing a bug can be milestone
 - [Why writing by hand is still the best way to retain information](https://stackoverflow.blog/2022/11/23/why-writing-by-hand-is-still-the-best-way-to-retain-information/), StackOverflow
+- 🎞 [Making Badass Developers - Kathy Sierra (Serious Pony) keynote](https://www.youtube.com/watch?v=FKTxC9pl-WM&t=2s&ab_channel=O%27Reilly)
 
 About flashcards:
 
@@ -1655,6 +1656,8 @@ Microservices/splitting a monolith:
 - [Monoliths are the future](https://changelog.com/posts/monoliths-are-the-future)
     - "We’re gonna break it up and somehow find the engineering discipline we never had in the first place."
 - [12 Ways to Prepare your Monolith Before Transitioning to Microservices](https://semaphoreci.com/blog/monolith-microservices)
+- [Death by a thousand microservices](https://renegadeotter.com/2023/09/10/death-by-a-thousand-microservices.html)
+  - [Microservices](https://www.youtube.com/watch?v=y8OnoxKotPQ&ab_channel=KRAZAM)
 
 #### Scalability
 
