@@ -922,6 +922,7 @@ The best way to learn is to learn by doing.
 - [Write a time-series database engine from scratch](https://nakabonne.dev/posts/write-tsdb-from-scratch/)
 - [7 GUIs to build to learn fundamental UI programming skills](https://eugenkiss.github.io/7guis/tasks/)
 - [A list of programming playgrounds](https://jvns.ca/blog/2023/04/17/a-list-of-programming-playgrounds/), Julia Evans
+- [Write more "useless" software](https://ntietz.com/blog/write-more-useless-software/)
 
 Practice:
 
@@ -964,6 +965,7 @@ Practice:
 
 - [NandGame](https://nandgame.com/): build a computer from scratch.
 - [What Every Programmer Should Know About SSDs](http://databasearchitects.blogspot.com/2021/06/what-every-programmer-should-know-about.html)
+- [How To Make A CPU - A Simple Picture Based Explanation](https://blog.robertelder.org/how-to-make-a-cpu/)
 
 ### HTTP
 
@@ -1642,6 +1644,7 @@ Articles:
   - Building Schema Based Testing Infrastructure for service development
 - [Patterns of Distributed Systems](https://martinfowler.com/articles/patterns-of-distributed-systems/), MartinFowler.com
 - [ConwaysLaw](https://martinfowler.com/bliki/ConwaysLaw.html), MartinFowler.com (regarding organization, check out my [engineering-management](https://github.com/charlax/engineering-management/) list.
+- [The C4 model for visualising software architecture](https://c4model.com/)
 
 Microservices/splitting a monolith:
 
