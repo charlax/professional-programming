@@ -548,6 +548,7 @@ Biases don't only apply to hiring. For instance, the fundamental attribution bia
 ### Characters sets
 
 - [The Absolute Minimum Every Software Developer Absolutely, Positively Must Know About Unicode and Character Sets (No Excuses!)](http://www.joelonsoftware.com/articles/Unicode.html)
+- [The Absolute Minimum Every Software Developer Must Know About Unicode in 2023 (Still No Excuses!)](https://tonsky.me/blog/unicode/)
 
 ### Clouds
 
