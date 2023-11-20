@@ -1844,6 +1844,7 @@ Check out this section on my [list of management resources, "Personal productivi
 - [136 facts every web dev should know](https://www.baldurbjarnason.com/2021/100-things-every-web-developer-should-know/)
 - [Checklist - The A11Y Project](https://www.a11yproject.com/checklist/) for accessibility
 - [DevTools Tips](https://devtoolstips.org/)
+- [67 Weird Debugging Tricks Your Browser Doesn't Want You to Know](https://alan.norbauer.com/articles/browser-debugging-tricks)
 
 ### Writing (communication, blogging)
 
