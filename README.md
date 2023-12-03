@@ -527,6 +527,7 @@ Biases don't only apply to hiring. For instance, the fundamental attribution bia
   - Look to Other Fields, Learn From Other Fields
   - Be Careful About Productivity Tips
 - [Senior Engineers are Living in the Future](https://www.zerobanana.com/essays/living-in-the-future/)
+- [What would a map of your career look like?](https://tomcritchlow.com/2023/04/26/career-maps/)
 
 #### Getting to Staff Eng
 
