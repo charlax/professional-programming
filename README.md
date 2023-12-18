@@ -8,6 +8,7 @@
   - [Must-read books](#must-read-books)
   - [Must-read articles](#must-read-articles)
   - [Other general material and list of resources](#other-general-material-and-list-of-resources)
+    - [Other lists](#other-lists)
     - [Books](#books)
     - [Articles](#articles)
     - [Axioms](#axioms)
@@ -24,6 +25,7 @@
     - [Business](#business)
     - [Cache](#cache)
     - [Career growth](#career-growth)
+      - [Choosing your next/first opportunity](#choosing-your-nextfirst-opportunity)
       - [Getting to Staff Eng](#getting-to-staff-eng)
     - [Characters sets](#characters-sets)
     - [Clouds](#clouds)
@@ -237,6 +239,10 @@ There are some free books available, including:
     - Incur 400 hours of bug triage.
 
 ## Other general material and list of resources
+
+### Other lists
+
+- [liuchong/awesome-roadmaps: A curated list of roadmaps.](https://github.com/liuchong/awesome-roadmaps)
 
 ### Books
 
@@ -528,6 +534,10 @@ Biases don't only apply to hiring. For instance, the fundamental attribution bia
   - Be Careful About Productivity Tips
 - [Senior Engineers are Living in the Future](https://www.zerobanana.com/essays/living-in-the-future/)
 - [What would a map of your career look like?](https://tomcritchlow.com/2023/04/26/career-maps/)
+
+#### Choosing your next/first opportunity
+
+- [Career Decisions - by Elad Gil - Elad Blog](https://blog.eladgil.com/p/career-decisions)
 
 #### Getting to Staff Eng
 
@@ -1327,6 +1337,7 @@ Richard Feynman's Learning Strategy:
     - Data dominates.
 - [Performance comparison: counting words in Python, Go, C++, C, AWK, Forth, and Rust](https://benhoyt.com/writings/count-words/): a great way to learn about measuring performance.
 - [The Mathematical Hacker](https://www.evanmiller.org/mathematical-hacker.html)
+- [Four Kinds of Optimisation](https://tratt.net/laurie/blog/2023/four_kinds_of_optimisation.html)
 
 ### Personal knowledge management (PKM)
 
