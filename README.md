@@ -276,6 +276,7 @@ There are some free books available, including:
   - Cross-functional understanding is critical in modern tech companies
   - Helps to avoid underestimating the importance and difficulty other roles
   - Helps you to be strategic in your interaction with people in that role
+- [Teach Yourself Programming in Ten Years](https://norvig.com/21-days.html)
 
 ### Axioms
 
@@ -664,6 +665,7 @@ See also the SQL section.
 - [Safe Operations For High Volume PostgreSQL](https://www.braintreepayments.com/blog/safe-operations-for-high-volume-postgresql/) (this is for PostgreSQL but works great for other DBs as well).
 - [Transaction Isolation in Postgres, explained](https://www.thenile.dev/blog/transaction-isolation-postgres)
 - [PostgreSQL exercises](https://pgexercises.com/)
+- [Operations cheat sheet](https://wiki.postgresql.org/wiki/Operations_cheat_sheet)
 
 ### Data formats
 
