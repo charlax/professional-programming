@@ -73,6 +73,7 @@
     - [Low-level, assembly](#low-level-assembly)
     - [Machine learning/AI](#machine-learningai)
     - [Math](#math)
+    - [Marketing](#marketing)
     - [Network](#network)
     - [Observability (monitoring, logging, exception handling)](#observability-monitoring-logging-exception-handling)
       - [Logging](#logging)
@@ -86,6 +87,7 @@
     - [Perspective](#perspective)
     - [Privacy](#privacy)
     - [Problem solving](#problem-solving)
+    - [Product management for software engineers](#product-management-for-software-engineers)
     - [Project management](#project-management)
     - [Programming languages](#programming-languages)
       - [Python](#python)
@@ -1251,6 +1253,10 @@ Richard Feynman's Learning Strategy:
 
 - 🏙 [Statistics for Hackers](https://speakerdeck.com/jakevdp/statistics-for-hackers)
 
+### Marketing
+
+- [goabstract/Marketing-for-Engineers](https://github.com/goabstract/Marketing-for-Engineers)
+
 ### Network
 
 - [The Great Confusion About URIs](https://benbernardblog.com/the-great-confusion-about-uris/)
@@ -1389,6 +1395,13 @@ Check out this section on my [list of management resources, "Personal productivi
     - Finally, consider solutions to avoid this failure
 - 🎞 [Hammock Driven Development](https://www.youtube.com/watch?v=f84n5oFoZBc&ab_channel=ClojureTV), Rick Hickey
   - A classic talk on problem solving.
+
+### Product management for software engineers
+
+See the [Product management section on my entrepreneurship-resources list of resources](https://github.com/charlax/entrepreneurship-resources#product-management).
+
+- Checkout this newsletter produced by Posthog: [Product for Engineers](https://newsletter.posthog.com/)
+
 
 ### Project management
 
