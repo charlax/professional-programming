@@ -34,6 +34,7 @@
     - [Communication](#communication)
     - [Compilers](#compilers)
     - [Configuration](#configuration)
+    - [Continuous Integration (CI)](#continuous-integration-ci)
     - [Databases](#databases)
       - [NoSQL](#nosql)
       - [Postgres](#postgres)
@@ -94,6 +95,7 @@
       - [JavaScript](#javascript)
       - [Garbage collection](#garbage-collection)
     - [Programming paradigm](#programming-paradigm)
+    - [Public speaking (presenting)](#public-speaking-presenting)
     - [Reading](#reading)
     - [Refactoring](#refactoring)
     - [Regex](#regex)
@@ -635,6 +637,10 @@ See also the Writing section
 - [Your configs suck? Try a real programming language](https://beepb00p.xyz/configs-suck.html)
   - Most modern config formats suck
   - Use a real programming language
+
+### Continuous Integration (CI)
+
+- [Continuous Integration](https://martinfowler.com/articles/continuousIntegration.html), MartinFowler.com
 
 ### Databases
 
@@ -1461,6 +1467,10 @@ JavaScript is such a pervasive language that it's almost required learning.
 - [Imperative vs Declarative Programming](https://tylermcginnis.com/imperative-vs-declarative-programming/), Tyler McGinnis.
     - I draw the line between declarative and non-declarative at whether you can trace the code as it runs. Regex is 100% declarative, as it’s untraceable while the pattern is being executed.
 - 🎞 [Imperative vs Declarative Programming](https://www.youtube.com/watch?v=E7Fbf7R3x6I&ab_channel=uidotdev)
+
+### Public speaking (presenting)
+
+- [Speaking for hackers](https://sfhbook.netlify.app/)
 
 ### Reading
 
