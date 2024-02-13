@@ -674,6 +674,8 @@ See also the SQL section.
 - [Transaction Isolation in Postgres, explained](https://www.thenile.dev/blog/transaction-isolation-postgres)
 - [PostgreSQL exercises](https://pgexercises.com/)
 - [Operations cheat sheet](https://wiki.postgresql.org/wiki/Operations_cheat_sheet)
+- [Postgres is Enough](https://gist.github.com/cpursley/c8fb81fe8a7e5df038158bdfe0f06dbb)
+- [Don't Do This](https://wiki.postgresql.org/wiki/Don't_Do_This)
 
 ### Data formats
 
@@ -683,6 +685,7 @@ See also the SQL section.
 - [Falsehoods Programmers Believe About Names](https://www.kalzumeus.com/2010/06/17/falsehoods-programmers-believe-about-names/)
 - [kdeldycke/awesome-falsehood](https://github.com/kdeldycke/awesome-falsehood): falsehoods programmers believe in
 - [Understanding UUIDs, ULIDs and String Representations](https://sudhir.io/uuids-ulids)
+- [Falsehoods Programmers Believe About Falsehoods Lists](https://kevin.deldycke.com/2016/12/falsehoods-programmers-believe-about-falsehoods-lists/)
 
 ### Data science/data engineering
 
@@ -1179,6 +1182,17 @@ Learn how to learn!
   - Fixing a bug can be milestone
 - [Why writing by hand is still the best way to retain information](https://stackoverflow.blog/2022/11/23/why-writing-by-hand-is-still-the-best-way-to-retain-information/), StackOverflow
 - 🎞 [Making Badass Developers - Kathy Sierra (Serious Pony) keynote](https://www.youtube.com/watch?v=FKTxC9pl-WM&t=2s&ab_channel=O%27Reilly)
+- [How to study](https://cse.buffalo.edu/~rapaport/howtostudy.html) (with lots of cartoons from Calvin & Hobbes!)
+  - Manage your time
+  - Take notes in class & rewrite them at home
+  - Study hard subjects first & study in a quiet place
+  - Read actively & slowly, before & after class
+  - Do your homework
+  - Study for exams
+  - Take Exams
+  - Do research & write essays
+  - Do I really have to do all this?
+  - Are there other websites that give study hints?
 
 About flashcards:
 
@@ -1644,6 +1658,7 @@ List of resources:
 - [Lost at SQL](https://lost-at-sql.therobinlord.com/), an SQL learning game
 - [Joins 13 Ways](https://justinjaffray.com/joins-13-ways/?a=b)
 - [spandanb/learndb-py](https://github.com/spandanb/learndb-py): learn database internals by implementing it from scratch.
+- [SQL for the Weary](https://gvwilson.github.io/sql-tutorial/)
 
 ### System administration
 
