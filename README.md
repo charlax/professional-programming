@@ -80,6 +80,7 @@
       - [Logging](#logging)
       - [Error/exception handling](#errorexception-handling)
       - [Monitoring](#monitoring)
+    - [Open source](#open-source)
     - [Operating system (OS)](#operating-system-os)
     - [Over-engineering](#over-engineering)
     - [Performance](#performance)
@@ -1323,6 +1324,10 @@ Richard Feynman's Learning Strategy:
     - RED Method (from Tom Wilkie): Rate, Errors, and Duration
 - [Simple Anomaly Detection Using Plain SQL](https://hakibenita.com/sql-anomaly-detection)
 - [How percentile approximation works (and why it's more useful than averages)](https://www.timescale.com/blog/how-percentile-approximation-works-and-why-its-more-useful-than-averages/)
+
+### Open source
+
+- [Non-code contributions are the secret to open source success](https://github.com/readme/featured/open-source-non-code-contributions)
 
 ### Operating system (OS)
 
