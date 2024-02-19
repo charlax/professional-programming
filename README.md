@@ -543,6 +543,7 @@ Biases don't only apply to hiring. For instance, the fundamental attribution bia
   - Be Careful About Productivity Tips
 - [Senior Engineers are Living in the Future](https://www.zerobanana.com/essays/living-in-the-future/)
 - [What would a map of your career look like?](https://tomcritchlow.com/2023/04/26/career-maps/)
+- [How to be successful at Amazon (or any other large company for that matter)](https://www.reddit.com/r/cscareerquestions/comments/4x0ugj/how_to_be_successful_at_amazon_or_any_other_large/)
 
 #### Choosing your next/first opportunity
 
