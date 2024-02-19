@@ -573,6 +573,7 @@ Biases don't only apply to hiring. For instance, the fundamental attribution bia
 ### Clouds
 
 - [open-guides/og-aws](https://github.com/open-guides/og-aws): a practical guide to AWS
+- [100+ `learn-cloud` resources](https://github.com/lynnlangit/learning-cloud)
 
 ### Code reviews
 
