@@ -939,6 +939,12 @@ Other editors:
 
 Checkout my [list of management resources](https://github.com/charlax/engineering-management).
 
+### Event-driven Architectures
+
+#### Event Sourcing
+
+- 🎞 [Event Sourcery](https://www.youtube.com/playlist?list=PLQuwqoolg4aI6v1GvtRg3NgT0PBBHVqii): YouTube video course teaching event-sourcing fundamentals from the ground up.
+
 ### Exercises
 
 The best way to learn is to learn by doing.
