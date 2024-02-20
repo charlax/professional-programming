@@ -1102,6 +1102,7 @@ Note: this is about you as an interviewee, **not** as an interviewer. To check o
 - [What I Learned from Doing 60+ Technical Interviews in 30 Days](https://meekg33k.dev/what-i-learned-from-doing-60-technical-interviews-in-30-days)
 - [Twipped/InterviewThis](https://github.com/Twipped/InterviewThis): questions to ask prospective employers
 - [System Design Interview Guide for Senior Engineers](https://interviewing.io/guides/system-design-interview), interviewing.io
+- [System Design in a Hurry](https://www.hellointerview.com/learn/system-design) must-know knowledge for system design interviews
 
 Résumé:
 
