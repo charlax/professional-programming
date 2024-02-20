@@ -231,7 +231,7 @@ There are some free books available, including:
   - Having some technical debt is healthy.
   - Senior engineers must develop many skills besides programming.
   - We’re all still junior in some areas.
-- [How to Build Good Software](https://www.csc.gov.sg/articles/how-to-build-good-software)
+- [How to Build Good Software](https://knowledge.csc.gov.sg/ethos-issue-21/how-to-build-good-software/)
   - A good high-level summary of fundamental engineering practices.
   - The root cause of bad software has less to do with specific engineering choices, and more to do with how development projects are managed.
   - There is no such thing as platonically good engineering: it depends on your needs and the practical problems you encounter.
