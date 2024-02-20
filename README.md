@@ -203,7 +203,7 @@ There are some free books available, including:
   - Pay attention on how people react to you
   - Beware of micro-aggressions
   - Keep a list of "Things I Don't Know"
-- [Signs that you're a good programmer](https://skatgame.net/mburo//courses/350/signs-that-you-re-a-good-programmer.html) (not everything is here is great - some of the points are counterproductive)
+- [Signs that you're a good programmer](https://skatgame.net/mburo//courses/350/signs-that-you-re-a-good-programmer.html) (not everything in here is great - some of the points are counterproductive)
   - The instinct to experiment first
   - Emotional detachment from code and design
   - Eager to fix what isn't broken
