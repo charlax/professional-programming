@@ -1,5 +1,6 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
 ## Table of Contents
 
 - [Professional Programming - about this list](#professional-programming---about-this-list)
@@ -240,11 +241,11 @@ There are some free books available, including:
   - Beware of bureaucratic goals masquerading as problem statements. If our end goal is to make citizens’ lives better, we need to explicitly acknowledge the things that are making their lives worse.
   - Building software is not about avoiding failure; it is about strategically failing as fast as possible to get the information you need to build something good.
 - [How to be a -10x Engineer](https://taylor.town/-10x)
-    - Nullify the output of 10 engineers.
-    - Hold 10 engineers hostage in a technical discussion.
-    - Waste 10 weeks of wages on cloud costs.
-    - Waste 400 hours of engineering on bad architecture.
-    - Incur 400 hours of bug triage.
+  - Nullify the output of 10 engineers.
+  - Hold 10 engineers hostage in a technical discussion.
+  - Waste 10 weeks of wages on cloud costs.
+  - Waste 400 hours of engineering on bad architecture.
+  - Incur 400 hours of bug triage.
 
 ## Other general material and list of resources
 
@@ -362,7 +363,7 @@ Example guidelines:
 More specific topics:
 
 - [Why you should use links, not keys, to represent relationships in APIs](https://cloud.google.com/blog/products/application-development/api-design-why-you-should-use-links-not-keys-to-represent-relationships-in-apis), Martin Nally, Google
-    - "Using links instead of foreign keys to express relationships in APIs reduces the amount of information a client needs to know to use an API, and reduces the ways in which clients and servers are coupled to each other."
+  - "Using links instead of foreign keys to express relationships in APIs reduces the amount of information a client needs to know to use an API, and reduces the ways in which clients and servers are coupled to each other."
 - [Give me /events, not webhooks](https://blog.sequin.io/events-not-webhooks/)
   - Events can unlock much-needed webhook features, like allowing your webhook consumers to replay or reset the position of their webhook subscription.
 
@@ -433,6 +434,7 @@ More specific topics:
 Dan Heller, Building a Career in Software
 
 > I had learned already never to empty the well of my writing, but always to stop when there was still something there in the deep part of the well, and let it refill at night from the springs that fed it. -- Ernest Hemingway
+
 - [The Grug Brained Developer](https://grugbrain.dev): habits of self-aware programmer. Like Tao of Programming, different style.
 
 > Good judgment comes from experience.
@@ -579,16 +581,16 @@ Biases don't only apply to hiring. For instance, the fundamental attribution bia
 - [How to do a code review](https://google.github.io/eng-practices/review/reviewer/), Google's engineering practices documentation.
 - [Post-Commit Reviews](https://medium.com/@copyconstruct/post-commit-reviews-b4cc2163ac7a): an interesting idea to increase developer velocity (there are some caveats though).
 - [How to Make Your Code Reviewer Fall in Love with You](https://mtlynch.io/code-review-love/)
-    - Review your own code first
-    - Write a clear changelist description
-    - Automate the easy stuff
-    - Answer questions with the code itself
-    - Narrowly scope changes
-    - Separate functional and non-functional changes
-    - Respond graciously to critiques
-    - Artfully solicit missing information
-    - Award all ties to your reviewer
-    - Minimize lag between rounds of review
+  - Review your own code first
+  - Write a clear changelist description
+  - Automate the easy stuff
+  - Answer questions with the code itself
+  - Narrowly scope changes
+  - Separate functional and non-functional changes
+  - Respond graciously to critiques
+  - Artfully solicit missing information
+  - Award all ties to your reviewer
+  - Minimize lag between rounds of review
 - [How to Do Code Reviews Like a Human](https://mtlynch.io/human-code-reviews-1/)
 - [Ask HN: How do you review code?](https://news.ycombinator.com/item?id=11416746): great discussion on HackerNews, full of interesting ideas.
 - [Maslow's pyramid of code reviews](https://www.dein.fr/posts/2015-02-18-maslows-pyramid-of-code-review)
@@ -596,7 +598,6 @@ Biases don't only apply to hiring. For instance, the fundamental attribution bia
 - [Code review in remote teams](https://web.hypothes.is/blog/code-review-in-remote-teams/): very complete set of rules.
 - [No code reviews by default](https://www.raycast.com/blog/no-code-reviews-by-default/)
   - Responsibility over convention
-
 
 ### Coding & code quality
 
@@ -628,6 +629,7 @@ See also the Writing section
 
 - [The Compiler Writer Resource Page](https://c9x.me/compile/bib/)
 - [kanaka/mal](https://github.com/kanaka/mal): mal - Make a Lisp
+- [A subset of C compiler from scratch step-by-step](https://github.com/Yeaseen/c-compiler)
 
 ### Configuration
 
@@ -1269,6 +1271,11 @@ Richard Feynman's Learning Strategy:
 ### Machine learning/AI
 
 - [Transformers from Scratch](https://e2eml.school/transformers.html)
+- [Artificial Neural Network from Scratch in python](https://github.com/Yeaseen/ML_Pattern/tree/master/NN)
+- [Matrix Factorization for Recommender System from scratch in python](https://github.com/Yeaseen/ML_Pattern/tree/master/Recommend)
+- [Binary and mulit-class Perceptron from scratch](https://github.com/Yeaseen/ML_Pattern/tree/master/Perceptron)
+- [Dimentionality Reduction using PCA and clustering using EM from scratch](https://github.com/Yeaseen/ML_Pattern/tree/master/PCA_EMClusteringGMM)
+- [Decision Tree and AdaBoost fro Classification from scratch](https://github.com/Yeaseen/ML_Pattern/tree/master/DcsnT_Adaboost)
 
 ### Math
 
@@ -1296,11 +1303,11 @@ Richard Feynman's Learning Strategy:
   - Logging adds significant complexity to your architecture. And it requires more testing. Use architecture patterns that will make logging an explicit part of your contracts
   - Logging is a whole infrastructure subsystem on its own. And quite a complex one. You will have to maintain it or to outsource this job to existing logging services
 - [Lies My Parents Told Me (About Logs)](https://www.honeycomb.io/blog/lies-my-parents-told-me-about-logs/)
-    - Logs are cheap
-    - I can run it better myself
-    - Leveled logging is a great way to separate information
-    - Logs are basically the same as events
-    - A standard logging format is good enough
+  - Logs are cheap
+  - I can run it better myself
+  - Leveled logging is a great way to separate information
+  - Logs are basically the same as events
+  - A standard logging format is good enough
 - [Logging - OWASP Cheat Sheet Series](https://cheatsheetseries.owasp.org/cheatsheets/Logging_Cheat_Sheet.html)
 - [The Audit Log Wall of Shame](https://audit-logs.tax/): list of vendors that don’t prioritize high-quality, widely-available audit logs for security and operations teams.
 
@@ -1319,9 +1326,9 @@ Richard Feynman's Learning Strategy:
 - 🧰 [crazy-canux/awesome-monitoring](https://github.com/crazy-canux/awesome-monitoring): monitoring tools for operations.
 - [Monitoring in the time of Cloud Native](https://medium.com/@copyconstruct/monitoring-in-the-time-of-cloud-native-c87c7a5bfa3e)
 - [How to Monitor the SRE Golden Signals](https://medium.com/faun/how-to-monitor-the-sre-golden-signals-1391cadc7524)
-    - From the Google SRE book: Latency, Traffic, Errors, and Saturation
-    - USE Method (from Brendan Gregg): Utilization, Saturation, and Errors
-    - RED Method (from Tom Wilkie): Rate, Errors, and Duration
+  - From the Google SRE book: Latency, Traffic, Errors, and Saturation
+  - USE Method (from Brendan Gregg): Utilization, Saturation, and Errors
+  - RED Method (from Tom Wilkie): Rate, Errors, and Duration
 - [Simple Anomaly Detection Using Plain SQL](https://hakibenita.com/sql-anomaly-detection)
 - [How percentile approximation works (and why it's more useful than averages)](https://www.timescale.com/blog/how-percentile-approximation-works-and-why-its-more-useful-than-averages/)
 
@@ -1372,11 +1379,11 @@ Richard Feynman's Learning Strategy:
 - [Numbers Everyone Should Know](https://everythingisdata.wordpress.com/2009/10/17/numbers-everyone-should-know/)
 - [Latency numbers every programmer should know](https://gist.github.com/hellerbarde/2843375)
 - [Rob Pike's 5 Rules of Programming](http://users.ece.utexas.edu/~adnan/pike.html)
-    - You can't tell where a program is going to spend its time.
-    - Measure
-    - Fancy algorithms are slow when n is small, and n is usually small.
-    - Fancy algorithms are buggier than simple ones
-    - Data dominates.
+  - You can't tell where a program is going to spend its time.
+  - Measure
+  - Fancy algorithms are slow when n is small, and n is usually small.
+  - Fancy algorithms are buggier than simple ones
+  - Data dominates.
 - [Performance comparison: counting words in Python, Go, C++, C, AWK, Forth, and Rust](https://benhoyt.com/writings/count-words/): a great way to learn about measuring performance.
 - [The Mathematical Hacker](https://www.evanmiller.org/mathematical-hacker.html)
 - [Four Kinds of Optimisation](https://tratt.net/laurie/blog/2023/four_kinds_of_optimisation.html)
@@ -1415,9 +1422,9 @@ Check out this section on my [list of management resources, "Personal productivi
 
 - [Dealing with Hard Problems](https://artofproblemsolving.com/articles/hard-problems)
 - [Invert, always, invert](https://www.anup.io/2020/07/20/invert-always-invert/)
-    - Define the problem - what is it that you're trying to achieve?
-    - Invert it - what would guarantee the failure to achieve this outcome?
-    - Finally, consider solutions to avoid this failure
+  - Define the problem - what is it that you're trying to achieve?
+  - Invert it - what would guarantee the failure to achieve this outcome?
+  - Finally, consider solutions to avoid this failure
 - 🎞 [Hammock Driven Development](https://www.youtube.com/watch?v=f84n5oFoZBc&ab_channel=ClojureTV), Rick Hickey
   - A classic talk on problem solving.
 
@@ -1426,7 +1433,6 @@ Check out this section on my [list of management resources, "Personal productivi
 See the [Product management section on my entrepreneurship-resources list of resources](https://github.com/charlax/entrepreneurship-resources#product-management).
 
 - Checkout this newsletter produced by Posthog: [Product for Engineers](https://newsletter.posthog.com/)
-
 
 ### Project management
 
@@ -1484,7 +1490,7 @@ JavaScript is such a pervasive language that it's almost required learning.
 ### Programming paradigm
 
 - [Imperative vs Declarative Programming](https://tylermcginnis.com/imperative-vs-declarative-programming/), Tyler McGinnis.
-    - I draw the line between declarative and non-declarative at whether you can trace the code as it runs. Regex is 100% declarative, as it’s untraceable while the pattern is being executed.
+  - I draw the line between declarative and non-declarative at whether you can trace the code as it runs. Regex is 100% declarative, as it’s untraceable while the pattern is being executed.
 - 🎞 [Imperative vs Declarative Programming](https://www.youtube.com/watch?v=E7Fbf7R3x6I&ab_channel=uidotdev)
 
 ### Public speaking (presenting)
@@ -1628,12 +1634,14 @@ Training for developers:
 - [OWASP Security Knowledge Framework](https://owasp.org/www-project-security-knowledge-framework/)
 - [PagerDuty Security Training](https://sudo.pagerduty.com/for_engineers/)
 - [Gruyere: Web Application Exploits and Defenses](https://google-gruyere.appspot.com/part1)
+- [VirusTotal: Malware Detection and Analysis](https://www.virustotal.com/gui/home/upload)
 
 List of resources:
 
 - 🧰 [meirwah/awesome-incident-response](https://github.com/meirwah/awesome-incident-response): tools for incident response
 - 🧰 [Starting Up Security](https://scrty.io/)
 - 🧰 [decalage2/awesome-security-hardening](https://github.com/decalage2/awesome-security-hardening): security hardening guides, tools and other resources
+- 🧰 [Linux Privilege Escalation Walkthrough](https://github.com/Yeaseen/my_ctf_writeups/blob/main/Linux_Priviledge_Escalation/prev_esc.md)
 
 ### Shell (command line)
 
@@ -1646,6 +1654,7 @@ List of resources:
 - [jlevy/the-art-of-command-line](https://github.com/jlevy/the-art-of-command-line): master the command line, in one page **must read**
 - [Minimal safe Bash script template](https://betterdev.blog/minimal-safe-bash-script-template/)
 - [Command Line Interface Guidelines](https://clig.dev/)
+- [leb-LinuxEchoBeach: Practical Linux Command Lines](https://github.com/Yeaseen/leb-LinuxEchoBeach)
 - [The Linux Commands Handbook](https://openbootcamps.com/the-linux-commands-handbook/)
 - [How to write idempotent Bash scripts](https://arslan.io/2019/07/03/how-to-write-idempotent-bash-scripts/)
 - [Learn bash by playing an adventure](https://gitlab.com/slackermedia/bashcrawl)
@@ -1658,7 +1667,7 @@ List of resources:
 - [SQL styleguide](http://www.sqlstyle.guide/)
 - [Best practices for writing SQL queries](https://www.metabase.com/learn/building-analytics/sql-templates/sql-best-practices)
 - [Practical SQL for Data Analysis](https://hakibenita.com/sql-for-data-analysis)
-- [Reasons why SELECT * is bad for SQL performance](https://tanelpoder.com/posts/reasons-why-select-star-is-bad-for-sql-performance/)
+- [Reasons why SELECT \* is bad for SQL performance](https://tanelpoder.com/posts/reasons-why-select-star-is-bad-for-sql-performance/)
 - [Animate SQL](https://animatesql.com/)
 - [Lost at SQL](https://lost-at-sql.therobinlord.com/), an SQL learning game
 - [Joins 13 Ways](https://justinjaffray.com/joins-13-ways/?a=b)
@@ -1699,12 +1708,12 @@ Articles:
 - [Turning the database outside-out with Apache Samza](https://www.confluent.io/blog/turning-the-database-inside-out-with-apache-samza/)
 - [Scaling to 100k Users](https://alexpareto.com/scalability/systems/2020/02/03/scaling-100k.html), Alex Pareto. The basics of getting from 1 to 100k users.
 - [Systems that defy detailed understanding](https://blog.nelhage.com/post/systems-that-defy-understanding/)
-    - Focus effort on systems-level failure, instead of the individual component failure.
-    - Invest in sophisticated observability tools, aiming to increase the number of questions we can ask without deploying custom code
+  - Focus effort on systems-level failure, instead of the individual component failure.
+  - Invest in sophisticated observability tools, aiming to increase the number of questions we can ask without deploying custom code
 - [Fallacies of distributed computing](https://en.wikipedia.org/wiki/Fallacies_of_distributed_computing), Wikipedia
 - [The biggest thing Amazon got right: the platform](https://gigaom.com/2011/10/12/419-the-biggest-thing-amazon-got-right-the-platform/)
-    - All teams will henceforth expose their data and functionality through service interfaces.
-    - Monitoring and QA are the same thing.
+  - All teams will henceforth expose their data and functionality through service interfaces.
+  - Monitoring and QA are the same thing.
 - [Building Services at Airbnb, part 3](https://medium.com/airbnb-engineering/building-services-at-airbnb-part-3-ac6d4972fc2d)
   - Resilience is a Requirement, Not a Feature
 - [Building Services at Airbnb, part 4](https://medium.com/airbnb-engineering/building-services-at-airbnb-part-4-23c95e428064)
@@ -1718,13 +1727,13 @@ Microservices/splitting a monolith:
 - [Don’t start with microservices in production – monoliths are your friend](https://arnoldgalovics.com/microservices-in-production/)
 - [Deep lessons from Google And EBay on building ecosystems of microservices](http://highscalability.com/blog/2015/12/1/deep-lessons-from-google-and-ebay-on-building-ecosystems-of.html)
 - [Introducing domain-oriented microservice architecture](https://eng.uber.com/microservice-architecture/), Uber
-    - Instead of orienting around single microservices, we oriented around collections of related microservices. We call these domains.
-    - In small organizations, the operational benefit likely does not offset the increase in architectural complexity.
+  - Instead of orienting around single microservices, we oriented around collections of related microservices. We call these domains.
+  - In small organizations, the operational benefit likely does not offset the increase in architectural complexity.
 - [Best Practices for Building a Microservice Architecture](https://www.vinaysahni.com/best-practices-for-building-a-microservice-architecture#correlation-ids)
 - 🏙 [Avoid Building a Distributed Monolith](https://speakerdeck.com/felipead/avoid-building-a-distributed-monolith)
 - 🏙 [Breaking down the monolith](https://speakerdeck.com/slashdotpeter/breaking-down-the-monolith-devone)
 - [Monoliths are the future](https://changelog.com/posts/monoliths-are-the-future)
-    - "We’re gonna break it up and somehow find the engineering discipline we never had in the first place."
+  - "We’re gonna break it up and somehow find the engineering discipline we never had in the first place."
 - [12 Ways to Prepare your Monolith Before Transitioning to Microservices](https://semaphoreci.com/blog/monolith-microservices)
 - [Death by a thousand microservices](https://renegadeotter.com/2023/09/10/death-by-a-thousand-microservices.html)
   - [Microservices](https://www.youtube.com/watch?v=y8OnoxKotPQ&ab_channel=KRAZAM)
@@ -1742,12 +1751,12 @@ Microservices/splitting a monolith:
 - I already mentioned the book Release it! above. There's also a [presentation](http://www.slideshare.net/justindorfman/stability-patterns-presentation) from the author.
 - [Service Recovery: Rolling Back vs. Forward Fixing](https://www.linkedin.com/pulse/service-recovery-rolling-back-vs-forward-fixing-mohamed-el-geish/)
 - [How Complex Systems Fail](https://how.complexsystems.fail/)
-    - Catastrophe requires multiple failures – single point failures are not enough.
-    - Complex systems contain changing mixtures of failures latent within them.
-    - Post-accident attribution to a ‘root cause’ is fundamentally wrong.
-    - Hindsight biases post-accident assessments of human performance.
-    - Safety is a characteristic of systems and not of their components
-    - Failure free operations require experience with failure.
+  - Catastrophe requires multiple failures – single point failures are not enough.
+  - Complex systems contain changing mixtures of failures latent within them.
+  - Post-accident attribution to a ‘root cause’ is fundamentally wrong.
+  - Hindsight biases post-accident assessments of human performance.
+  - Safety is a characteristic of systems and not of their components
+  - Failure free operations require experience with failure.
 - 🧰 [Testing Distributed Systems](https://asatarin.github.io/testing-distributed-systems/)
 
 #### Resiliency
@@ -1761,7 +1770,7 @@ Microservices/splitting a monolith:
 
 ### Site Reliability Engineering (SRE)
 
-*Note: this section is only about SRE as a role. Checkout the System Architecture for more content related to reliability.*
+_Note: this section is only about SRE as a role. Checkout the System Architecture for more content related to reliability._
 
 Books:
 
@@ -1802,12 +1811,12 @@ Resources:
 
 - [TechnicalDebt](https://martinfowler.com/bliki/TechnicalDebt.html), Martin Fowler.
 - [Fixing Technical Debt with an Engineering Allocation Framework](https://docs.google.com/presentation/d/16WU1cxG02jnVGQ5byviw3_Q0ILDPZPYtTvU91_210T0/edit#slide=id.p)
-    - You don't need to stop shipping features to fix technical debt
-    - Communicate the business value
+  - You don't need to stop shipping features to fix technical debt
+  - Communicate the business value
 - [Ur-Technical Debt](https://www.georgefairbanks.com/ieee-software-v32-n4-july-2020-ur-technical-debt)
-    - Today, any code that a developer dislikes is branded as technical debt.
-    - Ward Cunningham invented the debt metaphor to explain to his manager that building iteratively gave them working code faster, much like borrowing money to start a project, but that it was essential to keep paying down the debt, otherwise the interest payments would grind the project to a halt.
-    - Ur-technical debt is generally not detectable by static analysis.
+  - Today, any code that a developer dislikes is branded as technical debt.
+  - Ward Cunningham invented the debt metaphor to explain to his manager that building iteratively gave them working code faster, much like borrowing money to start a project, but that it was essential to keep paying down the debt, otherwise the interest payments would grind the project to a halt.
+  - Ur-technical debt is generally not detectable by static analysis.
 
 ### Testing
 
@@ -1917,15 +1926,15 @@ Check out this section on my [list of management resources, "Personal productivi
 ➡️ See also my [engineering-management list](https://github.com/charlax/engineering-management#writing)
 
 - [Undervalued Software Engineering Skills: Writing Well](https://blog.pragmaticengineer.com/on-writing-well/)
-    - From the HN discussion: "Writing a couple of pages of design docs or an Amazon-style 6 pager or whatever might take a few days of work, but can save weeks or more of wasted implementation time when you realise your system design was flawed or it doesn't address any real user needs."
+  - From the HN discussion: "Writing a couple of pages of design docs or an Amazon-style 6 pager or whatever might take a few days of work, but can save weeks or more of wasted implementation time when you realise your system design was flawed or it doesn't address any real user needs."
 - [Sell Yourself Sell Your Work](https://www.solipsys.co.uk/new/SellYourselfSellYourWork.html?te20hn)
-    - If you've done great work, if you've produced superb software or fixed a fault with an aeroplane or investigated a problem, without telling anyone you may as well not have bothered.
+  - If you've done great work, if you've produced superb software or fixed a fault with an aeroplane or investigated a problem, without telling anyone you may as well not have bothered.
 - [The Writing Well Handbook](https://www.julian.com/guide/write/intro)
-    - Ideas — Identify what to write about
-    - First Drafts — Generate insights on your topic
-    - Rewriting — Rewrite for clarity, intrigue, and succinctness
-    - Style — Rewrite for style and flow
-    - Practicing — Improve as a writer
+  - Ideas — Identify what to write about
+  - First Drafts — Generate insights on your topic
+  - Rewriting — Rewrite for clarity, intrigue, and succinctness
+  - Style — Rewrite for style and flow
+  - Practicing — Improve as a writer
 - [Write Simply](http://paulgraham.com/simply.html), Paul Graham
 - [Writing is Thinking: Learning to Write with Confidence](https://blog.stephsmith.io/learning-to-write-with-confidence/)
 - [It's time to start writing](https://alexnixon.github.io/2019/12/10/writing.html) explains why Jeff Bezos banned PowerPoint at Amazon.
@@ -1961,7 +1970,7 @@ Guides & classes about technical writing:
 ![Write like an Amazonian](./images/amazon_writing_rules.jpeg)
 
 > If you’re overthinking, write. If you’re underthinking, read.
-> – @AlexAndBooks_
+> – @AlexAndBooks\_
 
 ## Resources & inspiration for presentations
 
@@ -2009,7 +2018,7 @@ Blogs:
 - [OOP](https://en.wikipedia.org/wiki/Object-oriented_programming)
 - [SOLID](<https://en.wikipedia.org/wiki/SOLID_(object-oriented_design)>)
 - [TDD](https://en.wikipedia.org/wiki/Test-driven_development)
-= [Two Generals' Problem](https://en.wikipedia.org/wiki/Two_Generals%27_Problem)
+  = [Two Generals' Problem](https://en.wikipedia.org/wiki/Two_Generals%27_Problem)
 - [YAGNI](https://en.wikipedia.org/wiki/You_aren%27t_gonna_need_it)
 
 ## My other lists
