@@ -67,6 +67,7 @@
     - [Internet](#internet)
     - [Interviewing](#interviewing)
     - [Kubernetes](#kubernetes)
+    - [Large Language Model (LLM)](#large-language-model-llm)
     - [Learning & memorizing](#learning--memorizing)
     - [Licenses (legal)](#licenses-legal)
     - [Linux (system management)](#linux-system-management)
@@ -475,6 +476,7 @@ Biases don't only apply to hiring. For instance, the fundamental attribution bia
 
 - [Payments 101 for a Developer](https://github.com/juspay/hyperswitch/wiki/Payments-101-for-a-Developer)
 - [The 4 biggest problems with homemade billing systems](https://www.getlago.com/blog/the-4-biggest-problems-with-homemade-billing-systems)
+- [🦑 The 14 pains of building your own billing system](https://arnon.dk/the-14-pains-of-billing/)
 
 ### Cache
 
@@ -544,6 +546,10 @@ Biases don't only apply to hiring. For instance, the fundamental attribution bia
 - [Senior Engineers are Living in the Future](https://www.zerobanana.com/essays/living-in-the-future/)
 - [What would a map of your career look like?](https://tomcritchlow.com/2023/04/26/career-maps/)
 - [How to be successful at Amazon (or any other large company for that matter)](https://www.reddit.com/r/cscareerquestions/comments/4x0ugj/how_to_be_successful_at_amazon_or_any_other_large/)
+
+About senior engineers:
+
+- [Falsehoods Junior Developers believe about becoming Senior](https://vadimkravcenko.com/shorts/falsehoods-junior-developers-believe-about-becoming-senior/)
 
 #### Choosing your next/first opportunity
 
@@ -1121,6 +1127,10 @@ See also the exercises section in this document.
 - [OWASP/www-project-kubernetes-top-ten](https://github.com/OWASP/www-project-kubernetes-top-ten)
 - [Kubernetes Tutorial for Beginners: Basic Concepts](https://spacelift.io/blog/kubernetes-tutorial)
 
+### Large Language Model (LLM)
+
+- [What Is ChatGPT Doing… and Why Does It Work?](https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/), Stephen Wolfram
+-
 ### Learning & memorizing
 
 Learn how to learn!
@@ -1326,6 +1336,7 @@ Richard Feynman's Learning Strategy:
     - RED Method (from Tom Wilkie): Rate, Errors, and Duration
 - [Simple Anomaly Detection Using Plain SQL](https://hakibenita.com/sql-anomaly-detection)
 - [How percentile approximation works (and why it's more useful than averages)](https://www.timescale.com/blog/how-percentile-approximation-works-and-why-its-more-useful-than-averages/)
+- [Implementing health checks](https://aws.amazon.com/builders-library/implementing-health-checks/)
 
 ### Open source
 
@@ -1714,6 +1725,7 @@ Articles:
 - [Patterns of Distributed Systems](https://martinfowler.com/articles/patterns-of-distributed-systems/), MartinFowler.com
 - [ConwaysLaw](https://martinfowler.com/bliki/ConwaysLaw.html), MartinFowler.com (regarding organization, check out my [engineering-management](https://github.com/charlax/engineering-management/) list.
 - [The C4 model for visualising software architecture](https://c4model.com/)
+- [If Architects had to work like Programmers](http://www.gksoft.com/a/fun/architects.html)
 
 Microservices/splitting a monolith:
 
