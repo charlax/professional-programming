@@ -1135,7 +1135,7 @@ See also the exercises section in this document.
 
 Learn how to learn!
 
-- [How I Rewired My Brain to Become Fluent in Math](http://nautil.us/issue/40/learning/how-i-rewired-my-brain-to-become-fluent-in-math-rp): subtitled _the building blocks of understanding are memorization and repetition_.
+- [How I Rewired My Brain to Become Fluent in Math](https://nautil.us/how-i-rewired-my-brain-to-become-fluent-in-math-235085): subtitled _the building blocks of understanding are memorization and repetition_.
 - [One Sure-Fire Way to Improve Your Coding](https://changelog.com/posts/one-sure-fire-way-to-improve-your-coding): reading code!
 - [Tips for learning programming](http://blog.hiphipjorge.com/tips-for-learning-programming/)
 - [You can increase your intelligence: 5 ways to maximize your cognitive potential](https://blogs.scientificamerican.com/guest-blog/you-can-increase-your-intelligence-5-ways-to-maximize-your-cognitive-potential/): forgive the clickbait title, it’s actually a good article.
