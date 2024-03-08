@@ -80,6 +80,7 @@
     - [Observability (monitoring, logging, exception handling)](#observability-monitoring-logging-exception-handling)
       - [Logging](#logging)
       - [Error/exception handling](#errorexception-handling)
+      - [Metrics](#metrics)
       - [Monitoring](#monitoring)
     - [Open source](#open-source)
     - [Operating system (OS)](#operating-system-os)
@@ -106,15 +107,17 @@
       - [Checklists](#checklists)
       - [Feature flags](#feature-flags)
       - [Testing in production](#testing-in-production)
+    - [Reliability](#reliability)
+      - [Resiliency](#resiliency)
     - [Search](#search)
     - [Security](#security)
     - [Shell (command line)](#shell-command-line)
     - [SQL](#sql)
     - [System administration](#system-administration)
     - [System architecture](#system-architecture)
-      - [Scalability](#scalability)
-      - [Reliability](#reliability)
-      - [Resiliency](#resiliency)
+      - [Architecture patterns](#architecture-patterns)
+      - [Microservices/splitting a monolith](#microservicessplitting-a-monolith)
+    - [Scalability](#scalability)
     - [Site Reliability Engineering (SRE)](#site-reliability-engineering-sre)
     - [Technical debt](#technical-debt)
     - [Testing](#testing)
@@ -1029,14 +1032,6 @@ Practice:
 - [Incident Response at Heroku](https://blog.heroku.com/archives/2014/5/9/incident-response-at-heroku)
   - Described the Incident Commander role, inspired by natural disaster incident response.
   - Also in presentation: [Incident Response Patterns: What we have learned at PagerDuty - Speaker Deck](https://speakerdeck.com/arupchak/incident-response-patterns-what-we-have-learned-at-pagerduty)
-- [My Philosophy On Alerting](https://linuxczar.net/sysadmin/philosophy-on-alerting/)
-  - Pages should be urgent, important, actionable, and real.
-  - Err on the side of removing noisy alerts – over-monitoring is a harder problem to solve than under-monitoring.
-  - Symptoms are a better way to capture more problems more comprehensively and robustly with less effort.
-  - Include cause-based information in symptom-based pages or on dashboards, but avoid alerting directly on causes.
-  - The further up your serving stack you go, the more distinct problems you catch in a single rule. But don’t go so far you can’t sufficiently distinguish what’s going on.
-  - If you want a quiet oncall rotation, it’s imperative to have a system for dealing with things that need timely response, but are not imminently critical.
-  - This classical article has now become a [chapter](https://sre.google/sre-book/monitoring-distributed-systems/) in Google's SRE book.
 - The Google SRE book's [chapter about oncall](https://landing.google.com/sre/workbook/chapters/on-call/)
 - [Writing Runbook Documentation When You’re An SRE](https://www.transposit.com/blog/2020.01.30-writing-runbook-documentation-when-youre-an-sre/)
   - Playbooks “reduce stress, the mean time to repair (MTTR), and the risk of human error.”
@@ -1048,6 +1043,18 @@ Practice:
 - [Computer Security Incident Handling Guide](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-61r2.pdf), NIST
 - [Incident Management Resources](https://resources.sei.cmu.edu/library/asset-view.cfm?assetID=505044), Carnegie Mellon University
 - [Sterile flight deck rule](https://en.wikipedia.org/wiki/Sterile_flight_deck_rule), Wikipedia
+
+Alerting:
+
+- [My Philosophy On Alerting](https://linuxczar.net/sysadmin/philosophy-on-alerting/)
+  - Pages should be urgent, important, actionable, and real.
+  - Err on the side of removing noisy alerts – over-monitoring is a harder problem to solve than under-monitoring.
+  - Symptoms are a better way to capture more problems more comprehensively and robustly with less effort.
+  - Include cause-based information in symptom-based pages or on dashboards, but avoid alerting directly on causes.
+  - The further up your serving stack you go, the more distinct problems you catch in a single rule. But don’t go so far you can’t sufficiently distinguish what’s going on.
+  - If you want a quiet oncall rotation, it’s imperative to have a system for dealing with things that need timely response, but are not imminently critical.
+  - This classical article has now become a [chapter](https://sre.google/sre-book/monitoring-distributed-systems/) in Google's SRE book.
+- 🏙 [The Paradox of Alerts](https://speakerdeck.com/charity/the-paradox-of-alerts): why deleting 90% of your paging alerts can make your systems better, and how to craft an on-call rotation that engineers are happy to join.
 
 #### Postmortem
 
@@ -1301,6 +1308,8 @@ Richard Feynman's Learning Strategy:
 
 ### Observability (monitoring, logging, exception handling)
 
+*See also: [Site Reliability Engineering (SRE)](#site-reliability-engineering-sre)*
+
 #### Logging
 
 - [Do not log](https://sobolevn.me/2020/03/do-not-log) dwells on some logging antipatterns.
@@ -1323,6 +1332,13 @@ Richard Feynman's Learning Strategy:
   - Explain the problem
   - Explain the solution
   - Write clearly
+
+#### Metrics
+
+- [Meaningful availability](https://blog.acolyer.org/2020/02/26/meaningful-availability/)
+  - A good availability metric should be meaningful, proportional, and actionable. By "meaningful" we mean that it should capture what users experience. By "proportional" we mean that a change in the metric should be proportional to the change in user-perceived availability. By "actionable" we mean that the metric should give system owners insight into why availability for a period was low. This paper shows that none of the commonly used metrics satisfy these requirements…
+- 📃 [Meaningful Availability](https://www.usenix.org/conference/nsdi20/presentation/hauer) paper.
+  - This paper presents and evaluates a novel availability metric: windowed user-uptime
 
 #### Monitoring
 
@@ -1602,6 +1618,65 @@ JavaScript is such a pervasive language that it's almost required learning.
     - Have proper visibility from a client/end-user standpoint (client-side metrics)
 - [Testing in Production, the safe way](https://medium.com/@copyconstruct/testing-in-production-the-safe-way-18ca102d0ef1)
 
+### Reliability
+
+*See also [System architecture](#system-architecture)*
+
+Books:
+
+- 📖 [Site Reliability Engineering](https://landing.google.com/sre/books/)
+  - Written by members of Google's SRE team, with a comprehensive analysis of the entire software lifecycle - how to build, deploy, monitor, and maintain large scale systems.
+
+Quotes:
+
+> Quality is a snapshot at the start of life and reliability is a motion picture of the day-by-day operation.
+> – [NIST](https://www.itl.nist.gov/div898/handbook/apr/section1/apr111.htm)
+
+> Reliability is the one feature every customer users. -- An auth0 SRE.
+
+Articles:
+
+- I already mentioned the book Release it! above. There's also a [presentation](http://www.slideshare.net/justindorfman/stability-patterns-presentation) from the author.
+- [Service Recovery: Rolling Back vs. Forward Fixing](https://www.linkedin.com/pulse/service-recovery-rolling-back-vs-forward-fixing-mohamed-el-geish/)
+- [How Complex Systems Fail](https://how.complexsystems.fail/)
+    - Catastrophe requires multiple failures – single point failures are not enough.
+    - Complex systems contain changing mixtures of failures latent within them.
+    - Post-accident attribution to a ‘root cause’ is fundamentally wrong.
+    - Hindsight biases post-accident assessments of human performance.
+    - Safety is a characteristic of systems and not of their components
+    - Failure free operations require experience with failure.
+- [Systems that defy detailed understanding](https://blog.nelhage.com/post/systems-that-defy-understanding/)
+    - Focus effort on systems-level failure, instead of the individual component failure.
+    - Invest in sophisticated observability tools, aiming to increase the number of questions we can ask without deploying custom code
+- [Operating a Large, Distributed System in a Reliable Way: Practices I Learned](https://blog.pragmaticengineer.com/operating-a-high-scale-distributed-system/), Gergely Orosz.
+  - A good summary of processes to implement.
+- [Production Oriented Development](https://paulosman.me/2019/12/30/production-oriented-development.html)
+  - Code in production is the only code that matters
+  - Engineers are the subject matter experts for the code they write and should be responsible for operating it in production.
+  - Buy Almost Always Beats Build
+  - Make Deploys Easy
+  - Trust the People Closest to the Knives
+  - QA Gates Make Quality Worse
+  - Boring Technology is Great.
+  - Non-Production Environments Have Diminishing Returns
+  - Things Will Always Break
+- 🏙 [High Reliability Infrastructure migrations](https://speakerdeck.com/jvns/high-reliability-infrastructure-migrations), Julia Evans.
+- [Appendix F: Personal Observations on the Reliability of the Shuttle](https://www.refsmmat.com/files/reflections.pdf), Richard Feynman
+
+Resources:
+
+- 🧰 [dastergon/awesome-sre](https://github.com/dastergon/awesome-sre)
+- 🧰 [upgundecha/howtheysre](https://github.com/upgundecha/howtheysre): a curated collection of publicly available resources on SRE at technology and tech-savvy organizations
+
+#### Resiliency
+
+- 🏙 [The Walking Dead - A Survival Guide to Resilient Applications](https://speakerdeck.com/daschl/the-walking-dead-a-survival-guide-to-resilient-applications)
+- 🏙 [Defensive Programming & Resilient systems in Real World (TM)](https://speakerdeck.com/tuenti/defensive-programming-and-resilient-systems-in-real-world-tm)
+- 🏙 [Full Stack Fest: Architectural Patterns of Resilient Distributed Systems](https://speakerdeck.com/randommood/full-stack-fest-architectural-patterns-of-resilient-distributed-systems)
+- 🏙 [The 7 quests of resilient software design](https://www.slideshare.net/ufried/the-7-quests-of-resilient-software-design)
+- 🧰 [Resilience engineering papers](https://github.com/lorin/resilience-engineering): comprehensive list of resources on resilience engineering
+- [MTTR is more important than MTBF (for most types of F)](https://www.kitchensoap.com/2010/11/07/mttr-mtbf-for-most-types-of-f/) (also as a [presentation](https://www.slideshare.net/jallspaw/dev-and-ops-collaboration-and-awareness-at-etsy-and-flickr))
+
 ### Search
 
 - [What every software engineer should know about search](https://scribe.rip/p/what-every-software-engineer-should-know-about-search-27d1df99f80d)
@@ -1686,6 +1761,8 @@ List of resources:
 
 ### System architecture
 
+*See also [Reliability](#system-architecture), [Scalability](#scalability)*
+
 Reading lists:
 
 - 🧰 [donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer): learn how to design large scale systems. Prep for the system design interview.
@@ -1707,15 +1784,11 @@ Books:
 Articles:
 
 - [6 Rules of thumb to build blazing fast web server applications](http://loige.co/6-rules-of-thumb-to-build-blazing-fast-web-applications/)
-- [Service oriented architecture: scaling the Uber engineering codebase as we grow](https://eng.uber.com/soa/)
+
 - [The twelve-factor app](http://12factor.net/)
 - [Introduction to architecting systems for scale](http://lethain.com/introduction-to-architecting-systems-for-scale/)
 - [The Log: What every software engineer should know about real-time data's unifying abstraction](https://engineering.linkedin.com/distributed-systems/log-what-every-software-engineer-should-know-about-real-time-datas-unifying): one of those classical articles that everyone should read.
 - [Turning the database outside-out with Apache Samza](https://www.confluent.io/blog/turning-the-database-inside-out-with-apache-samza/)
-- [Scaling to 100k Users](https://alexpareto.com/scalability/systems/2020/02/03/scaling-100k.html), Alex Pareto. The basics of getting from 1 to 100k users.
-- [Systems that defy detailed understanding](https://blog.nelhage.com/post/systems-that-defy-understanding/)
-    - Focus effort on systems-level failure, instead of the individual component failure.
-    - Invest in sophisticated observability tools, aiming to increase the number of questions we can ask without deploying custom code
 - [Fallacies of distributed computing](https://en.wikipedia.org/wiki/Fallacies_of_distributed_computing), Wikipedia
 - [The biggest thing Amazon got right: the platform](https://gigaom.com/2011/10/12/419-the-biggest-thing-amazon-got-right-the-platform/)
     - All teams will henceforth expose their data and functionality through service interfaces.
@@ -1725,12 +1798,18 @@ Articles:
 - [Building Services at Airbnb, part 4](https://medium.com/airbnb-engineering/building-services-at-airbnb-part-4-23c95e428064)
   - Building Schema Based Testing Infrastructure for service development
 - [Patterns of Distributed Systems](https://martinfowler.com/articles/patterns-of-distributed-systems/), MartinFowler.com
-- [ConwaysLaw](https://martinfowler.com/bliki/ConwaysLaw.html), MartinFowler.com (regarding organization, check out my [engineering-management](https://github.com/charlax/engineering-management/) list.
+- [ConwaysLaw](https://martinfowler.com/bliki/ConwaysLaw.html), MartinFowler.com (regarding organization, check out my [engineering-management](https://github.com/charlax/engineering-management/) list).
 - [The C4 model for visualising software architecture](https://c4model.com/)
 - [If Architects had to work like Programmers](http://www.gksoft.com/a/fun/architects.html)
 
-Microservices/splitting a monolith:
+#### Architecture patterns
 
+- BFF (backend for frontend)
+  - [Backends For Frontends](https://samnewman.io/patterns/architectural/bff/)
+
+#### Microservices/splitting a monolith
+
+- [Service oriented architecture: scaling the Uber engineering codebase as we grow](https://eng.uber.com/soa/)
 - [Don’t start with microservices in production – monoliths are your friend](https://arnoldgalovics.com/microservices-in-production/)
 - [Deep lessons from Google And EBay on building ecosystems of microservices](http://highscalability.com/blog/2015/12/1/deep-lessons-from-google-and-ebay-on-building-ecosystems-of.html)
 - [Introducing domain-oriented microservice architecture](https://eng.uber.com/microservice-architecture/), Uber
@@ -1745,74 +1824,17 @@ Microservices/splitting a monolith:
 - [Death by a thousand microservices](https://renegadeotter.com/2023/09/10/death-by-a-thousand-microservices.html)
   - [Microservices](https://www.youtube.com/watch?v=y8OnoxKotPQ&ab_channel=KRAZAM)
 
-#### Scalability
+### Scalability
+
+*See also: [Reliability](#reliability), [System architecture](#system-architecture)*
 
 - [Scalable web architecture and distributed systems](http://www.aosabook.org/en/distsys.html)
 - 📖 [Scalability Rules: 50 Principles for Scaling Web Sites](https://smile.amazon.com/Scalability-Rules-Principles-Scaling-Sites/dp/013443160X) ([presentation](http://www.slideshare.net/cyrilwang/scalability-rules))
-
-#### Reliability
-
-> Quality is a snapshot at the start of life and reliability is a motion picture of the day-by-day operation.
-> – [NIST](https://www.itl.nist.gov/div898/handbook/apr/section1/apr111.htm)
-
-- I already mentioned the book Release it! above. There's also a [presentation](http://www.slideshare.net/justindorfman/stability-patterns-presentation) from the author.
-- [Service Recovery: Rolling Back vs. Forward Fixing](https://www.linkedin.com/pulse/service-recovery-rolling-back-vs-forward-fixing-mohamed-el-geish/)
-- [How Complex Systems Fail](https://how.complexsystems.fail/)
-    - Catastrophe requires multiple failures – single point failures are not enough.
-    - Complex systems contain changing mixtures of failures latent within them.
-    - Post-accident attribution to a ‘root cause’ is fundamentally wrong.
-    - Hindsight biases post-accident assessments of human performance.
-    - Safety is a characteristic of systems and not of their components
-    - Failure free operations require experience with failure.
-- 🧰 [Testing Distributed Systems](https://asatarin.github.io/testing-distributed-systems/)
-
-#### Resiliency
-
-- 🏙 [The Walking Dead - A Survival Guide to Resilient Applications](https://speakerdeck.com/daschl/the-walking-dead-a-survival-guide-to-resilient-applications)
-- 🏙 [Defensive Programming & Resilient systems in Real World (TM)](https://speakerdeck.com/tuenti/defensive-programming-and-resilient-systems-in-real-world-tm)
-- 🏙 [Full Stack Fest: Architectural Patterns of Resilient Distributed Systems](https://speakerdeck.com/randommood/full-stack-fest-architectural-patterns-of-resilient-distributed-systems)
-- 🏙 [The 7 quests of resilient software design](https://www.slideshare.net/ufried/the-7-quests-of-resilient-software-design)
-- 🧰 [Resilience engineering papers](https://github.com/lorin/resilience-engineering): comprehensive list of resources on resilience engineering
-- [MTTR is more important than MTBF (for most types of F)](https://www.kitchensoap.com/2010/11/07/mttr-mtbf-for-most-types-of-f/) (also as a [presentation](https://www.slideshare.net/jallspaw/dev-and-ops-collaboration-and-awareness-at-etsy-and-flickr))
+- [Scaling to 100k Users](https://alexpareto.com/scalability/systems/2020/02/03/scaling-100k.html), Alex Pareto. The basics of getting from 1 to 100k users.
 
 ### Site Reliability Engineering (SRE)
 
-*Note: this section is only about SRE as a role. Checkout the System Architecture for more content related to reliability.*
-
-Books:
-
-- 📖 [Site Reliability Engineering](https://landing.google.com/sre/books/)
-  - Written by members of Google's SRE team, with a comprehensive analysis of the entire software lifecycle - how to build, deploy, monitor, and maintain large scale systems.
-
-Articles:
-
-- [Graduating from Bootcamp and interested in becoming a Site Reliability Engineer?](https://medium.com/@tammybutow/graduating-from-bootcamp-and-interested-in-becoming-a-site-reliability-engineer-b69a38ce858b): a great collection of resources to learn about SRE.
-- [Operating a Large, Distributed System in a Reliable Way: Practices I Learned](https://blog.pragmaticengineer.com/operating-a-high-scale-distributed-system/), Gergely Orosz.
-  - A good summary of processes to implement.
-- [Production Oriented Development](https://paulosman.me/2019/12/30/production-oriented-development.html)
-  - Code in production is the only code that matters
-  - Engineers are the subject matter experts for the code they write and should be responsible for operating it in production.
-  - Buy Almost Always Beats Build
-  - Make Deploys Easy
-  - Trust the People Closest to the Knives
-  - QA Gates Make Quality Worse
-  - Boring Technology is Great.
-  - Non-Production Environments Have Diminishing Returns
-  - Things Will Always Break
-- [Meaningful availability](https://blog.acolyer.org/2020/02/26/meaningful-availability/)
-  - A good availability metric should be meaningful, proportional, and actionable. By "meaningful" we mean that it should capture what users experience. By "proportional" we mean that a change in the metric should be proportional to the change in user-perceived availability. By "actionable" we mean that the metric should give system owners insight into why availability for a period was low. This paper shows that none of the commonly used metrics satisfy these requirements…
-- 📃 [Meaningful Availability](https://www.usenix.org/conference/nsdi20/presentation/hauer) paper.
-  - This paper presents and evaluates a novel availability metric: windowed user-uptime
-- 🏙 [High Reliability Infrastructure migrations](https://speakerdeck.com/jvns/high-reliability-infrastructure-migrations), Julia Evans.
-- 🏙 [The Paradox of Alerts](https://speakerdeck.com/charity/the-paradox-of-alerts): why deleting 90% of your paging alerts can make your systems better, and how to craft an on-call rotation that engineers are happy to join.
-- [Appendix F: Personal Observations on the Reliability of the Shuttle](https://www.refsmmat.com/files/reflections.pdf), Richard Feynman
-
-> Reliability is the one feature every customer users. -- An auth0 SRE.
-
-Resources:
-
-- 🧰 [dastergon/awesome-sre](https://github.com/dastergon/awesome-sre)
-- [upgundecha/howtheysre](https://github.com/upgundecha/howtheysre): a curated collection of publicly available resources on SRE at technology and tech-savvy organizations
+*See: [Reliability](#reliability)*
 
 ### Technical debt
 
@@ -1828,6 +1850,7 @@ Resources:
 ### Testing
 
 - ⭐️ [Testing strategies in a microservices architecture](http://martinfowler.com/articles/microservice-testing/) (Martin Fowler) is an awesome resources explaining how to test a service properly.
+- 🧰 [Testing Distributed Systems](https://asatarin.github.io/testing-distributed-systems/)
 
 Why test:
 
@@ -2025,7 +2048,7 @@ Blogs:
 - [OOP](https://en.wikipedia.org/wiki/Object-oriented_programming)
 - [SOLID](<https://en.wikipedia.org/wiki/SOLID_(object-oriented_design)>)
 - [TDD](https://en.wikipedia.org/wiki/Test-driven_development)
-= [Two Generals' Problem](https://en.wikipedia.org/wiki/Two_Generals%27_Problem)
+- [Two Generals' Problem](https://en.wikipedia.org/wiki/Two_Generals%27_Problem)
 - [YAGNI](https://en.wikipedia.org/wiki/You_aren%27t_gonna_need_it)
 
 ## My other lists
