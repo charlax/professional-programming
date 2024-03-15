@@ -28,6 +28,7 @@
       - [Choosing your next/first opportunity](#choosing-your-nextfirst-opportunity)
       - [Getting to Staff Eng](#getting-to-staff-eng)
     - [Characters sets](#characters-sets)
+    - [Chess](#chess)
     - [Clouds](#clouds)
     - [Code reviews](#code-reviews)
     - [Coding & code quality](#coding--code-quality)
@@ -579,6 +580,13 @@ About senior engineers:
 
 - [The Absolute Minimum Every Software Developer Absolutely, Positively Must Know About Unicode and Character Sets (No Excuses!)](http://www.joelonsoftware.com/articles/Unicode.html)
 - [The Absolute Minimum Every Software Developer Must Know About Unicode in 2023 (Still No Excuses!)](https://tonsky.me/blog/unicode/)
+
+### Chess
+
+(yes - chess gets its own section :)
+
+- [Chessprogramming wiki](https://www.chessprogramming.org/Main_Page)
+- [Compressing chess moves](https://mbuffett.com/posts/compressing-chess-moves/)
 
 ### Clouds
 
@@ -1353,6 +1361,7 @@ Richard Feynman's Learning Strategy:
 - [Simple Anomaly Detection Using Plain SQL](https://hakibenita.com/sql-anomaly-detection)
 - [How percentile approximation works (and why it's more useful than averages)](https://www.timescale.com/blog/how-percentile-approximation-works-and-why-its-more-useful-than-averages/)
 - [Implementing health checks](https://aws.amazon.com/builders-library/implementing-health-checks/)
+- [IETF RFC Health Check Response Format for HTTP APIs](https://datatracker.ietf.org/doc/html/draft-inadarei-api-health-check-06)
 
 ### Open source
 
@@ -1885,7 +1894,7 @@ Test pyramid:
 End-to-end tests:
 
 - [Just say no to more end-to-end tests](https://testing.googleblog.com/2015/04/just-say-no-to-more-end-to-end-tests.html), Google Testing Blog
-- [End-to-end testing considered harmful](https://dzone.com/articles/end-to-end-testing-considered-harmful), DZone
+- [End-to-end testing considered harmful](https://www.stevesmith.tech/blog/end-to-end-testing-considered-harmful/)
 
 ### Tools
 
