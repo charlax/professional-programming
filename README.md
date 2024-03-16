@@ -966,7 +966,7 @@ The best way to learn is to learn by doing.
 - [The elevator programming game](http://play.elevatorsaga.com/)
 - [Challenging projects every programmer should try](https://austinhenley.com/blog/challengingprojects.html), Austin Z. Henley
 - [Challenging projects every programmer should try](http://web.eecs.utk.edu/~azh/blog/challengingprojects.html): text editor, space invaders, compiler (Tiny Basic), mini OS, spreadsheet, video game console emulator.
-- [More challenging projects every programmer should try](https://www.joyk.com/dig/detail/1608507940352050): ray tracer, key-value store web API, web browser, stock trading bot.
+- [More challenging projects every programmer should try](https://austinhenley.com/blog/morechallengingprojects.html): ray tracer, key-value store web API, web browser, stock trading bot.
 - [Let’s Build a Regex Engine](https://kean.blog/post/lets-build-regex)
 - [Write a time-series database engine from scratch](https://nakabonne.dev/posts/write-tsdb-from-scratch/)
 - [7 GUIs to build to learn fundamental UI programming skills](https://eugenkiss.github.io/7guis/tasks/)
