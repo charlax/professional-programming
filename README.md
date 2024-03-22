@@ -721,10 +721,27 @@ See also the SQL section.
 
 ### Debugging
 
+Also see the Incident ersponse in this doc
+
 - [Rubber Duck Problem Solving](http://blog.codinghorror.com/rubber-duck-problem-solving/)
 - [Rubber Ducking](http://c2.com/cgi/wiki?RubberDucking)
 - [Five Whys](https://en.wikipedia.org/wiki/5_Whys)
-- [The Infinite Hows](http://www.kitchensoap.com/2014/11/14/the-infinite-hows-or-the-dangers-of-the-five-whys/): this provides a strong criticism of the five whys method.
+- [The Infinite Hows](http://www.kitchensoap.com/2014/11/14/the-infinite-hows-or-the-dangers-of-the-five-whys/) criticizes the five whys method and advocates for a different set of questions to learn from the most from incidents.
+  - See also: [Human errors: models and management](https://app.box.com/s/7z35l09amvr1vwxouh2s)
+  - "The issue with the Five Whys is that it’s tunnel-visioned into a linear and simplistic explanation of how work gets done and events transpire."
+  - "Human error becomes a starting point, not a conclusion." (Dekker, 2009)
+  - "When we ask 'how?', we’re asking for a narrative."
+  - "When it comes to decisions and actions, we want to know how it made sense for someone to do what they did."
+  - At each "why" step, only one answer will be selected for further investigation. Asking "how" encourage broader exploration.
+  - “In accident investigation, as in most other human endeavours, we fall prey to the What-You-Look-For-Is-What-You-Find or WYLFIWYF principle. This is a simple recognition of the fact that assumptions about what we are going to see (What-You-Look-For), to a large extent will determine what we actually find (What-You-Find).” (Hollnagel, 2009, p. 85)
+  - "A final reason why a 'root cause' may be selected is that it is politically acceptable as the identified cause. Other events or explanations may be excluded or not examined in depth because they raise issues that are embarrassing to the organization or its contractors or are politically unacceptable." (Nancy Leveson, Engineering a Safer World, p. 20)
+  - [Bounded rationality](https://en.wikipedia.org/wiki/Bounded_rationality): rational individuals will select a decision that is satisfactory rather than optimal
+  - The article provide concrete ways and questions to solicit stories from people, which will yield better insights.
+    - What were you expecting to happen?
+    - If you had to describe the situation to your colleague at that point, what would you have told?
+    - Did this situation fit a standard scenario?
+    - What were you trying to achieve?Were there multiple goals at the same time?Was there time pressure or other limitations on what you could do?
+    - [See template here](http://www.kitchensoap.com/wp-content/uploads/2014/09/Velocity2014-PM-Fac-Handout-Debrief.pdf)
 - [Linux Performance Analysis in 60,000 Milliseconds](http://techblog.netflix.com/2015/11/linux-performance-analysis-in-60s.html)
 - [Post-Mortems at HubSpot: What I Learned From 250 Whys](https://product.hubspot.com/blog/bid/64771/post-mortems-at-hubspot-what-i-learned-from-250-whys)
 - [Debugging zine](https://jvns.ca/debugging-zine.pdf), Julian Evans
@@ -1037,6 +1054,10 @@ Practice:
 
 ### Incident response (oncall, alerting, outages, firefighting, postmortem)
 
+Also see this section on my [list of management resources, "Incident response"](https://github.com/charlax/engineering-management/).
+
+Also see the Debugging section in this doc.
+
 - [Incident Response at Heroku](https://blog.heroku.com/archives/2014/5/9/incident-response-at-heroku)
   - Described the Incident Commander role, inspired by natural disaster incident response.
   - Also in presentation: [Incident Response Patterns: What we have learned at PagerDuty - Speaker Deck](https://speakerdeck.com/arupchak/incident-response-patterns-what-we-have-learned-at-pagerduty)
@@ -1070,6 +1091,9 @@ Alerting:
 - [Blameless PostMortems and a Just Culture](https://codeascraft.com/2012/05/22/blameless-postmortems/)
 - [A list of postmortems on Github](https://github.com/danluu/post-mortems)
 - Google's SRE book, [Postmortem chapter](https://landing.google.com/sre/workbook/chapters/postmortem-culture/) is excellent and includes many examples.
+- [Human error models and management](https://app.box.com/s/7z35l09amvr1vwxouh2s)
+  - High reliability organisations — which have less than their fair share of accidents — recognise that human variability is a force to harness in averting errors, but they work hard to focus that variability and are constantly preoccupied with the possibility of failure
+
 
 > "Let’s plan for a future where we’re all as stupid as we are today."
 >
@@ -1603,6 +1627,7 @@ JavaScript is such a pervasive language that it's almost required learning.
 - [Feature Flags Best Practices: Release Management](https://launchdarkly.com/blog/release-management-flags-best-practices/), LaunchDarkly
 - [How we ship code faster and safer with feature flags](https://github.blog/2021-04-27-ship-code-faster-safer-feature-flags/), Github.
 - [Flipr: Making Changes Quickly and Safely at Scale](https://eng.uber.com/flipr/), Uber
+- [Feature flags are ruining your codebase](https://zaidesanton.substack.com/p/feature-flags-are-ruining-your-codebase)
 
 #### Testing in production
 
