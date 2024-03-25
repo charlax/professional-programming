@@ -721,7 +721,7 @@ See also the SQL section.
 
 ### Debugging
 
-Also see the Incident ersponse in this doc
+Also see the Incident Response section in this doc
 
 - [Rubber Duck Problem Solving](http://blog.codinghorror.com/rubber-duck-problem-solving/)
 - [Rubber Ducking](http://c2.com/cgi/wiki?RubberDucking)
@@ -733,7 +733,7 @@ Also see the Incident ersponse in this doc
   - "When we ask 'how?', we’re asking for a narrative."
   - "When it comes to decisions and actions, we want to know how it made sense for someone to do what they did."
   - At each "why" step, only one answer will be selected for further investigation. Asking "how" encourage broader exploration.
-  - “In accident investigation, as in most other human endeavours, we fall prey to the What-You-Look-For-Is-What-You-Find or WYLFIWYF principle. This is a simple recognition of the fact that assumptions about what we are going to see (What-You-Look-For), to a large extent will determine what we actually find (What-You-Find).” (Hollnagel, 2009, p. 85)
+  - "In accident investigation, as in most other human endeavours, we fall prey to the What-You-Look-For-Is-What-You-Find or WYLFIWYF principle. This is a simple recognition of the fact that assumptions about what we are going to see (What-You-Look-For), to a large extent will determine what we actually find (What-You-Find)." (Hollnagel, 2009, p. 85) (see [illustration of WYLFIWYF](https://www.youtube.com/watch?v=vJG698U2Mvo))
   - "A final reason why a 'root cause' may be selected is that it is politically acceptable as the identified cause. Other events or explanations may be excluded or not examined in depth because they raise issues that are embarrassing to the organization or its contractors or are politically unacceptable." (Nancy Leveson, Engineering a Safer World, p. 20)
   - [Bounded rationality](https://en.wikipedia.org/wiki/Bounded_rationality): rational individuals will select a decision that is satisfactory rather than optimal
   - The article provide concrete ways and questions to solicit stories from people, which will yield better insights.
@@ -921,6 +921,7 @@ See also the Python-specific section in [charlax/python-education](https://githu
 - [Diátaxis](https://diataxis.fr/): a systematic approach to technical documentation authoring
   - There are four modes: tutorials, how-to guides, technical reference and explanation
   - The docs goes into a lot of details about each model.
+- [ARCHITECTURE.md](https://matklad.github.io/2021/02/06/ARCHITECTURE.md.html)
 
 > The palest ink is more reliable than the most powerful memory.
 > -- Chinese proverb
@@ -1588,6 +1589,7 @@ JavaScript is such a pervasive language that it's almost required learning.
 ### Regex
 
 - [The Best Regex Trick](http://rexegg.com/regex-best-trick.html)
+- [regex101: build, test, and debug regex](https://regex101.com/)
 
 ### Releasing & deploying
 
