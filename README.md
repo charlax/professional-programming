@@ -726,6 +726,9 @@ Also see the Incident Response section in this doc
 - [Rubber Duck Problem Solving](http://blog.codinghorror.com/rubber-duck-problem-solving/)
 - [Rubber Ducking](http://c2.com/cgi/wiki?RubberDucking)
 - [Five Whys](https://en.wikipedia.org/wiki/5_Whys)
+- [The Five Lies Analysis](https://serce.me/posts/14-10-2021-the-five-lies-analysis)
+  - The real problem reveals itself when the technique becomes a part of a template.
+  - Action items can be very distant from the root cause.
 - [The Infinite Hows](http://www.kitchensoap.com/2014/11/14/the-infinite-hows-or-the-dangers-of-the-five-whys/) criticizes the five whys method and advocates for a different set of questions to learn from the most from incidents.
   - See also: [Human errors: models and management](https://app.box.com/s/7z35l09amvr1vwxouh2s)
   - "The issue with the Five Whys is that it’s tunnel-visioned into a linear and simplistic explanation of how work gets done and events transpire."
@@ -922,6 +925,7 @@ See also the Python-specific section in [charlax/python-education](https://githu
   - There are four modes: tutorials, how-to guides, technical reference and explanation
   - The docs goes into a lot of details about each model.
 - [ARCHITECTURE.md](https://matklad.github.io/2021/02/06/ARCHITECTURE.md.html)
+- [Two open source projects with great documentation](https://johnjago.com/great-docs/) (esbuild and redis)
 
 > The palest ink is more reliable than the most powerful memory.
 > -- Chinese proverb
