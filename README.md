@@ -461,6 +461,7 @@ Dan Heller, Building a Career in Software
 
 - [Authorization in a microservices world](https://www.alexanderlolis.com/authorization-in-a-microservices-world)
 - [Authorization Logic: Rules are hard because they evolve over time](https://www.osohq.com/post/rules-are-hard-logic-for-authorization)
+- [The Copenhagen Book](https://thecopenhagenbook.com/) provides a general guideline on implementing auth in web applications
 
 ### Automation
 
@@ -1524,6 +1525,7 @@ A bit more reading:
 - [Ask HN: What do you code when learning a new language/framework?](https://news.ycombinator.com/item?id=32092943)
 - [The seven programming ur-languages](https://madhadron.com/programming/seven_ur_languages.html): ALGOL, Lisp, ML, Self, Forth, APL, Prolog
 - [Lua: The Little Language That Could](https://matt.blwt.io/post/lua-the-little-language-that-could/)
+- [The Montréal Effect: Why Programming Languages Need a Style Czar](https://earthly.dev/blog/language-style-czar/)
 
 > There are only two kinds of languages: the ones people complain about and the ones nobody uses.
 
