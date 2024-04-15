@@ -1956,6 +1956,7 @@ Learning Git, courses and books:
 - [A Visual Git Reference](http://marklodato.github.io/visual-git-guide/index-en.html) (a bit more advanced)
 - [Think Like (a) Git](http://think-like-a-git.net/)
 - [Git's database internals I: packed object store](https://github.blog/2022-08-29-gits-database-internals-i-packed-object-store/): an insightful deep dive from Github
+- [Oh My Git!](https://ohmygit.org/): a game to learn git
 
 Cheat sheets:
 
@@ -2070,6 +2071,7 @@ Newsletters:
 
 - [Bytes](https://bytes.dev/) (JavaScript)
 - [PyCoders](https://pycoders.com/) (Python)
+- [Posthog](https://newsletter.posthog.com/)
 
 Blogs:
 
