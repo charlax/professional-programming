@@ -432,6 +432,8 @@ More specific topics:
   - Take regular breaks
   - Don’t code late at night
   - Improve your coding environment
+- [Advice for new software devs who've read all those other advice essays](https://buttondown.email/hillelwayne/archive/advice-for-new-software-devs-whove-read-all-those/)
+- [Microservices aren't the problem. Incompetent people are](https://nondv.wtf/blog/posts/microservices-arent-the-problem-incompetent-people-are.html)
 
 > Imposter syndrome is underrated: a lot of talk goes into overcoming imposter syndrome. I say embrace self-skepticism and doubt yourself every day. In a fast-moving industry where lots of your knowledge expires every year, even the most junior people around you constantly cook up skills you don't have; you stay competitive by applying with the determination (and even fear) of the novice. The upside of this treadmill is that every engineer is on it: just because you're an imposter doesn't mean that other people are more deserving than you, because they're imposters too. You should advocate for yourself, take risks, pat yourself on the back when things go well, and, as you start to build a track record of solving problems, trust your skills and adaptability. Just make no mistake: you're only as good as the last problem you solve.
 
@@ -677,6 +679,7 @@ See also the SQL section.
 - [Use the index, Luke](https://use-the-index-luke.com/)
 - [Course introduction — MySQL for Developers](https://planetscale.com/learn/courses/mysql-for-developers/introduction/course-introduction), PlanetScale
 - [How Query Engines Work](https://howqueryengineswork.com/00-introduction.html)
+- [Why you should probably be using SQLite | Epic Web Dev](https://www.epicweb.dev/why-you-should-probably-be-using-sqlite)
 
 #### NoSQL
 
@@ -761,6 +764,7 @@ Also see the Incident Response section in this doc
 - [What exactly is the 'Saff Squeeze' method of finding a bug?](https://stackoverflow.com/questions/23865274/what-exactly-is-the-saff-squeeze-method-of-finding-a-bug)
   - A systematic technique for deleting both test code and non-test code from a failing test until the test and code are small enough to understand.
 - [tcpdump is amazing](https://jvns.ca/blog/2016/03/16/tcpdump-is-amazing/), Julia Evans
+- [What we talk about when we talk about ‘root cause’](https://github.com/readme/guides/root-cause)
 
 ### Design (visual, UX, UI, typography)
 
@@ -1078,6 +1082,7 @@ Also see the Debugging section in this doc.
 - [Computer Security Incident Handling Guide](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-61r2.pdf), NIST
 - [Incident Management Resources](https://resources.sei.cmu.edu/library/asset-view.cfm?assetID=505044), Carnegie Mellon University
 - [Sterile flight deck rule](https://en.wikipedia.org/wiki/Sterile_flight_deck_rule), Wikipedia
+- [Shamir Secret Sharing It’s 3am.](https://max.levch.in/post/724289457144070144/shamir-secret-sharing-its-3am-paul-the-head-of)
 
 Alerting:
 
@@ -1175,7 +1180,8 @@ See also the exercises section in this document.
 ### Large Language Model (LLM)
 
 - [What Is ChatGPT Doing… and Why Does It Work?](https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/), Stephen Wolfram
--
+- [Embeddings: What they are and why they matter](https://simonwillison.net/2023/Oct/23/embeddings/)
+
 ### Learning & memorizing
 
 Learn how to learn!
@@ -1250,6 +1256,8 @@ Learn how to learn!
   - Do research & write essays
   - Do I really have to do all this?
   - Are there other websites that give study hints?
+- [10 Things Software Developers Should Learn about Learning](https://cacm.acm.org/research/10-things-software-developers-should-learn-about-learning/)
+- 🏙 [Things I Learned the Hard Way](https://speakerdeck.com/bcantrill/things-i-learned-the-hard-way), Bryan Cantrill
 
 About flashcards:
 
@@ -1704,6 +1712,7 @@ Articles:
   - Things Will Always Break
 - 🏙 [High Reliability Infrastructure migrations](https://speakerdeck.com/jvns/high-reliability-infrastructure-migrations), Julia Evans.
 - [Appendix F: Personal Observations on the Reliability of the Shuttle](https://www.refsmmat.com/files/reflections.pdf), Richard Feynman
+- [Lessons learned from two decades of Site Reliability Engineering](https://sre.google/resources/practices-and-processes/twenty-years-of-sre-lessons-learned/)
 
 Resources:
 
@@ -1813,6 +1822,7 @@ Reading lists:
 - 🧰 [Services Engineering Reading List](https://github.com/mmcgrana/services-engineering)
 - 🧰 [System Design Cheatsheet](https://gist.github.com/vasanthk/485d1c25737e8e72759f)
 - [karanpratapsingh/system-design](https://github.com/karanpratapsingh/system-design): learn how to design systems at scale and prepare for system design interviews
+- [A Distributed Systems Reading List](https://ferd.ca/a-distributed-systems-reading-list.html)
 
 Blogs:
 
@@ -1923,6 +1933,8 @@ Test pyramid:
 - [Write tests. Not too many. Mostly integration.](https://blog.kentcdodds.com/write-tests-not-too-many-mostly-integration-5e8c7fff591c) for a contrarian take about unit testing
 - 🎞 [Unit test 2, Integration test: 0](https://www.youtube.com/watch?v=Oj8bfBlwHAg&ab_channel=PercyRicardoAnticonaMasabel)
 - [Testing in the Twenties](https://www.tbray.org/ongoing/When/202x/2021/05/15/Testing-in-2021)
+- [Google Testing Blog: Test Sizes](https://testing.googleblog.com/2010/12/test-sizes.html)
+- [Pyramid or Crab? Find a testing strategy that fits](https://web.dev/articles/ta-strategies), web.dev
 
 End-to-end tests:
 
@@ -1993,6 +2005,7 @@ Check out this section on my [list of management resources, "Personal productivi
 - [Checklist - The A11Y Project](https://www.a11yproject.com/checklist/) for accessibility
 - [DevTools Tips](https://devtoolstips.org/)
 - [67 Weird Debugging Tricks Your Browser Doesn't Want You to Know](https://alan.norbauer.com/articles/browser-debugging-tricks)
+- [Things you forgot (or never knew) because of React](https://joshcollinsworth.com/blog/antiquated-react)
 
 ### Writing (communication, blogging)
 
