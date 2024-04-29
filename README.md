@@ -1590,6 +1590,8 @@ JavaScript is such a pervasive language that it's almost required learning.
   - Summarize the answers in one paragraph each.
   - What are the most important things you have learned personally?
   - There was an interesting contrarian take in the [Hacker News thread](https://news.ycombinator.com/item?id=36011599): "Once I relaxed and decided, 'If the stuff in this book is good enough, my brain will keep it FOR me' both my satisfaction AND utility of books increased dramatically."
+- [You Are What You Read, Even If You Don’t Always Remember It](https://blog.jim-nielsen.com/2024/you-are-what-you-read/)
+  - "I cannot remember the books I've read any more than the meals I have eaten; even so, they have made me.", Ralp Waldo Emerson
 
 ### Refactoring
 
