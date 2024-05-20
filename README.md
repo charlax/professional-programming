@@ -1350,7 +1350,6 @@ Richard Feynman's Learning Strategy:
   - A URL is a string of characters that identifies a resource located on a computer network. Its syntax depends on its scheme. E.g. `mailto:billg@microsoft.com`.
   - A URN is a string of characters that uniquely identifies a resource. Its syntax is `urn:<namespace identifier>:<namespace specific string>`. E.g. `urn:isbn:9780062301239`
 - [Everything you need to know about DNS](https://www.nslookup.io/learning/)
-- [Load Balancing](https://samwho.dev/load-balancing/): a visual exploration of load balancing algos
 
 ### Observability (monitoring, logging, exception handling)
 
@@ -1860,6 +1859,9 @@ Articles:
 
 - BFF (backend for frontend)
   - [Backends For Frontends](https://samnewman.io/patterns/architectural/bff/)
+- Circuit breaker
+- [Rate limiter algorithms](https://smudge.ai/blog/ratelimit-algorithms) (and their [implementation](https://github.com/upstash/ratelimit-js/blob/main/src/lua-scripts/single.ts))
+- [Load Balancing](https://samwho.dev/load-balancing/): a visual exploration of load balancing algos
 
 #### Microservices/splitting a monolith
 
