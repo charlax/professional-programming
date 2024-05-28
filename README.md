@@ -1374,6 +1374,7 @@ Richard Feynman's Learning Strategy:
     - A standard logging format is good enough
 - [Logging - OWASP Cheat Sheet Series](https://cheatsheetseries.owasp.org/cheatsheets/Logging_Cheat_Sheet.html)
 - [The Audit Log Wall of Shame](https://audit-logs.tax/): list of vendors that don’t prioritize high-quality, widely-available audit logs for security and operations teams.
+- [Guide on Structured Logs](https://signoz.io/blog/structured-logs/)
 
 #### Error/exception handling
 
