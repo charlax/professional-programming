@@ -1394,6 +1394,7 @@ Richard Feynman's Learning Strategy:
 #### Monitoring
 
 - Google, [Site Reliability Engineering, Monitoring Distributed Systems](https://landing.google.com/sre/sre-book/chapters/monitoring-distributed-systems/)
+  - [Alerting on SLOs](https://sre.google/workbook/alerting-on-slos/)
 - PagerDuty, [Monitoring Business Metrics and Refining Outage Response](https://www.pagerduty.com/blog/monitoring-business-metrics/)
 - 🧰 [crazy-canux/awesome-monitoring](https://github.com/crazy-canux/awesome-monitoring): monitoring tools for operations.
 - [Monitoring in the time of Cloud Native](https://medium.com/@copyconstruct/monitoring-in-the-time-of-cloud-native-c87c7a5bfa3e)
