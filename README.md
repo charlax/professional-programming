@@ -48,7 +48,6 @@
       - [Design: patterns](#design-patterns)
       - [Design: simplicity](#design-simplicity)
     - [Dev environment & tools](#dev-environment--tools)
-    - [Diversity & inclusion](#diversity--inclusion)
     - [Docker](#docker)
     - [Documentation](#documentation)
     - [Dotfiles](#dotfiles)
@@ -699,6 +698,7 @@ See also the SQL section.
 - [Operations cheat sheet](https://wiki.postgresql.org/wiki/Operations_cheat_sheet)
 - [Postgres is Enough](https://gist.github.com/cpursley/c8fb81fe8a7e5df038158bdfe0f06dbb)
 - [Don't Do This](https://wiki.postgresql.org/wiki/Don't_Do_This)
+- [PostgreSQL and UUID as primary key](https://maciejwalkowiak.com/blog/postgres-uuid-primary-key/)
 
 ### Data formats
 
@@ -876,10 +876,6 @@ Article about tools:
   - Simple tools make you think a little more
   - Drucker: "I’m not writing it down to remember it later, I’m writing it down to remember it now."
   - Frictionless note-taking produces notes, but it doesn't produce memory.
-
-### Diversity & inclusion
-
-Check out my [list of management resources](https://github.com/charlax/engineering-management).
 
 ### Docker
 
