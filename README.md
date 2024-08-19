@@ -964,6 +964,7 @@ About Vim specifically:
 - [Vim Cheat Sheet & Quick Reference](https://quickref.me/vim)
 - [History and effective use of Vim](https://begriffs.com/posts/2019-07-19-history-use-vim.html)
 - [Moving Blazingly Fast With The Core Vim Motions](https://www.barbarianmeetscoding.com/boost-your-coding-fu-with-vscode-and-vim/moving-blazingly-fast-with-the-core-vim-motions/)
+- [micahkepe/vimtutor-sequel: Vimtutor Sequel - Advanced Vim Tutor Lessons](https://github.com/micahkepe/vimtutor-sequel)
 
 Feel free to check my [vim configuration](https://github.com/charlax/dotfiles/tree/master/vim) and my [vim cheatsheet](https://github.com/charlax/dotfiles/tree/master/vim).
 
@@ -1536,6 +1537,7 @@ A bit more reading:
 - [The seven programming ur-languages](https://madhadron.com/programming/seven_ur_languages.html): ALGOL, Lisp, ML, Self, Forth, APL, Prolog
 - [Lua: The Little Language That Could](https://matt.blwt.io/post/lua-the-little-language-that-could/)
 - [The Montréal Effect: Why Programming Languages Need a Style Czar](https://earthly.dev/blog/language-style-czar/)
+- [TodePond/DreamBerd: a perfect programming language](https://github.com/TodePond/DreamBerd)
 
 > There are only two kinds of languages: the ones people complain about and the ones nobody uses.
 
