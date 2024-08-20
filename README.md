@@ -1352,6 +1352,8 @@ Richard Feynman's Learning Strategy:
   - A URL is a string of characters that identifies a resource located on a computer network. Its syntax depends on its scheme. E.g. `mailto:billg@microsoft.com`.
   - A URN is a string of characters that uniquely identifies a resource. Its syntax is `urn:<namespace identifier>:<namespace specific string>`. E.g. `urn:isbn:9780062301239`
 - [Everything you need to know about DNS](https://www.nslookup.io/learning/)
+- [Examples of Great URL Design](https://blog.jim-nielsen.com/2023/examples-of-great-urls/)
+- [Four Cool URLs - Alex Pounds' Blog](https://alexpounds.com/blog/2018/12/29/four-cool-urls)
 
 ### Observability (monitoring, logging, exception handling)
 
@@ -1764,6 +1766,7 @@ Resources:
 - [Security by Obscurity is Underrated](https://utkusen.com/blog/security-by-obscurity-is-underrated)
 - [Don't Wanna Pay Ransom Gangs? Test Your Backups](https://krebsonsecurity.com/2021/07/dont-wanna-pay-ransom-gangs-test-your-backups/), Krebs on Security
 - [The Beginner’s Guide to Passwords](https://medium.com/peerio/how-to-build-a-billion-dollar-password-3d92568d9277#67c2)
+- [The Password Game](https://neal.fun/password-game/)
 - [Learnings from 5 years of tech startup code audits](https://kenkantzer.com/learnings-from-5-years-of-tech-startup-code-audits/)
 - [API Tokens: A Tedious Survey](https://fly.io/blog/api-tokens-a-tedious-survey/): don't use JWT.
 - [The Six Dumbest Ideas in Computer Security](http://ranum.com/security/computer_security/editorials/dumb/index.html)
