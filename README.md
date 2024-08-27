@@ -20,6 +20,7 @@
       - [Procrastination](#procrastination)
     - [Authentication/authorization](#authenticationauthorization)
     - [Automation](#automation)
+    - [Best practices](#best-practices)
     - [Beyond software engineering & random](#beyond-software-engineering--random)
     - [Biases](#biases)
     - [Business](#business)
@@ -468,6 +469,10 @@ Dan Heller, Building a Career in Software
 
 - [Automation Should Be Like Iron Man, Not Ultron](http://queue.acm.org/detail.cfm?id=2841313)
 
+### Best practices
+
+- [Software engineering practices](https://simonwillison.net/2022/Oct/1/software-engineering-practices/#tested-dev-environments)
+
 ### Beyond software engineering & random
 
 - [Why Software Engineers like Woodworking](https://www.zainrizvi.io/blog/why-software-engineers-like-woodworking/)
@@ -912,7 +917,10 @@ See also the Python-specific section in [charlax/python-education](https://githu
 - [Writing automated tests for your documentation](https://krausefx.com/blog/writing-automated-tests-for-your-documentation): this should be required, IMO. Testing code samples in your documentation ensures they never get outdated.
 - 🏙 [Documentation is king](https://speakerdeck.com/kennethreitz/documentation-is-king), Kenneth Reitz
 - [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
-- [Architectural Decision Records](https://adr.github.io/): a way to document architecture decision.
+- [Architectural Decision Records (ADR)](https://adr.github.io/): a way to document architecture decision.
+- [Documenting Architecture Decisions](https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions)
+- [joelparkerhenderson/architecture-decision-record](https://github.com/joelparkerhenderson/architecture-decision-record): examples and templates for ADR.
+  - And a CLI tool: [npryce/adr-tools](https://github.com/npryce/adr-tools)
 - [The documentation system](https://documentation.divio.com/)
 - [Checklist for checklists](https://www1.nyc.gov/assets/doh/downloads/pdf/em/gawande_checklist.pdf)
 - [Best practices for writing code comments](https://stackoverflow.blog/2021/12/23/best-practices-for-writing-code-comments/)
