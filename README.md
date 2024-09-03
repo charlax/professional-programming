@@ -53,6 +53,7 @@
     - [Documentation](#documentation)
     - [Dotfiles](#dotfiles)
     - [Editors & IDE](#editors--ide)
+      - [Vim](#vim)
     - [Email](#email)
     - [Engineering management](#engineering-management)
     - [Exercises](#exercises)
@@ -956,7 +957,7 @@ Articles
   - [Visual Studio Code Can Do That?](https://www.smashingmagazine.com/2018/01/visual-studio-code/), Smashing Magazine.
 - [Coding with Character](https://realdougwilson.com/writing/coding-with-character)
 
-About Vim specifically:
+#### Vim
 
 - 🧰 [vim-awesome](http://vimawesome.com/)
 - 🎞 [Vimcasts](http://vimcasts.org/)
@@ -973,6 +974,7 @@ About Vim specifically:
 - [History and effective use of Vim](https://begriffs.com/posts/2019-07-19-history-use-vim.html)
 - [Moving Blazingly Fast With The Core Vim Motions](https://www.barbarianmeetscoding.com/boost-your-coding-fu-with-vscode-and-vim/moving-blazingly-fast-with-the-core-vim-motions/)
 - [micahkepe/vimtutor-sequel: Vimtutor Sequel - Advanced Vim Tutor Lessons](https://github.com/micahkepe/vimtutor-sequel)
+- [Vim Racer - An Online Game for VIM Navigation](https://vim-racer.com/)
 
 Feel free to check my [vim configuration](https://github.com/charlax/dotfiles/tree/master/vim) and my [vim cheatsheet](https://github.com/charlax/dotfiles/tree/master/vim).
 
@@ -1158,10 +1160,8 @@ Note: this is about you as an interviewee, **not** as an interviewer. To check o
 - [How to Win the Coding Interview](https://medium.com/on-writing-code/how-to-win-the-coding-interview-71ae7102d685)
 - [I spent 3 months applying to jobs after a coding bootcamp. Here’s what I learned.](https://medium.freecodecamp.com/5-key-learnings-from-the-post-bootcamp-job-search-9a07468d2331#.uq7vbbjfx)
 - [Top 10 algorithms in Interview Questions](http://www.geeksforgeeks.org/top-10-algorithms-in-interview-questions/)
-- [Questions to ask your interviewer](https://rkoutnik.com/articles/Questions-to-ask-your-interviewer.html)
 - [Interactive Python coding interview challenges](https://github.com/donnemartin/interactive-coding-challenges)
 - [Tech Interview Handbook](https://yangshun.github.io/tech-interview-handbook/introduction/)
-- [Questions to ask the company during your interview](https://github.com/viraptor/reverse-interview)
 - [A complete computer science study plan to become a software engineer](https://github.com/jwasham/coding-interview-university)
 - [Interview advice that got me offers from Google, Microsoft, and Stripe](https://www.zainrizvi.io/blog/the-interviewing-advice-no-one-shares/)
 - [A framework for grading your performance on programming interview problems](https://docs.google.com/spreadsheets/d/1gy9cmPwNhZvola7kqnfY3DElk7PYrz2ARpaCODTp8Go/htmlview?pru=AAABfLx5bfQ*dDBm6wJC2BsJGIrDvJfFQw)
@@ -1169,6 +1169,12 @@ Note: this is about you as an interviewee, **not** as an interviewer. To check o
 - [What I Learned from Doing 60+ Technical Interviews in 30 Days](https://meekg33k.dev/what-i-learned-from-doing-60-technical-interviews-in-30-days)
 - [Twipped/InterviewThis](https://github.com/Twipped/InterviewThis): questions to ask prospective employers
 - [System Design Interview Guide for Senior Engineers](https://interviewing.io/guides/system-design-interview), interviewing.io
+
+Questions you should ask:
+
+- [Questions to ask your interviewer](https://rkoutnik.com/articles/Questions-to-ask-your-interviewer.html)
+- [Questions to ask the company during your interview](https://github.com/viraptor/reverse-interview)
+- [Interviewing the Interviewer: Questions to Uncover a Company’s True Culture](https://praachi.work/blog/questions-to-ask-in-a-job-interview)
 
 Résumé:
 
