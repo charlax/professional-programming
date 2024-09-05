@@ -1161,13 +1161,12 @@ Note: this is about you as an interviewee, **not** as an interviewer. To check o
 - [I spent 3 months applying to jobs after a coding bootcamp. Here’s what I learned.](https://medium.freecodecamp.com/5-key-learnings-from-the-post-bootcamp-job-search-9a07468d2331#.uq7vbbjfx)
 - [Top 10 algorithms in Interview Questions](http://www.geeksforgeeks.org/top-10-algorithms-in-interview-questions/)
 - [Interactive Python coding interview challenges](https://github.com/donnemartin/interactive-coding-challenges)
-- [Tech Interview Handbook](https://yangshun.github.io/tech-interview-handbook/introduction/)
+- [Tech Interview Handbook](https://www.techinterviewhandbook.org/)
 - [A complete computer science study plan to become a software engineer](https://github.com/jwasham/coding-interview-university)
 - [Interview advice that got me offers from Google, Microsoft, and Stripe](https://www.zainrizvi.io/blog/the-interviewing-advice-no-one-shares/)
 - [A framework for grading your performance on programming interview problems](https://docs.google.com/spreadsheets/d/1gy9cmPwNhZvola7kqnfY3DElk7PYrz2ARpaCODTp8Go/htmlview?pru=AAABfLx5bfQ*dDBm6wJC2BsJGIrDvJfFQw)
 - [Preparing for the Systems Design and Coding Interview](https://blog.pragmaticengineer.com/preparing-for-the-systems-design-and-coding-interviews/), Gergely Orosz
 - [What I Learned from Doing 60+ Technical Interviews in 30 Days](https://meekg33k.dev/what-i-learned-from-doing-60-technical-interviews-in-30-days)
-- [Twipped/InterviewThis](https://github.com/Twipped/InterviewThis): questions to ask prospective employers
 - [System Design Interview Guide for Senior Engineers](https://interviewing.io/guides/system-design-interview), interviewing.io
 
 Questions you should ask:
@@ -1175,6 +1174,7 @@ Questions you should ask:
 - [Questions to ask your interviewer](https://rkoutnik.com/articles/Questions-to-ask-your-interviewer.html)
 - [Questions to ask the company during your interview](https://github.com/viraptor/reverse-interview)
 - [Interviewing the Interviewer: Questions to Uncover a Company’s True Culture](https://praachi.work/blog/questions-to-ask-in-a-job-interview)
+- [Twipped/InterviewThis](https://github.com/Twipped/InterviewThis): questions to ask prospective employers
 
 Résumé:
 
