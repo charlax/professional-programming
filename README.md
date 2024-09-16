@@ -125,6 +125,7 @@
     - [Testing](#testing)
     - [Tools](#tools)
     - [Type system](#type-system)
+    - [Typography](#typography)
     - [Version control (Git)](#version-control-git)
     - [Work ethics, productivity & work/life balance](#work-ethics-productivity--worklife-balance)
     - [Web development](#web-development)
@@ -338,6 +339,7 @@ Let's be honest: algorithms can be a pretty dry topic. [This quora question](htt
 - 🎞 [15 Sorting Algorithms in 6 Minutes](https://www.youtube.com/watch?v=kPRA0W1kECg&ab_channel=TimoBingmann)
 - [Hashing](https://samwho.dev/hashing/)
 - [Visualizing Algorithms](https://bost.ocks.org/mike/algorithms/)
+- [B-trees and database indexes](https://planetscale.com/blog/btrees-and-database-indexes)
 
 Example implementations:
 
@@ -791,10 +793,10 @@ Articles :
   - Recognition Rather Than Recall (recognition = shallow form of retrieval from memory, e.g. a familiar person, recall = deeper retrieval)
   - ”Perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away.” – Antoine de Saint-Exupery
   - Help Users Recognize, Diagnose, And Recover From Errors
-- [Butterick’s Practical Typography](https://practicaltypography.com/)
 - [How to pick more beautiful colors for your data visualizations](https://blog.datawrapper.de/beautifulcolors/)
-- [Typography for Lawyers](https://typographyforlawyers.com/)
 - [Visual design rules you can safely follow every time](https://anthonyhobday.com/sideprojects/saferules/)
+
+Typograhy: see "Typography" section
 
 Resources:
 
@@ -1982,6 +1984,13 @@ End-to-end tests:
 ### Type system
 
 - [Counterexamples in Type Systems](https://counterexamples.org/intro.html): a library of runtime issues that weren't caught by the type system
+
+### Typography
+
+- [Butterick’s Practical Typography](https://practicaltypography.com/)
+- [Typography for Lawyers](https://typographyforlawyers.com/)
+- [Quick guide to web typography for developers · OlegWock](https://sinja.io/blog/web-typography-quick-guide)
+- [Features of your font you had no idea about](https://sinja.io/blog/get-maximum-out-of-your-font)
 
 ### Version control (Git)
 
