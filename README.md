@@ -1628,6 +1628,7 @@ JavaScript is such a pervasive language that it's almost required learning.
 
 - [The Best Regex Trick](http://rexegg.com/regex-best-trick.html)
 - [regex101: build, test, and debug regex](https://regex101.com/)
+- [cyrilex: test and visualize regex](https://extendsclass.com/regex-tester.html)
 
 ### Releasing & deploying
 
