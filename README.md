@@ -1818,6 +1818,7 @@ List of resources:
 - [Effective Shell](https://effective-shell.com/)
 - [Computing from the Command Line](https://learnbyexample.github.io/cli-computing/preface.html)
 - [What helps people get comfortable on the command line?](https://jvns.ca/blog/2023/08/08/what-helps-people-get-comfortable-on-the-command-line-/), Julia Evans
+- [6 Techniques I Use to Create a Great User Experience for Shell Scripts](https://nochlin.com/blog/6-techniques-i-use-to-create-a-great-user-experience-for-shell-scripts)
 
 ### SQL
 
