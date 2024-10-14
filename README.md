@@ -1178,6 +1178,7 @@ Questions you should ask:
 - [Questions to ask the company during your interview](https://github.com/viraptor/reverse-interview)
 - [Interviewing the Interviewer: Questions to Uncover a Company’s True Culture](https://praachi.work/blog/questions-to-ask-in-a-job-interview)
 - [Twipped/InterviewThis](https://github.com/Twipped/InterviewThis): questions to ask prospective employers
+- [tBaxter/questions-for-employers: A big collection of useful questions to ask potential employers.](https://github.com/tBaxter/questions-for-employers)
 
 Résumé:
 
@@ -1577,6 +1578,7 @@ JavaScript is such a pervasive language that it's almost required learning.
 - [mbeaudru/modern-js-cheatsheet](https://github.com/mbeaudru/modern-js-cheatsheet): cheatsheet for the JavaScript knowledge you will frequently encounter in modern projects.
 - [javascript-tutorial](https://github.com/javascript-tutorial): comprehensive JavaScript guide with simple but detailed explanantions. Available in several languages.
 - [30 Days of JavaScript](https://github.com/Asabeneh/30-Days-Of-JavaScript): 30 days of JavaScript programming challenge is a step-by-step guide to learn JavaScript programming language in 30 days.
+- [Unleash JavaScript's Potential with Functional Programming](https://janhesters.com/blog/unleash-javascripts-potential-with-functional-programming)
 
 
 #### Garbage collection
