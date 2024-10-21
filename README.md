@@ -373,6 +373,7 @@ More specific topics:
     - "Using links instead of foreign keys to express relationships in APIs reduces the amount of information a client needs to know to use an API, and reduces the ways in which clients and servers are coupled to each other."
 - [Give me /events, not webhooks](https://blog.sequin.io/events-not-webhooks/)
   - Events can unlock much-needed webhook features, like allowing your webhook consumers to replay or reset the position of their webhook subscription.
+- [Unlocking the Power of JSON Patch](https://zuplo.com/blog/2024/10/10/unlocking-the-power-of-json-patch)
 
 ### Attitude, habits, mindset
 
@@ -651,6 +652,7 @@ See also the Writing section
 
 - [How to communicate effectively as a developer](https://www.karlsutt.com/articles/communicating-effectively-as-a-developer/)
   - Lots of concrete advice and examples for short, medium and long-form writing
+- [What Do You Visualize While Programming?](https://dillonshook.com/what-do-you-visualize-while-programming/)
 
 ### Compilers
 
@@ -1694,6 +1696,7 @@ JavaScript is such a pervasive language that it's almost required learning.
     - Implement per-request-class backpressure
     - Have proper visibility from a client/end-user standpoint (client-side metrics)
 - [Testing in Production, the safe way](https://medium.com/@copyconstruct/testing-in-production-the-safe-way-18ca102d0ef1)
+- [Multi-Tenancy in a Microservice Architecture](https://www.usenix.org/system/files/login/articles/login_winter19_10_gud.pdf)
 
 ### Reliability
 
@@ -2044,6 +2047,7 @@ Check out this section on my [list of management resources, "Personal productivi
 - [Checklist - The A11Y Project](https://www.a11yproject.com/checklist/) for accessibility
 - [DevTools Tips](https://devtoolstips.org/)
 - [67 Weird Debugging Tricks Your Browser Doesn't Want You to Know](https://alan.norbauer.com/articles/browser-debugging-tricks)
+- [Web Browser Engineering](https://browser.engineering/index.html): this book explains, building a basic but complete web browser, from networking to JavaScript, in a couple thousand lines of Python.
 - [Things you forgot (or never knew) because of React](https://joshcollinsworth.com/blog/antiquated-react)
 
 ### Writing (communication, blogging)
