@@ -720,6 +720,7 @@ See also the SQL section.
 - [kdeldycke/awesome-falsehood](https://github.com/kdeldycke/awesome-falsehood): falsehoods programmers believe in
 - [Understanding UUIDs, ULIDs and String Representations](https://sudhir.io/uuids-ulids)
 - [Falsehoods Programmers Believe About Falsehoods Lists](https://kevin.deldycke.com/2016/12/falsehoods-programmers-believe-about-falsehoods-lists/)
+- [Australia/Lord_Howe is the weirdest timezone](https://ssoready.com/blog/engineering/truths-programmers-timezones/)
 
 ### Data science/data engineering
 
