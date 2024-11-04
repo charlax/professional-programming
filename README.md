@@ -1894,6 +1894,7 @@ Articles:
 - Circuit breaker
 - [Rate limiter algorithms](https://smudge.ai/blog/ratelimit-algorithms) (and their [implementation](https://github.com/upstash/ratelimit-js/blob/main/src/lua-scripts/single.ts))
 - [Load Balancing](https://samwho.dev/load-balancing/): a visual exploration of load balancing algos
+- [Good Retry, Bad Retry: An Incident Story](https://medium.com/yandex/good-retry-bad-retry-an-incident-story-648072d3cee6): insightful, well-written story about retries, circuit breakers, deadline, etc.
 
 #### Microservices/splitting a monolith
 
