@@ -2084,6 +2084,7 @@ Check out this section on my [list of management resources, "Personal productivi
   - Never use the passive where you can use the active.
   - Never use a foreign phrase, a scientific word, or a jargon word if you can think of an everyday English equivalent.
   - Break any of these rules sooner than say anything outright barbarous.
+- [Blog Writing for Developers](https://rmoff.net/2023/07/19/blog-writing-for-developers/)
 
 Guides & classes about technical writing:
 
