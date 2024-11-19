@@ -61,3 +61,4 @@ Image from https://github.com/kamranahmedse/developer-roadmap
 
 - [leonardomso/33-js-concepts](https://github.com/leonardomso/33-js-concepts): 33 JavaScript concepts every developer should know.
 - [The Modern JavaScript Tutorial](https://javascript.info/)
+- [A slightly sarcastic history of frontend](https://app.daily.dev/posts/a-slightly-sarcastic-history-of-frontend-1ohcpd7uq)

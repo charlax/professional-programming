@@ -1572,9 +1572,11 @@ List of resources:
 
 #### Python
 
-For Python feel free to checkout my [professional Python education repository](https://github.com/charlax/python-education).
+For Python check out my [professional Python education repository](https://github.com/charlax/python-education).
 
 #### JavaScript
+
+In this repository: check [./training/front-end/](./training/front-end/)
 
 JavaScript is such a pervasive language that it's almost required learning.
 
@@ -2035,26 +2037,33 @@ More specific topics:
 
 ### Work ethics, productivity & work/life balance
 
-Check out this section on my [list of management resources, "Personal productivity"](https://github.com/charlax/engineering-management/#personal-productivity).
+Check out this section on my [list of engineering-management resources, "Personal productivity"](https://github.com/charlax/engineering-management/#personal-productivity).
 
 ### Web development
 
+In this repository: check [training/web-dev/](./training/web-dev/) and [./training/front-end/](./training/front-end/)
+
+Learning guide and resources:
+
 - [grab/front-end-guide](https://github.com/grab/front-end-guide): a study guide and introduction to the modern front end stack.
-- [Maintainable CSS](http://maintainablecss.com/)
 - [Front-End Developer Handbook 2019](https://frontendmasters.com/books/front-end-handbook/2019/), Cody Lindley
 - [A Directory of design and front-end resources](http://uigoodies.com/index.html)
-- [Client-Side Architecture Basics](https://khalilstemmler.com/articles/client-side-architecture/introduction/)
 - 🧰 [codingknite/frontend-development](https://github.com/codingknite/frontend-development): a list of resources for frontend development
+
+Topics:
+
 - [136 facts every web dev should know](https://www.baldurbjarnason.com/2021/100-things-every-web-developer-should-know/)
+- [Maintainable CSS](http://maintainablecss.com/)
+- [Things you forgot (or never knew) because of React](https://joshcollinsworth.com/blog/antiquated-react)
 - [Checklist - The A11Y Project](https://www.a11yproject.com/checklist/) for accessibility
 - [DevTools Tips](https://devtoolstips.org/)
 - [67 Weird Debugging Tricks Your Browser Doesn't Want You to Know](https://alan.norbauer.com/articles/browser-debugging-tricks)
-- [Web Browser Engineering](https://browser.engineering/index.html): this book explains, building a basic but complete web browser, from networking to JavaScript, in a couple thousand lines of Python.
-- [Things you forgot (or never knew) because of React](https://joshcollinsworth.com/blog/antiquated-react)
+- [Client-Side Architecture Basics](https://khalilstemmler.com/articles/client-side-architecture/introduction/)
+- [Web Browser Engineering](https://browser.engineering/index.html): this book explains how to build a basic but complete web browser, from networking to JavaScript, in a couple thousand lines of Python.
 
 ### Writing (communication, blogging)
 
-➡️ See also my [engineering-management list](https://github.com/charlax/engineering-management#writing)
+➡️  See also my [engineering-management list](https://github.com/charlax/engineering-management#writing)
 
 - [Undervalued Software Engineering Skills: Writing Well](https://blog.pragmaticengineer.com/on-writing-well/)
     - From the HN discussion: "Writing a couple of pages of design docs or an Amazon-style 6 pager or whatever might take a few days of work, but can save weeks or more of wasted implementation time when you realise your system design was flawed or it doesn't address any real user needs."
