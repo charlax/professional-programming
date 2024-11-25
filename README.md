@@ -115,6 +115,7 @@
     - [Security](#security)
     - [Shell (command line)](#shell-command-line)
     - [SQL](#sql)
+    - [State](#state)
     - [System administration](#system-administration)
     - [System architecture](#system-architecture)
       - [Architecture patterns](#architecture-patterns)
@@ -1561,6 +1562,7 @@ A bit more reading:
 - [Lua: The Little Language That Could](https://matt.blwt.io/post/lua-the-little-language-that-could/)
 - [The Montréal Effect: Why Programming Languages Need a Style Czar](https://earthly.dev/blog/language-style-czar/)
 - [TodePond/DreamBerd: a perfect programming language](https://github.com/TodePond/DreamBerd)
+- [Programming Languages That Blew My Mind](https://yoric.github.io/post/programming-languages-that-blew-my-mind/)
 
 > There are only two kinds of languages: the ones people complain about and the ones nobody uses.
 
@@ -1840,6 +1842,21 @@ List of resources:
 - [Joins 13 Ways](https://justinjaffray.com/joins-13-ways/?a=b)
 - [spandanb/learndb-py](https://github.com/spandanb/learndb-py): learn database internals by implementing it from scratch.
 - [SQL for the Weary](https://gvwilson.github.io/sql-tutorial/)
+
+### State
+
+- [A Map of Sync](https://stack.convex.dev/a-map-of-sync) categorizes state sync into 9 dimensions.
+  - Data model:
+    - Size: How large is the data set that a single client can access?
+    - Update rate: How often do clients send updates?
+    - Structure: Is the data rich with structure or flat and unstructured?
+  - Systems requirements:
+    - Input latency: How long can updates be delayed while maintaining a good user experience?
+    - Offline: How many interactions does the app need to support offline?
+    - Concurrent clients: How many concurrent clients will look at the same data?
+  - Programming model:
+    - Centralization: How centralized is the programming model and infrastructure?  Flexibility: How flexible are sync policies, especially around conflict resolution?
+    - Consistency: What types of invariants can the application assert about its data model, and how strong can these invariants be?
 
 ### System administration
 
