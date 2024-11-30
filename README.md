@@ -1054,6 +1054,7 @@ Practice:
 ### Graphics
 
 - [Text Rendering Hates You](https://faultlore.com/blah/text-hates-you/)
+- [AAA - Analytical Anti-Aliasing](https://blog.frost.kiwi/analytical-anti-aliasing/)
 
 ### Hardware
 
@@ -1369,13 +1370,8 @@ Richard Feynman's Learning Strategy:
 
 ### Network
 
-- [The Great Confusion About URIs](https://benbernardblog.com/the-great-confusion-about-uris/)
-  - A URI is a string of characters that identifies a resource. Its syntax is `<scheme>:<authority><path>?<query>#<fragment>`, where only `<scheme>` and `<path>` are mandatory. URL and URN are URIs.
-  - A URL is a string of characters that identifies a resource located on a computer network. Its syntax depends on its scheme. E.g. `mailto:billg@microsoft.com`.
-  - A URN is a string of characters that uniquely identifies a resource. Its syntax is `urn:<namespace identifier>:<namespace specific string>`. E.g. `urn:isbn:9780062301239`
 - [Everything you need to know about DNS](https://www.nslookup.io/learning/)
-- [Examples of Great URL Design](https://blog.jim-nielsen.com/2023/examples-of-great-urls/)
-- [Four Cool URLs - Alex Pounds' Blog](https://alexpounds.com/blog/2018/12/29/four-cool-urls)
+- [Computer Networking Fundamentals](https://iximiuz.com/en/series/computer-networking-fundamentals/)
 
 ### Observability (monitoring, logging, exception handling)
 
@@ -2077,6 +2073,15 @@ Topics:
 - [67 Weird Debugging Tricks Your Browser Doesn't Want You to Know](https://alan.norbauer.com/articles/browser-debugging-tricks)
 - [Client-Side Architecture Basics](https://khalilstemmler.com/articles/client-side-architecture/introduction/)
 - [Web Browser Engineering](https://browser.engineering/index.html): this book explains how to build a basic but complete web browser, from networking to JavaScript, in a couple thousand lines of Python.
+
+URLs:
+
+- [The Great Confusion About URIs](https://benbernardblog.com/the-great-confusion-about-uris/)
+  - A URI is a string of characters that identifies a resource. Its syntax is `<scheme>:<authority><path>?<query>#<fragment>`, where only `<scheme>` and `<path>` are mandatory. URL and URN are URIs.
+  - A URL is a string of characters that identifies a resource located on a computer network. Its syntax depends on its scheme. E.g. `mailto:billg@microsoft.com`.
+  - A URN is a string of characters that uniquely identifies a resource. Its syntax is `urn:<namespace identifier>:<namespace specific string>`. E.g. `urn:isbn:9780062301239`
+- [Examples of Great URL Design](https://blog.jim-nielsen.com/2023/examples-of-great-urls/)
+- [Four Cool URLs - Alex Pounds' Blog](https://alexpounds.com/blog/2018/12/29/four-cool-urls)
 
 ### Writing (communication, blogging)
 
