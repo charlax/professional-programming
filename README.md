@@ -14,6 +14,7 @@
     - [Axioms](#axioms)
     - [Courses](#courses)
   - [Topics](#topics)
+    - [Accounting](#accounting)
     - [Algorithm and data structures](#algorithm-and-data-structures)
     - [API design & development](#api-design--development)
     - [Attitude, habits, mindset](#attitude-habits-mindset)
@@ -320,6 +321,10 @@ There are some free books available, including:
 - [ossu/computer-science](https://github.com/ossu/computer-science): free self-taught education in Computer Science!
 
 ## Topics
+
+### Accounting
+
+- [Engineers Do Not Get To Make Startup Mistakes When They Build Ledgers](https://news.alvaroduran.com/p/engineers-do-not-get-to-make-startup)
 
 ### Algorithm and data structures
 
