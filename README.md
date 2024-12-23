@@ -1364,6 +1364,7 @@ Richard Feynman's Learning Strategy:
 ### Machine learning/AI
 
 - [Transformers from Scratch](https://e2eml.school/transformers.html)
+- [A Gentle Introduction to Graph Neural Networks](https://distill.pub/2021/gnn-intro/)
 
 ### Math
 
@@ -1405,6 +1406,8 @@ Richard Feynman's Learning Strategy:
   - Explain the problem
   - Explain the solution
   - Write clearly
+- [Errors, Errors Everywhere: How We Centralized and Structured Error Handling](https://olivernguyen.io/w/namespace.error/) (for Go, but useful for any languages)
+- For inspiration: [Handle Errors - Graph API](https://developers.facebook.com/docs/graph-api/guides/error-handling#receiving-errorcodes)
 
 #### Metrics
 
