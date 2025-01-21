@@ -291,6 +291,7 @@ There are some free books available, including:
   - Helps to avoid underestimating the importance and difficulty other roles
   - Helps you to be strategic in your interaction with people in that role
 - [Teach Yourself Programming in Ten Years](https://norvig.com/21-days.html)
+- [Mistakes You Apparently Just Have to Make Yourself](https://medium.com/@mcfunley/mistakes-you-apparently-just-have-to-make-yourself-cc2dd2bfc25c)
 
 ### Axioms
 
@@ -651,6 +652,7 @@ About senior engineers:
 - [How To Write Unmaintainable Code](https://github.com/Droogans/unmaintainable-code/blob/master/README.md)
 - [kettanaito/naming-cheatsheet](https://github.com/kettanaito/naming-cheatsheet): : comprehensive language-agnostic guidelines on variables naming. Home of the A/HC/LC pattern.
 - 🧰 [Quality Engineering Guides](https://qeunit.com/guides/)
+- [Refactoring with Codemods to Automate API Changes](https://martinfowler.com/articles/codemods-api-refactoring.html), martinfowler.com
 
 ### Communication
 
@@ -783,6 +785,7 @@ Also see the Incident Response section in this doc
   - A systematic technique for deleting both test code and non-test code from a failing test until the test and code are small enough to understand.
 - [tcpdump is amazing](https://jvns.ca/blog/2016/03/16/tcpdump-is-amazing/), Julia Evans
 - [What we talk about when we talk about ‘root cause’](https://github.com/readme/guides/root-cause)
+- [David A. Wheeler's Review of "Debugging" by David J. Agans](https://dwheeler.com/essays/debugging-agans.html)
 
 ### Design (visual, UX, UI, typography)
 
@@ -842,6 +845,23 @@ Articles:
   - Two general problem areas are impacted by the Robustness Principle: orderly interoperability and security.
 - [Basics of the Unix Philosophy](http://catb.org/esr/writings/taoup/html/ch01s06.html#id2877610), Eric S Raymond
 - [Eight Habits of Expert Software Designers: An Illustrated Guide](https://thereader.mitpress.mit.edu/habits-of-expert-software-designers/)
+- [No Silver Bullet - Essence and Accident in Software Engineering](https://worrydream.com/refs/Brooks_1986_-_No_Silver_Bullet.pdf), Frederick P. Brooks, Jr. (1986)
+  - There are four properties of software systems which make building software hard: Complexity, Conformity, Changeability and Invisibility
+  - There are ways to address this:
+    - Exploiting the mass market to avoid constructing what can be bought. ("Buy vs. Build")
+    - Using rapid prototyping as part of a planned iteration in establishing software requirements.
+    - Growing software organically, adding more and more function to systems as they are run, used, and tested
+    - Identifying and developing the great conceptual designers of the rising generation.
+    - (also included in The Mythical Man-Month)
+- [Out of the Tar Pit](https://curtclifton.net/papers/MoseleyMarks06a.pdf), Ben Moseley, Peter Marks (2006) introduces the distinction between essential and accidental complexity
+  - Complexity is the root cause of the vast majority of problems with software today. Unreliability, late delivery, lack of security — often even poor performance in large-scale systems can all be seen as deriving ultimately from unmanageable complexity.
+  - Quoting Djikstra: "testing is hopelessly inadequate....(it) can be used very effectively to show the presence of bugs but never to show their absence."
+  - Functional programming goes a long way towards avoiding the problems of state-derived complexity.
+- [A Note on Essential Complexity](https://olano.dev/blog/a-note-on-essential-complexity/)
+  - The goal of the software engineer is to minimize accidental complexity and assist with essential complexity.
+- [Software Design is Knowledge Building](https://olano.dev/blog/software-design-is-knowledge-building/)
+  - Programming should be regarded as an activity by which the programmers form or achieve a certain kind of insight, a theory, of the matters at hand. This suggestion is in contrast to what appears to be a more common notion, that programming should be regarded as a production of a program and certain other texts.
+  - The building of the program is the same as the building of the theory of it by the team of programmers.
 
 > You can use an eraser on the drafting table or a sledge hammer on the construction site. (Frank Lloyd Wright)
 
@@ -1926,8 +1946,8 @@ Articles:
 - [Don’t start with microservices in production – monoliths are your friend](https://arnoldgalovics.com/microservices-in-production/)
 - [Deep lessons from Google And EBay on building ecosystems of microservices](http://highscalability.com/blog/2015/12/1/deep-lessons-from-google-and-ebay-on-building-ecosystems-of.html)
 - [Introducing domain-oriented microservice architecture](https://eng.uber.com/microservice-architecture/), Uber
-    - Instead of orienting around single microservices, we oriented around collections of related microservices. We call these domains.
-    - In small organizations, the operational benefit likely does not offset the increase in architectural complexity.
+  - Instead of orienting around single microservices, we oriented around collections of related microservices. We call these domains.
+  - In small organizations, the operational benefit likely does not offset the increase in architectural complexity.
 - [Best Practices for Building a Microservice Architecture](https://www.vinaysahni.com/best-practices-for-building-a-microservice-architecture#correlation-ids)
 - 🏙 [Avoid Building a Distributed Monolith](https://speakerdeck.com/felipead/avoid-building-a-distributed-monolith)
 - 🏙 [Breaking down the monolith](https://speakerdeck.com/slashdotpeter/breaking-down-the-monolith-devone)
