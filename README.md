@@ -1,6 +1,6 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-## Table of Contents
+# Table of Contents
 
 - [Professional Programming - about this list](#professional-programming---about-this-list)
   - [Principles](#principles)
@@ -249,11 +249,11 @@ There are some free books available, including:
   - Beware of bureaucratic goals masquerading as problem statements. If our end goal is to make citizens’ lives better, we need to explicitly acknowledge the things that are making their lives worse.
   - Building software is not about avoiding failure; it is about strategically failing as fast as possible to get the information you need to build something good.
 - [How to be a -10x Engineer](https://taylor.town/-10x)
-    - Nullify the output of 10 engineers.
-    - Hold 10 engineers hostage in a technical discussion.
-    - Waste 10 weeks of wages on cloud costs.
-    - Waste 400 hours of engineering on bad architecture.
-    - Incur 400 hours of bug triage.
+  - Nullify the output of 10 engineers.
+  - Hold 10 engineers hostage in a technical discussion.
+  - Waste 10 weeks of wages on cloud costs.
+  - Waste 400 hours of engineering on bad architecture.
+  - Incur 400 hours of bug triage.
 
 ## Other general material and list of resources
 
@@ -377,7 +377,7 @@ Example guidelines:
 More specific topics:
 
 - [Why you should use links, not keys, to represent relationships in APIs](https://cloud.google.com/blog/products/application-development/api-design-why-you-should-use-links-not-keys-to-represent-relationships-in-apis), Martin Nally, Google
-    - "Using links instead of foreign keys to express relationships in APIs reduces the amount of information a client needs to know to use an API, and reduces the ways in which clients and servers are coupled to each other."
+  - "Using links instead of foreign keys to express relationships in APIs reduces the amount of information a client needs to know to use an API, and reduces the ways in which clients and servers are coupled to each other."
 - [Give me /events, not webhooks](https://blog.sequin.io/events-not-webhooks/)
   - Events can unlock much-needed webhook features, like allowing your webhook consumers to replay or reset the position of their webhook subscription.
 - [Unlocking the Power of JSON Patch](https://zuplo.com/blog/2024/10/10/unlocking-the-power-of-json-patch)
@@ -451,6 +451,7 @@ More specific topics:
 Dan Heller, Building a Career in Software
 
 > I had learned already never to empty the well of my writing, but always to stop when there was still something there in the deep part of the well, and let it refill at night from the springs that fed it. -- Ernest Hemingway
+
 - [The Grug Brained Developer](https://grugbrain.dev): habits of self-aware programmer. Like Tao of Programming, different style.
 
 > Good judgment comes from experience.
@@ -615,16 +616,16 @@ About senior engineers:
 - [How to do a code review](https://google.github.io/eng-practices/review/reviewer/), Google's engineering practices documentation.
 - [Post-Commit Reviews](https://medium.com/@copyconstruct/post-commit-reviews-b4cc2163ac7a): an interesting idea to increase developer velocity (there are some caveats though).
 - [How to Make Your Code Reviewer Fall in Love with You](https://mtlynch.io/code-review-love/)
-    - Review your own code first
-    - Write a clear changelist description
-    - Automate the easy stuff
-    - Answer questions with the code itself
-    - Narrowly scope changes
-    - Separate functional and non-functional changes
-    - Respond graciously to critiques
-    - Artfully solicit missing information
-    - Award all ties to your reviewer
-    - Minimize lag between rounds of review
+  - Review your own code first
+  - Write a clear changelist description
+  - Automate the easy stuff
+  - Answer questions with the code itself
+  - Narrowly scope changes
+  - Separate functional and non-functional changes
+  - Respond graciously to critiques
+  - Artfully solicit missing information
+  - Award all ties to your reviewer
+  - Minimize lag between rounds of review
 - [How to Do Code Reviews Like a Human](https://mtlynch.io/human-code-reviews-1/)
 - [Ask HN: How do you review code?](https://news.ycombinator.com/item?id=11416746): great discussion on HackerNews, full of interesting ideas.
 - [Maslow's pyramid of code reviews](https://www.dein.fr/posts/2015-02-18-maslows-pyramid-of-code-review)
@@ -632,7 +633,6 @@ About senior engineers:
 - [Code review in remote teams](https://web.hypothes.is/blog/code-review-in-remote-teams/): very complete set of rules.
 - [No code reviews by default](https://www.raycast.com/blog/no-code-reviews-by-default/)
   - Responsibility over convention
-
 
 ### Coding & code quality
 
@@ -774,7 +774,7 @@ Also see the Incident Response section in this doc
 - [Debugging zine](https://jvns.ca/debugging-zine.pdf), Julian Evans
 - [If you understand a bug, you can fix it](https://wizardzines.com/comics/understand-can-fix/)
 - [The Thirty Minute Rule](https://daniel.feldroy.com/posts/thirty-minute-rule): if anyone gets stuck on something for more than 30 minutes, they should ask for help
-- [How to create a Minimal, Reproducible Example ](https://stackoverflow.com/help/minimal-reproducible-example), Stack Overflow
+- [How to create a Minimal, Reproducible Example](https://stackoverflow.com/help/minimal-reproducible-example), Stack Overflow
 - [Some ways to get better at debugging](https://jvns.ca/blog/2022/08/30/a-way-to-categorize-debugging-skills/), Julia Evans
   - Learn the codebase
   - Learn the system (e.g., HTTP stack, database transactions)
@@ -1319,7 +1319,7 @@ About flashcards:
 - Fernando Borretti, [Effective Spaced Repetition](https://borretti.me/article/effective-spaced-repetition)
 - [Anki-fy Your Life](https://abouttolearn.substack.com/p/anki-fy-your-life) gets into why it makes sense to invest in your memory.
 
-About Zettelkasten and PKM (personal knowledge management): see [Personal knowledge management](#personal-knowledge-management)
+About Zettelkasten and PKM (personal knowledge management): see [Personal knowledge management](#personal-knowledge-management-pkm)
 
 Richard Feynman's Learning Strategy:
 
@@ -1402,7 +1402,7 @@ Richard Feynman's Learning Strategy:
 
 ### Observability (monitoring, logging, exception handling)
 
-*See also: [Site Reliability Engineering (SRE)](#site-reliability-engineering-sre)*
+_See also: [Site Reliability Engineering (SRE)](#site-reliability-engineering-sre)_
 
 #### Logging
 
@@ -1411,11 +1411,11 @@ Richard Feynman's Learning Strategy:
   - Logging adds significant complexity to your architecture. And it requires more testing. Use architecture patterns that will make logging an explicit part of your contracts
   - Logging is a whole infrastructure subsystem on its own. And quite a complex one. You will have to maintain it or to outsource this job to existing logging services
 - [Lies My Parents Told Me (About Logs)](https://www.honeycomb.io/blog/lies-my-parents-told-me-about-logs/)
-    - Logs are cheap
-    - I can run it better myself
-    - Leveled logging is a great way to separate information
-    - Logs are basically the same as events
-    - A standard logging format is good enough
+  - Logs are cheap
+  - I can run it better myself
+  - Leveled logging is a great way to separate information
+  - Logs are basically the same as events
+  - A standard logging format is good enough
 - [Logging - OWASP Cheat Sheet Series](https://cheatsheetseries.owasp.org/cheatsheets/Logging_Cheat_Sheet.html)
 - [The Audit Log Wall of Shame](https://audit-logs.tax/): list of vendors that don’t prioritize high-quality, widely-available audit logs for security and operations teams.
 - [Guide on Structured Logs](https://signoz.io/blog/structured-logs/)
@@ -1445,9 +1445,9 @@ Richard Feynman's Learning Strategy:
 - 🧰 [crazy-canux/awesome-monitoring](https://github.com/crazy-canux/awesome-monitoring): monitoring tools for operations.
 - [Monitoring in the time of Cloud Native](https://medium.com/@copyconstruct/monitoring-in-the-time-of-cloud-native-c87c7a5bfa3e)
 - [How to Monitor the SRE Golden Signals](https://medium.com/faun/how-to-monitor-the-sre-golden-signals-1391cadc7524)
-    - From the Google SRE book: Latency, Traffic, Errors, and Saturation
-    - USE Method (from Brendan Gregg): Utilization, Saturation, and Errors
-    - RED Method (from Tom Wilkie): Rate, Errors, and Duration
+  - From the Google SRE book: Latency, Traffic, Errors, and Saturation
+  - USE Method (from Brendan Gregg): Utilization, Saturation, and Errors
+  - RED Method (from Tom Wilkie): Rate, Errors, and Duration
 - [Simple Anomaly Detection Using Plain SQL](https://hakibenita.com/sql-anomaly-detection)
 - [How percentile approximation works (and why it's more useful than averages)](https://www.timescale.com/blog/how-percentile-approximation-works-and-why-its-more-useful-than-averages/)
 - [Implementing health checks](https://aws.amazon.com/builders-library/implementing-health-checks/)
@@ -1500,11 +1500,11 @@ Richard Feynman's Learning Strategy:
 - [Numbers Everyone Should Know](https://everythingisdata.wordpress.com/2009/10/17/numbers-everyone-should-know/)
 - [Latency numbers every programmer should know](https://gist.github.com/hellerbarde/2843375)
 - [Rob Pike's 5 Rules of Programming](http://users.ece.utexas.edu/~adnan/pike.html)
-    - You can't tell where a program is going to spend its time.
-    - Measure
-    - Fancy algorithms are slow when n is small, and n is usually small.
-    - Fancy algorithms are buggier than simple ones
-    - Data dominates.
+  - You can't tell where a program is going to spend its time.
+  - Measure
+  - Fancy algorithms are slow when n is small, and n is usually small.
+  - Fancy algorithms are buggier than simple ones
+  - Data dominates.
 - [Performance comparison: counting words in Python, Go, C++, C, AWK, Forth, and Rust](https://benhoyt.com/writings/count-words/): a great way to learn about measuring performance.
 - [The Mathematical Hacker](https://www.evanmiller.org/mathematical-hacker.html)
 - [Four Kinds of Optimisation](https://tratt.net/laurie/blog/2023/four_kinds_of_optimisation.html)
@@ -1543,9 +1543,9 @@ Check out this section on my [list of management resources, "Personal productivi
 
 - [Dealing with Hard Problems](https://artofproblemsolving.com/articles/hard-problems)
 - [Invert, always, invert](https://www.anup.io/2020/07/20/invert-always-invert/)
-    - Define the problem - what is it that you're trying to achieve?
-    - Invert it - what would guarantee the failure to achieve this outcome?
-    - Finally, consider solutions to avoid this failure
+  - Define the problem - what is it that you're trying to achieve?
+  - Invert it - what would guarantee the failure to achieve this outcome?
+  - Finally, consider solutions to avoid this failure
 - 🎞 [Hammock Driven Development](https://www.youtube.com/watch?v=f84n5oFoZBc&ab_channel=ClojureTV), Rick Hickey
   - A classic talk on problem solving.
 
@@ -1554,7 +1554,6 @@ Check out this section on my [list of management resources, "Personal productivi
 See the [Product management section on my entrepreneurship-resources list of resources](https://github.com/charlax/entrepreneurship-resources#product-management).
 
 - Checkout this newsletter produced by Posthog: [Product for Engineers](https://newsletter.posthog.com/)
-
 
 ### Project management
 
@@ -1612,7 +1611,6 @@ JavaScript is such a pervasive language that it's almost required learning.
 - [30 Days of JavaScript](https://github.com/Asabeneh/30-Days-Of-JavaScript): 30 days of JavaScript programming challenge is a step-by-step guide to learn JavaScript programming language in 30 days.
 - [Unleash JavaScript's Potential with Functional Programming](https://janhesters.com/blog/unleash-javascripts-potential-with-functional-programming)
 
-
 #### Garbage collection
 
 - [A Guide to the Go Garbage Collector](https://go.dev/doc/gc-guide): a very insightful guide about Go's GC
@@ -1620,7 +1618,7 @@ JavaScript is such a pervasive language that it's almost required learning.
 ### Programming paradigm
 
 - [Imperative vs Declarative Programming](https://tylermcginnis.com/imperative-vs-declarative-programming/), Tyler McGinnis.
-    - I draw the line between declarative and non-declarative at whether you can trace the code as it runs. Regex is 100% declarative, as it’s untraceable while the pattern is being executed.
+  - I draw the line between declarative and non-declarative at whether you can trace the code as it runs. Regex is 100% declarative, as it’s untraceable while the pattern is being executed.
 - 🎞 [Imperative vs Declarative Programming](https://www.youtube.com/watch?v=E7Fbf7R3x6I&ab_channel=uidotdev)
 
 ### Public speaking (presenting)
@@ -1730,7 +1728,7 @@ JavaScript is such a pervasive language that it's almost required learning.
 
 ### Reliability
 
-*See also [System architecture](#system-architecture)*
+**See also [System architecture](#system-architecture)**
 
 Books:
 
@@ -1741,7 +1739,6 @@ Quotes:
 
 > Quality is a snapshot at the start of life and reliability is a motion picture of the day-by-day operation.
 > – [NIST](https://www.itl.nist.gov/div898/handbook/apr/section1/apr111.htm)
-
 > Reliability is the one feature every customer users. -- An auth0 SRE.
 
 Articles:
@@ -1749,15 +1746,15 @@ Articles:
 - I already mentioned the book Release it! above. There's also a [presentation](http://www.slideshare.net/justindorfman/stability-patterns-presentation) from the author.
 - [Service Recovery: Rolling Back vs. Forward Fixing](https://www.linkedin.com/pulse/service-recovery-rolling-back-vs-forward-fixing-mohamed-el-geish/)
 - [How Complex Systems Fail](https://how.complexsystems.fail/)
-    - Catastrophe requires multiple failures – single point failures are not enough.
-    - Complex systems contain changing mixtures of failures latent within them.
-    - Post-accident attribution to a ‘root cause’ is fundamentally wrong.
-    - Hindsight biases post-accident assessments of human performance.
-    - Safety is a characteristic of systems and not of their components
-    - Failure free operations require experience with failure.
+  - Catastrophe requires multiple failures – single point failures are not enough.
+  - Complex systems contain changing mixtures of failures latent within them.
+  - Post-accident attribution to a ‘root cause’ is fundamentally wrong.
+  - Hindsight biases post-accident assessments of human performance.
+  - Safety is a characteristic of systems and not of their components
+  - Failure free operations require experience with failure.
 - [Systems that defy detailed understanding](https://blog.nelhage.com/post/systems-that-defy-understanding/)
-    - Focus effort on systems-level failure, instead of the individual component failure.
-    - Invest in sophisticated observability tools, aiming to increase the number of questions we can ask without deploying custom code
+  - Focus effort on systems-level failure, instead of the individual component failure.
+  - Invest in sophisticated observability tools, aiming to increase the number of questions we can ask without deploying custom code
 - [Operating a Large, Distributed System in a Reliable Way: Practices I Learned](https://blog.pragmaticengineer.com/operating-a-high-scale-distributed-system/), Gergely Orosz.
   - A good summary of processes to implement.
 - [Production Oriented Development](https://paulosman.me/2019/12/30/production-oriented-development.html)
@@ -1889,7 +1886,7 @@ List of resources:
 
 ### System architecture
 
-*See also [Reliability](#system-architecture), [Scalability](#scalability)*
+**See also [Reliability](#system-architecture), [Scalability](#scalability)**
 
 Reading lists:
 
@@ -1920,8 +1917,8 @@ Articles:
 - [Turning the database outside-out with Apache Samza](https://www.confluent.io/blog/turning-the-database-inside-out-with-apache-samza/)
 - [Fallacies of distributed computing](https://en.wikipedia.org/wiki/Fallacies_of_distributed_computing), Wikipedia
 - [The biggest thing Amazon got right: the platform](https://gigaom.com/2011/10/12/419-the-biggest-thing-amazon-got-right-the-platform/)
-    - All teams will henceforth expose their data and functionality through service interfaces.
-    - Monitoring and QA are the same thing.
+  - All teams will henceforth expose their data and functionality through service interfaces.
+  - Monitoring and QA are the same thing.
 - [Building Services at Airbnb, part 3](https://medium.com/airbnb-engineering/building-services-at-airbnb-part-3-ac6d4972fc2d)
   - Resilience is a Requirement, Not a Feature
 - [Building Services at Airbnb, part 4](https://medium.com/airbnb-engineering/building-services-at-airbnb-part-4-23c95e428064)
@@ -1952,14 +1949,14 @@ Articles:
 - 🏙 [Avoid Building a Distributed Monolith](https://speakerdeck.com/felipead/avoid-building-a-distributed-monolith)
 - 🏙 [Breaking down the monolith](https://speakerdeck.com/slashdotpeter/breaking-down-the-monolith-devone)
 - [Monoliths are the future](https://changelog.com/posts/monoliths-are-the-future)
-    - "We’re gonna break it up and somehow find the engineering discipline we never had in the first place."
+  - "We’re gonna break it up and somehow find the engineering discipline we never had in the first place."
 - [12 Ways to Prepare your Monolith Before Transitioning to Microservices](https://semaphoreci.com/blog/monolith-microservices)
 - [Death by a thousand microservices](https://renegadeotter.com/2023/09/10/death-by-a-thousand-microservices.html)
   - [Microservices](https://www.youtube.com/watch?v=y8OnoxKotPQ&ab_channel=KRAZAM)
 
 ### Scalability
 
-*See also: [Reliability](#reliability), [System architecture](#system-architecture)*
+**See also: [Reliability](#reliability), [System architecture](#system-architecture)**
 
 - [Scalable web architecture and distributed systems](http://www.aosabook.org/en/distsys.html)
 - 📖 [Scalability Rules: 50 Principles for Scaling Web Sites](https://smile.amazon.com/Scalability-Rules-Principles-Scaling-Sites/dp/013443160X) ([presentation](http://www.slideshare.net/cyrilwang/scalability-rules))
@@ -1967,18 +1964,18 @@ Articles:
 
 ### Site Reliability Engineering (SRE)
 
-*See: [Reliability](#reliability)*
+**See: [Reliability](#reliability)**
 
 ### Technical debt
 
 - [TechnicalDebt](https://martinfowler.com/bliki/TechnicalDebt.html), Martin Fowler.
 - [Fixing Technical Debt with an Engineering Allocation Framework](https://docs.google.com/presentation/d/16WU1cxG02jnVGQ5byviw3_Q0ILDPZPYtTvU91_210T0/edit#slide=id.p)
-    - You don't need to stop shipping features to fix technical debt
-    - Communicate the business value
+  - You don't need to stop shipping features to fix technical debt
+  - Communicate the business value
 - [Ur-Technical Debt](https://www.georgefairbanks.com/ieee-software-v32-n4-july-2020-ur-technical-debt)
-    - Today, any code that a developer dislikes is branded as technical debt.
-    - Ward Cunningham invented the debt metaphor to explain to his manager that building iteratively gave them working code faster, much like borrowing money to start a project, but that it was essential to keep paying down the debt, otherwise the interest payments would grind the project to a halt.
-    - Ur-technical debt is generally not detectable by static analysis.
+  - Today, any code that a developer dislikes is branded as technical debt.
+  - Ward Cunningham invented the debt metaphor to explain to his manager that building iteratively gave them working code faster, much like borrowing money to start a project, but that it was essential to keep paying down the debt, otherwise the interest payments would grind the project to a halt.
+  - Ur-technical debt is generally not detectable by static analysis.
 
 ### Testing
 
@@ -2117,15 +2114,15 @@ URLs:
 ➡️  See also my [engineering-management list](https://github.com/charlax/engineering-management#writing)
 
 - [Undervalued Software Engineering Skills: Writing Well](https://blog.pragmaticengineer.com/on-writing-well/)
-    - From the HN discussion: "Writing a couple of pages of design docs or an Amazon-style 6 pager or whatever might take a few days of work, but can save weeks or more of wasted implementation time when you realise your system design was flawed or it doesn't address any real user needs."
+  - From the HN discussion: "Writing a couple of pages of design docs or an Amazon-style 6 pager or whatever might take a few days of work, but can save weeks or more of wasted implementation time when you realise your system design was flawed or it doesn't address any real user needs."
 - [Sell Yourself Sell Your Work](https://www.solipsys.co.uk/new/SellYourselfSellYourWork.html?te20hn)
-    - If you've done great work, if you've produced superb software or fixed a fault with an aeroplane or investigated a problem, without telling anyone you may as well not have bothered.
+  - If you've done great work, if you've produced superb software or fixed a fault with an aeroplane or investigated a problem, without telling anyone you may as well not have bothered.
 - [The Writing Well Handbook](https://www.julian.com/guide/write/intro)
-    - Ideas — Identify what to write about
-    - First Drafts — Generate insights on your topic
-    - Rewriting — Rewrite for clarity, intrigue, and succinctness
-    - Style — Rewrite for style and flow
-    - Practicing — Improve as a writer
+  - Ideas — Identify what to write about
+  - First Drafts — Generate insights on your topic
+  - Rewriting — Rewrite for clarity, intrigue, and succinctness
+  - Style — Rewrite for style and flow
+  - Practicing — Improve as a writer
 - [Write Simply](http://paulgraham.com/simply.html), Paul Graham
 - [Writing is Thinking: Learning to Write with Confidence](https://blog.stephsmith.io/learning-to-write-with-confidence/)
 - [It's time to start writing](https://alexnixon.github.io/2019/12/10/writing.html) explains why Jeff Bezos banned PowerPoint at Amazon.
@@ -2166,11 +2163,11 @@ Guides & classes about technical writing:
 
 ## Resources & inspiration for presentations
 
-- https://twitter.com/devops_borat
-- https://speakerdeck.com/
+- <https://twitter.com/devops_borat>
+- <https://speakerdeck.com/>
 - Dilbert
 - Calvin & Hobbes ([search engine](http://michaelyingling.com/random/calvin_and_hobbes/))
-- https://twitter.com/_workchronicles
+- <https://twitter.com/_workchronicles>
 
 ## Keeping up-to-date
 
