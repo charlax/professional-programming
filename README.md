@@ -593,6 +593,7 @@ About senior engineers:
 - [Guides for reaching Staff-plus engineering roles](https://staffeng.com/guides/), Will Larson
   - [Being visible](https://staffeng.com/guides/being-visible)
   - [Additional resources on Staff-plus engineering](https://staffeng.com/guides/learning-materials)
+- [Staff archetypes](https://staffeng.com/guides/staff-archetypes/), Will Larson
 
 ### Characters sets
 
@@ -753,6 +754,7 @@ Also see the Incident Response section in this doc
 - [The Five Lies Analysis](https://serce.me/posts/14-10-2021-the-five-lies-analysis)
   - The real problem reveals itself when the technique becomes a part of a template.
   - Action items can be very distant from the root cause.
+  - Related article: [The Evolution of SRE at Google](https://www.usenix.org/publications/loginonline/evolution-sre-google)
 - [The Infinite Hows](http://www.kitchensoap.com/2014/11/14/the-infinite-hows-or-the-dangers-of-the-five-whys/) criticizes the five whys method and advocates for a different set of questions to learn from the most from incidents.
   - See also: [Human errors: models and management](https://app.box.com/s/7z35l09amvr1vwxouh2s)
   - "The issue with the Five Whys is that it’s tunnel-visioned into a linear and simplistic explanation of how work gets done and events transpire."
@@ -862,6 +864,15 @@ Articles:
 - [Software Design is Knowledge Building](https://olano.dev/blog/software-design-is-knowledge-building/)
   - Programming should be regarded as an activity by which the programmers form or achieve a certain kind of insight, a theory, of the matters at hand. This suggestion is in contrast to what appears to be a more common notion, that programming should be regarded as a production of a program and certain other texts.
   - The building of the program is the same as the building of the theory of it by the team of programmers.
+- [Cognitive load is what matters](https://minds.md/zakirullin/cognitive#long)
+  - A well-crafted monolith with truly isolated modules is often much more flexible than a bunch of microservices.
+  - Three decades on, microkernel-based GNU Hurd is still in development, and monolithic Linux is everywhere
+  - "Reduce cognitive load by limiting the number of choices." (Rob Pike)
+  - The same rule applies to all sorts of numeric statuses (in the database or wherever) - prefer self-describing strings.
+  - With a sufficient number of users of an API, it does not matter what you promise in the contract: all observable behaviors of your system will be depended on by somebody.
+  - DDD is about problem space, not about solution space.
+  - Familiarity is not the same as simplicity
+  - The more mental models there are to learn, the longer it takes for a new developer to deliver value.
 
 > You can use an eraser on the drafting table or a sledge hammer on the construction site. (Frank Lloyd Wright)
 
@@ -1291,7 +1302,7 @@ Learn how to learn!
   - Memorizing organized your knowledge
   - It stays with you
 - [Celebrate tiny learning milestones](https://jvns.ca/blog/2022/03/13/celebrate-tiny-learning-milestones/), Julia Evans.
-  - Keep a brag document
+  - Keep a brag document ([Get your work recognized: write a brag document](https://jvns.ca/blog/brag-documents/))
   - You can do a lot "by accident"
   - Fixing a bug can be milestone
 - [Why writing by hand is still the best way to retain information](https://stackoverflow.blog/2022/11/23/why-writing-by-hand-is-still-the-best-way-to-retain-information/), StackOverflow
