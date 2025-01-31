@@ -1,6 +1,6 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-# Table of Contents
+## Table of Contents
 
 - [Professional Programming - about this list](#professional-programming---about-this-list)
   - [Principles](#principles)
@@ -25,6 +25,7 @@
     - [Beyond software engineering & random](#beyond-software-engineering--random)
     - [Biases](#biases)
     - [Business](#business)
+    - [Buy vs. Build](#buy-vs-build)
     - [Cache](#cache)
     - [Career growth](#career-growth)
       - [Choosing your next/first opportunity](#choosing-your-nextfirst-opportunity)
@@ -114,6 +115,7 @@
       - [Resiliency](#resiliency)
     - [Search](#search)
     - [Security](#security)
+    - [Research papers](#research-papers)
     - [Shell (command line)](#shell-command-line)
     - [SQL](#sql)
     - [State](#state)
@@ -501,6 +503,14 @@ Biases don't only apply to hiring. For instance, the fundamental attribution bia
 - [The 4 biggest problems with homemade billing systems](https://www.getlago.com/blog/the-4-biggest-problems-with-homemade-billing-systems)
 - [🦑 The 14 pains of building your own billing system](https://arnon.dk/the-14-pains-of-billing/)
 
+### Buy vs. Build
+
+- [Choose Boring Technology](https://boringtechnology.club/)
+- [Build vs. Buy](https://entropicthoughts.com/build-vs-buy)
+  - The reason we want to buy as much as possible is that an organisation has a limited capacity for expertise, so we don’t want to have to become experts on things that don’t make up a competitive advantage.
+- [Platform Engineering: Build vs Buy](https://kanenarraway.com/posts/platform-engineering-build-vs-buy/)
+  - If someone tells me they can build something cheaper than a vendor, I’m immediately skeptical because I don’t think most people can accurately forecast the actual cost of maintenance in the long term.
+
 ### Cache
 
 - [Caching challenges and strategies](https://aws.amazon.com/builders-library/caching-challenges-and-strategies/), Amazon Builders Library
@@ -869,7 +879,7 @@ Articles:
   - Three decades on, microkernel-based GNU Hurd is still in development, and monolithic Linux is everywhere
   - "Reduce cognitive load by limiting the number of choices." (Rob Pike)
   - The same rule applies to all sorts of numeric statuses (in the database or wherever) - prefer self-describing strings.
-  - With a sufficient number of users of an API, it does not matter what you promise in the contract: all observable behaviors of your system will be depended on by somebody.
+  - With a sufficient number of users of an API, it does not matter what you promise in the contract: all observable behaviors of your system will be depended on by somebody. ([Hyrum's Law](https://www.hyrumslaw.com/))
   - DDD is about problem space, not about solution space.
   - Familiarity is not the same as simplicity
   - The more mental models there are to learn, the longer it takes for a new developer to deliver value.
@@ -1638,8 +1648,6 @@ JavaScript is such a pervasive language that it's almost required learning.
 
 ### Reading
 
-- [Papers we love](https://github.com/papers-we-love/papers-we-love): papers from the computer science community to read and discuss. Can be a good source of inspiration of solving your design problems.
-- [The morning paper](https://blog.acolyer.org/): one CS research paper explained every morning.
 - [The Complete Guide to Effective Reading](https://maartenvandoorn.nl/reading-guide/)
 - [The benefits of note-taking by hand](https://www.bbc.com/worklife/article/20200910-the-benefits-of-note-taking-by-hand)
 - [The Art of Reading More Effectively and Efficiently](https://aliabdaal.com/read-more-effectively/)
@@ -1667,6 +1675,8 @@ JavaScript is such a pervasive language that it's almost required learning.
   - A reusable component should be tried out in three different applications before it will be sufficiently general to accept into a reuse library.
 - [Refactor vs. Rewrite](https://remesh.blog/refactor-vs-rewrite-7b260e80277a)
 - [Tripping over the potholes in too many libraries](https://blog.carlmjohnson.net/post/2020/avoid-dependencies/)
+- [Build It Yourself](https://lucumr.pocoo.org/2025/1/24/build-it-yourself/)
+  - It's 2025 and it's faster for me to have ChatGPT or Cursor whip up a dependency free implementation of these common functions, than it is for me to start figuring out a dependency.
 
 ### Regex
 
@@ -1781,6 +1791,7 @@ Articles:
 - 🏙 [High Reliability Infrastructure migrations](https://speakerdeck.com/jvns/high-reliability-infrastructure-migrations), Julia Evans.
 - [Appendix F: Personal Observations on the Reliability of the Shuttle](https://www.refsmmat.com/files/reflections.pdf), Richard Feynman
 - [Lessons learned from two decades of Site Reliability Engineering](https://sre.google/resources/practices-and-processes/twenty-years-of-sre-lessons-learned/)
+- [Service Reliability Mathematics](https://addyosmani.com/blog/service-reliability/), Addy Osmani
 
 Resources:
 
@@ -1830,6 +1841,7 @@ Resources:
 - [Learnings from 5 years of tech startup code audits](https://kenkantzer.com/learnings-from-5-years-of-tech-startup-code-audits/)
 - [API Tokens: A Tedious Survey](https://fly.io/blog/api-tokens-a-tedious-survey/): don't use JWT.
 - [The Six Dumbest Ideas in Computer Security](http://ranum.com/security/computer_security/editorials/dumb/index.html)
+- [How to Say "No" Well](https://ramimac.me/saying-no)
 
 Training for developers:
 
@@ -1844,6 +1856,12 @@ List of resources:
 - 🧰 [meirwah/awesome-incident-response](https://github.com/meirwah/awesome-incident-response): tools for incident response
 - 🧰 [Starting Up Security](https://scrty.io/)
 - 🧰 [decalage2/awesome-security-hardening](https://github.com/decalage2/awesome-security-hardening): security hardening guides, tools and other resources
+
+### Research papers
+
+- [Papers we love](https://github.com/papers-we-love/papers-we-love): papers from the computer science community to read and discuss. Can be a good source of inspiration of solving your design problems.
+- [The morning paper](https://blog.acolyer.org/): one CS research paper explained every morning.
+- [The 7 Most Influential Papers in Computer Science History](https://terriblesoftware.org/2025/01/22/the-7-most-influential-papers-in-computer-science-history/)
 
 ### Shell (command line)
 
@@ -2035,7 +2053,6 @@ End-to-end tests:
 - [DevDocs API Documentation](https://devdocs.io/): a repository for multiple API docs (see also [Dash for macOS](https://kapeli.com/dash)).
 - [DevChecklist](https://devchecklists.com/): a collaborative space for sharing checklists that help ensure software quality
 - 🧰 [Free for developers](https://free-for.dev/#/): list of free tiers for developments tools and services
-- [Choose Boring Technology](https://boringtechnology.club/)
 - [Ask HN: Best dev tool pitches of all time?](https://news.ycombinator.com/item?id=31782200)
 - [A list of /uses pages detailing developer setups, gear, software and configs](https://uses.tech/)
 
