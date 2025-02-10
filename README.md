@@ -868,7 +868,7 @@ Articles:
 - [Out of the Tar Pit](https://curtclifton.net/papers/MoseleyMarks06a.pdf), Ben Moseley, Peter Marks (2006) introduces the distinction between essential and accidental complexity
   - Complexity is the root cause of the vast majority of problems with software today. Unreliability, late delivery, lack of security — often even poor performance in large-scale systems can all be seen as deriving ultimately from unmanageable complexity.
   - Quoting Djikstra: "testing is hopelessly inadequate....(it) can be used very effectively to show the presence of bugs but never to show their absence."
-  - Functional programming goes a long way towards avoiding the problems of state-derived complexity.
+  - Functional programming goes a long way towards avoiding the problems of state-derived complexity, thanks to immutability and clear separation of state and logic.
 - [A Note on Essential Complexity](https://olano.dev/blog/a-note-on-essential-complexity/)
   - The goal of the software engineer is to minimize accidental complexity and assist with essential complexity.
 - [Software Design is Knowledge Building](https://olano.dev/blog/software-design-is-knowledge-building/)
