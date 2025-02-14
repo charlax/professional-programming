@@ -185,7 +185,7 @@ There are some free books available, including:
 
 - 📖 [Professional software development](http://mixmastamyk.bitbucket.io/pro_soft_dev/): pretty complete and a good companion to this page. The free chapters are mostly focused on software development processes: design, testing, code writing, etc. - and not so much about tech itself.
 - 🧰 [vhf/free-programming-books](https://github.com/vhf/free-programming-books)
-- 🧰 [EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books/blob/master/books/free-programming-books.md)
+- 🧰 [EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books/tree/main/books)
 
 ## Must-read articles
 
