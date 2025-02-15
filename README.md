@@ -2170,6 +2170,9 @@ URLs:
   - Never use a foreign phrase, a scientific word, or a jargon word if you can think of an everyday English equivalent.
   - Break any of these rules sooner than say anything outright barbarous.
 - [Blog Writing for Developers](https://rmoff.net/2023/07/19/blog-writing-for-developers/)
+- [7 Common Mistakes in Architecture Diagrams](https://www.ilograph.com/blog/posts/diagram-mistakes/)
+- [Why Blog If Nobody Reads It?](https://andysblog.uk/why-blog-if-nobody-reads-it/)
+  - Blogging forces clarity. It makes you structure your thoughts, sharpen your perspective.
 
 Guides & classes about technical writing:
 
