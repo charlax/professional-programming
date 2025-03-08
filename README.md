@@ -798,6 +798,7 @@ Also see the Incident Response section in this doc
 - [tcpdump is amazing](https://jvns.ca/blog/2016/03/16/tcpdump-is-amazing/), Julia Evans
 - [What we talk about when we talk about ‘root cause’](https://github.com/readme/guides/root-cause)
 - [David A. Wheeler's Review of "Debugging" by David J. Agans](https://dwheeler.com/essays/debugging-agans.html)
+- [Troubleshooting: The Skill That Never Goes Obsolete](https://www.autodidacts.io/troubleshooting/)
 
 ### Design (visual, UX, UI, typography)
 
@@ -1402,6 +1403,7 @@ Richard Feynman's Learning Strategy:
 - [Why does 0.1 + 0.2 = 0.30000000000000004?](https://jvns.ca/blog/2023/02/08/why-does-0-1-plus-0-2-equal-0-30000000000000004/), Julia Evans (about floating point)
 - [Putting the "You" in CPU](https://cpu.land/the-basics)
 - [x86-64 Assembly Language Programming with Ubuntu](http://www.egr.unlv.edu/~ed/assembly64.pdf)
+- [XOR](https://www.chiark.greenend.org.uk/~sgtatham/quasiblog/xor/)
 
 ### Machine learning/AI
 
@@ -1968,6 +1970,7 @@ Articles:
 
 #### Microservices/splitting a monolith
 
+- [Monolith First](https://martinfowler.com/bliki/MonolithFirst.html), Martin Fowler
 - [Service oriented architecture: scaling the Uber engineering codebase as we grow](https://eng.uber.com/soa/)
 - [Don’t start with microservices in production – monoliths are your friend](https://arnoldgalovics.com/microservices-in-production/)
 - [Deep lessons from Google And EBay on building ecosystems of microservices](http://highscalability.com/blog/2015/12/1/deep-lessons-from-google-and-ebay-on-building-ecosystems-of.html)
@@ -2005,6 +2008,7 @@ Articles:
   - Today, any code that a developer dislikes is branded as technical debt.
   - Ward Cunningham invented the debt metaphor to explain to his manager that building iteratively gave them working code faster, much like borrowing money to start a project, but that it was essential to keep paying down the debt, otherwise the interest payments would grind the project to a halt.
   - Ur-technical debt is generally not detectable by static analysis.
+- [3 Kinds of Good Tech Debt](https://engineering.squarespace.com/blog/2019/three-kinds-of-good-tech-debt)
 
 ### Testing
 
@@ -2082,6 +2086,7 @@ Learning Git, courses and books:
 - [Think Like (a) Git](http://think-like-a-git.net/)
 - [Git's database internals I: packed object store](https://github.blog/2022-08-29-gits-database-internals-i-packed-object-store/): an insightful deep dive from Github
 - [Oh My Git!](https://ohmygit.org/): a game to learn git
+- [How Core Git Developers Configure Git](https://blog.gitbutler.com/how-git-core-devs-configure-git/)
 
 Cheat sheets:
 
