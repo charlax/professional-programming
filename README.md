@@ -663,7 +663,7 @@ About senior engineers:
 - [How To Write Unmaintainable Code](https://github.com/Droogans/unmaintainable-code/blob/master/README.md)
 - [kettanaito/naming-cheatsheet](https://github.com/kettanaito/naming-cheatsheet): : comprehensive language-agnostic guidelines on variables naming. Home of the A/HC/LC pattern.
 - 🧰 [Quality Engineering Guides](https://qeunit.com/guides/)
-- [Refactoring with Codemods to Automate API Changes](https://martinfowler.com/articles/codemods-api-refactoring.html), martinfowler.com
+- [What Makes Code Hard To Read: Visual Patterns of Complexity](https://seeinglogic.com/posts/visual-readability-patterns/)
 
 ### Communication
 
@@ -1679,6 +1679,7 @@ JavaScript is such a pervasive language that it's almost required learning.
 - [Tripping over the potholes in too many libraries](https://blog.carlmjohnson.net/post/2020/avoid-dependencies/)
 - [Build It Yourself](https://lucumr.pocoo.org/2025/1/24/build-it-yourself/)
   - It's 2025 and it's faster for me to have ChatGPT or Cursor whip up a dependency free implementation of these common functions, than it is for me to start figuring out a dependency.
+- [Refactoring with Codemods to Automate API Changes](https://martinfowler.com/articles/codemods-api-refactoring.html), martinfowler.com
 
 ### Regex
 
