@@ -743,6 +743,7 @@ See also the SQL section.
 - [Understanding UUIDs, ULIDs and String Representations](https://sudhir.io/uuids-ulids)
 - [Falsehoods Programmers Believe About Falsehoods Lists](https://kevin.deldycke.com/2016/12/falsehoods-programmers-believe-about-falsehoods-lists/)
 - [Australia/Lord_Howe is the weirdest timezone](https://ssoready.com/blog/engineering/truths-programmers-timezones/)
+- [A love letter to the CSV format](https://github.com/medialab/xan/blob/master/docs/LOVE_LETTER.md)
 
 ### Data science/data engineering
 
@@ -802,6 +803,7 @@ Also see the Incident Response section in this doc
 - [What we talk about when we talk about ‘root cause’](https://github.com/readme/guides/root-cause)
 - [David A. Wheeler's Review of "Debugging" by David J. Agans](https://dwheeler.com/essays/debugging-agans.html)
 - [Troubleshooting: The Skill That Never Goes Obsolete](https://www.autodidacts.io/troubleshooting/)
+  - Includes links to interesting debugging stories
 
 ### Design (visual, UX, UI, typography)
 
@@ -1064,6 +1066,7 @@ The best way to learn is to learn by doing.
 - [7 GUIs to build to learn fundamental UI programming skills](https://eugenkiss.github.io/7guis/tasks/)
 - [A list of programming playgrounds](https://jvns.ca/blog/2023/04/17/a-list-of-programming-playgrounds/), Julia Evans
 - [Write more "useless" software](https://ntietz.com/blog/write-more-useless-software/)
+- [SadServers - Linux & DevOps Troubleshooting Interviews](https://sadservers.com/)
 
 Practice:
 
