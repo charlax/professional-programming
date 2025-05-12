@@ -905,6 +905,7 @@ Resources:
   - Never store full addresses in a single field
   - Never store firstname and lastname in the same field
   - Establish conventions for table and field names.
+- [YAGRI: You are gonna read it](https://www.scottantipa.com/yagri): store `created_at`, `created_by` etc.
 
 #### Design: patterns
 
