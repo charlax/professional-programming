@@ -805,6 +805,7 @@ Also see the Incident Response section in this doc
 - [David A. Wheeler's Review of "Debugging" by David J. Agans](https://dwheeler.com/essays/debugging-agans.html)
 - [Troubleshooting: The Skill That Never Goes Obsolete](https://www.autodidacts.io/troubleshooting/)
   - Includes links to interesting debugging stories
+- [Falsehoods software teams believe about user feedback](https://thoughtbot.com/blog/falsehoods-software-teams-believe-about-user-feedback)
 
 ### Design (visual, UX, UI, typography)
 
@@ -1160,6 +1161,7 @@ Also see the Debugging section in this doc.
   - Team knowledge elicitation
   - Asking the question, “Why do we have on-call?”
   - Spin the Wheel of Expertise!
+- [Severity Levels](https://response.pagerduty.com/before/severity_levels/), PagerDuty
 
 Alerting:
 
