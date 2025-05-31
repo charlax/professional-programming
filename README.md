@@ -1058,6 +1058,7 @@ Checkout my [list of management resources](https://github.com/charlax/engineerin
 
 The best way to learn is to learn by doing.
 
+- [Reinvent the Wheel](https://endler.dev/2025/reinvent-the-wheel/)
 - [build-your-own-x](https://github.com/codecrafters-io/build-your-own-x): compilation of well-written, step-by-step guides for re-creating our favorite technologies from scratch
   - Richard Feynman: "what I cannot create, I do not understand"
 - [The elevator programming game](http://play.elevatorsaga.com/)
