@@ -39,6 +39,7 @@
     - [Compilers](#compilers)
     - [Configuration](#configuration)
     - [Continuous Integration (CI)](#continuous-integration-ci)
+    - [Data analysis](#data-analysis)
     - [Databases](#databases)
       - [NoSQL](#nosql)
       - [Postgres](#postgres)
@@ -256,6 +257,17 @@ There are some free books available, including:
   - Waste 10 weeks of wages on cloud costs.
   - Waste 400 hours of engineering on bad architecture.
   - Incur 400 hours of bug triage.
+- [A Bunch of Programming Advice I'd Give To Myself 15 Years Ago](https://mbuffett.com/posts/programming-advice-younger-self/)
+  - If you (or your team) are shooting yourselves in the foot constantly, fix the gun
+  - Assess the trade-off you’re making between quality and pace, make sure it’s appropriate for your context
+  - Spending time sharpening the axe is almost always worth it
+  - If you can’t easily explain why something is difficult, then it’s incidental complexity, which is probably worth addressing
+  - Try to solve bugs one layer deeper
+  - Don’t underestimate the value of digging into history to investigate some bugs
+  - Bad code gives you feedback, perfect code doesn’t. Err on the side of writing bad code
+  - Make debugging easier
+  - When working on a team, you should usually ask the question
+  - Shipping cadence matters a lot. Think hard about what will get you shipping quickly and often
 
 ## Other general material and list of resources
 
@@ -696,6 +708,14 @@ See also the Writing section
 
 - [Continuous Integration](https://martinfowler.com/articles/continuousIntegration.html), MartinFowler.com
 
+### Data analysis
+
+- [Ways to make fake data look meaningful](https://danbirken.com/statistics/2013/11/19/ways-to-make-fake-data-look-meaningful.html)
+  - Don’t share the raw data
+  - Don’t share your methodology
+  - Don’t include confidence intervals
+  - Don’t challenge your own data
+
 ### Databases
 
 See also the SQL section.
@@ -712,6 +732,10 @@ See also the SQL section.
 - [Course introduction — MySQL for Developers](https://planetscale.com/learn/courses/mysql-for-developers/introduction/course-introduction), PlanetScale
 - [How Query Engines Work](https://howqueryengineswork.com/00-introduction.html)
 - [Why you should probably be using SQLite | Epic Web Dev](https://www.epicweb.dev/why-you-should-probably-be-using-sqlite)
+
+Scaling databases:
+
+- [How Figma's Databases Team Lived to Tell the Scale](https://www.figma.com/blog/how-figmas-databases-team-lived-to-tell-the-scale/): interesting story about sharding
 
 #### NoSQL
 
@@ -745,6 +769,7 @@ See also the SQL section.
 - [Falsehoods Programmers Believe About Falsehoods Lists](https://kevin.deldycke.com/2016/12/falsehoods-programmers-believe-about-falsehoods-lists/)
 - [Australia/Lord_Howe is the weirdest timezone](https://ssoready.com/blog/engineering/truths-programmers-timezones/)
 - [A love letter to the CSV format](https://github.com/medialab/xan/blob/master/docs/LOVE_LETTER.md)
+- [Falsehoods Programmers Believe About Aviation](https://flightaware.engineering/falsehoods-programmers-believe-about-aviation/)
 
 ### Data science/data engineering
 
@@ -828,6 +853,7 @@ Articles :
   - Help Users Recognize, Diagnose, And Recover From Errors
 - [How to pick more beautiful colors for your data visualizations](https://blog.datawrapper.de/beautifulcolors/)
 - [Visual design rules you can safely follow every time](https://anthonyhobday.com/sideprojects/saferules/)
+- [Malleable software: Restoring user agency in a world of locked-down apps](https://www.inkandswitch.com/essay/malleable-software/)
 
 Typograhy: see "Typography" section
 
