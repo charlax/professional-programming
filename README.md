@@ -1097,6 +1097,7 @@ The best way to learn is to learn by doing.
 - [A list of programming playgrounds](https://jvns.ca/blog/2023/04/17/a-list-of-programming-playgrounds/), Julia Evans
 - [Write more "useless" software](https://ntietz.com/blog/write-more-useless-software/)
 - [SadServers - Linux & DevOps Troubleshooting Interviews](https://sadservers.com/)
+- [Writing Toy Software Is A Joy](https://blog.jsbarretto.com/post/software-is-joy)
 
 Practice:
 
@@ -1579,6 +1580,7 @@ _See also: [Site Reliability Engineering (SRE)](#site-reliability-engineering-sr
   - I am seeing evidence that people taught knowledge management for its own sake produce unexciting work.
 - [MaggieAppleton/digital-gardeners](https://github.com/MaggieAppleton/digital-gardeners)
 - [Notes apps are where ideas go to die. And that’s good.](https://www.reproof.app/blog/notes-apps-help-us-forget)
+- [I Deleted My Second Brain](https://www.joanwestenberg.com/p/i-deleted-my-second-brain)
 
 ### Personal productivity
 
