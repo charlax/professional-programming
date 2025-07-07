@@ -268,6 +268,15 @@ There are some free books available, including:
   - Make debugging easier
   - When working on a team, you should usually ask the question
   - Shipping cadence matters a lot. Think hard about what will get you shipping quickly and often
+- [Expert Generalists](https://martinfowler.com/articles/expert-generalist.html), martinfowler.com, proposes an interesting take on the "T-shaped engineer"
+  - The Characteristics of an Expert Generalist: Curiosity, Collaborativeness, Customer Focus, Favor Fundamental Knowledge, Blend of Generalist and Specialist Skills, Sympathy for Related Domains
+  - Assessing Expert Generalists: hiring and career progression
+  - Growing Expert Generalists: From Tools to Fundamentals
+    - "Why does our attention keep drifting toward tool expertise? It isn't because people are shortsighted or lazy; it's because the fundamentals are hard to see amid the noise."
+  - Expert Generalists still need Specialists
+  - Expert Generalists in the Age of LLMs
+    - "Similarly to a specialist, an LLM can rapidly answer questions that an Expert Generalist will have when working in a new domain."
+    - "Rather than looking for “the answer”, they prompt them to generate questions, explaining mechanisms, and providing examples and even tools that help explore the underlying mechanisms of an idea."
 
 ## Other general material and list of resources
 
