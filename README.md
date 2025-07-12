@@ -779,6 +779,7 @@ Scaling databases:
 - [Australia/Lord_Howe is the weirdest timezone](https://ssoready.com/blog/engineering/truths-programmers-timezones/)
 - [A love letter to the CSV format](https://github.com/medialab/xan/blob/master/docs/LOVE_LETTER.md)
 - [Falsehoods Programmers Believe About Aviation](https://flightaware.engineering/falsehoods-programmers-believe-about-aviation/)
+- [Schemas - Schema.org](https://schema.org/docs/schemas.html)
 
 ### Data science/data engineering
 
