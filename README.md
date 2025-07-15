@@ -1,5 +1,6 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
 ## Table of Contents
 
 - [Professional Programming - about this list](#professional-programming---about-this-list)
@@ -134,6 +135,7 @@
     - [Version control (Git)](#version-control-git)
     - [Work ethics, productivity & work/life balance](#work-ethics-productivity--worklife-balance)
     - [Web development](#web-development)
+    - [Blockchain](#Blockchain)
     - [Writing (communication, blogging)](#writing-communication-blogging)
   - [Resources & inspiration for presentations](#resources--inspiration-for-presentations)
   - [Keeping up-to-date](#keeping-up-to-date)
@@ -1722,7 +1724,6 @@ JavaScript is such a pervasive language that it's almost required learning.
   - "Listening to books instead of reading them is like drinking your vegetables instead of eating them"
   - “You will not learn anything of lasting importance from TV, movies, podcasts…they’re junk food. Successful people converge on 3 ways to learn: lots of reading time, some exercises and projects, and conversations with people who are slightly ahead of them.”
 
-
 ### Refactoring
 
 - [The Rule of Three](https://blog.codinghorror.com/rule-of-three/), Coding Horror
@@ -1944,7 +1945,7 @@ List of resources:
 - [SQL styleguide](http://www.sqlstyle.guide/)
 - [Best practices for writing SQL queries](https://www.metabase.com/learn/building-analytics/sql-templates/sql-best-practices)
 - [Practical SQL for Data Analysis](https://hakibenita.com/sql-for-data-analysis)
-- [Reasons why SELECT * is bad for SQL performance](https://tanelpoder.com/posts/reasons-why-select-star-is-bad-for-sql-performance/)
+- [Reasons why SELECT \* is bad for SQL performance](https://tanelpoder.com/posts/reasons-why-select-star-is-bad-for-sql-performance/)
 - [Animate SQL](https://animatesql.com/)
 - [Lost at SQL](https://lost-at-sql.therobinlord.com/), an SQL learning game
 - [Joins 13 Ways](https://justinjaffray.com/joins-13-ways/?a=b)
@@ -1963,7 +1964,7 @@ List of resources:
     - Offline: How many interactions does the app need to support offline?
     - Concurrent clients: How many concurrent clients will look at the same data?
   - Programming model:
-    - Centralization: How centralized is the programming model and infrastructure?  Flexibility: How flexible are sync policies, especially around conflict resolution?
+    - Centralization: How centralized is the programming model and infrastructure? Flexibility: How flexible are sync policies, especially around conflict resolution?
     - Consistency: What types of invariants can the application assert about its data model, and how strong can these invariants be?
 
 ### System administration
@@ -2206,9 +2207,15 @@ URLs:
 - [Examples of Great URL Design](https://blog.jim-nielsen.com/2023/examples-of-great-urls/)
 - [Four Cool URLs - Alex Pounds' Blog](https://alexpounds.com/blog/2018/12/29/four-cool-urls)
 
+### Blockchain
+
+- [Cyfrin](https://www.cyfrin.io/) – Advanced/beginner blockchain engineering bootcamp and in-depth videos , covering Solidity, ZK, and smart contract security.
+
+- [RareSkills](https://www.rareskills.io/) – Advanced blockchain engineering bootcamp and in-depth articles, covering Solidity, ZK, MEV, and smart contract security.
+
 ### Writing (communication, blogging)
 
-➡️  See also my [engineering-management list](https://github.com/charlax/engineering-management#writing)
+➡️ See also my [engineering-management list](https://github.com/charlax/engineering-management#writing)
 
 - [Undervalued Software Engineering Skills: Writing Well](https://blog.pragmaticengineer.com/on-writing-well/)
   - From the HN discussion: "Writing a couple of pages of design docs or an Amazon-style 6 pager or whatever might take a few days of work, but can save weeks or more of wasted implementation time when you realise your system design was flawed or it doesn't address any real user needs."
@@ -2259,7 +2266,7 @@ Guides & classes about technical writing:
 ![Write like an Amazonian](./images/amazon_writing_rules.jpeg)
 
 > If you’re overthinking, write. If you’re underthinking, read.
-> – @AlexAndBooks_
+> – @AlexAndBooks\_
 
 ## Resources & inspiration for presentations
 
