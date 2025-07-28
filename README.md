@@ -1742,7 +1742,6 @@ JavaScript is such a pervasive language that it's almost required learning.
 
 ### Releasing & deploying
 
-- [How we release so frequently](http://engineering.skybettingandgaming.com/2016/02/02/how-we-release-so-frequently/)
 - [How to deploy software](https://zachholman.com/posts/deploying-software), Zach Holman
 - [BlueGreenDeployment](http://martinfowler.com/bliki/BlueGreenDeployment.html), Martin Fowler
 - [Move fast and break nothing](https://zachholman.com/talk/move-fast-break-nothing/), Zach Holman
@@ -2130,6 +2129,8 @@ End-to-end tests:
 ### Type system
 
 - [Counterexamples in Type Systems](https://counterexamples.org/intro.html): a library of runtime issues that weren't caught by the type system
+- [Use Your Type System](https://www.dzombak.com/blog/2025/07/use-your-type-system/)
+  - Your models should each have their own ID type. Public and even private functions should often avoid dealing in floats or integers alone.
 
 ### Typography
 
@@ -2196,6 +2197,7 @@ Topics:
 - [67 Weird Debugging Tricks Your Browser Doesn't Want You to Know](https://alan.norbauer.com/articles/browser-debugging-tricks)
 - [Client-Side Architecture Basics](https://khalilstemmler.com/articles/client-side-architecture/introduction/)
 - [Web Browser Engineering](https://browser.engineering/index.html): this book explains how to build a basic but complete web browser, from networking to JavaScript, in a couple thousand lines of Python.
+- [Don't animate height!](https://www.granola.ai/blog/dont-animate-height)
 
 URLs:
 
