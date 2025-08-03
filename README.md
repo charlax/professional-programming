@@ -1809,8 +1809,10 @@ JavaScript is such a pervasive language that it's almost required learning.
 
 Books:
 
-- 📖 [Site Reliability Engineering](https://landing.google.com/sre/books/)
+- 📖 [Site Reliability Engineering](https://landing.google.com/sre/books/), Google
   - Written by members of Google's SRE team, with a comprehensive analysis of the entire software lifecycle - how to build, deploy, monitor, and maintain large scale systems.
+- 📖 [Incident Metrics in SRE](https://static.googleusercontent.com/media/sre.google/en//static/pdf/IncidentMeticsInSre.pdf), Štěpán Davidovič, Google
+  - Canonical definition of TTD (Time To Detect) TTM (Mitigate), TTR (Recover), TBF (Time Between Failure)
 
 Quotes:
 
