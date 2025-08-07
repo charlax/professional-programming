@@ -1114,6 +1114,7 @@ Practice:
 - [CodinGame](https://www.codingame.com/start)
 - [Codewars](https://www.codewars.com/)
 - [Exercism](https://exercism.org/)
+- [LabEx](https://labex.io/)
 
 ### Experimentation
 
@@ -1433,6 +1434,7 @@ Richard Feynman's Learning Strategy:
 
 - [Welcome to Linux command line for you and me!](https://lym.readthedocs.io/en/latest/index.html)
 - [Linux Performance](https://www.brendangregg.com/linuxperf.html), Brendan Gregg
+- [Learn Linux with Labs](https://labex.io/learn/linux)
 
 ### Low-code/no-code
 
