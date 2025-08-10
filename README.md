@@ -2246,6 +2246,8 @@ URLs:
 - [7 Common Mistakes in Architecture Diagrams](https://www.ilograph.com/blog/posts/diagram-mistakes/)
 - [Why Blog If Nobody Reads It?](https://andysblog.uk/why-blog-if-nobody-reads-it/)
   - Blogging forces clarity. It makes you structure your thoughts, sharpen your perspective.
+- [Specificity: A weapon of mass effectiveness](https://longform.asmartbear.com/specificity/), A Smart Bear.
+  - Swap generic words for specifics to make your text clear, powerful, engaging, and even funny.
 
 Guides & classes about technical writing:
 
