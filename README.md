@@ -687,6 +687,7 @@ About senior engineers:
 - [kettanaito/naming-cheatsheet](https://github.com/kettanaito/naming-cheatsheet): : comprehensive language-agnostic guidelines on variables naming. Home of the A/HC/LC pattern.
 - 🧰 [Quality Engineering Guides](https://qeunit.com/guides/)
 - [What Makes Code Hard To Read: Visual Patterns of Complexity](https://seeinglogic.com/posts/visual-readability-patterns/)
+- [zakirullin/cognitive-load: 🧠 Cognitive Load is what matters](https://github.com/zakirullin/cognitive-load)
 
 ### Communication
 
