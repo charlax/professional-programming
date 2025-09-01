@@ -370,6 +370,7 @@ Let's be honest: algorithms can be a pretty dry topic. [This quora question](htt
 - [Hashing](https://samwho.dev/hashing/)
 - [Visualizing Algorithms](https://bost.ocks.org/mike/algorithms/)
 - [B-trees and database indexes](https://planetscale.com/blog/btrees-and-database-indexes)
+- [Big O visualizations](https://samwho.dev/big-o/)
 
 Example implementations:
 
