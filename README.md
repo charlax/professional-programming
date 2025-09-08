@@ -315,6 +315,7 @@ There are some free books available, including:
   - Helps you to be strategic in your interaction with people in that role
 - [Teach Yourself Programming in Ten Years](https://norvig.com/21-days.html)
 - [Mistakes You Apparently Just Have to Make Yourself](https://medium.com/@mcfunley/mistakes-you-apparently-just-have-to-make-yourself-cc2dd2bfc25c)
+- [The Best Programmers I Know](https://endler.dev/2025/best-programmers/)
 
 ### Axioms
 
@@ -1952,7 +1953,7 @@ List of resources:
 - [Lost at SQL](https://lost-at-sql.therobinlord.com/), an SQL learning game
 - [Joins 13 Ways](https://justinjaffray.com/joins-13-ways/?a=b)
 - [spandanb/learndb-py](https://github.com/spandanb/learndb-py): learn database internals by implementing it from scratch.
-- [SQL for the Weary](https://gvwilson.github.io/sql-tutorial/)
+- [gvwilson/querynomicon](https://github.com/gvwilson/querynomicon): an Introduction to SQL for the Cautious and Weary
 
 ### State
 
@@ -1999,7 +2000,6 @@ Books:
 Articles:
 
 - [6 Rules of thumb to build blazing fast web server applications](http://loige.co/6-rules-of-thumb-to-build-blazing-fast-web-applications/)
-
 - [The twelve-factor app](http://12factor.net/)
 - [Introduction to architecting systems for scale](http://lethain.com/introduction-to-architecting-systems-for-scale/)
 - [The Log: What every software engineer should know about real-time data's unifying abstraction](https://engineering.linkedin.com/distributed-systems/log-what-every-software-engineer-should-know-about-real-time-datas-unifying): one of those classical articles that everyone should read.
