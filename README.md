@@ -2298,6 +2298,7 @@ Newsletters:
 - [Bytes](https://bytes.dev/) (JavaScript)
 - [PyCoders](https://pycoders.com/) (Python)
 - [Posthog](https://newsletter.posthog.com/)
+- [Tech Talks Weekly](https://techtalksweekly.io/)
 
 Blogs:
 
