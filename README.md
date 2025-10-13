@@ -372,6 +372,7 @@ Let's be honest: algorithms can be a pretty dry topic. [This quora question](htt
 - [Visualizing Algorithms](https://bost.ocks.org/mike/algorithms/)
 - [B-trees and database indexes](https://planetscale.com/blog/btrees-and-database-indexes)
 - [Big O visualizations](https://samwho.dev/big-o/)
+- [Algorithm explained like Ikea instructions](https://idea-instructions.com/)
 
 Example implementations:
 
@@ -2204,6 +2205,7 @@ Topics:
 - [Client-Side Architecture Basics](https://khalilstemmler.com/articles/client-side-architecture/introduction/)
 - [Web Browser Engineering](https://browser.engineering/index.html): this book explains how to build a basic but complete web browser, from networking to JavaScript, in a couple thousand lines of Python.
 - [Don't animate height!](https://www.granola.ai/blog/dont-animate-height)
+- [How modern browsers work](https://addyo.substack.com/p/how-modern-browsers-work)
 
 URLs:
 
