@@ -113,6 +113,7 @@
       - [Feature flags](#feature-flags)
       - [Testing in production](#testing-in-production)
     - [Reliability](#reliability)
+      - [Integration patterns (dependency management)](#integration-patterns-dependency-management)
       - [Resiliency](#resiliency)
     - [Search](#search)
     - [Security](#security)
@@ -1862,6 +1863,15 @@ Resources:
 - 🧰 [dastergon/awesome-sre](https://github.com/dastergon/awesome-sre)
 - 🧰 [upgundecha/howtheysre](https://github.com/upgundecha/howtheysre): a curated collection of publicly available resources on SRE at technology and tech-savvy organizations
 
+#### Integration patterns (dependency management)
+
+- [Circuit Breaker](https://martinfowler.com/bliki/CircuitBreaker.html) (mentioned in the Release it! book)
+  - [Making the Netflix API More Resilient](https://netflixtechblog.com/making-the-netflix-api-more-resilient-a8ec62159c2d), Netflix Blog
+  - 🏙 [Application Resilience Engineering & Operations at Netflix - Speaker Deck](https://speakerdeck.com/benjchristensen/application-resilience-engineering-and-operations-at-netflix)
+- [Rate limiter algorithms](https://smudge.ai/blog/ratelimit-algorithms) (and their [implementation](https://github.com/upstash/ratelimit-js/blob/main/src/lua-scripts/single.ts))
+- [Interactive Guide: Mastering Rate Limiting](https://blog.sagyamthapa.com.np/interactive-guide-to-rate-limiting)
+- [Good Retry, Bad Retry: An Incident Story](https://medium.com/yandex/good-retry-bad-retry-an-incident-story-648072d3cee6): insightful, well-written story about retries, circuit breakers, deadline, etc.
+
 #### Resiliency
 
 - 🏙 [The Walking Dead - A Survival Guide to Resilient Applications](https://speakerdeck.com/daschl/the-walking-dead-a-survival-guide-to-resilient-applications)
@@ -2024,11 +2034,7 @@ Articles:
 
 - BFF (backend for frontend)
   - [Backends For Frontends](https://samnewman.io/patterns/architectural/bff/)
-- Circuit breaker
-- [Rate limiter algorithms](https://smudge.ai/blog/ratelimit-algorithms) (and their [implementation](https://github.com/upstash/ratelimit-js/blob/main/src/lua-scripts/single.ts))
-- [Interactive Guide: Mastering Rate Limiting](https://blog.sagyamthapa.com.np/interactive-guide-to-rate-limiting)
 - [Load Balancing](https://samwho.dev/load-balancing/): a visual exploration of load balancing algos
-- [Good Retry, Bad Retry: An Incident Story](https://medium.com/yandex/good-retry-bad-retry-an-incident-story-648072d3cee6): insightful, well-written story about retries, circuit breakers, deadline, etc.
 - [AWS Well-Architected Framework](https://docs.aws.amazon.com/wellarchitected/latest/framework/welcome.html)
   - Operational excellence
   - Security
