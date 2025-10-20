@@ -607,6 +607,11 @@ Biases don't only apply to hiring. For instance, the fundamental attribution bia
 - [How to be successful at Amazon (or any other large company for that matter)](https://www.reddit.com/r/cscareerquestions/comments/4x0ugj/how_to_be_successful_at_amazon_or_any_other_large/)
 - [Being good isn’t enough](https://joshs.bearblog.dev/being-good-isnt-enough/)
   - The biggest gains come from combining disciplines.
+- [Stop Avoiding Politics](https://terriblesoftware.org/2025/10/01/stop-avoiding-politics/) is a good contrarian take on the current (negative) connotation of the word "politics".
+  - In a way, it is unfortunate that "politics" got that connotation since Aristotle rightfully considered politics the highest form of practical wisdom, since it has to do with humans as social animals.
+  - "Good politics is just being strategic about relationships and influence in the service of good outcomes."
+  - Examples: building relationships before you need them, understanding the incentives, managing up effectively, creating win-win situation, being visible.
+  - "The alternative to good politics isn’t no politics. It’s bad politics winning by default. It’s the loud person who’s wrong getting their way because the quiet person who’s right won’t speak up."
 
 About senior engineers:
 
@@ -1868,6 +1873,7 @@ Resources:
 - [Circuit Breaker](https://martinfowler.com/bliki/CircuitBreaker.html) (mentioned in the Release it! book)
   - [Making the Netflix API More Resilient](https://netflixtechblog.com/making-the-netflix-api-more-resilient-a8ec62159c2d), Netflix Blog
   - 🏙 [Application Resilience Engineering & Operations at Netflix - Speaker Deck](https://speakerdeck.com/benjchristensen/application-resilience-engineering-and-operations-at-netflix)
+  - [Design Pattern: Circuit Breaker](https://learn.microsoft.com/en-us/azure/architecture/patterns/circuit-breaker), Microsoft Azure
 - [Rate limiter algorithms](https://smudge.ai/blog/ratelimit-algorithms) (and their [implementation](https://github.com/upstash/ratelimit-js/blob/main/src/lua-scripts/single.ts))
 - [Interactive Guide: Mastering Rate Limiting](https://blog.sagyamthapa.com.np/interactive-guide-to-rate-limiting)
 - [Good Retry, Bad Retry: An Incident Story](https://medium.com/yandex/good-retry-bad-retry-an-incident-story-648072d3cee6): insightful, well-written story about retries, circuit breakers, deadline, etc.
