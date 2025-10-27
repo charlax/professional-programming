@@ -473,6 +473,7 @@ More specific topics:
 - [Advice for new software devs who've read all those other advice essays](https://buttondown.email/hillelwayne/archive/advice-for-new-software-devs-whove-read-all-those/)
 - [Microservices aren't the problem. Incompetent people are](https://nondv.wtf/blog/posts/microservices-arent-the-problem-incompetent-people-are.html)
 - [High Agency](https://www.highagency.com/) (30-min read)
+- [What is "good taste" in software engineering?](https://www.seangoedecke.com/taste/): it's all about contextual tradeoff.
 
 > Imposter syndrome is underrated: a lot of talk goes into overcoming imposter syndrome. I say embrace self-skepticism and doubt yourself every day. In a fast-moving industry where lots of your knowledge expires every year, even the most junior people around you constantly cook up skills you don't have; you stay competitive by applying with the determination (and even fear) of the novice. The upside of this treadmill is that every engineer is on it: just because you're an imposter doesn't mean that other people are more deserving than you, because they're imposters too. You should advocate for yourself, take risks, pat yourself on the back when things go well, and, as you start to build a track record of solving problems, trust your skills and adaptability. Just make no mistake: you're only as good as the last problem you solve.
 
@@ -1445,6 +1446,7 @@ Richard Feynman's Learning Strategy:
 
 - [Welcome to Linux command line for you and me!](https://lym.readthedocs.io/en/latest/index.html)
 - [Linux Performance](https://www.brendangregg.com/linuxperf.html), Brendan Gregg
+- [Linux disk I/O diagram](https://zenodo.org/records/15234151)
 
 ### Low-code/no-code
 
