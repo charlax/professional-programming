@@ -1121,6 +1121,7 @@ The best way to learn is to learn by doing.
 - [Write more "useless" software](https://ntietz.com/blog/write-more-useless-software/)
 - [SadServers - Linux & DevOps Troubleshooting Interviews](https://sadservers.com/)
 - [Writing Toy Software Is A Joy](https://blog.jsbarretto.com/post/software-is-joy)
+- [Fly.io Distributed Systems Challenge "Gossip Glomers"](https://fly.io/dist-sys/)
 
 Practice:
 
@@ -2229,6 +2230,7 @@ URLs:
   - A URN is a string of characters that uniquely identifies a resource. Its syntax is `urn:<namespace identifier>:<namespace specific string>`. E.g. `urn:isbn:9780062301239`
 - [Examples of Great URL Design](https://blog.jim-nielsen.com/2023/examples-of-great-urls/)
 - [Four Cool URLs - Alex Pounds' Blog](https://alexpounds.com/blog/2018/12/29/four-cool-urls)
+- [Your URL Is Your State](https://alfy.blog/2025/10/31/your-url-is-your-state.html)
 
 ### Writing (communication, blogging)
 
