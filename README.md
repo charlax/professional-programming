@@ -287,8 +287,9 @@ There are some free books available, including:
 
 ### Books
 
-- [The Imposter's Handbook](https://bigmachine.io/products/the-imposters-handbook) - \$30. From the author: "Don't have a CS Degree? Neither do I - That's why I wrote this book."
-- [The Computer Science Book](https://thecomputersciencebook.com/book/)
+- 📖 [The Imposter's Handbook](https://bigmachine.io/products/the-imposters-handbook) - \$30. From the author: "Don't have a CS Degree? Neither do I - That's why I wrote this book."
+- 📖 [The Computer Science Book](https://thecomputersciencebook.com/book/)
+- 📖 [The Software Engineer's Guidebook](https://www.engguidebook.com/): Gergely Orosz's guidebook to the software engineering industry. Extremely complete.
 
 ### Articles
 
