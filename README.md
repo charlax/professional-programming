@@ -39,7 +39,7 @@
     - [Compilers](#compilers)
     - [Configuration](#configuration)
     - [Continuous Integration (CI)](#continuous-integration-ci)
-    - [Data analysis](#data-analysis)
+    - [Data analysis & data science](#data-analysis--data-science)
     - [Databases](#databases)
       - [NoSQL](#nosql)
       - [Postgres](#postgres)
@@ -730,13 +730,14 @@ See also the Writing section
 
 - [Continuous Integration](https://martinfowler.com/articles/continuousIntegration.html), MartinFowler.com
 
-### Data analysis
+### Data analysis & data science
 
 - [Ways to make fake data look meaningful](https://danbirken.com/statistics/2013/11/19/ways-to-make-fake-data-look-meaningful.html)
   - Don’t share the raw data
   - Don’t share your methodology
   - Don’t include confidence intervals
   - Don’t challenge your own data
+- 📖 [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/), O'Reilly
 
 ### Databases
 
