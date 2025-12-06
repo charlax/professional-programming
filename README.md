@@ -1891,6 +1891,7 @@ Resources:
 - 🏙 [The 7 quests of resilient software design](https://www.slideshare.net/ufried/the-7-quests-of-resilient-software-design)
 - 🧰 [Resilience engineering papers](https://github.com/lorin/resilience-engineering): comprehensive list of resources on resilience engineering
 - [MTTR is more important than MTBF (for most types of F)](https://www.kitchensoap.com/2010/11/07/mttr-mtbf-for-most-types-of-f/) (also as a [presentation](https://www.slideshare.net/jallspaw/dev-and-ops-collaboration-and-awareness-at-etsy-and-flickr))
+- [Failure is inevitable: learning from a large outage, and building for reliability in depth at Datadog](https://www.datadoghq.com/blog/engineering/rethinking-reliability/)
 
 ### Search
 
