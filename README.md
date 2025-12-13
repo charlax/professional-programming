@@ -700,6 +700,7 @@ About senior engineers:
 - 🧰 [Quality Engineering Guides](https://qeunit.com/guides/)
 - [What Makes Code Hard To Read: Visual Patterns of Complexity](https://seeinglogic.com/posts/visual-readability-patterns/)
 - [zakirullin/cognitive-load: 🧠 Cognitive Load is what matters](https://github.com/zakirullin/cognitive-load)
+- [How to create software quality](https://lethain.com/quality/)
 
 ### Communication
 
@@ -2073,6 +2074,7 @@ Articles:
 - [Death by a thousand microservices](https://renegadeotter.com/2023/09/10/death-by-a-thousand-microservices.html)
   - [Microservices](https://www.youtube.com/watch?v=y8OnoxKotPQ&ab_channel=KRAZAM)
 - [Disasters I've seen in a microservices world](https://world.hey.com/joaoqalves/disasters-i-ve-seen-in-a-microservices-world-a9137a51)
+- [You Want Microservices—But Do You Need Them?](https://www.docker.com/blog/do-you-really-need-microservices/), Docker
 
 ### Scalability
 
