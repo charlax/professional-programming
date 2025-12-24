@@ -943,6 +943,12 @@ Articles:
   - DDD is about problem space, not about solution space.
   - Familiarity is not the same as simplicity
   - The more mental models there are to learn, the longer it takes for a new developer to deliver value.
+- [CUPID: for joyful coding](https://dannorth.net/blog/cupid-for-joyful-coding/)
+  - Composable: plays well with others
+  - Unix philosophy: does one thing well
+  - Predictable: does what you expect
+  - Idiomatic: feels natural
+  - Domain-based: the solution domain models the problem domain in language and structure
 
 > You can use an eraser on the drafting table or a sledge hammer on the construction site. (Frank Lloyd Wright)
 
