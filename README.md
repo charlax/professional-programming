@@ -545,7 +545,7 @@ Biases don't only apply to hiring. For instance, the fundamental attribution bia
 
 ### Career growth
 
-- [The Conjoined Triangles of Senior-Level Development](http://frontside.io/blog/2016/07/07/the-conjoined-triangles-of-senior-level-development.html) looks into how to define a senior engineer.
+- [The Conjoined Triangles of Senior-Level Development](https://frontside.com/blog/2016-07-07-the-conjoined-triangles-of-senior-level-development) looks into how to define a senior engineer.
 - [Ten Principles for Growth as an Engineer](https://medium.com/@daniel.heller/ten-principles-for-growth-69015e08c35b), Dan Heller.
 - [Don't Call Yourself a Programmer](https://www.kalzumeus.com/2011/10/28/dont-call-yourself-a-programmer/), Patrick McKenzie.
 - [On being an Engineering Manager](https://nickmchardy.com/2019/02/on-being-an-engineering-manager.html)
