@@ -614,6 +614,7 @@ Biases don't only apply to hiring. For instance, the fundamental attribution bia
   - "Good politics is just being strategic about relationships and influence in the service of good outcomes."
   - Examples: building relationships before you need them, understanding the incentives, managing up effectively, creating win-win situation, being visible.
   - "The alternative to good politics isn’t no politics. It’s bad politics winning by default. It’s the loud person who’s wrong getting their way because the quiet person who’s right won’t speak up."
+- [21 Lessons from 14 Years at Google](https://addyo.substack.com/p/21-lessons-from-14-years-at-google)
 
 About senior engineers:
 
@@ -1514,6 +1515,8 @@ _See also: [Site Reliability Engineering (SRE)](#site-reliability-engineering-sr
 - [Logging - OWASP Cheat Sheet Series](https://cheatsheetseries.owasp.org/cheatsheets/Logging_Cheat_Sheet.html)
 - [The Audit Log Wall of Shame](https://audit-logs.tax/): list of vendors that don’t prioritize high-quality, widely-available audit logs for security and operations teams.
 - [Guide on Structured Logs](https://signoz.io/blog/structured-logs/)
+- [What an error log level should mean](https://utcc.utoronto.ca/~cks/space/blog/programming/ErrorsShouldRequireFixing)
+- [Logging Sucks - Your Logs Are Lying To You](https://loggingsucks.com/)
 
 #### Error/exception handling
 
