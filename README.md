@@ -955,6 +955,7 @@ Articles:
 Resources:
 
 - 🧰 [Design Principles](https://principles.design/)
+- 🧰 [System Design Primer](https://github.com/donnemartin/system-design-primer) - Learn how to design large-scale systems. Prep for system design interviews with examples and explanations
 
 #### Design: database schema
 
