@@ -615,6 +615,7 @@ Biases don't only apply to hiring. For instance, the fundamental attribution bia
   - Examples: building relationships before you need them, understanding the incentives, managing up effectively, creating win-win situation, being visible.
   - "The alternative to good politics isn’t no politics. It’s bad politics winning by default. It’s the loud person who’s wrong getting their way because the quiet person who’s right won’t speak up."
 - [21 Lessons from 14 Years at Google](https://addyo.substack.com/p/21-lessons-from-14-years-at-google)
+- [Publishing your work increases your luck](https://github.com/readme/guides/publishing-your-work)
 
 About senior engineers:
 
