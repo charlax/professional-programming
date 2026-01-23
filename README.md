@@ -1059,6 +1059,7 @@ See also the Python-specific section in [charlax/python-education](https://githu
 - [ARCHITECTURE.md](https://matklad.github.io/2021/02/06/ARCHITECTURE.md.html)
 - [Two open source projects with great documentation](https://johnjago.com/great-docs/) (esbuild and redis)
 - [Rules for Writing Software Tutorials](https://refactoringenglish.com/chapters/rules-for-software-tutorials/)
+- [Clear Technical Writing](https://keon.kim/writing/clear-technical-writing/)
 
 > The palest ink is more reliable than the most powerful memory.
 > -- Chinese proverb
