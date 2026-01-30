@@ -1483,6 +1483,7 @@ Richard Feynman's Learning Strategy:
 
 - [Transformers from Scratch](https://e2eml.school/transformers.html)
 - [A Gentle Introduction to Graph Neural Networks](https://distill.pub/2021/gnn-intro/)
+- [The Math Behind Artificial Intelligence](https://www.freecodecamp.org/news/the-math-behind-artificial-intelligence-book) - Tiago Monteiro. Covers linear algebra, calculus, probability, and optimization theory in the context of AI and machine learning.
 
 ### Math
 
