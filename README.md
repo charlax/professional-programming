@@ -71,6 +71,7 @@
       - [Postmortem](#postmortem)
     - [Internet](#internet)
     - [Interviewing](#interviewing)
+- [AI Interview Coach](https://em-tools.io/interview-prep) - Voice-based AI behavioral interview practice for engineering managers and software engineers
     - [Kubernetes](#kubernetes)
     - [Large Language Model (LLM)](#large-language-model-llm)
     - [Learning & memorizing](#learning--memorizing)
