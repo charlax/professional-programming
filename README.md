@@ -356,7 +356,7 @@ There are some free books available, including:
 ### Algorithm and data structures
 
 - Read the [CLRS](https://mitpress.mit.edu/books/introduction-algorithms). You can watch and download the course on [OCW](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-introduction-to-algorithms-sma-5503-fall-2005/) - there are newer courses as well.
-- Or [The Algorithm Design Manual](https://www.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1849967202?ie=UTF8&qid=1297127794&ref_=sr_1_1&sr=8-1)
+- Or [The Algorithm Design Manual](https://www.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1849967202?ie=UTF8&qid=1297127794&ref_=sr_1_1&sr=8-1) (Skiena)
 - Try out some algorithms on [Project Euler](https://projecteuler.net/)
 - [CS 61B Spring 2023](https://sp23.datastructur.es/)
 
@@ -364,7 +364,7 @@ Other resources:
 
 - [Algorithms](http://jeffe.cs.illinois.edu/teaching/algorithms/), Jeff Erickson
 
-Let's be honest: algorithms can be a pretty dry topic. [This quora question](https://www.quora.com/Is-there-a-book-that-teaches-algorithms-data-structures-and-other-computer-science-basics-in-a-fun-way) lists some funnier learning alternative, including:
+Here are some useful & interesting algo & DS visualizations:
 
 - [Grokking Algorithms](https://www.amazon.com/dp/1617292230/ref=cm_sw_su_dp)
 - [Essential Algorithms](https://www.amazon.com/Essential-Algorithms-Practical-Approach-Computer/dp/1118612108?ie=UTF8&*Version*=1&*entries*=0)
@@ -375,6 +375,7 @@ Let's be honest: algorithms can be a pretty dry topic. [This quora question](htt
 - [B-trees and database indexes](https://planetscale.com/blog/btrees-and-database-indexes)
 - [Big O visualizations](https://samwho.dev/big-o/)
 - [Algorithm explained like Ikea instructions](https://idea-instructions.com/)
+- [Decision Trees](https://mlu-explain.github.io/decision-tree/)
 
 Example implementations:
 
@@ -780,10 +781,15 @@ Scaling databases:
 - [Transaction Isolation in Postgres, explained](https://www.thenile.dev/blog/transaction-isolation-postgres)
 - [PostgreSQL exercises](https://pgexercises.com/)
 - [Postgres operations cheat sheet](https://wiki.postgresql.org/wiki/Operations_cheat_sheet)
-- [Just use Postgres](https://mccue.dev/pages/8-16-24-just-use-postgres)
-- [Postgres is Enough](https://gist.github.com/cpursley/c8fb81fe8a7e5df038158bdfe0f06dbb)
 - [Postgres: don't Do This](https://wiki.postgresql.org/wiki/Don't_Do_This)
 - [PostgreSQL and UUID as primary key](https://maciejwalkowiak.com/blog/postgres-uuid-primary-key/)
+- [Postgres lock explained](https://postgreslocksexplained.com/)
+
+"Just use postgres":
+
+- [Just use Postgres](https://mccue.dev/pages/8-16-24-just-use-postgres)
+- [Postgres is Enough](https://gist.github.com/cpursley/c8fb81fe8a7e5df038158bdfe0f06dbb)
+- [It’s 2026, Just Use Postgres](https://www.tigerdata.com/blog/its-2026-just-use-postgres)
 
 ### Data formats
 
