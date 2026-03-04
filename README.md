@@ -957,6 +957,10 @@ Articles:
   - Predictable: does what you expect
   - Idiomatic: feels natural
   - Domain-based: the solution domain models the problem domain in language and structure
+- [Nobody Gets Promoted for Simplicity](https://terriblesoftware.org/2026/03/03/nobody-gets-promoted-for-simplicity/)
+
+> “Simplicity is a great virtue, but it requires hard work to achieve and education to appreciate. And to make matters worse, complexity sells better.”
+> — Edsger Dijkstra
 
 > You can use an eraser on the drafting table or a sledge hammer on the construction site. (Frank Lloyd Wright)
 
@@ -1535,6 +1539,7 @@ _See also: [Site Reliability Engineering (SRE)](#site-reliability-engineering-sr
   - Write clearly
 - [Errors, Errors Everywhere: How We Centralized and Structured Error Handling](https://olivernguyen.io/w/namespace.error/) (for Go, but useful for any languages)
 - For inspiration: [Handle Errors - Graph API](https://developers.facebook.com/docs/graph-api/guides/error-handling#receiving-errorcodes)
+- [The Error Model](https://joeduffyblog.com/2016/02/07/the-error-model/), Joe Duffy, 2016.
 
 #### Metrics
 
