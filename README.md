@@ -804,6 +804,7 @@ Scaling databases:
 - [A love letter to the CSV format](https://github.com/medialab/xan/blob/master/docs/LOVE_LETTER.md)
 - [Falsehoods Programmers Believe About Aviation](https://flightaware.engineering/falsehoods-programmers-believe-about-aviation/)
 - [Schemas - Schema.org](https://schema.org/docs/schemas.html)
+- [ZIP Code First](https://zipcodefirst.com/)
 
 ### Data science/data engineering
 
@@ -1540,6 +1541,7 @@ _See also: [Site Reliability Engineering (SRE)](#site-reliability-engineering-sr
 - [Errors, Errors Everywhere: How We Centralized and Structured Error Handling](https://olivernguyen.io/w/namespace.error/) (for Go, but useful for any languages)
 - For inspiration: [Handle Errors - Graph API](https://developers.facebook.com/docs/graph-api/guides/error-handling#receiving-errorcodes)
 - [The Error Model](https://joeduffyblog.com/2016/02/07/the-error-model/), Joe Duffy, 2016.
+- [The Product-Minded Engineer: The importance of good errors and warnings](https://newsletter.pragmaticengineer.com/p/the-product-minded-engineer?publication_id=458709&r=4qowh)
 
 #### Metrics
 
@@ -1619,6 +1621,16 @@ _See also: [Site Reliability Engineering (SRE)](#site-reliability-engineering-sr
 - [Performance comparison: counting words in Python, Go, C++, C, AWK, Forth, and Rust](https://benhoyt.com/writings/count-words/): a great way to learn about measuring performance.
 - [The Mathematical Hacker](https://www.evanmiller.org/mathematical-hacker.html)
 - [Four Kinds of Optimisation](https://tratt.net/laurie/blog/2023/four_kinds_of_optimisation.html)
+- [Rob Pike's 5 Rules of Programming](https://www.cs.unc.edu/~stotts/COMP590-059-f24/robsrules.html)
+  - You can't tell where a program is going to spend its time.
+  - Measure first.
+  - If n is small, don't get fancy.
+  - Fancy algo are buggier.
+  - Data structures, not algo, are central to programming.
+
+> Premature optimization is the root of all evil.
+>
+> – Donald Knuth
 
 ### Personal knowledge management (PKM)
 
