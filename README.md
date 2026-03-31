@@ -2385,6 +2385,7 @@ Newsletters:
 - [PyCoders](https://pycoders.com/) (Python)
 - [Posthog](https://newsletter.posthog.com/)
 - [Tech Talks Weekly](https://techtalksweekly.io/)
+- [Techpresso](https://dupple.com/techpresso) (AI & tech)
 
 Blogs:
 
