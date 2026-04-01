@@ -42,6 +42,7 @@
     - [Continuous Integration (CI)](#continuous-integration-ci)
     - [Data analysis & data science](#data-analysis--data-science)
     - [Databases](#databases)
+      - [Internals](#internals)
       - [NoSQL](#nosql)
       - [Postgres](#postgres)
     - [Data formats](#data-formats)
@@ -62,6 +63,7 @@
     - [Engineering management](#engineering-management)
     - [Exercises](#exercises)
     - [Experimentation](#experimentation)
+    - [Fonts](#fonts)
     - [Functional programming (FP)](#functional-programming-fp)
     - [Games development](#games-development)
     - [Graphics](#graphics)
@@ -756,19 +758,23 @@ See also the SQL section.
 - [A plain English introduction to CAP Theorem](http://ksat.me/a-plain-english-introduction-to-cap-theorem)
 - [PACELC theorem](https://en.wikipedia.org/wiki/PACELC_theorem): "in case of network partitioning (P) in a distributed computer system, one has to choose between availability (A) and consistency (C) (as per the CAP theorem), but else (E), even when the system is running normally in the absence of partitions, one has to choose between latency (L) and consistency (C)."
 - [Zero downtime database migrations](https://blog.rainforestqa.com/2014-06-27-zero-downtime-database-migrations/) (code examples are using Rails but this works great for any programming language)
-- [Algorithms Behind Modern Storage Systems](https://queue.acm.org/detail.cfm?id=3220266), ACM Queue
-- [Let's Build a Simple Database](https://cstack.github.io/db_tutorial/)
 - [Readings in Database Systems, 5th Edition](http://www.redbook.io/)
 - [Comparing database types: how database types evolved to meet different needs](https://dataguide.prisma.io/intro/comparing-database-types)
 - [How does a relational database work](http://coding-geek.com/how-databases-work/)
 - [Use the index, Luke](https://use-the-index-luke.com/)
 - [Course introduction — MySQL for Developers](https://planetscale.com/learn/courses/mysql-for-developers/introduction/course-introduction), PlanetScale
-- [How Query Engines Work](https://howqueryengineswork.com/00-introduction.html)
 - [Why you should probably be using SQLite | Epic Web Dev](https://www.epicweb.dev/why-you-should-probably-be-using-sqlite)
 
 Scaling databases:
 
 - [How Figma's Databases Team Lived to Tell the Scale](https://www.figma.com/blog/how-figmas-databases-team-lived-to-tell-the-scale/): interesting story about sharding
+
+#### Internals
+
+- [How Query Engines Work](https://howqueryengineswork.com/00-introduction.html)
+- [Let's Build a Simple Database](https://cstack.github.io/db_tutorial/)
+- [Algorithms Behind Modern Storage Systems](https://queue.acm.org/detail.cfm?id=3220266), ACM Queue
+- [sorted string tables (SST) from first principles](https://www.bitsxpages.com/p/sorted-string-tables-sst-from-first)
 
 #### NoSQL
 
@@ -1160,6 +1166,10 @@ Practice:
 
 - [8 annoying A/B testing mistakes every engineer should know](https://posthog.com/blog/ab-testing-mistakes)
 
+### Fonts
+
+- [GitHub Monaspace Case Study](https://lettermatic.com/custom/monaspace-case-study)
+
 ### Functional programming (FP)
 
 - [Goodbye, Object Oriented Programming](https://medium.com/@cscalfani/goodbye-object-oriented-programming-a59cda4c0e53#.39ax09e4k)
@@ -1313,6 +1323,7 @@ Note: this is about you as an interviewee, **not** as an interviewer. To check o
 - [Preparing for the Systems Design and Coding Interview](https://blog.pragmaticengineer.com/preparing-for-the-systems-design-and-coding-interviews/), Gergely Orosz
 - [What I Learned from Doing 60+ Technical Interviews in 30 Days](https://meekg33k.dev/what-i-learned-from-doing-60-technical-interviews-in-30-days)
 - [System Design Interview Guide for Senior Engineers](https://interviewing.io/guides/system-design-interview), interviewing.io
+- [noamseg/interview-coach-skill](https://github.com/noamseg/interview-coach-skill): a Claude Code-based interview coach
 
 Questions you should ask:
 
