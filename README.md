@@ -66,6 +66,7 @@
     - [Fonts](#fonts)
     - [Functional programming (FP)](#functional-programming-fp)
     - [Games development](#games-development)
+    - [Generative AI](#generative-ai)
     - [Graphics](#graphics)
     - [Hardware](#hardware)
     - [HTTP](#http)
@@ -1196,6 +1197,10 @@ Practice:
 ### Games development
 
 - [Introduction · Joys of Small Game Development](https://abagames.github.io/joys-of-small-game-development-en/)
+
+### Generative AI
+
+- [Don't Let AI Write For You](https://alexhwoods.com/dont-let-ai-write-for-you/)
 
 ### Graphics
 
