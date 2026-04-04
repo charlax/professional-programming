@@ -1371,7 +1371,7 @@ Learn how to learn!
 - [How to ask good questions](https://jvns.ca/blog/good-questions/), Julia Evans.
 - [Stop Learning Frameworks](https://sizovs.net/2018/12/17/stop-learning-frameworks/)
 - [Learning How to Learn](https://www.coursera.org/learn/learning-how-to-learn): powerful mental tools to help you master tough subjects
-- [LearnAI](https://uselearnai.com): AI-powered conversational tutor — tell it what you want to learn and your level; it builds a personalized curriculum and teaches interactively using active recall.
+- [LearnAI](https://uselearnai.com/chat?topic=python): AI-powered conversational tutor — tell it what you want to learn and your level; it builds a personalized curriculum and teaches interactively using active recall.
 - [Why books don’t work](https://andymatuschak.org/books/), Andy Matuschak.
   - "As a medium, books are surprisingly bad at conveying knowledge, and readers mostly don’t realize it."
   - "In learning sciences, we call this model “transmissionism.” It’s the notion that knowledge can be directly transmitted from teacher to student, like transcribing text from one page onto another. If only!"
