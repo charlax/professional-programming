@@ -725,6 +725,7 @@ See also the Writing section
 
 - [The Compiler Writer Resource Page](https://c9x.me/compile/bib/)
 - [kanaka/mal](https://github.com/kanaka/mal): mal - Make a Lisp
+- [Let's Build a Compiler](https://compilers.iecc.com/crenshaw/), Jack W. Crenshaw, 1988
 
 ### Configuration
 
