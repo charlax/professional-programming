@@ -322,6 +322,7 @@ There are some free books available, including:
 - [Teach Yourself Programming in Ten Years](https://norvig.com/21-days.html)
 - [Mistakes You Apparently Just Have to Make Yourself](https://medium.com/@mcfunley/mistakes-you-apparently-just-have-to-make-yourself-cc2dd2bfc25c)
 - [The Best Programmers I Know](https://endler.dev/2025/best-programmers/)
+- [Laws of Software Engineering](https://lawsofsoftwareengineering.com/)
 
 ### Axioms
 
@@ -726,6 +727,7 @@ See also the Writing section
 - [The Compiler Writer Resource Page](https://c9x.me/compile/bib/)
 - [kanaka/mal](https://github.com/kanaka/mal): mal - Make a Lisp
 - [Let's Build a Compiler](https://compilers.iecc.com/crenshaw/), Jack W. Crenshaw, 1988
+- [Writing a C Compiler, in Zig](https://ar-ms.me/thoughts/c-compiler-1-zig/)
 
 ### Configuration
 
@@ -1562,7 +1564,7 @@ _See also: [Site Reliability Engineering (SRE)](#site-reliability-engineering-sr
   - Write clearly
 - [Errors, Errors Everywhere: How We Centralized and Structured Error Handling](https://olivernguyen.io/w/namespace.error/) (for Go, but useful for any languages)
 - For inspiration: [Handle Errors - Graph API](https://developers.facebook.com/docs/graph-api/guides/error-handling#receiving-errorcodes)
-- [The Error Model](https://joeduffyblog.com/2016/02/07/the-error-model/), Joe Duffy, 2016.
+- [The Error Model](https://joeduffyblog.com/2016/02/07/the-error-model/), Joe Duffy, 2016. A quite comprehensive treatment of how to model errors at the programming language level.
 - [The Product-Minded Engineer: The importance of good errors and warnings](https://newsletter.pragmaticengineer.com/p/the-product-minded-engineer?publication_id=458709&r=4qowh)
 
 #### Metrics
@@ -2106,6 +2108,10 @@ Articles:
 - [ConwaysLaw](https://martinfowler.com/bliki/ConwaysLaw.html), MartinFowler.com (regarding organization, check out my [engineering-management](https://github.com/charlax/engineering-management/) list).
 - [The C4 model for visualising software architecture](https://c4model.com/)
 - [If Architects had to work like Programmers](http://www.gksoft.com/a/fun/architects.html)
+- [The Next 700 Stateless Services](https://blog.seekerror.org/the-next-700-stateless-services), Henning Rohde. This article is part of a series of four articles that challenge the stateless microservice approach. A very refreshing take, very well written.
+  - [Stateless services lack] agency. The request-driven design is not always adequate. Sometimes actions need to be taken outside the lifetime of a request, such as periodic checks, expiration, and similar background processing. Such actions do not fit nicely into the stateless design. They have to be initiated by an external trigger, such as a global cron job (which is semantically and operationally part of the service) or coordinated internally, which deviates from the purity of the stateless design. Either option adds complexity.
+- [The Plumber's Approach to Distributed Systems](https://blog.seekerror.org/the-plumbers-approach-to-distributed-systems) by the same author argues for considering stateful services:
+  - The plumber's approach is particularly suitable for low-latency distributed systems with non-trivial in-memory state or concurrency control requirements. The simplicity of single-threaded active work handlers is also beneficial. Of course, if the standard passive stateless design works without contortions, there is no need to complicate matters.
 
 #### Architecture patterns
 
