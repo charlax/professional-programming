@@ -351,7 +351,7 @@ There are some free books available, including:
 - [jwasham/coding-interview-university](https://github.com/jwasham/coding-interview-university): a complete computer science study plan to become a software engineer.
 - [Teach Yourself Computer Science](https://teachyourselfcs.com/): an opinionated set of the best CS resources.
 - [ossu/computer-science](https://github.com/ossu/computer-science): free self-taught education in Computer Science!
-- [TutorialSearch](https://tutorialsearch.io/) - Free cross-platform search engine indexing 50,000+ tutorials from Udemy, Skillshare, Pluralsight, and other major learning platforms across 45+ categories.
+- [TutorialSearch](https://tutorialsearch.io/browse/programming-languages/c-professional) - Free cross-platform search engine indexing 50,000+ tutorials from Udemy, Skillshare, Pluralsight, and other major learning platforms across 45+ categories.
 
 ## Topics
 
