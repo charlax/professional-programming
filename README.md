@@ -361,6 +361,8 @@ There are some free books available, including:
 ### Agentic coding
 
 - [Anatomy of the .claude/ Folder](https://blog.dailydoseofds.com/p/anatomy-of-the-claude-folder)
+- [How to Build Optimal AI Agents That Actually Work: A Handbook for Devs](https://www.freecodecamp.org/news/how-to-build-optimal-ai-agents-that-actually-work-a-handbook-for-devs/)
+
 
 ### Algorithm and data structures
 
