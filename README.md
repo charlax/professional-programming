@@ -361,6 +361,7 @@ There are some free books available, including:
 ### Agentic coding
 
 - [Anatomy of the .claude/ Folder](https://blog.dailydoseofds.com/p/anatomy-of-the-claude-folder)
+- [Beyond the Prompt: Claude Code](https://arps18.github.io/posts/claude-code-mastery/)
 
 ### Algorithm and data structures
 
