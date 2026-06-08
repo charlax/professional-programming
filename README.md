@@ -2299,6 +2299,7 @@ Topics:
 - [Web Browser Engineering](https://browser.engineering/index.html): this book explains how to build a basic but complete web browser, from networking to JavaScript, in a couple thousand lines of Python.
 - [Don't animate height!](https://www.granola.ai/blog/dont-animate-height)
 - [How modern browsers work](https://addyo.substack.com/p/how-modern-browsers-work)
+- [The Website Specification](https://specification.website/)
 
 URLs:
 
