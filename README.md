@@ -693,6 +693,7 @@ About senior engineers:
 - [Code review in remote teams](https://web.hypothes.is/blog/code-review-in-remote-teams/): very complete set of rules.
 - [No code reviews by default](https://www.raycast.com/blog/no-code-reviews-by-default/)
   - Responsibility over convention
+- [Reviewing code you didn't write](https://coles.codes/posts/reviewing-code-you-didnt-write/): how to find and prioritize the issue that matters, especially when AI produced the change.
 
 ### Coding & code quality
 
