@@ -1498,6 +1498,7 @@ Richard Feynman's Learning Strategy:
 - [Welcome to Linux command line for you and me!](https://lym.readthedocs.io/en/latest/index.html)
 - [Linux Performance](https://www.brendangregg.com/linuxperf.html), Brendan Gregg
 - [Linux disk I/O diagram](https://zenodo.org/records/15234151)
+- [Linux Journey](https://labex.io/linuxjourney): Free, open-source Linux lessons with hands-on browser labs.
 
 ### Low-code/no-code
 
