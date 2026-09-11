@@ -1212,6 +1212,7 @@ Practice:
 ### Generative AI
 
 - [Don't Let AI Write For You](https://alexhwoods.com/dont-let-ai-write-for-you/)
+- [Token-Saving Plugins Are Mostly Stupid Idea](https://turaai.net/blog#token-saving-plugins-are-mostly-stupid-idea): an empirical analysis of coding-agent token costs using matched repository-rewrite runs and a public 140-run dataset.
 
 ### Graphics
 
