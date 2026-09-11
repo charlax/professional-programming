@@ -1359,6 +1359,7 @@ Résumé:
   - We look for unique perspectives
   - We care about impact, not meaningless metrics
 - [Why you shouldn’t list certifications on LinkedIn](https://interviewing.io/blog/why-you-shouldnt-list-certifications-on-linkedIn)
+- [InterviewLegend](https://interviewlegend.com) - company-specific interview prep covering the coding, system design, and behavioral rounds each company actually runs
 
 See also the exercises section in this document.
 
