@@ -918,6 +918,7 @@ Typograhy: see "Typography" section
 Resources:
 
 - 🧰 [bradtraversy/design-resources-for-developers](https://github.com/bradtraversy/design-resources-for-developers): design and UI resources from stock photos, web templates, CSS frameworks, UI libraries, tools...
+- [Interfaces › Cheat Sheet](https://interfaces.dev/cheat-sheet)
 
 ### Design (OO modeling, architecture, patterns, anti-patterns, etc.)
 
@@ -2082,6 +2083,7 @@ Reading lists:
 - 🧰 [System Design Cheatsheet](https://gist.github.com/vasanthk/485d1c25737e8e72759f)
 - ⭐️ [karanpratapsingh/system-design](https://github.com/karanpratapsingh/system-design): learn how to design systems at scale and prepare for system design interviews
 - [A Distributed Systems Reading List](https://ferd.ca/a-distributed-systems-reading-list.html)
+- [Distributed Systems Classics](https://nvartolomei.com/dist-sys-classics/)
 
 Blogs:
 
