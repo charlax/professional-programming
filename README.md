@@ -1212,6 +1212,7 @@ Practice:
 ### Generative AI
 
 - [Don't Let AI Write For You](https://alexhwoods.com/dont-let-ai-write-for-you/)
+- 🧰 [Spec-Driven Development (SDD) with AI](https://myspec.dev): structured 4-file specification methodology to eliminate coding agent drift and hallucinations.
 
 ### Graphics
 
