@@ -655,6 +655,7 @@ About senior engineers:
   - [Being visible](https://staffeng.com/guides/being-visible)
   - [Additional resources on Staff-plus engineering](https://staffeng.com/guides/learning-materials)
 - [Staff archetypes](https://staffeng.com/guides/staff-archetypes/), Will Larson
+- [How I Find Problems to Solve as a Staff Engineer](https://lalitm.com/post/find-problems-staff-engineer/)
 
 ### Characters sets
 
