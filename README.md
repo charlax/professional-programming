@@ -2308,6 +2308,7 @@ Topics:
 - [67 Weird Debugging Tricks Your Browser Doesn't Want You to Know](https://alan.norbauer.com/articles/browser-debugging-tricks)
 - [Client-Side Architecture Basics](https://khalilstemmler.com/articles/client-side-architecture/introduction/)
 - [Web Browser Engineering](https://browser.engineering/index.html): this book explains how to build a basic but complete web browser, from networking to JavaScript, in a couple thousand lines of Python.
+- [JavaScript Event Loop Prediction Lab](https://frontendatlas.com/javascript/trivia/js-event-loop): a free guided exercise for predicting output and tracing Promise microtasks and timer tasks step by step.
 - [Don't animate height!](https://www.granola.ai/blog/dont-animate-height)
 - [How modern browsers work](https://addyo.substack.com/p/how-modern-browsers-work)
 - [The Website Specification](https://specification.website/)
