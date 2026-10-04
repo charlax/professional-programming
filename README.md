@@ -1354,6 +1354,8 @@ Questions you should ask:
 
 Résumé:
 
+* [Resume review](https://jalvexa.com/guides/resume-review): a free checklist for comparing a resume with one job's requirements.
+
 - [The Red Flags on Your Resume](https://danicfilip.com/2020/red-flags-on-your-resume/?ck_subscriber_id=887770473)
 - [What we look for in a resume](https://huyenchip.com/2023/01/24/what-we-look-for-in-a-candidate.html)
   - We look for demonstrated expertise, not keywords
