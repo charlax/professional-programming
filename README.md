@@ -1784,6 +1784,7 @@ JavaScript is such a pervasive language that it's almost required learning.
 ### Public speaking (presenting)
 
 - [Speaking for hackers](https://sfhbook.netlify.app/)
+- [Checking pointer visibility in Zoom and Teams](https://light-tracer.com/laser-pointer-screen-share-zoom-teams/)
 
 ### Reading
 
