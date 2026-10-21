@@ -365,6 +365,10 @@ There are some free books available, including:
 - [Anatomy of the .claude/ Folder](https://blog.dailydoseofds.com/p/anatomy-of-the-claude-folder)
 - [Beyond the Prompt: Claude Code](https://arps18.github.io/posts/claude-code-mastery/)
 
+### AI (Artificial Intelligence)
+
+- [Why I Think You Should Almost Never Use AI to Write Anything Substantive](https://erichgrunewald.substack.com/p/why-you-should-almost-never-use-ai)
+
 ### Algorithm and data structures
 
 - Read the [CLRS](https://mitpress.mit.edu/books/introduction-algorithms). You can watch and download the course on [OCW](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-introduction-to-algorithms-sma-5503-fall-2005/) - there are newer courses as well.
