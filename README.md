@@ -16,6 +16,7 @@
   - [Topics](#topics)
     - [Accounting](#accounting)
     - [Agentic coding](#agentic-coding)
+    - [AI (Artificial Intelligence)](#ai-artificial-intelligence)
     - [Algorithm and data structures](#algorithm-and-data-structures)
     - [API design & development](#api-design--development)
     - [Attitude, habits, mindset](#attitude-habits-mindset)
@@ -2234,6 +2235,7 @@ End-to-end tests:
 
 - [DevDocs API Documentation](https://devdocs.io/): a repository for multiple API docs (see also [Dash for macOS](https://kapeli.com/dash)).
 - [DevChecklist](https://devchecklists.com/): a collaborative space for sharing checklists that help ensure software quality
+- [BestJSON JSON Diff](https://bestjson.com/json-diff): compare saved JSON responses by structure, with explicit array-order and record-ID rules in the browser.
 - 🧰 [Free for developers](https://free-for.dev/#/): list of free tiers for developments tools and services
 - [Ask HN: Best dev tool pitches of all time?](https://news.ycombinator.com/item?id=31782200)
 - [A list of /uses pages detailing developer setups, gear, software and configs](https://uses.tech/)
