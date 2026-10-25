@@ -26,9 +26,11 @@ Please do NOT submit articles or resources that fall into one or more of these c
 
 If your submission falls into _two_ or more of those categories, it will most probably be rejected.
 
+Articles must be in English and freely readable. Hard paywalls count as paid-for material.
+
 ## Formatting
 
-Add the article to the most relevant topic section in `README.md`, following the format of the surrounding entries:
+Add the article at the end of the most relevant topic section in `README.md`, following the format of the surrounding entries:
 
 ```markdown
 - [Title](https://example.com/article), Author Name: optional one-line summary.

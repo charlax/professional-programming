@@ -5,14 +5,16 @@ repos:
     -   id: check-yaml
     -   id: end-of-file-fixer
     -   id: trailing-whitespace
--   repo: https://github.com/psf/black
-    rev: 19.3b0
+-   repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.17.2
     hooks:
-    -   id: black
+    -   id: ruff-format
+        types_or: [python, pyi]
 -   repo: https://github.com/thlorenz/doctoc
-    rev: v1.4.0
+    rev: v2.5.0
     hooks:
     -   id: doctoc
+        exclude: ^\.github/
         args:
           - --title
           - "## Table of Contents"
