@@ -16,6 +16,7 @@
   - [Topics](#topics)
     - [Accounting](#accounting)
     - [Agentic coding](#agentic-coding)
+    - [AI (Artificial Intelligence)](#ai-artificial-intelligence)
     - [Algorithm and data structures](#algorithm-and-data-structures)
     - [API design & development](#api-design--development)
     - [Attitude, habits, mindset](#attitude-habits-mindset)
@@ -368,6 +369,7 @@ There are some free books available, including:
 ### AI (Artificial Intelligence)
 
 - [Why I Think You Should Almost Never Use AI to Write Anything Substantive](https://erichgrunewald.substack.com/p/why-you-should-almost-never-use-ai)
+- [When AI builds itself](https://www.anthropic.com/institute/recursive-self-improvement), Anthropic
 
 ### Algorithm and data structures
 
