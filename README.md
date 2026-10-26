@@ -363,10 +363,22 @@ There are some free books available, including:
 
 ### Agentic coding
 
+
+### AI (Artificial Intelligence) & ML (Machine Learning)
+
+#### Agentic coding & best pratices
+
 - [Anatomy of the .claude/ Folder](https://blog.dailydoseofds.com/p/anatomy-of-the-claude-folder)
 - [Beyond the Prompt: Claude Code](https://arps18.github.io/posts/claude-code-mastery/)
 
-### AI (Artificial Intelligence)
+#### How AI works
+
+- [Transformers from Scratch](https://e2eml.school/transformers.html)
+- [A Gentle Introduction to Graph Neural Networks](https://distill.pub/2021/gnn-intro/)
+- [The Math Behind Artificial Intelligence](https://www.freecodecamp.org/news/the-math-behind-artificial-intelligence-book), Tiago Monteiro. Covers linear algebra, calculus, probability, and optimization theory in the context of AI and machine learning.
+- [The State of Context Engineering](https://www.dbreunig.com/2026/10/24/the-state-of-context-engineering.html) summarizes the relevant approaches to context management: context augmentation, context quarantine, context summarization ("compaction"), tool loadout, context pruning, context offloading.
+
+#### Limits of genAI
 
 - [Why I Think You Should Almost Never Use AI to Write Anything Substantive](https://erichgrunewald.substack.com/p/why-you-should-almost-never-use-ai)
 - [When AI builds itself](https://www.anthropic.com/institute/recursive-self-improvement), Anthropic
@@ -764,6 +776,7 @@ See also the Writing section
   - Don’t include confidence intervals
   - Don’t challenge your own data
 - 📖 [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/), O'Reilly
+- [The Shape and Feel of the Post-AI Data Stack](https://www.iandmacomber.com/blog/post-ai-data-stack)
 
 ### Data semantics
 
@@ -1531,12 +1544,6 @@ Richard Feynman's Learning Strategy:
 - [x86-64 Assembly Language Programming with Ubuntu](http://www.egr.unlv.edu/~ed/assembly64.pdf)
 - [XOR](https://www.chiark.greenend.org.uk/~sgtatham/quasiblog/xor/)
 
-### Machine learning/AI
-
-- [Transformers from Scratch](https://e2eml.school/transformers.html)
-- [A Gentle Introduction to Graph Neural Networks](https://distill.pub/2021/gnn-intro/)
-- [The Math Behind Artificial Intelligence](https://www.freecodecamp.org/news/the-math-behind-artificial-intelligence-book) - Tiago Monteiro. Covers linear algebra, calculus, probability, and optimization theory in the context of AI and machine learning.
-
 ### Math
 
 - 🏙 [Statistics for Hackers](https://speakerdeck.com/jakevdp/statistics-for-hackers)
@@ -1556,7 +1563,7 @@ _See also: [Site Reliability Engineering (SRE)](#site-reliability-engineering-sr
 
 #### Logging
 
-- [Do not log](https://sobolevn.me/2020/03/do-not-log) dwells on some logging antipatterns.
+- [Do not log](https://sobolevn.me/2020/03/do-not-log) (2020) lists on some logging antipatterns.
   - Logging does not make much sense in monitoring and error tracking. Use better tools instead: error and business monitorings with alerts, versioning, event sourcing.
   - Logging adds significant complexity to your architecture. And it requires more testing. Use architecture patterns that will make logging an explicit part of your contracts
   - Logging is a whole infrastructure subsystem on its own. And quite a complex one. You will have to maintain it or to outsource this job to existing logging services
@@ -2173,6 +2180,7 @@ Articles:
 - [Scalable web architecture and distributed systems](http://www.aosabook.org/en/distsys.html)
 - 📖 [Scalability Rules: 50 Principles for Scaling Web Sites](https://smile.amazon.com/Scalability-Rules-Principles-Scaling-Sites/dp/013443160X) ([presentation](http://www.slideshare.net/cyrilwang/scalability-rules))
 - [Scaling to 100k Users](https://alexpareto.com/scalability/systems/2020/02/03/scaling-100k.html), Alex Pareto. The basics of getting from 1 to 100k users.
+- [Building and operating a pretty big storage system called S3](https://www.allthingsdistributed.com/2023/07/building-and-operating-a-pretty-big-storage-system.html), All Things Distributed
 
 ### Site Reliability Engineering (SRE)
 
