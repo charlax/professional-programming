@@ -1882,7 +1882,7 @@ JavaScript is such a pervasive language that it's almost required learning.
 
 #### Testing in production
 
-- [Why We Leverage Multi-tenancy in Uber's Microservice Architecture](https://eng.uber.com/multitenancy-microservice-architecture/)
+- [Why We Leverage Multi-tenancy in Uber's Microservice Architecture](https://www.uber.com/nl/en/blog/multitenancy-microservice-architecture/)
 - [Developing in Production](https://tersesystems.com/blog/2020/01/22/developing-in-production/)
   - Complex systems have emergent behavior, producing epiphenomenon that only appears with sufficient scale.
   - Wood's theorem: As the complexity of a system increases, the accuracy of any single agent’s own model of that system decreases rapidly.
