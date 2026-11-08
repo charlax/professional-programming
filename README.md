@@ -1301,6 +1301,7 @@ Alerting:
   - If you want a quiet oncall rotation, it’s imperative to have a system for dealing with things that need timely response, but are not imminently critical.
   - This classical article has now become a [chapter](https://sre.google/sre-book/monitoring-distributed-systems/) in Google's SRE book.
 - 🏙 [The Paradox of Alerts](https://speakerdeck.com/charity/the-paradox-of-alerts): why deleting 90% of your paging alerts can make your systems better, and how to craft an on-call rotation that engineers are happy to join.
+- [Alert noise baseline worksheet](https://izikipizi.github.io/nizlo-msp-operations-resources/rmm-alert-noise-baseline-worksheet.html), Kip Ecklund: a public 23-field CSV and repeatable 14-day method for separating raw events, incidents, duplicates, false positives, actionable work, and after-hours burden before and after alert tuning.
 
 #### Postmortem
 
