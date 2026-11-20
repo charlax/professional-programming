@@ -370,6 +370,7 @@ There are some free books available, including:
 
 - [Anatomy of the .claude/ Folder](https://blog.dailydoseofds.com/p/anatomy-of-the-claude-folder)
 - [Beyond the Prompt: Claude Code](https://arps18.github.io/posts/claude-code-mastery/)
+- [Know your unknowns — examples](https://thariqs.github.io/html-effectiveness/unknowns/): "eleven self-contained .html artifacts for discovering unknowns before, during, and after implementation. Each page shows the exact prompt at the top and the artifact Claude produced below it: paste the prompt, get something like the page."
 
 #### How AI works
 
@@ -377,6 +378,7 @@ There are some free books available, including:
 - [A Gentle Introduction to Graph Neural Networks](https://distill.pub/2021/gnn-intro/)
 - [The Math Behind Artificial Intelligence](https://www.freecodecamp.org/news/the-math-behind-artificial-intelligence-book), Tiago Monteiro. Covers linear algebra, calculus, probability, and optimization theory in the context of AI and machine learning.
 - [The State of Context Engineering](https://www.dbreunig.com/2026/10/24/the-state-of-context-engineering.html) summarizes the relevant approaches to context management: context augmentation, context quarantine, context summarization ("compaction"), tool loadout, context pruning, context offloading.
+- [MCP Explained](https://mcp-explained.com/#jsonrpc@2026-07-28)
 
 #### Limits of genAI
 
@@ -827,6 +829,7 @@ Scaling databases:
 - [Postgres: don't Do This](https://wiki.postgresql.org/wiki/Don't_Do_This)
 - [PostgreSQL and UUID as primary key](https://maciejwalkowiak.com/blog/postgres-uuid-primary-key/)
 - [Postgres lock explained](https://postgreslocksexplained.com/)
+- [The internals of Postgres](https://www.interdb.jp/pg/index.html)
 
 "Just use postgres":
 
@@ -1888,6 +1891,10 @@ JavaScript is such a pervasive language that it's almost required learning.
   - Wood's theorem: As the complexity of a system increases, the accuracy of any single agent’s own model of that system decreases rapidly.
   - The more tools and code that you add to create elements in a system, the harder it is to replicate an environment encompassing those tools and code.
   - At the core of testing in production is the idea of splitting deployments (of artifacts) from releases (of features).
+- [Multi-Tenancy in a Microservice Architecture](https://www.usenix.org/system/files/login/articles/login_winter19_10_gud.pdf)
+
+This is a fantastic four-part series about testing in production:
+
 - [Testing in Production: the hard parts](https://medium.com/@copyconstruct/testing-in-production-the-hard-parts-3f06cefaf592), Cindy Sridharan
   - The whole point of [actual] distributed systems engineering is you assume you’re going to fail at some point in time and you design the system in such a way that the damage, at each point is minimized, that recovery is quick, and that the risk is acceptably balanced with cost.
   - How can you cut the blast radius for a similar event in half?
@@ -1902,7 +1909,7 @@ JavaScript is such a pervasive language that it's almost required learning.
     - Implement per-request-class backpressure
     - Have proper visibility from a client/end-user standpoint (client-side metrics)
 - [Testing in Production, the safe way](https://medium.com/@copyconstruct/testing-in-production-the-safe-way-18ca102d0ef1)
-- [Multi-Tenancy in a Microservice Architecture](https://www.usenix.org/system/files/login/articles/login_winter19_10_gud.pdf)
+- [Testing Microservices, the sane way](https://copyconstruct.medium.com/testing-microservices-the-sane-way-9bb31d158c16)
 
 ### Reliability
 
