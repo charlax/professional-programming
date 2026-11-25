@@ -371,6 +371,10 @@ There are some free books available, including:
 - [Anatomy of the .claude/ Folder](https://blog.dailydoseofds.com/p/anatomy-of-the-claude-folder)
 - [Beyond the Prompt: Claude Code](https://arps18.github.io/posts/claude-code-mastery/)
 - [Know your unknowns — examples](https://thariqs.github.io/html-effectiveness/unknowns/): "eleven self-contained .html artifacts for discovering unknowns before, during, and after implementation. Each page shows the exact prompt at the top and the artifact Claude produced below it: paste the prompt, get something like the page."
+- [How Uber Evals 1 Million Agent Skill Invocations a Month](https://www.uber.com/us/en/blog/optimizing-ubers-agent-skills/), Uber Eng Blog
+  - As models get better, some skills need to change or retire.
+  - When an agent hits a broken flag, a wrong doc, or a silent error, it files a structured report called a papercut, and an owner gets it.
+- [Demystifying evals for AI agents](https://www.anthropic.com/research/demystifying-evals-for-ai-agents), Anthropic
 
 #### How AI works
 
