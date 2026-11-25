@@ -1252,6 +1252,7 @@ Practice:
 - [What Every Programmer Should Know About SSDs](http://databasearchitects.blogspot.com/2021/06/what-every-programmer-should-know-about.html)
 - [How To Make A CPU - A Simple Picture Based Explanation](https://blog.robertelder.org/how-to-make-a-cpu/)
 - [Understanding Wi-Fi 4/5/6/6E/7/8 (802.11 n/ac/ax/be/bn)](https://www.wiisfi.com/)
+- 🎞 [Computer Architecture](https://safari.ethz.ch/architecture/), Onur Mutlu (ETH Zürich): full graduate course, with lecture videos, slides and readings, on caches, memory systems and DRAM, prefetching, processing-in-memory and accelerators.
 
 ### HTTP
 
